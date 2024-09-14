@@ -133,7 +133,7 @@ int main(){
 		}
 		cout<<"Do you want to go back to menu? Y/N : "<<endl;
 		cin>>toExitTheMenu;
-	}while(toExitTheMenu!='n' && toExitTheMenu!='N');
+	}while(toExitTheMenu!='n' && toExitTheMenu!='N')
 
 	return 0;
 }
