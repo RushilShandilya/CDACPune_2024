@@ -2,23 +2,26 @@
 #include"array.h"
 
 Array::Array(int size){
-	pointerToBaseAddress = new int[size];
+	arrayAddress = new int[size];
 }
-
-void Array::AcceptData(){
+int* Array::getArrayAddress(){
+	return arrayAddress;
+}
+void Array::AcceptData(int* arrayAddress,int size){
 	int data;
-	cout<<"Enter the desired value you want to enter "<<endl;
-	cin>>pointerToBaseAddress->data;
+	for(int i = 0 ; i<size ; ++i){
+		cout<<"Enter the data you want to enter : "<<endl;
+		cin>>data;
+		arrayAddress[i]=data;
+	}
+	return ; 
 }
-void Array::DisplayData(int index){
-	cout<<"The value of array is "<<pointerToBaseAddress[index];
+void Array::DisplayData(int* arrayAddress,int size){
+	for(int i = 0 ; i<size ; ++i)
+	       	cout<<"The value of array at index : "<<i<<" is value : "<<arrayAddress[i]<<endl;
 }
-
-/*int* Array::pointerToBaseAddress(){
-	return pointerToBaseAddress;
-}*/
 
 Array::~Array(){
-	delete []pointerToBaseAddress;
+	delete []arrayAddress;
 }
 

@@ -3,18 +3,16 @@ using namespace std;
 
 class Account{
 	private:
-		int accountNumber;
+		int accountID;
 		string accountHolderName;
 		double balance;
 	public:
-		Account():accountNumber(0),accountHolderName(""),balance(0.0){}
-		Account(int accountNumber, string accountHolderName , double balance){
-			this->accountNumber = accountNumber;
-			this->accountHolderName = accountHolderName;
-			this->balance = balance;
-		}
-		int getAccountNumber(){
-			return this->accountNumber;
+		static int countAccount;
+		Account(){}
+		Account(int accountID,string accountHolderName,double balance):accountID(accountID),accountHolderName(accountHolderName),balance(balance){countAccount++;}
+
+		int getAccountID(){
+			return this->accountID;
 		}
 		void setBalance(int balance){
 			this->balance = balance;
@@ -48,45 +46,46 @@ class Account{
 		}
 };
 
-int enterNewAccountOperation(Account* accountList,int initialCount){	
+void createNewAccount(Account** accountList){	
 	char ch;
-	int count = initialCount;
 	do{
 		string getName;
 		double balance;
+		int accountID = Account::countAccount+1;
 
 		cout<<"Enter the account holder name : "<<endl;
 		getline(cin,getName);
 		cout<<"Enter Initial Money (0 by default): "<<endl;
 		cin>>balance;
+		
+
+		Account* account = addressof(Account(accountID,getName,balance));
+		accountList[Account::countAccount] = account;
+
 		cin.get();
-		accountList[count] = Account(count+1,getName,balance);
 		cout<<"Do you want to add more accounts ? Type y/n "<<endl;
 		cin>>ch;
 		cin.get();
-		count++;
 	}while(ch!='n'&&ch!='N');
-
-	return count;
 }
-Account* findAccount(int accountNumber,int numberOfValidAccounts,Account *listOfAccount){
+Account* findAccount(int accountID,int numberOfValidAccounts,Account** listOfAccount){
 	Account garbage = Account(-1,"No new account was found",0.0);
 
 	for(int i = 0 ; i<numberOfValidAccounts ; ++i){
-		if(listOfAccount[i].getAccountNumber()==accountNumber)
+		if(listOfAccount[i]->getAccountID()==accountID)
 			return &listOfAccount[i];
 	}
 	return &garbage;
 }
+int Account::countAccount=0;
 int main(){
 	
-	Account accountList[10000];
+	Account* accountList[10000];
 	cout<<"Welcome to Rushil Bank Pvt. Limited"<<endl;
 	char toExitTheMenu;
-	int countForAccountCreated = 0;
 	do{
 		int enterMenuOption;
-		int accountNumber;
+		int accountID;
 		Account* account;
 		cout<<"Please choose b/w the given options(Press 1,2,3,4) : "<<endl;
 		cout<<"1. Create a new bank account "<<endl;
@@ -97,21 +96,21 @@ int main(){
 		cin.get();	
 		switch(enterMenuOption){
 			case 1:
-				countForAccountCreated = enterNewAccountOperation(accountList,countForAccountCreated);
+				createNewAccount(accountList);
 				cout<<"New Account(s) created successfully"<<endl;
 				break;
 			case 2:
-				cout<<"Enter account number"<<endl;
-				cin>>accountNumber;
-				account = findAccount(accountNumber,countForAccountCreated,accountList);
+				cout<<"Enter AccountID : "<<endl;
+				cin>>accountID;
+				account = findAccount(accountID,Account::countAccount,accountList);
 				account->DisplayData();
 				break;
 			case 3:
 				int withdrawAmount;
-				cout<<"Enter Account Number : "<<endl;
-				cin>>accountNumber;
-				account = findAccount(accountNumber,countForAccountCreated,accountList);
-				if(account->getAccountNumber()>0){
+				cout<<"Enter AccountID : "<<endl;
+				cin>>accountID;
+				account = findAccount(accountID,Account::countAccount,accountList);
+				if(account->getAccountID()>0){
 					cout<<"Enter the money to withdraw : "<<endl;
 					cin>>withdrawAmount;
 					account->WithdrawAmount(withdrawAmount,account);
@@ -121,10 +120,10 @@ int main(){
 
 			case 4:
 				int depositAmount;
-				cout<<"Enter Account Number : "<<endl;
-				cin>>accountNumber;
-				account = findAccount(accountNumber,countForAccountCreated,accountList);
-				if(account->getAccountNumber()>0){
+				cout<<"Enter AccountID : "<<endl;
+				cin>>accountID;
+				account = findAccount(accountID,Account::countAccount,accountList);
+				if(account->getAccountID()>0){
 					cout<<"Enter the money to deposit : "<<endl;
 					cin>>depositAmount;
 					account->DepositAmount(depositAmount,account);

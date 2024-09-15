@@ -4,9 +4,9 @@ using namespace std;
 
 int main(){
 	Array a = Array(3);
-	int *pointerToArray;
-	for(int i = 0 ; i<3 ; ++i){
-		pointerToArray[i].AcceptData();
-	}
+	
+	a.AcceptData(a.getArrayAddress(),3);
+	a.DisplayData(a.getArrayAddress(),3);
+
 	return 0;
 }
