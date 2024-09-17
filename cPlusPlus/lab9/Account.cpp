@@ -9,13 +9,15 @@ class Account{
 	public:
 		static int countObject;
 		Account(){}
-		Account(int accountHolderID,string accountHolderName,double accountHolderBalance):
-			accountHolderID(accountHolderID),accountHolderName(accountHolderName),accountHolderBalance(accountHolderBalance){++countObject;}
+		Account(int accountHolderID,string accountHolderName,double accountHolderBalance):accountHolderID(accountHolderID),accountHolderName(accountHolderName),accountHolderBalance(accountHolderBalance){++countObject;}
 		void acceptData(){}
 		void displayData(){
 			cout<<"AccountHolderID : "<<this->accountHolderID<<endl;
 			cout<<"Name : "<<this->accountHolderName<<endl;
 			cout<<"Balance : "<<this->accountHolderBalance<<endl;
+		}
+		int getAccountHolderID(){
+			return this->accountHolderID;
 		}
 };
 
@@ -39,27 +41,68 @@ void createAccount(Account** listOfPointerForAccounts){
 		cin.get();	
 	}while(toContinue!='n' && toContinue!='N');
 }
+void getMenu(){
+	cout<<"Welcome to Rushil Bank PVT Limited"<<endl;
+	cout<<"Choose from the respective field below (1,2,3,4)"<<endl;
+	cout<<"1.Create new account"<<endl;
+	cout<<"2.Display data of an account"<<endl;
+	cout<<"3.Withdraw amount from an account"<<endl;
+	cout<<"4.Deposit amount to an account"<<endl;
+}
+
+Account* findAccount(int accountID, Account** listOfPointerForAccounts){
+	for(int i = 0 ; i<=Account::countObject ; ++i){
+		Account* temp = listOfPointerForAccounts[i];
+		if(temp!=nullptr && temp->getAccountHolderID()==accountID)
+			return listOfPointerForAccounts[i];
+	}
+	return nullptr;
+}
+
+void displayData(int accountID, Account** listOfPointerForAccounts){
+	Account* addressOfDesiredAccount = findAccount(accountID,listOfPointerForAccounts);
+	
+	if(addressOfDesiredAccount!=nullptr)addressOfDesiredAccount->displayData();	
+	else cout<<"Null Pointer , can't show details"<<endl;
+}
+
+void chooseOption(int selectOption,Account** listOfPointerForAccounts){
+	int accountID;
+	switch(selectOption){
+		case 1:
+			createAccount(listOfPointerForAccounts);
+			break;
+		case 2:
+			cout<<"Enter AccountID : "<<endl;
+			cin>>accountID;
+			displayData(accountID,listOfPointerForAccounts);
+			break;
+		case 3:
+			cout<<"Soon to be added"<<endl;
+			//withdrawAmount(accountID,listOfPointerForAccounts);
+			break;
+		case 4:
+			cout<<"Soon to be added"<<endl;
+			//depositAmount(accountID,listOfPointerForAccounts);
+			break;
+	}
+}
 
 int Account::countObject=0;
-
 int main(){
 	Account* listOfPointerForAccounts[10000];
 	char toExitTheMenu;
+	int selectOption;
 	do{
-		createAccount(listOfPointerForAccounts);
+		getMenu();
+		cin>>selectOption;
+		cin.get();
+		chooseOption(selectOption,listOfPointerForAccounts);
 		cout<<"Do you want to exit program : Yes/No(y/n)"<<endl;
 		cin>>toExitTheMenu;
 	}while(toExitTheMenu!='y'&& toExitTheMenu!='Y');
 	
 	cout<<"Total Object Created :"<<Account::countObject<<endl;
 	
-	for(int i = 0; i<=Account::countObject ; ++i){
-		if(listOfPointerForAccounts[i]==nullptr){
-			delete listOfPointerForAccounts[0];
-			cout<<"It's null pointer "<<endl;
-		}
-		else listOfPointerForAccounts[i]->displayData();
-		delete listOfPointerForAccounts[i];
-	}
 	return 0;
 }
