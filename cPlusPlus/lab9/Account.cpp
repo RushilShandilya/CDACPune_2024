@@ -19,6 +19,12 @@ class Account{
 		int getAccountHolderID(){
 			return this->accountHolderID;
 		}
+		int getAccountHolderBalance() const{
+			return this->accountHolderBalance;
+		}
+		void setAccountHolderBalance(int accountHolderBalance){
+			this->accountHolderBalance = accountHolderBalance;
+		}
 };
 
 void createAccount(Account** listOfPointerForAccounts){
@@ -58,12 +64,33 @@ Account* findAccount(int accountID, Account** listOfPointerForAccounts){
 	}
 	return nullptr;
 }
+void withdrawAmount(int accountID , Account** listOfPointerForAccounts,int amountToWithdraw){
+	Account* addressOfDesiredAccount = findAccount(accountID,listOfPointerForAccounts);
+	int remainingBalance=addressOfDesiredAccount->getAccountHolderBalance()-amountToWithdraw;
+	if(addressOfDesiredAccount!=nullptr && remainingBalance>0)
+		addressOfDesiredAccount->setAccountHolderBalance(remainingBalance);
+	else cout<<"Not enough balance to withdraw"<<endl;
+}
+
+void depositAmount(int accountID, Account** listOfPointerForAccounts,int amountToDeposit){
+	Account* addressOfDesiredAccount = findAccount(accountID,listOfPointerForAccounts);
+	int newBalance = addressOfDesiredAccount->getAccountHolderBalance()+amountToDeposit;
+	if(addressOfDesiredAccount!=nullptr)	
+		addressOfDesiredAccount->setAccountHolderBalance(newBalance);
+	return;
+}
 
 void displayData(int accountID, Account** listOfPointerForAccounts){
 	Account* addressOfDesiredAccount = findAccount(accountID,listOfPointerForAccounts);
 	
 	if(addressOfDesiredAccount!=nullptr)addressOfDesiredAccount->displayData();	
 	else cout<<"Null Pointer , can't show details"<<endl;
+}
+int enterAccountID(){
+	int accountID;
+	cout<<"Enter account ID "<<endl;
+	cin>>accountID;
+	return accountID;
 }
 
 void chooseOption(int selectOption,Account** listOfPointerForAccounts){
@@ -73,18 +100,25 @@ void chooseOption(int selectOption,Account** listOfPointerForAccounts){
 			createAccount(listOfPointerForAccounts);
 			break;
 		case 2:
-			cout<<"Enter AccountID : "<<endl;
-			cin>>accountID;
+			accountID = enterAccountID();
 			displayData(accountID,listOfPointerForAccounts);
 			break;
 		case 3:
-			cout<<"Soon to be added"<<endl;
-			//withdrawAmount(accountID,listOfPointerForAccounts);
+			int amountToWithdraw;
+			cout<<"Enter withdraw amount"<<endl;
+			cin>>amountToWithdraw;
+			accountID = enterAccountID();
+			withdrawAmount(accountID,listOfPointerForAccounts,amountToWithdraw);
 			break;
 		case 4:
-			cout<<"Soon to be added"<<endl;
-			//depositAmount(accountID,listOfPointerForAccounts);
+			int amountToDeposit;
+			cout<<"Enter deposit amount"<<endl;
+			cin>>amountToDeposit;
+			accountID = enterAccountID();
+			depositAmount(accountID,listOfPointerForAccounts,amountToDeposit);
 			break;
+		default:
+			cout<<"Please enter correct option"<<endl;
 	}
 }
 
