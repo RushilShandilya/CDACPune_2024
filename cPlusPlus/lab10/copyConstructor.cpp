@@ -6,7 +6,7 @@ class Array{
 		int size;
 		int *arrayAddress;
 	public:
-		//Array(){}
+		Array(){}
 		Array(int size):size(size){
 			arrayAddress = new int[size];	
 			cout<<"Constructor is called "<<endl;
@@ -18,6 +18,12 @@ class Array{
 		}
 		int getValue(int index) const{
 			return arrayAddress[index];
+		}
+		void setValue(int index,int value){
+			arrayAddress[index] = value;
+		}
+		int getSize() const{
+			return this->size;
 		}
 
 		/*void AcceptData(int size){
@@ -32,9 +38,20 @@ class Array{
 		int& operator[](int index){
 			return arrayAddress[index];
 		}
+		Array operator+(Array& array2){
+			int newSize = this->getSize() + array2.getSize();
+			Array temp(newSize);
+			for(int i = 0 ; i<this->getSize() ; ++i)
+				temp.arrayAddress[i] = this->getValue(i);
+			for(int i = this->getSize() ; i<newSize ; ++i){
+				int index = i-(this->getSize());
+				temp.arrayAddress[i] = array2[index];
+			}
+			return temp;
+		}
 
 
-		void DisplayData(){
+		void DisplayData() const{
 			for(int i = 0 ; i<this->size ; ++i)
 				cout<<"The value of array at "<<i<<" is "<<this->getValue(i)<<endl;
 		}
@@ -51,7 +68,18 @@ int main(){
 	arr[1] = 2;
 	arr[2] = 3;
 
-	arr.DisplayData();
+	Array arr2(3);
+	arr2[0] = 4;
+	arr2[1] = 5;
+	arr2[2] = 6;
+
+	//arr.DisplayData();
+	//arr2.DisplayData();
+	
+
+	Array arr3(arr+arr2);
+
+	arr3.DisplayData();
 
 	return 0;
 }
