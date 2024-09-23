@@ -121,5 +121,22 @@ int main(){
 		std::cout<<toStoreInArray[i].getPrice()<<std::endl;
 	}
 
+	for(int i = 0 ; i<2 ; ++i){
+		for(int j = i+1 ; j<2 ; ++j){
+			if(toStoreInArray[i].getPrice()>toStoreInArray[j].getPrice()){
+				MobilePhone temp = toStoreInArray[i];
+				toStoreInArray[i] = toStoreInArray[j];
+				toStoreInArray[j] = temp;
+			}
+		}
+	}
+
+	for(int i = 0 ; i<2 ; ++i){
+		std::cout<<toStoreInArray[i].getSerialNumber()<<std::endl;
+		std::cout<<toStoreInArray[i].getModelNumber()<<std::endl;
+		std::cout<<toStoreInArray[i].getBrandName()<<std::endl;
+		std::cout<<toStoreInArray[i].getPrice()<<std::endl;
+	}
+
 	return 0;
 }

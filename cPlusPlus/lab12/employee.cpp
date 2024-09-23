@@ -28,6 +28,7 @@ class PermanentEmployee : public Employee{
 		PermanentEmployee(){}
 		PermanentEmployee(std::string employeeName):Employee(employeeName){}
 		int calculateSalary() {
+			std::cout<<"In Permanent Employee"<<std::endl;
 			return 20*(Employee::getBaseSalary());
 		}
 };
@@ -38,6 +39,7 @@ class ContractEmployee : public Employee{
 		ContractEmployee(){}
 		ContractEmployee(std::string employeeName):Employee(employeeName){}
 		int calculateSalary() {
+			std::cout<<"In Temporary Employee"<<std::endl;
 			return 10*(Employee::getBaseSalary());
 		}
 };
