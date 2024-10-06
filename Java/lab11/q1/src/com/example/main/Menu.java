@@ -2,6 +2,8 @@ package com.example.main;
 
 import com.example.account.Account;
 import com.example.main.DataCreation;
+import com.example.exceptionhandling.MinimumBalanceException;
+import com.example.exceptionhandling.InvalidDateException;
 
 import java.util.Scanner;
 import java.time.LocalDate;
@@ -26,7 +28,8 @@ public class Menu{
 	private List<Account> accountList;
 	
 	public Menu(){
-		accountList = DataCreation.createData();
+		//accountList = DataCreation.createData();
+		accountList = new ArrayList<>();
 	}
 	public List<Account> getAccountList(){ return this.accountList; }
 	public void showMenu(){
@@ -39,7 +42,7 @@ public class Menu{
 		System.out.println("6. Sort by balance desc");
 		System.out.println("7. Exit"); 
 	}
-	public void createAccount(Scanner sc){
+	public void createAccount(Scanner sc) throws MinimumBalanceException,InvalidDateException{
 		sc.nextLine();
 		System.out.println("Enter Account Holder Name: ");
 		String name = sc.nextLine();
@@ -52,12 +55,14 @@ public class Menu{
 		System.out.println("Enter Date");
 		int day = sc.nextInt();
 		LocalDate dateOfCreation = LocalDate.of(year,month,day);
-		
+		if(dateOfCreation.compareTo(LocalDate.now())>0) throw new InvalidDateException("Date from the future");
+
+
 		System.out.println("Enter Balance: ");
+		if(sc.nextDouble()<1000) throw new MinimumBalanceException("The minimum balance in account should be 1000");
 		double balance = sc.nextDouble();
 		
 		accountList.add(new Account(name,dateOfCreation,balance));
-
 		//sc.close();
 	}
 	public void printAccount(){
@@ -111,7 +116,7 @@ public class Menu{
 		};
 		Collections.sort(accountList,sortByBalanceDesc);
 	}
-	public void chooseOption(int enterOption,Scanner sc){
+	public void chooseOption(int enterOption,Scanner sc) throws MinimumBalanceException,InvalidDateException{
 		switch(enterOption){
 			case 1:{
 				createAccount(sc);

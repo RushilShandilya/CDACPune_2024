@@ -1,7 +1,8 @@
 package com.example.main;
 
+import com.example.exceptionhandling.MinimumBalanceException;
 import com.example.main.Menu;
-import java.time.LocalDate;
+import java.util.InputMismatchException;
 import java.util.Scanner;
 
 public class Main{
@@ -17,8 +18,14 @@ public class Main{
 
 		//	System.out.println(toContinue);
 			
-			menu.chooseOption(number,sc);
-
+			try{
+				menu.chooseOption(number,sc);
+			}catch(MinimumBalanceException e){
+				e.printStackTrace();
+			}catch(InputMismatchException e){
+				e.getMessage();
+				e.printStackTrace();
+			}
 			System.out.println("Do you want to continue?(y or n)");
 			toContinue = sc.next().charAt(0);
 
