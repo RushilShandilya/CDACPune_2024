@@ -1,7 +1,7 @@
 package src.apple;
 
 public class Apple{
-	private int weight;
+	private Integer weight;
 	private String color;
 	private String taste;
 
@@ -11,13 +11,13 @@ public class Apple{
 		this.color = color;
 		this.taste = taste;
 	}
-	public getWeight(){
+	public int getWeight(){
 		return weight;
 	}
-	public getColor(){
+	public String getColor(){
 		return color;
 	}
-	public getTaste(){
+	public String getTaste(){
 		return taste;
 	}
 	@Override

@@ -1,5 +1,9 @@
 package src.main;
 
+import src.apple.Apple;
+import java.util.List;
+import java.util.Arrays;
+
 public class DataUtils{
 	private static List<Apple> listOfApple;
 	public static List<Apple> createAppleData(){
