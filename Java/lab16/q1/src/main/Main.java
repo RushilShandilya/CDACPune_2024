@@ -3,6 +3,8 @@ package src.main;
 import src.apple.Apple;
 import java.util.List;
 import java.util.stream.Stream;
+import java.util.stream.Collectors;
+import java.util.Set;
 
 public class Main{
 	public static void main(String... args){
@@ -40,5 +42,10 @@ public class Main{
 
 		Stream<Apple> removeGreen = listOfApple.stream().filter(s->!(s.getColor().contains("Green")));
 		removeGreen.forEach(System.out::println);
+		
+		System.out.println();
+
+		Set<Apple> convertToList = listOfApple.stream().collect(Collectors.toSet());
+		convertToList.forEach(System.out::println);
 	}
 }
