@@ -1,8 +1,4 @@
-import java.io.File;
-import java.io.IOException;
-import java.io.FileReader;
-import java.io.FileWriter;
-import java.io.BufferedReader;
+import java.io.*;
 
 public class Main{
 	public static void main(String... args){
@@ -79,5 +75,55 @@ public class Main{
 				System.out.println("The error on line 76:" + e.getMessage());
 			}
 
+			//Using BufferedReader and BufferedWriter
+
+			//Creating new file;
+			String bufferedPath = path+"/q4_Buffered.txt";
+			File file = new File(bufferedPath);
+			if(!file.exists()){
+				try {
+					file.createNewFile();
+					System.out.println("New file created");
+				}catch(IOException e){
+					System.out.println("The error message is :" + e.getMessage());
+				}
+			}else System.out.println("The file exist already");
+
+			//Reading and writing on that new File
+
+			try(BufferedReader reader = new BufferedReader(new FileReader(filePath));
+				BufferedWriter writer = new BufferedWriter(new FileWriter(bufferedPath))
+			){
+					String str;
+					while((str=reader.readLine())!=null){
+							writer.write(str);
+					}
+			}catch(IOException e){
+				System.out.println("The error message at line 104" + e.getMessage());
+			}
+
+			//Using PrintWriter
+			String printPath = path+"/q4_PrintPath.txt";
+			File printFile = new File(printPath);
+			if(!printFile.exists()) {
+				try {
+					printFile.createNewFile();
+					System.out.println("File created");
+				}catch(IOException e){
+					System.out.println("The error message at line 112" + e.getMessage());
+				}
+			}else System.out.println("File already exist");
+
+			try(BufferedReader reader = new BufferedReader(new FileReader(filePath));
+				PrintWriter writer = new PrintWriter(printPath)
+			){
+				String str;
+				while((str=reader.readLine())!=null){
+					writer.println(str);
+				}
+
+			}catch(IOException e){
+				System.out.println("The error message at line 104" + e.getMessage());
+			}
 	}
 }
