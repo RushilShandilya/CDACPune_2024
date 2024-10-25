@@ -1,0 +1,159 @@
+
+WC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\linkedList\LinkedList.javaÙ
+com.dsa.linkedList.LinkedListTRAITa
+WC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\linkedList\LinkedList.java ("
+packagecom.dsa.linkedList"
+isFinalfalse"
+inner classfalse"
+
+isAbstractfalse"l
+declarationStringW<mark class="modifier">public </mark><mark class="modifier">interface </mark>LinkedList"
+accesspublic*
+LinkedList2ü
+-com.dsa.linkedList.LinkedList.addAtFront(int)DECLARATIONa
+WC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\linkedList\LinkedList.java	 (2û
+,com.dsa.linkedList.LinkedList.addAtRear(int)DECLARATIONa
+WC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\linkedList\LinkedList.java	 (2¢
+0com.dsa.linkedList.LinkedList.deleteElement(int)DECLARATIONa
+WC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\linkedList\LinkedList.java	 (2•
+3com.dsa.linkedList.LinkedList.deleteAllElement(int)DECLARATIONa
+WC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\linkedList\LinkedList.java	 (2ü
+-com.dsa.linkedList.LinkedList.searchList(int)DECLARATIONa
+WC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\linkedList\LinkedList.java (2ù
++com.dsa.linkedList.LinkedList.isListEmpty()DECLARATIONa
+WC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\linkedList\LinkedList.java (2Æ
+<com.dsa.linkedList.LinkedList.print(com.dsa.linkedList.Node)DECLARATIONa
+WC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\linkedList\LinkedList.java		 	(’
+-com.dsa.linkedList.LinkedList.addAtFront(int)METHODa
+WC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\linkedList\LinkedList.java	 ("
+isFinalfalse"©
+declarationStringì<mark class="modifier"> </mark><mark class="modifier">void</mark> <mark class="method">addAtFront</mark>(<mark class="modifier">int</mark> element)"
+isStaticfalse"
+accesspackage_private"
+
+isAbstractfalse"
+typevoid*
+addAtFront2•
+5com.dsa.linkedList.LinkedList.addAtFront(int)!element	PARAMETERa
+WC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\linkedList\LinkedList.java (2v
+voidRETURN_TYPEa
+WC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\linkedList\LinkedList.java (˝
+5com.dsa.linkedList.LinkedList.addAtFront(int)!element	PARAMETERa
+WC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\linkedList\LinkedList.java ("
+typeint"
+isFinalfalse">
+declarationString)<mark class="modifier">int</mark> element*element2n
+intTYPEa
+WC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\linkedList\LinkedList.java (—
+,com.dsa.linkedList.LinkedList.addAtRear(int)METHODa
+WC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\linkedList\LinkedList.java	 ("
+isFinalfalse"®
+declarationStringí<mark class="modifier"> </mark><mark class="modifier">void</mark> <mark class="method">addAtRear</mark>(<mark class="modifier">int</mark> element)"
+isStaticfalse"
+accesspackage_private"
+
+isAbstractfalse"
+typevoid*	addAtRear2§
+4com.dsa.linkedList.LinkedList.addAtRear(int)!element	PARAMETERa
+WC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\linkedList\LinkedList.java (2v
+voidRETURN_TYPEa
+WC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\linkedList\LinkedList.java (¸
+4com.dsa.linkedList.LinkedList.addAtRear(int)!element	PARAMETERa
+WC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\linkedList\LinkedList.java ("
+typeint"
+isFinalfalse">
+declarationString)<mark class="modifier">int</mark> element*element2n
+intTYPEa
+WC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\linkedList\LinkedList.java (÷
+0com.dsa.linkedList.LinkedList.deleteElement(int)METHODa
+WC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\linkedList\LinkedList.java	 ("
+isFinalfalse"ç
+declarationStringx<mark class="modifier"> </mark>Node <mark class="method">deleteElement</mark>(<mark class="modifier">int</mark> element)"
+isStaticfalse"
+accesspackage_private"
+
+isAbstractfalse"
+typeNode*deleteElement2®
+8com.dsa.linkedList.LinkedList.deleteElement(int)!element	PARAMETERa
+WC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\linkedList\LinkedList.java ("2â
+com.dsa.linkedList.NodeRETURN_TYPEa
+WC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\linkedList\LinkedList.java (Ä
+8com.dsa.linkedList.LinkedList.deleteElement(int)!element	PARAMETERa
+WC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\linkedList\LinkedList.java (""
+typeint"
+isFinalfalse">
+declarationString)<mark class="modifier">int</mark> element*element2n
+intTYPEa
+WC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\linkedList\LinkedList.java (‚
+3com.dsa.linkedList.LinkedList.deleteAllElement(int)METHODa
+WC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\linkedList\LinkedList.java	 ("
+isFinalfalse"ê
+declarationString{<mark class="modifier"> </mark>Node <mark class="method">deleteAllElement</mark>(<mark class="modifier">int</mark> element)"
+isStaticfalse"
+accesspackage_private"
+
+isAbstractfalse"
+typeNode*deleteAllElement2´
+;com.dsa.linkedList.LinkedList.deleteAllElement(int)!element	PARAMETERa
+WC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\linkedList\LinkedList.java (%2â
+com.dsa.linkedList.NodeRETURN_TYPEa
+WC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\linkedList\LinkedList.java (É
+;com.dsa.linkedList.LinkedList.deleteAllElement(int)!element	PARAMETERa
+WC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\linkedList\LinkedList.java (%"
+typeint"
+isFinalfalse">
+declarationString)<mark class="modifier">int</mark> element*element2n
+intTYPEa
+WC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\linkedList\LinkedList.java (ﬁ
+-com.dsa.linkedList.LinkedList.searchList(int)METHODa
+WC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\linkedList\LinkedList.java ("
+isFinalfalse"¨
+declarationStringñ<mark class="modifier"> </mark><mark class="modifier">boolean</mark> <mark class="method">searchList</mark>(<mark class="modifier">int</mark> element)"
+isStaticfalse"
+accesspackage_private"
+
+isAbstractfalse"
+typeboolean*
+searchList2•
+5com.dsa.linkedList.LinkedList.searchList(int)!element	PARAMETERa
+WC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\linkedList\LinkedList.java ("2y
+booleanRETURN_TYPEa
+WC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\linkedList\LinkedList.java (˝
+5com.dsa.linkedList.LinkedList.searchList(int)!element	PARAMETERa
+WC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\linkedList\LinkedList.java (""
+typeint"
+isFinalfalse">
+declarationString)<mark class="modifier">int</mark> element*element2n
+intTYPEa
+WC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\linkedList\LinkedList.java (å
++com.dsa.linkedList.LinkedList.isListEmpty()METHODa
+WC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\linkedList\LinkedList.java ("
+isFinalfalse"É
+declarationStringn<mark class="modifier"> </mark><mark class="modifier">boolean</mark> <mark class="method">isListEmpty</mark>()"
+isStaticfalse"
+accesspackage_private"
+
+isAbstractfalse"
+typeboolean*isListEmpty2y
+booleanRETURN_TYPEa
+WC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\linkedList\LinkedList.java (≈
+<com.dsa.linkedList.LinkedList.print(com.dsa.linkedList.Node)METHODa
+WC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\linkedList\LinkedList.java		 	("
+isFinalfalse"É
+declarationStringn<mark class="modifier"> </mark><mark class="modifier">void</mark> <mark class="method">print</mark>(Node head)"
+isStaticfalse"
+accesspackage_private"
+
+isAbstractfalse"
+typevoid*print2±
+Acom.dsa.linkedList.LinkedList.print(com.dsa.linkedList.Node)!head	PARAMETERa
+WC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\linkedList\LinkedList.java	 	(2v
+voidRETURN_TYPEa
+WC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\linkedList\LinkedList.java	 	(¸
+Acom.dsa.linkedList.LinkedList.print(com.dsa.linkedList.Node)!head	PARAMETERa
+WC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\linkedList\LinkedList.java	 	("
+typeNode"
+isFinalfalse"
+declarationString	Node head*head2Ç
+com.dsa.linkedList.NodeTYPEa
+WC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\linkedList\LinkedList.java	 	(

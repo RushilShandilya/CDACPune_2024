@@ -1,0 +1,391 @@
+
+]C:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\linkedList\SinglyLinkedList.java’
+#com.dsa.linkedList.SinglyLinkedListCLASSg
+]C:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\linkedList\SinglyLinkedList.java ("
+packagecom.dsa.linkedList"
+isFinalfalse"
+inner classfalse"
+
+isAbstractfalse"¶
+declarationStringê<mark class="modifier">public </mark><mark class="modifier">class </mark>SinglyLinkedList<mark class="modifier"><br>implements </mark>LinkedList"
+accesspublic*SinglyLinkedList2´
+3com.dsa.linkedList.SinglyLinkedList.addAtFront(int)DECLARATIONg
+]C:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\linkedList\SinglyLinkedList.java (2™
+2com.dsa.linkedList.SinglyLinkedList.addAtRear(int)DECLARATIONg
+]C:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\linkedList\SinglyLinkedList.java (2Æ
+6com.dsa.linkedList.SinglyLinkedList.deleteElement(int)DECLARATIONg
+]C:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\linkedList\SinglyLinkedList.java (2±
+9com.dsa.linkedList.SinglyLinkedList.deleteAllElement(int)DECLARATIONg
+]C:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\linkedList\SinglyLinkedList.java" "( 2´
+3com.dsa.linkedList.SinglyLinkedList.searchList(int)DECLARATIONg
+]C:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\linkedList\SinglyLinkedList.java4 4(2©
+1com.dsa.linkedList.SinglyLinkedList.isListEmpty()DECLARATIONg
+]C:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\linkedList\SinglyLinkedList.java> >(2∫
+Bcom.dsa.linkedList.SinglyLinkedList.print(com.dsa.linkedList.Node)DECLARATIONg
+]C:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\linkedList\SinglyLinkedList.javaC C(2™
+2com.dsa.linkedList.SinglyLinkedList?head@3.23:3.27DECLARATIONg
+]C:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\linkedList\SinglyLinkedList.java (2ê
+com.dsa.linkedList.LinkedListEXTENDg
+]C:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\linkedList\SinglyLinkedList.java) (3¢
+3com.dsa.linkedList.SinglyLinkedList.addAtFront(int)METHODg
+]C:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\linkedList\SinglyLinkedList.java ("
+isFinalfalse"›
+declarationString«<mark class="annotation">@Override</mark> <br><mark class="modifier">public </mark><mark class="modifier">void</mark> <mark class="method">addAtFront</mark>(<mark class="modifier">int</mark> element)"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typevoid*
+addAtFront2í
+!com.dsa.linkedList.Node.Node(int)CALLg
+]C:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\linkedList\SinglyLinkedList.java (2¨
+;com.dsa.linkedList.SinglyLinkedList.addAtFront(int)!elementCALLg
+]C:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\linkedList\SinglyLinkedList.java ($2£
+2com.dsa.linkedList.SinglyLinkedList?head@3.23:3.27CALLg
+]C:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\linkedList\SinglyLinkedList.java (2≥
+Bcom.dsa.linkedList.SinglyLinkedList.addAtFront(int)?node@6.13:6.17CALLg
+]C:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\linkedList\SinglyLinkedList.java (2£
+2com.dsa.linkedList.SinglyLinkedList?head@3.23:3.27CALLg
+]C:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\linkedList\SinglyLinkedList.java# ('2£
+2com.dsa.linkedList.SinglyLinkedList?head@3.23:3.27CALLg
+]C:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\linkedList\SinglyLinkedList.java (2≥
+Bcom.dsa.linkedList.SinglyLinkedList.addAtFront(int)?node@6.13:6.17CALLg
+]C:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\linkedList\SinglyLinkedList.java (2¢
+-com.dsa.linkedList.LinkedList.addAtFront(int)OVERRIDEg
+]C:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\linkedList\SinglyLinkedList.java (2±
+;com.dsa.linkedList.SinglyLinkedList.addAtFront(int)!element	PARAMETERg
+]C:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\linkedList\SinglyLinkedList.java (&2∫
+Bcom.dsa.linkedList.SinglyLinkedList.addAtFront(int)?node@6.13:6.17DECLARATIONg
+]C:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\linkedList\SinglyLinkedList.java (2|
+voidRETURN_TYPEg
+]C:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\linkedList\SinglyLinkedList.java (†
+Bcom.dsa.linkedList.SinglyLinkedList.addAtFront(int)?node@6.13:6.17VARIABLEg
+]C:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\linkedList\SinglyLinkedList.java ("
+typeNode"
+isFinalfalse"r
+declarationString]<mark class="modifier"> </mark>Node <mark class="class-field">node</mark> = new Node(element)*node2à
+com.dsa.linkedList.NodeTYPEg
+]C:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\linkedList\SinglyLinkedList.java (2í
+!com.dsa.linkedList.Node.Node(int)CALLg
+]C:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\linkedList\SinglyLinkedList.java (2¨
+;com.dsa.linkedList.SinglyLinkedList.addAtFront(int)!elementCALLg
+]C:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\linkedList\SinglyLinkedList.java ($è
+;com.dsa.linkedList.SinglyLinkedList.addAtFront(int)!element	PARAMETERg
+]C:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\linkedList\SinglyLinkedList.java (&"
+typeint"
+isFinalfalse">
+declarationString)<mark class="modifier">int</mark> element*element2t
+intTYPEg
+]C:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\linkedList\SinglyLinkedList.java (–
+2com.dsa.linkedList.SinglyLinkedList.addAtRear(int)METHODg
+]C:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\linkedList\SinglyLinkedList.java ("
+isFinalfalse"‹
+declarationString∆<mark class="annotation">@Override</mark> <br><mark class="modifier">public </mark><mark class="modifier">void</mark> <mark class="method">addAtRear</mark>(<mark class="modifier">int</mark> element)"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typevoid*	addAtRear2í
+!com.dsa.linkedList.Node.Node(int)CALLg
+]C:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\linkedList\SinglyLinkedList.java" (&2í
+!com.dsa.linkedList.Node.Node(int)CALLg
+]C:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\linkedList\SinglyLinkedList.java ( 2£
+2com.dsa.linkedList.SinglyLinkedList?head@3.23:3.27CALLg
+]C:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\linkedList\SinglyLinkedList.java (2£
+2com.dsa.linkedList.SinglyLinkedList?head@3.23:3.27CALLg
+]C:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\linkedList\SinglyLinkedList.java (2´
+:com.dsa.linkedList.SinglyLinkedList.addAtRear(int)!elementCALLg
+]C:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\linkedList\SinglyLinkedList.java' (.2£
+2com.dsa.linkedList.SinglyLinkedList?head@3.23:3.27CALLg
+]C:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\linkedList\SinglyLinkedList.java (2¥
+Ccom.dsa.linkedList.SinglyLinkedList.addAtRear(int)?temp@15.17:15.21CALLg
+]C:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\linkedList\SinglyLinkedList.java (2¥
+Ccom.dsa.linkedList.SinglyLinkedList.addAtRear(int)?temp@15.17:15.21CALLg
+]C:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\linkedList\SinglyLinkedList.java# ('2¥
+Ccom.dsa.linkedList.SinglyLinkedList.addAtRear(int)?temp@15.17:15.21CALLg
+]C:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\linkedList\SinglyLinkedList.java* (.2¥
+Ccom.dsa.linkedList.SinglyLinkedList.addAtRear(int)?temp@15.17:15.21CALLg
+]C:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\linkedList\SinglyLinkedList.java (2´
+:com.dsa.linkedList.SinglyLinkedList.addAtRear(int)!elementCALLg
+]C:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\linkedList\SinglyLinkedList.java! ((2°
+,com.dsa.linkedList.LinkedList.addAtRear(int)OVERRIDEg
+]C:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\linkedList\SinglyLinkedList.java (2∞
+:com.dsa.linkedList.SinglyLinkedList.addAtRear(int)!element	PARAMETERg
+]C:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\linkedList\SinglyLinkedList.java (%2ª
+Ccom.dsa.linkedList.SinglyLinkedList.addAtRear(int)?temp@15.17:15.21DECLARATIONg
+]C:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\linkedList\SinglyLinkedList.java (2|
+voidRETURN_TYPEg
+]C:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\linkedList\SinglyLinkedList.java (ˆ
+Ccom.dsa.linkedList.SinglyLinkedList.addAtRear(int)?temp@15.17:15.21VARIABLEg
+]C:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\linkedList\SinglyLinkedList.java ("
+typeNode"
+isFinalfalse"e
+declarationStringP<mark class="modifier"> </mark>Node <mark class="class-field">temp</mark> = head*temp2à
+com.dsa.linkedList.NodeTYPEg
+]C:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\linkedList\SinglyLinkedList.java (2£
+2com.dsa.linkedList.SinglyLinkedList?head@3.23:3.27CALLg
+]C:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\linkedList\SinglyLinkedList.java (é
+:com.dsa.linkedList.SinglyLinkedList.addAtRear(int)!element	PARAMETERg
+]C:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\linkedList\SinglyLinkedList.java (%"
+typeint"
+isFinalfalse">
+declarationString)<mark class="modifier">int</mark> element*element2t
+intTYPEg
+]C:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\linkedList\SinglyLinkedList.java (˜
+6com.dsa.linkedList.SinglyLinkedList.deleteElement(int)METHODg
+]C:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\linkedList\SinglyLinkedList.java ("
+isFinalfalse"¬
+declarationString¨<mark class="annotation">@Override</mark> <br><mark class="modifier">public </mark>Node <mark class="method">deleteElement</mark>(<mark class="modifier">int</mark> element)"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typeNode*deleteElement2£
+2com.dsa.linkedList.SinglyLinkedList?head@3.23:3.27CALLg
+]C:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\linkedList\SinglyLinkedList.java (2Ø
+>com.dsa.linkedList.SinglyLinkedList.deleteElement(int)!elementCALLg
+]C:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\linkedList\SinglyLinkedList.java ($2£
+2com.dsa.linkedList.SinglyLinkedList?head@3.23:3.27CALLg
+]C:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\linkedList\SinglyLinkedList.java- (12£
+2com.dsa.linkedList.SinglyLinkedList?head@3.23:3.27CALLg
+]C:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\linkedList\SinglyLinkedList.java) (-2ª
+Jcom.dsa.linkedList.SinglyLinkedList.deleteElement(int)?current@24.31:24.38CALLg
+]C:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\linkedList\SinglyLinkedList.java (2Ø
+>com.dsa.linkedList.SinglyLinkedList.deleteElement(int)!elementCALLg
+]C:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\linkedList\SinglyLinkedList.java! ((2∏
+Gcom.dsa.linkedList.SinglyLinkedList.deleteElement(int)?prev@24.17:24.21CALLg
+]C:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\linkedList\SinglyLinkedList.java (2ª
+Jcom.dsa.linkedList.SinglyLinkedList.deleteElement(int)?current@24.31:24.38CALLg
+]C:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\linkedList\SinglyLinkedList.java (2ª
+Jcom.dsa.linkedList.SinglyLinkedList.deleteElement(int)?current@24.31:24.38CALLg
+]C:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\linkedList\SinglyLinkedList.java (2ª
+Jcom.dsa.linkedList.SinglyLinkedList.deleteElement(int)?current@24.31:24.38CALLg
+]C:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\linkedList\SinglyLinkedList.java ( 2∏
+Gcom.dsa.linkedList.SinglyLinkedList.deleteElement(int)?prev@24.17:24.21CALLg
+]C:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\linkedList\SinglyLinkedList.java (2ª
+Jcom.dsa.linkedList.SinglyLinkedList.deleteElement(int)?current@24.31:24.38CALLg
+]C:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\linkedList\SinglyLinkedList.java (2£
+2com.dsa.linkedList.SinglyLinkedList?head@3.23:3.27CALLg
+]C:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\linkedList\SinglyLinkedList.java (2•
+0com.dsa.linkedList.LinkedList.deleteElement(int)OVERRIDEg
+]C:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\linkedList\SinglyLinkedList.java (2¥
+>com.dsa.linkedList.SinglyLinkedList.deleteElement(int)!element	PARAMETERg
+]C:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\linkedList\SinglyLinkedList.java" ()2ø
+Gcom.dsa.linkedList.SinglyLinkedList.deleteElement(int)?prev@24.17:24.21DECLARATIONg
+]C:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\linkedList\SinglyLinkedList.java (2¬
+Jcom.dsa.linkedList.SinglyLinkedList.deleteElement(int)?current@24.31:24.38DECLARATIONg
+]C:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\linkedList\SinglyLinkedList.java (&2è
+com.dsa.linkedList.NodeRETURN_TYPEg
+]C:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\linkedList\SinglyLinkedList.java (¢
+Gcom.dsa.linkedList.SinglyLinkedList.deleteElement(int)?prev@24.17:24.21VARIABLEg
+]C:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\linkedList\SinglyLinkedList.java ("
+typeNode"
+isFinalfalse"≤
+declarationStringú<mark class="modifier"> </mark>Node <mark class="class-field">prev</mark> = <mark class="modifier">null</mark><mark class="modifier">,</mark> current = head*prev2à
+com.dsa.linkedList.NodeTYPEg
+]C:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\linkedList\SinglyLinkedList.java (—
+Jcom.dsa.linkedList.SinglyLinkedList.deleteElement(int)?current@24.31:24.38VARIABLEg
+]C:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\linkedList\SinglyLinkedList.java (&"
+typeNode"
+isFinalfalse"µ
+declarationStringü<mark class="modifier"> </mark>Node <mark class="class-field">current</mark> = <mark class="modifier">null</mark><mark class="modifier">,</mark> current = head*current2à
+com.dsa.linkedList.NodeTYPEg
+]C:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\linkedList\SinglyLinkedList.java (2£
+2com.dsa.linkedList.SinglyLinkedList?head@3.23:3.27CALLg
+]C:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\linkedList\SinglyLinkedList.java) (-í
+>com.dsa.linkedList.SinglyLinkedList.deleteElement(int)!element	PARAMETERg
+]C:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\linkedList\SinglyLinkedList.java" ()"
+typeint"
+isFinalfalse">
+declarationString)<mark class="modifier">int</mark> element*element2t
+intTYPEg
+]C:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\linkedList\SinglyLinkedList.java (!®"
+9com.dsa.linkedList.SinglyLinkedList.deleteAllElement(int)METHODg
+]C:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\linkedList\SinglyLinkedList.java" "( "
+isFinalfalse"≈
+declarationStringØ<mark class="annotation">@Override</mark> <br><mark class="modifier">public </mark>Node <mark class="method">deleteAllElement</mark>(<mark class="modifier">int</mark> element)"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typeNode*deleteAllElement2í
+!com.dsa.linkedList.Node.Node(int)CALLg
+]C:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\linkedList\SinglyLinkedList.java'" '(&2í
+!com.dsa.linkedList.Node.Node(int)CALLg
+]C:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\linkedList\SinglyLinkedList.java*% *()2£
+2com.dsa.linkedList.SinglyLinkedList?head@3.23:3.27CALLg
+]C:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\linkedList\SinglyLinkedList.java$ $(2£
+2com.dsa.linkedList.SinglyLinkedList?head@3.23:3.27CALLg
+]C:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\linkedList\SinglyLinkedList.java% %(2≤
+Acom.dsa.linkedList.SinglyLinkedList.deleteAllElement(int)!elementCALLg
+]C:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\linkedList\SinglyLinkedList.java% %("2æ
+Mcom.dsa.linkedList.SinglyLinkedList.deleteAllElement(int)?newHead@35.13:35.20CALLg
+]C:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\linkedList\SinglyLinkedList.java& &(2æ
+Mcom.dsa.linkedList.SinglyLinkedList.deleteAllElement(int)?newHead@35.13:35.20CALLg
+]C:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\linkedList\SinglyLinkedList.java' '(2£
+2com.dsa.linkedList.SinglyLinkedList?head@3.23:3.27CALLg
+]C:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\linkedList\SinglyLinkedList.java'' '(+2º
+Kcom.dsa.linkedList.SinglyLinkedList.deleteAllElement(int)?dummy@35.30:35.35CALLg
+]C:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\linkedList\SinglyLinkedList.java( ((2æ
+Mcom.dsa.linkedList.SinglyLinkedList.deleteAllElement(int)?newHead@35.13:35.20CALLg
+]C:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\linkedList\SinglyLinkedList.java( ((#2º
+Kcom.dsa.linkedList.SinglyLinkedList.deleteAllElement(int)?dummy@35.30:35.35CALLg
+]C:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\linkedList\SinglyLinkedList.java* *(2£
+2com.dsa.linkedList.SinglyLinkedList?head@3.23:3.27CALLg
+]C:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\linkedList\SinglyLinkedList.java** *(.2º
+Kcom.dsa.linkedList.SinglyLinkedList.deleteAllElement(int)?dummy@35.30:35.35CALLg
+]C:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\linkedList\SinglyLinkedList.java+ +(2º
+Kcom.dsa.linkedList.SinglyLinkedList.deleteAllElement(int)?dummy@35.30:35.35CALLg
+]C:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\linkedList\SinglyLinkedList.java+ +(!2£
+2com.dsa.linkedList.SinglyLinkedList?head@3.23:3.27CALLg
+]C:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\linkedList\SinglyLinkedList.java. .(2£
+2com.dsa.linkedList.SinglyLinkedList?head@3.23:3.27CALLg
+]C:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\linkedList\SinglyLinkedList.java. .(2æ
+Mcom.dsa.linkedList.SinglyLinkedList.deleteAllElement(int)?newHead@35.13:35.20CALLg
+]C:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\linkedList\SinglyLinkedList.java0 0(2®
+3com.dsa.linkedList.LinkedList.deleteAllElement(int)OVERRIDEg
+]C:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\linkedList\SinglyLinkedList.java" "( 2∑
+Acom.dsa.linkedList.SinglyLinkedList.deleteAllElement(int)!element	PARAMETERg
+]C:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\linkedList\SinglyLinkedList.java"% "(,2≈
+Mcom.dsa.linkedList.SinglyLinkedList.deleteAllElement(int)?newHead@35.13:35.20DECLARATIONg
+]C:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\linkedList\SinglyLinkedList.java# #(2√
+Kcom.dsa.linkedList.SinglyLinkedList.deleteAllElement(int)?dummy@35.30:35.35DECLARATIONg
+]C:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\linkedList\SinglyLinkedList.java# #(#2è
+com.dsa.linkedList.NodeRETURN_TYPEg
+]C:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\linkedList\SinglyLinkedList.java" "( 
+Mcom.dsa.linkedList.SinglyLinkedList.deleteAllElement(int)?newHead@35.13:35.20VARIABLEg
+]C:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\linkedList\SinglyLinkedList.java# #("
+typeNode"
+isFinalfalse"—
+declarationStringª<mark class="modifier"> </mark>Node <mark class="class-field">newHead</mark> = <mark class="modifier">null</mark><mark class="modifier">,</mark> dummy = <mark class="modifier">null</mark>*newHead2à
+com.dsa.linkedList.NodeTYPEg
+]C:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\linkedList\SinglyLinkedList.java# #(ƒ
+Kcom.dsa.linkedList.SinglyLinkedList.deleteAllElement(int)?dummy@35.30:35.35VARIABLEg
+]C:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\linkedList\SinglyLinkedList.java# #(#"
+typeNode"
+isFinalfalse"œ
+declarationStringπ<mark class="modifier"> </mark>Node <mark class="class-field">dummy</mark> = <mark class="modifier">null</mark><mark class="modifier">,</mark> dummy = <mark class="modifier">null</mark>*dummy2à
+com.dsa.linkedList.NodeTYPEg
+]C:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\linkedList\SinglyLinkedList.java# #(ï
+Acom.dsa.linkedList.SinglyLinkedList.deleteAllElement(int)!element	PARAMETERg
+]C:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\linkedList\SinglyLinkedList.java"% "(,"
+typeint"
+isFinalfalse">
+declarationString)<mark class="modifier">int</mark> element*element2t
+intTYPEg
+]C:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\linkedList\SinglyLinkedList.java"! "($¿
+3com.dsa.linkedList.SinglyLinkedList.searchList(int)METHODg
+]C:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\linkedList\SinglyLinkedList.java4 4("
+isFinalfalse"‡
+declarationString <mark class="annotation">@Override</mark> <br><mark class="modifier">public </mark><mark class="modifier">boolean</mark> <mark class="method">searchList</mark>(<mark class="modifier">int</mark> element)"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typeboolean*
+searchList2£
+2com.dsa.linkedList.SinglyLinkedList?head@3.23:3.27CALLg
+]C:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\linkedList\SinglyLinkedList.java5 5(2µ
+Dcom.dsa.linkedList.SinglyLinkedList.searchList(int)?temp@53.13:53.17CALLg
+]C:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\linkedList\SinglyLinkedList.java6 6(2µ
+Dcom.dsa.linkedList.SinglyLinkedList.searchList(int)?temp@53.13:53.17CALLg
+]C:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\linkedList\SinglyLinkedList.java7 7(2¨
+;com.dsa.linkedList.SinglyLinkedList.searchList(int)!elementCALLg
+]C:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\linkedList\SinglyLinkedList.java7 7("2µ
+Dcom.dsa.linkedList.SinglyLinkedList.searchList(int)?temp@53.13:53.17CALLg
+]C:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\linkedList\SinglyLinkedList.java8 8(2µ
+Dcom.dsa.linkedList.SinglyLinkedList.searchList(int)?temp@53.13:53.17CALLg
+]C:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\linkedList\SinglyLinkedList.java8 8(2¢
+-com.dsa.linkedList.LinkedList.searchList(int)OVERRIDEg
+]C:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\linkedList\SinglyLinkedList.java4 4(2±
+;com.dsa.linkedList.SinglyLinkedList.searchList(int)!element	PARAMETERg
+]C:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\linkedList\SinglyLinkedList.java4" 4()2º
+Dcom.dsa.linkedList.SinglyLinkedList.searchList(int)?temp@53.13:53.17DECLARATIONg
+]C:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\linkedList\SinglyLinkedList.java5 5(2
+booleanRETURN_TYPEg
+]C:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\linkedList\SinglyLinkedList.java4 4(˜
+Dcom.dsa.linkedList.SinglyLinkedList.searchList(int)?temp@53.13:53.17VARIABLEg
+]C:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\linkedList\SinglyLinkedList.java5 5("
+typeNode"
+isFinalfalse"e
+declarationStringP<mark class="modifier"> </mark>Node <mark class="class-field">temp</mark> = head*temp2à
+com.dsa.linkedList.NodeTYPEg
+]C:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\linkedList\SinglyLinkedList.java5 5(2£
+2com.dsa.linkedList.SinglyLinkedList?head@3.23:3.27CALLg
+]C:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\linkedList\SinglyLinkedList.java5 5(è
+;com.dsa.linkedList.SinglyLinkedList.searchList(int)!element	PARAMETERg
+]C:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\linkedList\SinglyLinkedList.java4" 4()"
+typeint"
+isFinalfalse">
+declarationString)<mark class="modifier">int</mark> element*element2t
+intTYPEg
+]C:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\linkedList\SinglyLinkedList.java4 4(!ì
+1com.dsa.linkedList.SinglyLinkedList.isListEmpty()METHODg
+]C:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\linkedList\SinglyLinkedList.java> >("
+isFinalfalse"∏
+declarationString¢<mark class="annotation">@Override</mark> <br><mark class="modifier">public </mark><mark class="modifier">boolean</mark> <mark class="method">isListEmpty</mark>()"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typeboolean*isListEmpty2£
+2com.dsa.linkedList.SinglyLinkedList?head@3.23:3.27CALLg
+]C:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\linkedList\SinglyLinkedList.java? ?(2†
++com.dsa.linkedList.LinkedList.isListEmpty()OVERRIDEg
+]C:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\linkedList\SinglyLinkedList.java> >(2
+booleanRETURN_TYPEg
+]C:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\linkedList\SinglyLinkedList.java> >(á
+Bcom.dsa.linkedList.SinglyLinkedList.print(com.dsa.linkedList.Node)METHODg
+]C:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\linkedList\SinglyLinkedList.javaC C("
+isFinalfalse"∏
+declarationString¢<mark class="annotation">@Override</mark> <br><mark class="modifier">public </mark><mark class="modifier">void</mark> <mark class="method">print</mark>(Node head)"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typevoid*print2ú
++java.io.PrintStream.print(java.lang.String)CALLg
+]C:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\linkedList\SinglyLinkedList.javaF F(2∏
+Gcom.dsa.linkedList.SinglyLinkedList.print(com.dsa.linkedList.Node)!headCALLg
+]C:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\linkedList\SinglyLinkedList.javaD D(2ƒ
+Scom.dsa.linkedList.SinglyLinkedList.print(com.dsa.linkedList.Node)?temp@68.13:68.17CALLg
+]C:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\linkedList\SinglyLinkedList.javaE E(2ƒ
+Scom.dsa.linkedList.SinglyLinkedList.print(com.dsa.linkedList.Node)?temp@68.13:68.17CALLg
+]C:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\linkedList\SinglyLinkedList.javaF$ F((2ƒ
+Scom.dsa.linkedList.SinglyLinkedList.print(com.dsa.linkedList.Node)?temp@68.13:68.17CALLg
+]C:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\linkedList\SinglyLinkedList.javaG G(2ƒ
+Scom.dsa.linkedList.SinglyLinkedList.print(com.dsa.linkedList.Node)?temp@68.13:68.17CALLg
+]C:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\linkedList\SinglyLinkedList.javaG G(2±
+<com.dsa.linkedList.LinkedList.print(com.dsa.linkedList.Node)OVERRIDEg
+]C:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\linkedList\SinglyLinkedList.javaC C(2Ω
+Gcom.dsa.linkedList.SinglyLinkedList.print(com.dsa.linkedList.Node)!head	PARAMETERg
+]C:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\linkedList\SinglyLinkedList.javaC C(2À
+Scom.dsa.linkedList.SinglyLinkedList.print(com.dsa.linkedList.Node)?temp@68.13:68.17DECLARATIONg
+]C:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\linkedList\SinglyLinkedList.javaD D(2|
+voidRETURN_TYPEg
+]C:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\linkedList\SinglyLinkedList.javaC C(õ
+Scom.dsa.linkedList.SinglyLinkedList.print(com.dsa.linkedList.Node)?temp@68.13:68.17VARIABLEg
+]C:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\linkedList\SinglyLinkedList.javaD D("
+typeNode"
+isFinalfalse"e
+declarationStringP<mark class="modifier"> </mark>Node <mark class="class-field">temp</mark> = head*temp2à
+com.dsa.linkedList.NodeTYPEg
+]C:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\linkedList\SinglyLinkedList.javaD D(2∏
+Gcom.dsa.linkedList.SinglyLinkedList.print(com.dsa.linkedList.Node)!headCALLg
+]C:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\linkedList\SinglyLinkedList.javaD D(é
+Gcom.dsa.linkedList.SinglyLinkedList.print(com.dsa.linkedList.Node)!head	PARAMETERg
+]C:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\linkedList\SinglyLinkedList.javaC C("
+typeNode"
+isFinalfalse"
+declarationString	Node head*head2à
+com.dsa.linkedList.NodeTYPEg
+]C:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\linkedList\SinglyLinkedList.javaC C(Ø
+2com.dsa.linkedList.SinglyLinkedList?head@3.23:3.27VARIABLEg
+]C:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\linkedList\SinglyLinkedList.java ("
+isFinalfalse"
+typeNode"∞
+declarationStringö<mark class="modifier">public </mark><mark class="modifier">static </mark>Node <mark class="class-field">head</mark> = <mark class="modifier">null</mark>;"
+isStatictrue"
+accesspublic*head2à
+com.dsa.linkedList.NodeTYPEg
+]C:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\linkedList\SinglyLinkedList.java (

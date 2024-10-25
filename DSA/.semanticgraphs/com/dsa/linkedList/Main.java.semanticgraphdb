@@ -1,0 +1,94 @@
+
+QC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\linkedList\Main.javaô
+com.dsa.linkedList.MainCLASS[
+QC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\linkedList\Main.java ("
+packagecom.dsa.linkedList"
+isFinalfalse"
+inner classfalse"
+
+isAbstractfalse"b
+declarationStringM<mark class="modifier">public </mark><mark class="modifier">class </mark>Main"
+accesspublic*Main2œ
+0com.dsa.linkedList.Main.main(java.lang.String[])DECLARATION[
+QC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\linkedList\Main.java (Ú#
+0com.dsa.linkedList.Main.main(java.lang.String[])METHOD[
+QC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\linkedList\Main.java ("
+isFinalfalse"²
+declarationStringœ<mark class="modifier">public </mark><mark class="modifier">static </mark><mark class="modifier">void</mark> <mark class="method">main</mark>(String[] args)"
+isStatictrue"
+accesspublic"
+
+isAbstractfalse"
+typevoid*main2—
+2com.dsa.linkedList.SinglyLinkedList.addAtRear(int)CALL[
+QC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\linkedList\Main.java (2—
+2com.dsa.linkedList.SinglyLinkedList.addAtRear(int)CALL[
+QC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\linkedList\Main.java (2—
+2com.dsa.linkedList.SinglyLinkedList.addAtRear(int)CALL[
+QC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\linkedList\Main.java (2—
+2com.dsa.linkedList.SinglyLinkedList.addAtRear(int)CALL[
+QC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\linkedList\Main.java	 	(2—
+2com.dsa.linkedList.SinglyLinkedList.addAtRear(int)CALL[
+QC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\linkedList\Main.java
+ 
+(2§
+Bcom.dsa.linkedList.SinglyLinkedList.print(com.dsa.linkedList.Node)CALL[
+QC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\linkedList\Main.java (2‚
+java.io.PrintStream.println()CALL[
+QC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\linkedList\Main.java (2›
+6com.dsa.linkedList.SinglyLinkedList.deleteElement(int)CALL[
+QC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\linkedList\Main.java% (22§
+Bcom.dsa.linkedList.SinglyLinkedList.print(com.dsa.linkedList.Node)CALL[
+QC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\linkedList\Main.java (2‚
+java.io.PrintStream.println()CALL[
+QC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\linkedList\Main.java (2ž
+9com.dsa.linkedList.SinglyLinkedList.deleteAllElement(int)CALL[
+QC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\linkedList\Main.java% (52§
+Bcom.dsa.linkedList.SinglyLinkedList.print(com.dsa.linkedList.Node)CALL[
+QC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\linkedList\Main.java (2›
+6com.dsa.linkedList.SinglyLinkedList.SinglyLinkedList()CALL[
+QC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\linkedList\Main.java$ (42¤
+?com.dsa.linkedList.Main.main(java.lang.String[])?list@4.25:4.29CALL[
+QC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\linkedList\Main.java (2¤
+?com.dsa.linkedList.Main.main(java.lang.String[])?list@4.25:4.29CALL[
+QC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\linkedList\Main.java (2¤
+?com.dsa.linkedList.Main.main(java.lang.String[])?list@4.25:4.29CALL[
+QC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\linkedList\Main.java (2¤
+?com.dsa.linkedList.Main.main(java.lang.String[])?list@4.25:4.29CALL[
+QC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\linkedList\Main.java	 	(2¤
+?com.dsa.linkedList.Main.main(java.lang.String[])?list@4.25:4.29CALL[
+QC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\linkedList\Main.java
+ 
+(2¤
+?com.dsa.linkedList.Main.main(java.lang.String[])?list@4.25:4.29CALL[
+QC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\linkedList\Main.java (2¤
+?com.dsa.linkedList.Main.main(java.lang.String[])?list@4.25:4.29CALL[
+QC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\linkedList\Main.java  ($2¤
+?com.dsa.linkedList.Main.main(java.lang.String[])?list@4.25:4.29CALL[
+QC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\linkedList\Main.java (2¤
+?com.dsa.linkedList.Main.main(java.lang.String[])?list@4.25:4.29CALL[
+QC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\linkedList\Main.java  ($2¤
+?com.dsa.linkedList.Main.main(java.lang.String[])?list@4.25:4.29CALL[
+QC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\linkedList\Main.java (2Ÿ
+5com.dsa.linkedList.Main.main(java.lang.String[])!args	PARAMETER[
+QC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\linkedList\Main.java% ()2«
+?com.dsa.linkedList.Main.main(java.lang.String[])?list@4.25:4.29DECLARATION[
+QC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\linkedList\Main.java (2p
+voidRETURN_TYPE[
+QC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\linkedList\Main.java (‰
+?com.dsa.linkedList.Main.main(java.lang.String[])?list@4.25:4.29VARIABLE[
+QC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\linkedList\Main.java ("
+typeSinglyLinkedList"
+isFinalfalse"ƒ
+declarationStringn<mark class="modifier"> </mark>SinglyLinkedList <mark class="class-field">list</mark> = new SinglyLinkedList()*list2ˆ
+#com.dsa.linkedList.SinglyLinkedListTYPE[
+QC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\linkedList\Main.java (2›
+6com.dsa.linkedList.SinglyLinkedList.SinglyLinkedList()CALL[
+QC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\linkedList\Main.java$ (4æ
+5com.dsa.linkedList.Main.main(java.lang.String[])!args	PARAMETER[
+QC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\linkedList\Main.java% ()"
+typeString[]"
+isFinalfalse""
+declarationStringString[] args*args2w
+java.lang.String[]TYPE[
+QC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\linkedList\Main.java ($

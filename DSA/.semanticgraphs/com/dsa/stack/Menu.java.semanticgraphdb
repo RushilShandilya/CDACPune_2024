@@ -1,0 +1,308 @@
+
+LC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\stack\Menu.javaÇ
+com.dsa.stack.MenuCLASSV
+LC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\stack\Menu.java ("
+packagecom.dsa.stack"
+isFinalfalse"
+inner classfalse"
+
+isAbstractfalse"b
+declarationStringM<mark class="modifier">public </mark><mark class="modifier">class </mark>Menu"
+accesspublic*Menu2Ñ
+com.dsa.stack.Menu.showMenu()DECLARATIONV
+LC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\stack\Menu.java (2ô
+2com.dsa.stack.Menu.chooseOption(java.util.Scanner)DECLARATIONV
+LC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\stack\Menu.java (#2§
+=com.dsa.stack.Menu.peekElement(com.dsa.stack.FixedSizedStack)DECLARATIONV
+LC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\stack\Menu.java- -(%2©
+Bcom.dsa.stack.Menu.checkIfStackFull(com.dsa.stack.FixedSizedStack)DECLARATIONV
+LC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\stack\Menu.java4 4(+2™
+Ccom.dsa.stack.Menu.checkIfStackEmpty(com.dsa.stack.FixedSizedStack)DECLARATIONV
+LC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\stack\Menu.java7 7(,2Ω
+Vcom.dsa.stack.Menu.addElementToStack(com.dsa.stack.FixedSizedStack, java.util.Scanner)DECLARATIONV
+LC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\stack\Menu.java: :(+2≠
+Fcom.dsa.stack.Menu.popElementOutOfStack(com.dsa.stack.FixedSizedStack)DECLARATIONV
+LC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\stack\Menu.javaB B(+2ö
+3com.dsa.stack.Menu.stackCreation(java.util.Scanner)DECLARATIONV
+LC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\stack\Menu.javaH" H(/2â
+"com.dsa.stack.Menu?stack@5.34:5.39DECLARATIONV
+LC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\stack\Menu.java" ('Î
+com.dsa.stack.Menu.showMenu()METHODV
+LC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\stack\Menu.java ("
+isFinalfalse"©
+declarationStringì<mark class="modifier">public </mark><mark class="modifier">static </mark><mark class="modifier">void</mark> <mark class="method">showMenu</mark>()"
+isStatictrue"
+accesspublic"
+
+isAbstractfalse"
+typevoid*showMenu2ç
+-java.io.PrintStream.println(java.lang.String)CALLV
+LC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\stack\Menu.java (2ç
+-java.io.PrintStream.println(java.lang.String)CALLV
+LC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\stack\Menu.java (2ç
+-java.io.PrintStream.println(java.lang.String)CALLV
+LC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\stack\Menu.java	 	(2ç
+-java.io.PrintStream.println(java.lang.String)CALLV
+LC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\stack\Menu.java
+ 
+(2ç
+-java.io.PrintStream.println(java.lang.String)CALLV
+LC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\stack\Menu.java (2ç
+-java.io.PrintStream.println(java.lang.String)CALLV
+LC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\stack\Menu.java (2ç
+-java.io.PrintStream.println(java.lang.String)CALLV
+LC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\stack\Menu.java (2k
+voidRETURN_TYPEV
+LC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\stack\Menu.java (¬
+2com.dsa.stack.Menu.chooseOption(java.util.Scanner)METHODV
+LC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\stack\Menu.java (#"
+isFinalfalse"î
+declarationString˛<mark class="modifier">public </mark><mark class="modifier">static </mark><mark class="modifier">void</mark> <mark class="method">chooseOption</mark>(Scanner sc)<mark class="modifier"> <mark class="modifier">throws</mark> </mark>IndexOutOfBoundsException"
+isStatictrue"
+accesspublic"
+
+isAbstractfalse"
+typevoid*chooseOption2ç
+-java.io.PrintStream.println(java.lang.String)CALLV
+LC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\stack\Menu.java (2{
+java.util.Scanner.nextInt()CALLV
+LC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\stack\Menu.java (2ì
+3com.dsa.stack.Menu.stackCreation(java.util.Scanner)CALLV
+LC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\stack\Menu.java (%2ç
+-java.io.PrintStream.println(java.lang.String)CALLV
+LC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\stack\Menu.java ("2£
+Ccom.dsa.stack.Menu.checkIfStackEmpty(com.dsa.stack.FixedSizedStack)CALLV
+LC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\stack\Menu.javaE (V2ç
+-java.io.PrintStream.println(java.lang.String)CALLV
+LC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\stack\Menu.java ("2¢
+Bcom.dsa.stack.Menu.checkIfStackFull(com.dsa.stack.FixedSizedStack)CALLV
+LC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\stack\Menu.javaD (T2ç
+-java.io.PrintStream.println(java.lang.String)CALLV
+LC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\stack\Menu.java   ("2∂
+Vcom.dsa.stack.Menu.addElementToStack(com.dsa.stack.FixedSizedStack, java.util.Scanner)CALLV
+LC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\stack\Menu.java 0  (A2ç
+-java.io.PrintStream.println(java.lang.String)CALLV
+LC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\stack\Menu.java$ $("2¶
+Fcom.dsa.stack.Menu.popElementOutOfStack(com.dsa.stack.FixedSizedStack)CALLV
+LC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\stack\Menu.java$0 $(D2ç
+-java.io.PrintStream.println(java.lang.String)CALLV
+LC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\stack\Menu.java( (("2ù
+=com.dsa.stack.Menu.peekElement(com.dsa.stack.FixedSizedStack)CALLV
+LC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\stack\Menu.java(# ((.2ï
+5com.dsa.stack.Menu.chooseOption(java.util.Scanner)!scCALLV
+LC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\stack\Menu.java (2Ç
+"com.dsa.stack.Menu?stack@5.34:5.39CALLV
+LC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\stack\Menu.java (2ï
+5com.dsa.stack.Menu.chooseOption(java.util.Scanner)!scCALLV
+LC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\stack\Menu.java& ((2Ç
+"com.dsa.stack.Menu?stack@5.34:5.39CALLV
+LC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\stack\Menu.javaW (\2Ç
+"com.dsa.stack.Menu?stack@5.34:5.39CALLV
+LC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\stack\Menu.javaU (Z2Ç
+"com.dsa.stack.Menu?stack@5.34:5.39CALLV
+LC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\stack\Menu.java B  (G2ï
+5com.dsa.stack.Menu.chooseOption(java.util.Scanner)!scCALLV
+LC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\stack\Menu.java H  (J2Ç
+"com.dsa.stack.Menu?stack@5.34:5.39CALLV
+LC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\stack\Menu.java$E $(J2Ç
+"com.dsa.stack.Menu?stack@5.34:5.39CALLV
+LC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\stack\Menu.java(/ ((42ö
+5com.dsa.stack.Menu.chooseOption(java.util.Scanner)!sc	PARAMETERV
+LC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\stack\Menu.java, (.2k
+voidRETURN_TYPEV
+LC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\stack\Menu.java (’
+5com.dsa.stack.Menu.chooseOption(java.util.Scanner)!sc	PARAMETERV
+LC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\stack\Menu.java, (."
+typeScanner"
+isFinalfalse"
+declarationString
+Scanner sc*sc2q
+java.util.ScannerTYPEV
+LC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\stack\Menu.java$ (+´
+=com.dsa.stack.Menu.peekElement(com.dsa.stack.FixedSizedStack)METHODV
+LC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\stack\Menu.java- -(%"
+isFinalfalse"É
+declarationStringÌ<mark class="modifier">private </mark><mark class="modifier">static </mark>String <mark class="method">peekElement</mark>(FixedSizedStack stack)<mark class="modifier"> <mark class="modifier">throws</mark> </mark>IndexOutOfBoundsException"
+isStatictrue"
+accessprivate"
+
+isAbstractfalse"
+typeString*peekElement2£
+Ccom.dsa.stack.Menu.checkIfStackEmpty(com.dsa.stack.FixedSizedStack)CALLV
+LC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\stack\Menu.java. .(2Ñ
+$com.dsa.stack.FixedSizedStack.peek()CALLV
+LC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\stack\Menu.java/* /(.2£
+Ccom.dsa.stack.Menu.peekElement(com.dsa.stack.FixedSizedStack)!stackCALLV
+LC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\stack\Menu.java. .(#2£
+Ccom.dsa.stack.Menu.peekElement(com.dsa.stack.FixedSizedStack)!stackCALLV
+LC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\stack\Menu.java/$ /()2®
+Ccom.dsa.stack.Menu.peekElement(com.dsa.stack.FixedSizedStack)!stack	PARAMETERV
+LC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\stack\Menu.java-6 -(;2w
+java.lang.StringRETURN_TYPEV
+LC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\stack\Menu.java- -(Ö
+Ccom.dsa.stack.Menu.peekElement(com.dsa.stack.FixedSizedStack)!stack	PARAMETERV
+LC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\stack\Menu.java-6 -(;"
+typeFixedSizedStack"
+isFinalfalse"*
+declarationStringFixedSizedStack stack*stack2}
+com.dsa.stack.FixedSizedStackTYPEV
+LC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\stack\Menu.java-& -(5ë	
+Bcom.dsa.stack.Menu.checkIfStackFull(com.dsa.stack.FixedSizedStack)METHODV
+LC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\stack\Menu.java4 4(+"
+isFinalfalse"ß
+declarationStringë<mark class="modifier">private </mark><mark class="modifier">static </mark><mark class="modifier">boolean</mark> <mark class="method">checkIfStackFull</mark>(FixedSizedStack stack)<mark class="modifier"> <mark class="modifier">throws</mark> </mark>IndexOutOfBoundsException"
+isStatictrue"
+accessprivate"
+
+isAbstractfalse"
+typeboolean*checkIfStackFull2Ü
+&com.dsa.stack.FixedSizedStack.isFull()CALLV
+LC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\stack\Menu.java5 5(2®
+Hcom.dsa.stack.Menu.checkIfStackFull(com.dsa.stack.FixedSizedStack)!stackCALLV
+LC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\stack\Menu.java5 5(2≠
+Hcom.dsa.stack.Menu.checkIfStackFull(com.dsa.stack.FixedSizedStack)!stack	PARAMETERV
+LC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\stack\Menu.java4< 4(A2n
+booleanRETURN_TYPEV
+LC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\stack\Menu.java4 4(ä
+Hcom.dsa.stack.Menu.checkIfStackFull(com.dsa.stack.FixedSizedStack)!stack	PARAMETERV
+LC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\stack\Menu.java4< 4(A"
+typeFixedSizedStack"
+isFinalfalse"*
+declarationStringFixedSizedStack stack*stack2}
+com.dsa.stack.FixedSizedStackTYPEV
+LC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\stack\Menu.java4, 4(;ó	
+Ccom.dsa.stack.Menu.checkIfStackEmpty(com.dsa.stack.FixedSizedStack)METHODV
+LC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\stack\Menu.java7 7(,"
+isFinalfalse"®
+declarationStringí<mark class="modifier">private </mark><mark class="modifier">static </mark><mark class="modifier">boolean</mark> <mark class="method">checkIfStackEmpty</mark>(FixedSizedStack stack)<mark class="modifier"> <mark class="modifier">throws</mark> </mark>IndexOutOfBoundsException"
+isStatictrue"
+accessprivate"
+
+isAbstractfalse"
+typeboolean*checkIfStackEmpty2á
+'com.dsa.stack.FixedSizedStack.isEmpty()CALLV
+LC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\stack\Menu.java8 8(2©
+Icom.dsa.stack.Menu.checkIfStackEmpty(com.dsa.stack.FixedSizedStack)!stackCALLV
+LC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\stack\Menu.java8 8(2Æ
+Icom.dsa.stack.Menu.checkIfStackEmpty(com.dsa.stack.FixedSizedStack)!stack	PARAMETERV
+LC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\stack\Menu.java7= 7(B2n
+booleanRETURN_TYPEV
+LC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\stack\Menu.java7 7(ã
+Icom.dsa.stack.Menu.checkIfStackEmpty(com.dsa.stack.FixedSizedStack)!stack	PARAMETERV
+LC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\stack\Menu.java7= 7(B"
+typeFixedSizedStack"
+isFinalfalse"*
+declarationStringFixedSizedStack stack*stack2}
+com.dsa.stack.FixedSizedStackTYPEV
+LC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\stack\Menu.java7- 7(<Ô
+Vcom.dsa.stack.Menu.addElementToStack(com.dsa.stack.FixedSizedStack, java.util.Scanner)METHODV
+LC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\stack\Menu.java: :(+"
+isFinalfalse"—
+declarationStringª<mark class="modifier">private </mark><mark class="modifier">static </mark>String <mark class="method">addElementToStack</mark>(FixedSizedStack stack<mark class="modifier"><mark class="modifier">,</mark></mark> Scanner sc)<mark class="modifier"> <mark class="modifier">throws</mark> </mark>IndexOutOfBoundsException"
+isStatictrue"
+accessprivate"
+
+isAbstractfalse"
+typeString*addElementToStack2ç
+-java.io.PrintStream.println(java.lang.String)CALLV
+LC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\stack\Menu.java; ;(2¢
+Bcom.dsa.stack.Menu.checkIfStackFull(com.dsa.stack.FixedSizedStack)CALLV
+LC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\stack\Menu.java< <(2á
+'com.dsa.stack.FixedSizedStack.push(int)CALLV
+LC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\stack\Menu.java= =(2{
+java.util.Scanner.nextInt()CALLV
+LC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\stack\Menu.java= =(!2º
+\com.dsa.stack.Menu.addElementToStack(com.dsa.stack.FixedSizedStack, java.util.Scanner)!stackCALLV
+LC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\stack\Menu.java< <("2º
+\com.dsa.stack.Menu.addElementToStack(com.dsa.stack.FixedSizedStack, java.util.Scanner)!stackCALLV
+LC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\stack\Menu.java= =(2π
+Ycom.dsa.stack.Menu.addElementToStack(com.dsa.stack.FixedSizedStack, java.util.Scanner)!scCALLV
+LC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\stack\Menu.java= =(2¡
+\com.dsa.stack.Menu.addElementToStack(com.dsa.stack.FixedSizedStack, java.util.Scanner)!stack	PARAMETERV
+LC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\stack\Menu.java:< :(A2æ
+Ycom.dsa.stack.Menu.addElementToStack(com.dsa.stack.FixedSizedStack, java.util.Scanner)!sc	PARAMETERV
+LC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\stack\Menu.java:J :(L2w
+java.lang.StringRETURN_TYPEV
+LC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\stack\Menu.java: :(û
+\com.dsa.stack.Menu.addElementToStack(com.dsa.stack.FixedSizedStack, java.util.Scanner)!stack	PARAMETERV
+LC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\stack\Menu.java:< :(A"
+typeFixedSizedStack"
+isFinalfalse"*
+declarationStringFixedSizedStack stack*stack2}
+com.dsa.stack.FixedSizedStackTYPEV
+LC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\stack\Menu.java:, :(;˘
+Ycom.dsa.stack.Menu.addElementToStack(com.dsa.stack.FixedSizedStack, java.util.Scanner)!sc	PARAMETERV
+LC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\stack\Menu.java:J :(L"
+typeScanner"
+isFinalfalse"
+declarationString
+Scanner sc*sc2q
+java.util.ScannerTYPEV
+LC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\stack\Menu.java:B :(IÎ
+Fcom.dsa.stack.Menu.popElementOutOfStack(com.dsa.stack.FixedSizedStack)METHODV
+LC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\stack\Menu.javaB B(+"
+isFinalfalse"ß
+declarationStringë<mark class="modifier">private </mark><mark class="modifier">static </mark><mark class="modifier">int</mark> <mark class="method">popElementOutOfStack</mark>(FixedSizedStack stack)<mark class="modifier"> <mark class="modifier">throws</mark> </mark>IndexOutOfBoundsException"
+isStatictrue"
+accessprivate"
+
+isAbstractfalse"
+typeint*popElementOutOfStack2£
+Ccom.dsa.stack.Menu.checkIfStackEmpty(com.dsa.stack.FixedSizedStack)CALLV
+LC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\stack\Menu.javaC C(2É
+#com.dsa.stack.FixedSizedStack.pop()CALLV
+LC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\stack\Menu.javaD D(2¨
+Lcom.dsa.stack.Menu.popElementOutOfStack(com.dsa.stack.FixedSizedStack)!stackCALLV
+LC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\stack\Menu.javaC C(#2¨
+Lcom.dsa.stack.Menu.popElementOutOfStack(com.dsa.stack.FixedSizedStack)!stackCALLV
+LC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\stack\Menu.javaD D(2±
+Lcom.dsa.stack.Menu.popElementOutOfStack(com.dsa.stack.FixedSizedStack)!stack	PARAMETERV
+LC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\stack\Menu.javaB< B(A2j
+intRETURN_TYPEV
+LC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\stack\Menu.javaB B(é
+Lcom.dsa.stack.Menu.popElementOutOfStack(com.dsa.stack.FixedSizedStack)!stack	PARAMETERV
+LC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\stack\Menu.javaB< B(A"
+typeFixedSizedStack"
+isFinalfalse"*
+declarationStringFixedSizedStack stack*stack2}
+com.dsa.stack.FixedSizedStackTYPEV
+LC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\stack\Menu.javaB, B(;ê
+
+3com.dsa.stack.Menu.stackCreation(java.util.Scanner)METHODV
+LC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\stack\Menu.javaH" H(/"
+isFinalfalse"•
+declarationStringè<mark class="modifier">public </mark><mark class="modifier">static </mark>FixedSizedStack <mark class="method">stackCreation</mark>(Scanner sc)"
+isStatictrue"
+accesspublic"
+
+isAbstractfalse"
+typeFixedSizedStack*stackCreation2ç
+-java.io.PrintStream.println(java.lang.String)CALLV
+LC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\stack\Menu.javaI I(2{
+java.util.Scanner.nextInt()CALLV
+LC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\stack\Menu.javaJ& J(-2í
+2com.dsa.stack.FixedSizedStack.FixedSizedStack(int)CALLV
+LC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\stack\Menu.javaJ J("2ñ
+6com.dsa.stack.Menu.stackCreation(java.util.Scanner)!scCALLV
+LC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\stack\Menu.javaJ# J(%2õ
+6com.dsa.stack.Menu.stackCreation(java.util.Scanner)!sc	PARAMETERV
+LC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\stack\Menu.javaH8 H(:2Ñ
+com.dsa.stack.FixedSizedStackRETURN_TYPEV
+LC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\stack\Menu.javaH H(!÷
+6com.dsa.stack.Menu.stackCreation(java.util.Scanner)!sc	PARAMETERV
+LC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\stack\Menu.javaH8 H(:"
+typeScanner"
+isFinalfalse"
+declarationString
+Scanner sc*sc2q
+java.util.ScannerTYPEV
+LC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\stack\Menu.javaH0 H(7ö
+"com.dsa.stack.Menu?stack@5.34:5.39VARIABLEV
+LC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\stack\Menu.java" ('"
+isFinalfalse"
+typeFixedSizedStack"º
+declarationString¶<mark class="modifier">public </mark><mark class="modifier">static </mark>FixedSizedStack <mark class="class-field">stack</mark> = <mark class="modifier">null</mark>;"
+isStatictrue"
+accesspublic*stack2}
+com.dsa.stack.FixedSizedStackTYPEV
+LC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\stack\Menu.java (!

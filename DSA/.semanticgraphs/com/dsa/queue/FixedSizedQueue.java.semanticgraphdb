@@ -1,0 +1,276 @@
+
+WC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\queue\FixedSizedQueue.java„
+com.dsa.queue.FixedSizedQueueCLASSa
+WC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\queue\FixedSizedQueue.java ("
+packagecom.dsa.queue"
+isFinalfalse"
+inner classfalse"
+
+isAbstractfalse"†
+declarationStringä<mark class="modifier">public </mark><mark class="modifier">class </mark>FixedSizedQueue<mark class="modifier"><br>implements </mark>Queue"
+accesspublic*FixedSizedQueue2°
+/com.dsa.queue.FixedSizedQueue.FixedSizedQueue()DECLARATIONa
+WC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\queue\FixedSizedQueue.java (2§
+2com.dsa.queue.FixedSizedQueue.FixedSizedQueue(int)DECLARATIONa
+WC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\queue\FixedSizedQueue.java	 	(2ú
+*com.dsa.queue.FixedSizedQueue.enqueue(int)DECLARATIONa
+WC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\queue\FixedSizedQueue.java (2ô
+'com.dsa.queue.FixedSizedQueue.dequeue()DECLARATIONa
+WC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\queue\FixedSizedQueue.java (2ñ
+$com.dsa.queue.FixedSizedQueue.peek()DECLARATIONa
+WC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\queue\FixedSizedQueue.java) )(2ò
+&com.dsa.queue.FixedSizedQueue.isFull()DECLARATIONa
+WC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\queue\FixedSizedQueue.java2 2(2ô
+'com.dsa.queue.FixedSizedQueue.isEmpty()DECLARATIONa
+WC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\queue\FixedSizedQueue.java7 7(2ü
+-com.dsa.queue.FixedSizedQueue?queue@3.10:3.15DECLARATIONa
+WC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\queue\FixedSizedQueue.java
+ (2û
+,com.dsa.queue.FixedSizedQueue?front@4.8:4.13DECLARATIONa
+WC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\queue\FixedSizedQueue.java (2û
+,com.dsa.queue.FixedSizedQueue?back@4.14:4.18DECLARATIONa
+WC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\queue\FixedSizedQueue.java (2Ä
+com.dsa.queue.QueueEXTENDa
+WC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\queue\FixedSizedQueue.java( (-≠
+/com.dsa.queue.FixedSizedQueue.FixedSizedQueue()CONSTRUCTORa
+WC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\queue\FixedSizedQueue.java ("g
+declarationStringR<mark class="modifier">public </mark><mark class="method">FixedSizedQueue</mark>()*FixedSizedQueue2è
+com.dsa.queue.FixedSizedQueueRETURN_TYPEa
+WC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\queue\FixedSizedQueue.java (Ï	
+2com.dsa.queue.FixedSizedQueue.FixedSizedQueue(int)CONSTRUCTORa
+WC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\queue\FixedSizedQueue.java	 	("ä
+declarationStringu<mark class="modifier">public </mark><mark class="method">FixedSizedQueue</mark>(<mark class="modifier">int</mark> n)*FixedSizedQueue2ò
+-com.dsa.queue.FixedSizedQueue?queue@3.10:3.15CALLa
+WC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\queue\FixedSizedQueue.java
+ 
+(2ü
+4com.dsa.queue.FixedSizedQueue.FixedSizedQueue(int)!nCALLa
+WC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\queue\FixedSizedQueue.java
+ 
+(2ó
+,com.dsa.queue.FixedSizedQueue?front@4.8:4.13CALLa
+WC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\queue\FixedSizedQueue.java (2ó
+,com.dsa.queue.FixedSizedQueue?back@4.14:4.18CALLa
+WC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\queue\FixedSizedQueue.java (2§
+4com.dsa.queue.FixedSizedQueue.FixedSizedQueue(int)!n	PARAMETERa
+WC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\queue\FixedSizedQueue.java	 	( 2è
+com.dsa.queue.FixedSizedQueueRETURN_TYPEa
+WC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\queue\FixedSizedQueue.java	 	(
+4com.dsa.queue.FixedSizedQueue.FixedSizedQueue(int)!n	PARAMETERa
+WC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\queue\FixedSizedQueue.java	 	( "
+typeint"
+isFinalfalse"8
+declarationString#<mark class="modifier">int</mark> n*n2n
+intTYPEa
+WC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\queue\FixedSizedQueue.java	 	(Ω
+*com.dsa.queue.FixedSizedQueue.enqueue(int)METHODa
+WC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\queue\FixedSizedQueue.java ("
+isFinalfalse"∑
+declarationString°<mark class="annotation">@Override</mark> <br><mark class="modifier">public </mark><mark class="modifier">void</mark> <mark class="method">enqueue</mark>(<mark class="modifier">int</mark> element)<mark class="modifier"> <mark class="modifier">throws</mark> </mark>IndexOutOfBoundsException"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typevoid*enqueue2ë
+&com.dsa.queue.FixedSizedQueue.isFull()CALLa
+WC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\queue\FixedSizedQueue.java (2∫
+Ojava.lang.IndexOutOfBoundsException.IndexOutOfBoundsException(java.lang.String)CALLa
+WC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\queue\FixedSizedQueue.java (/2ó
+,com.dsa.queue.FixedSizedQueue?back@4.14:4.18CALLa
+WC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\queue\FixedSizedQueue.java
+ (2ò
+-com.dsa.queue.FixedSizedQueue?queue@3.10:3.15CALLa
+WC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\queue\FixedSizedQueue.java (2ó
+,com.dsa.queue.FixedSizedQueue?back@4.14:4.18CALLa
+WC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\queue\FixedSizedQueue.java (2ù
+2com.dsa.queue.FixedSizedQueue.enqueue(int)!elementCALLa
+WC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\queue\FixedSizedQueue.java (!2ó
+,com.dsa.queue.FixedSizedQueue?back@4.14:4.18CALLa
+WC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\queue\FixedSizedQueue.java (2è
+ com.dsa.queue.Queue.enqueue(int)OVERRIDEa
+WC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\queue\FixedSizedQueue.java (2¢
+2com.dsa.queue.FixedSizedQueue.enqueue(int)!element	PARAMETERa
+WC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\queue\FixedSizedQueue.java (#2v
+voidRETURN_TYPEa
+WC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\queue\FixedSizedQueue.java (˙
+2com.dsa.queue.FixedSizedQueue.enqueue(int)!element	PARAMETERa
+WC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\queue\FixedSizedQueue.java (#"
+typeint"
+isFinalfalse">
+declarationString)<mark class="modifier">int</mark> element*element2n
+intTYPEa
+WC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\queue\FixedSizedQueue.java (¿
+'com.dsa.queue.FixedSizedQueue.dequeue()METHODa
+WC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\queue\FixedSizedQueue.java ("
+isFinalfalse"ç
+declarationString˜<mark class="annotation">@Override</mark> <br><mark class="modifier">public </mark><mark class="modifier">int</mark> <mark class="method">dequeue</mark>()<mark class="modifier"> <mark class="modifier">throws</mark> </mark>IndexOutOfBoundsException"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typeint*dequeue2í
+'com.dsa.queue.FixedSizedQueue.isEmpty()CALLa
+WC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\queue\FixedSizedQueue.java (2∫
+Ojava.lang.IndexOutOfBoundsException.IndexOutOfBoundsException(java.lang.String)CALLa
+WC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\queue\FixedSizedQueue.java% %(12ó
+,com.dsa.queue.FixedSizedQueue?front@4.8:4.13CALLa
+WC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\queue\FixedSizedQueue.java (2ò
+-com.dsa.queue.FixedSizedQueue?queue@3.10:3.15CALLa
+WC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\queue\FixedSizedQueue.java (2ó
+,com.dsa.queue.FixedSizedQueue?front@4.8:4.13CALLa
+WC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\queue\FixedSizedQueue.java  (%2ó
+,com.dsa.queue.FixedSizedQueue?front@4.8:4.13CALLa
+WC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\queue\FixedSizedQueue.java (2†
+5com.dsa.queue.FixedSizedQueue.dequeue()?i@31.20:31.21CALLa
+WC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\queue\FixedSizedQueue.java" (#2ó
+,com.dsa.queue.FixedSizedQueue?back@4.14:4.18CALLa
+WC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\queue\FixedSizedQueue.java% ()2†
+5com.dsa.queue.FixedSizedQueue.dequeue()?i@31.20:31.21CALLa
+WC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\queue\FixedSizedQueue.java. (/2ò
+-com.dsa.queue.FixedSizedQueue?queue@3.10:3.15CALLa
+WC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\queue\FixedSizedQueue.java   (2†
+5com.dsa.queue.FixedSizedQueue.dequeue()?i@31.20:31.21CALLa
+WC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\queue\FixedSizedQueue.java   (2ò
+-com.dsa.queue.FixedSizedQueue?queue@3.10:3.15CALLa
+WC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\queue\FixedSizedQueue.java   ("2†
+5com.dsa.queue.FixedSizedQueue.dequeue()?i@31.20:31.21CALLa
+WC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\queue\FixedSizedQueue.java #  ($2ó
+,com.dsa.queue.FixedSizedQueue?back@4.14:4.18CALLa
+WC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\queue\FixedSizedQueue.java" "(2¶
+;com.dsa.queue.FixedSizedQueue.dequeue()?element@30.16:30.23CALLa
+WC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\queue\FixedSizedQueue.java$ $(2å
+com.dsa.queue.Queue.dequeue()OVERRIDEa
+WC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\queue\FixedSizedQueue.java (2≠
+;com.dsa.queue.FixedSizedQueue.dequeue()?element@30.16:30.23DECLARATIONa
+WC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\queue\FixedSizedQueue.java (2ß
+5com.dsa.queue.FixedSizedQueue.dequeue()?i@31.20:31.21DECLARATIONa
+WC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\queue\FixedSizedQueue.java (2u
+intRETURN_TYPEa
+WC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\queue\FixedSizedQueue.java (á
+;com.dsa.queue.FixedSizedQueue.dequeue()?element@30.16:30.23VARIABLEa
+WC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\queue\FixedSizedQueue.java ("
+typeint"
+isFinalfalse"ç
+declarationStringx<mark class="modifier"> </mark><mark class="modifier">int</mark> <mark class="class-field">element</mark> = queue[front]*element2n
+intTYPEa
+WC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\queue\FixedSizedQueue.java (2ò
+-com.dsa.queue.FixedSizedQueue?queue@3.10:3.15CALLa
+WC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\queue\FixedSizedQueue.java (2ó
+,com.dsa.queue.FixedSizedQueue?front@4.8:4.13CALLa
+WC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\queue\FixedSizedQueue.java  (%◊
+5com.dsa.queue.FixedSizedQueue.dequeue()?i@31.20:31.21VARIABLEa
+WC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\queue\FixedSizedQueue.java ("
+typeint"
+isFinalfalse"Ñ
+declarationStringo<mark class="modifier"> </mark><mark class="modifier">int</mark> <mark class="class-field">i</mark> = front + 1*i2n
+intTYPEa
+WC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\queue\FixedSizedQueue.java (2ó
+,com.dsa.queue.FixedSizedQueue?front@4.8:4.13CALLa
+WC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\queue\FixedSizedQueue.java (Ò
+$com.dsa.queue.FixedSizedQueue.peek()METHODa
+WC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\queue\FixedSizedQueue.java) )("
+isFinalfalse"≠
+declarationStringó<mark class="annotation">@Override</mark> <br><mark class="modifier">public </mark><mark class="modifier">int</mark> <mark class="method">peek</mark>()"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typeint*peek2í
+'com.dsa.queue.FixedSizedQueue.isEmpty()CALLa
+WC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\queue\FixedSizedQueue.java- -(2∫
+Ojava.lang.IndexOutOfBoundsException.IndexOutOfBoundsException(java.lang.String)CALLa
+WC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\queue\FixedSizedQueue.java. .(02ó
+,com.dsa.queue.FixedSizedQueue?front@4.8:4.13CALLa
+WC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\queue\FixedSizedQueue.java+ +(2†
+5com.dsa.queue.FixedSizedQueue.peek()?temp@42.12:42.16CALLa
+WC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\queue\FixedSizedQueue.java+ +(2ó
+,com.dsa.queue.FixedSizedQueue?front@4.8:4.13CALLa
+WC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\queue\FixedSizedQueue.java+ +("2†
+5com.dsa.queue.FixedSizedQueue.peek()?temp@42.12:42.16CALLa
+WC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\queue\FixedSizedQueue.java, ,(2ó
+,com.dsa.queue.FixedSizedQueue?front@4.8:4.13CALLa
+WC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\queue\FixedSizedQueue.java, ,(2ò
+-com.dsa.queue.FixedSizedQueue?queue@3.10:3.15CALLa
+WC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\queue\FixedSizedQueue.java- -(#2†
+5com.dsa.queue.FixedSizedQueue.peek()?temp@42.12:42.16CALLa
+WC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\queue\FixedSizedQueue.java-$ -((2â
+com.dsa.queue.Queue.peek()OVERRIDEa
+WC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\queue\FixedSizedQueue.java) )(2ß
+5com.dsa.queue.FixedSizedQueue.peek()?temp@42.12:42.16DECLARATIONa
+WC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\queue\FixedSizedQueue.java* *(2u
+intRETURN_TYPEa
+WC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\queue\FixedSizedQueue.java) )(º
+5com.dsa.queue.FixedSizedQueue.peek()?temp@42.12:42.16VARIABLEa
+WC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\queue\FixedSizedQueue.java* *("
+typeint"
+isFinalfalse"Ä
+declarationStringk<mark class="modifier"> </mark><mark class="modifier">int</mark> <mark class="class-field">temp</mark> = -1*temp2n
+intTYPEa
+WC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\queue\FixedSizedQueue.java* *(Ï
+&com.dsa.queue.FixedSizedQueue.isFull()METHODa
+WC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\queue\FixedSizedQueue.java2 2("
+isFinalfalse"≥
+declarationStringù<mark class="annotation">@Override</mark> <br><mark class="modifier">public </mark><mark class="modifier">boolean</mark> <mark class="method">isFull</mark>()"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typeboolean*isFull2ó
+,com.dsa.queue.FixedSizedQueue?back@4.14:4.18CALLa
+WC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\queue\FixedSizedQueue.java3 3(2ò
+-com.dsa.queue.FixedSizedQueue?queue@3.10:3.15CALLa
+WC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\queue\FixedSizedQueue.java3 3(2ã
+com.dsa.queue.Queue.isFull()OVERRIDEa
+WC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\queue\FixedSizedQueue.java2 2(2y
+booleanRETURN_TYPEa
+WC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\queue\FixedSizedQueue.java2 2(£
+
+'com.dsa.queue.FixedSizedQueue.isEmpty()METHODa
+WC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\queue\FixedSizedQueue.java7 7("
+isFinalfalse"¥
+declarationStringû<mark class="annotation">@Override</mark> <br><mark class="modifier">public </mark><mark class="modifier">boolean</mark> <mark class="method">isEmpty</mark>()"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typeboolean*isEmpty2ó
+,com.dsa.queue.FixedSizedQueue?front@4.8:4.13CALLa
+WC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\queue\FixedSizedQueue.java8 8(2ó
+,com.dsa.queue.FixedSizedQueue?back@4.14:4.18CALLa
+WC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\queue\FixedSizedQueue.java8 8(2ó
+,com.dsa.queue.FixedSizedQueue?front@4.8:4.13CALLa
+WC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\queue\FixedSizedQueue.java9 9(2ó
+,com.dsa.queue.FixedSizedQueue?back@4.14:4.18CALLa
+WC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\queue\FixedSizedQueue.java9 9(2å
+com.dsa.queue.Queue.isEmpty()OVERRIDEa
+WC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\queue\FixedSizedQueue.java7 7(2y
+booleanRETURN_TYPEa
+WC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\queue\FixedSizedQueue.java7 7(‚
+-com.dsa.queue.FixedSizedQueue?queue@3.10:3.15VARIABLEa
+WC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\queue\FixedSizedQueue.java
+ ("
+isFinalfalse"
+typeint"~
+declarationStringi<mark class="modifier"> </mark><mark class="modifier">int</mark>[] <mark class="class-field">queue</mark>"
+isStaticfalse"
+accesspackage_private*queue2p
+int[]TYPEa
+WC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\queue\FixedSizedQueue.java (	›
+,com.dsa.queue.FixedSizedQueue?front@4.8:4.13VARIABLEa
+WC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\queue\FixedSizedQueue.java ("
+isFinalfalse"
+typeint"|
+declarationStringg<mark class="modifier"> </mark><mark class="modifier">int</mark> <mark class="class-field">front</mark>"
+isStaticfalse"
+accesspackage_private*front2n
+intTYPEa
+WC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\queue\FixedSizedQueue.java (€
+,com.dsa.queue.FixedSizedQueue?back@4.14:4.18VARIABLEa
+WC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\queue\FixedSizedQueue.java ("
+isFinalfalse"
+typeint"{
+declarationStringf<mark class="modifier"> </mark><mark class="modifier">int</mark> <mark class="class-field">back</mark>"
+isStaticfalse"
+accesspackage_private*back2n
+intTYPEa
+WC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\queue\FixedSizedQueue.java (

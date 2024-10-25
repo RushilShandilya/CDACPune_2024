@@ -1,6 +1,7 @@
 import java.util.List;
 import java.util.Arrays;
 import java.util.stream.Stream;
+import java.util.stream.Collectors;
 
 public class Main{
 	public static void main(String... args){
@@ -21,7 +22,11 @@ public class Main{
 		System.out.println();
 
 
-		Stream<String> q4 = listOfNames.stream();
+		String str = listOfNames.stream().collect(Collectors.joining(""));
+		System.out.println(str);
+
+		Stream<String> q5 = listOfNames.stream().filter(a->a.endsWith("l"));
+		q5.forEach(System.out::print);
 		
 	}
 }

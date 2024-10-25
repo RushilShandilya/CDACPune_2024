@@ -1,0 +1,85 @@
+
+MC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\stack\Stack.javaÓ
+com.dsa.stack.StackTRAITW
+MC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\stack\Stack.java ("
+packagecom.dsa.stack"
+isFinalfalse"
+inner classfalse"
+
+isAbstractfalse"g
+declarationStringR<mark class="modifier">public </mark><mark class="modifier">interface </mark>Stack"
+accesspublic*Stack2Ö
+com.dsa.stack.Stack.push(int)DECLARATIONW
+MC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\stack\Stack.java	 (2Å
+com.dsa.stack.Stack.pop()DECLARATIONW
+MC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\stack\Stack.java (2Ç
+com.dsa.stack.Stack.peek()DECLARATIONW
+MC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\stack\Stack.java (2Ñ
+com.dsa.stack.Stack.isFull()DECLARATIONW
+MC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\stack\Stack.java (2Ö
+com.dsa.stack.Stack.isEmpty()DECLARATIONW
+MC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\stack\Stack.java (ã
+com.dsa.stack.Stack.push(int)METHODW
+MC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\stack\Stack.java	 ("
+isFinalfalse"£
+declarationStringç<mark class="modifier"> </mark><mark class="modifier">void</mark> <mark class="method">push</mark>(<mark class="modifier">int</mark> element)"
+isStaticfalse"
+accesspackage_private"
+
+isAbstractfalse"
+typevoid*push2ã
+%com.dsa.stack.Stack.push(int)!element	PARAMETERW
+MC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\stack\Stack.java (2l
+voidRETURN_TYPEW
+MC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\stack\Stack.java (Ÿ
+%com.dsa.stack.Stack.push(int)!element	PARAMETERW
+MC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\stack\Stack.java ("
+typeint"
+isFinalfalse">
+declarationString)<mark class="modifier">int</mark> element*element2d
+intTYPEW
+MC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\stack\Stack.java (…
+com.dsa.stack.Stack.pop()METHODW
+MC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\stack\Stack.java ("
+isFinalfalse"w
+declarationStringb<mark class="modifier"> </mark><mark class="modifier">int</mark> <mark class="method">pop</mark>()"
+isStaticfalse"
+accesspackage_private"
+
+isAbstractfalse"
+typeint*pop2k
+intRETURN_TYPEW
+MC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\stack\Stack.java (Ã
+com.dsa.stack.Stack.peek()METHODW
+MC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\stack\Stack.java ("
+isFinalfalse"x
+declarationStringc<mark class="modifier"> </mark><mark class="modifier">int</mark> <mark class="method">peek</mark>()"
+isStaticfalse"
+accesspackage_private"
+
+isAbstractfalse"
+typeint*peek2k
+intRETURN_TYPEW
+MC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\stack\Stack.java (ﬁ
+com.dsa.stack.Stack.isFull()METHODW
+MC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\stack\Stack.java ("
+isFinalfalse"~
+declarationStringi<mark class="modifier"> </mark><mark class="modifier">boolean</mark> <mark class="method">isFull</mark>()"
+isStaticfalse"
+accesspackage_private"
+
+isAbstractfalse"
+typeboolean*isFull2o
+booleanRETURN_TYPEW
+MC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\stack\Stack.java (·
+com.dsa.stack.Stack.isEmpty()METHODW
+MC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\stack\Stack.java ("
+isFinalfalse"
+declarationStringj<mark class="modifier"> </mark><mark class="modifier">boolean</mark> <mark class="method">isEmpty</mark>()"
+isStaticfalse"
+accesspackage_private"
+
+isAbstractfalse"
+typeboolean*isEmpty2o
+booleanRETURN_TYPEW
+MC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\stack\Stack.java (

@@ -1,0 +1,405 @@
+
+LC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\queue\Menu.java¨
+com.dsa.queue.MenuCLASSV
+LC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\queue\Menu.java ("
+packagecom.dsa.queue"
+isFinalfalse"
+inner classfalse"
+
+isAbstractfalse"b
+declarationStringM<mark class="modifier">public </mark><mark class="modifier">class </mark>Menu"
+accesspublic*Menu2Ñ
+com.dsa.queue.Menu.showMenu()DECLARATIONV
+LC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\queue\Menu.java (2ô
+2com.dsa.queue.Menu.chooseOption(java.util.Scanner)DECLARATIONV
+LC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\queue\Menu.java (#2ö
+3com.dsa.queue.Menu.queueCreation(java.util.Scanner)DECLARATIONV
+LC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\queue\Menu.java3" 3(/2¨
+Ecom.dsa.queue.Menu.checkIfQueueIsEmpty(com.dsa.queue.FixedSizedQueue)DECLARATIONV
+LC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\queue\Menu.java7 7(-2´
+Dcom.dsa.queue.Menu.checkIfQueueIsFull(com.dsa.queue.FixedSizedQueue)DECLARATIONV
+LC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\queue\Menu.java: :(,2∂
+Ocom.dsa.queue.Menu.addToQueue(com.dsa.queue.FixedSizedQueue, java.util.Scanner)DECLARATIONV
+LC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\queue\Menu.java= =(#2®
+Acom.dsa.queue.Menu.removeFromQueue(com.dsa.queue.FixedSizedQueue)DECLARATIONV
+LC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\queue\Menu.javaC C(%2¶
+?com.dsa.queue.Menu.peekFromQueue(com.dsa.queue.FixedSizedQueue)DECLARATIONV
+LC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\queue\Menu.javaF F(#2≠
+Fcom.dsa.queue.Menu.printElementsInQueue(com.dsa.queue.FixedSizedQueue)DECLARATIONV
+LC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\queue\Menu.javaI I(+2â
+"com.dsa.queue.Menu?queue@5.34:5.39DECLARATIONV
+LC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\queue\Menu.java" ('˚
+com.dsa.queue.Menu.showMenu()METHODV
+LC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\queue\Menu.java ("
+isFinalfalse"©
+declarationStringì<mark class="modifier">public </mark><mark class="modifier">static </mark><mark class="modifier">void</mark> <mark class="method">showMenu</mark>()"
+isStatictrue"
+accesspublic"
+
+isAbstractfalse"
+typevoid*showMenu2ç
+-java.io.PrintStream.println(java.lang.String)CALLV
+LC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\queue\Menu.java (2ç
+-java.io.PrintStream.println(java.lang.String)CALLV
+LC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\queue\Menu.java (2ç
+-java.io.PrintStream.println(java.lang.String)CALLV
+LC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\queue\Menu.java	 	(2ç
+-java.io.PrintStream.println(java.lang.String)CALLV
+LC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\queue\Menu.java
+ 
+(2ç
+-java.io.PrintStream.println(java.lang.String)CALLV
+LC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\queue\Menu.java (2ç
+-java.io.PrintStream.println(java.lang.String)CALLV
+LC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\queue\Menu.java (2ç
+-java.io.PrintStream.println(java.lang.String)CALLV
+LC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\queue\Menu.java (2ç
+-java.io.PrintStream.println(java.lang.String)CALLV
+LC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\queue\Menu.java (2k
+voidRETURN_TYPEV
+LC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\queue\Menu.java (ä$
+2com.dsa.queue.Menu.chooseOption(java.util.Scanner)METHODV
+LC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\queue\Menu.java (#"
+isFinalfalse"î
+declarationString˛<mark class="modifier">public </mark><mark class="modifier">static </mark><mark class="modifier">void</mark> <mark class="method">chooseOption</mark>(Scanner sc)<mark class="modifier"> <mark class="modifier">throws</mark> </mark>IndexOutOfBoundsException"
+isStatictrue"
+accesspublic"
+
+isAbstractfalse"
+typevoid*chooseOption2ç
+-java.io.PrintStream.println(java.lang.String)CALLV
+LC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\queue\Menu.java (2{
+java.util.Scanner.nextInt()CALLV
+LC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\queue\Menu.java (2ì
+3com.dsa.queue.Menu.queueCreation(java.util.Scanner)CALLV
+LC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\queue\Menu.java (%2ç
+-java.io.PrintStream.println(java.lang.String)CALLV
+LC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\queue\Menu.java ("2•
+Ecom.dsa.queue.Menu.checkIfQueueIsEmpty(com.dsa.queue.FixedSizedQueue)CALLV
+LC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\queue\Menu.java: (M2ç
+-java.io.PrintStream.println(java.lang.String)CALLV
+LC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\queue\Menu.java ("2§
+Dcom.dsa.queue.Menu.checkIfQueueIsFull(com.dsa.queue.FixedSizedQueue)CALLV
+LC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\queue\Menu.java9 (K2ç
+-java.io.PrintStream.println(java.lang.String)CALLV
+LC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\queue\Menu.java   ("2Ø
+Ocom.dsa.queue.Menu.addToQueue(com.dsa.queue.FixedSizedQueue, java.util.Scanner)CALLV
+LC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\queue\Menu.java 1  (;2ç
+-java.io.PrintStream.println(java.lang.String)CALLV
+LC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\queue\Menu.java$ $("2°
+Acom.dsa.queue.Menu.removeFromQueue(com.dsa.queue.FixedSizedQueue)CALLV
+LC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\queue\Menu.java$: $(I2ç
+-java.io.PrintStream.println(java.lang.String)CALLV
+LC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\queue\Menu.java( (("2ü
+?com.dsa.queue.Menu.peekFromQueue(com.dsa.queue.FixedSizedQueue)CALLV
+LC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\queue\Menu.java(8 ((E2ç
+-java.io.PrintStream.println(java.lang.String)CALLV
+LC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\queue\Menu.java, ,("2¶
+Fcom.dsa.queue.Menu.printElementsInQueue(com.dsa.queue.FixedSizedQueue)CALLV
+LC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\queue\Menu.java- -($2ç
+-java.io.PrintStream.println(java.lang.String)CALLV
+LC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\queue\Menu.java. .("2ï
+5com.dsa.queue.Menu.chooseOption(java.util.Scanner)!scCALLV
+LC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\queue\Menu.java (2Ç
+"com.dsa.queue.Menu?queue@5.34:5.39CALLV
+LC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\queue\Menu.java (2ï
+5com.dsa.queue.Menu.chooseOption(java.util.Scanner)!scCALLV
+LC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\queue\Menu.java& ((2Ç
+"com.dsa.queue.Menu?queue@5.34:5.39CALLV
+LC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\queue\Menu.javaN (S2Ç
+"com.dsa.queue.Menu?queue@5.34:5.39CALLV
+LC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\queue\Menu.javaL (Q2Ç
+"com.dsa.queue.Menu?queue@5.34:5.39CALLV
+LC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\queue\Menu.java <  (A2ï
+5com.dsa.queue.Menu.chooseOption(java.util.Scanner)!scCALLV
+LC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\queue\Menu.java B  (D2Ç
+"com.dsa.queue.Menu?queue@5.34:5.39CALLV
+LC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\queue\Menu.java$J $(O2Ç
+"com.dsa.queue.Menu?queue@5.34:5.39CALLV
+LC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\queue\Menu.java(F ((K2Ç
+"com.dsa.queue.Menu?queue@5.34:5.39CALLV
+LC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\queue\Menu.java-% -(*2ö
+5com.dsa.queue.Menu.chooseOption(java.util.Scanner)!sc	PARAMETERV
+LC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\queue\Menu.java, (.2k
+voidRETURN_TYPEV
+LC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\queue\Menu.java (’
+5com.dsa.queue.Menu.chooseOption(java.util.Scanner)!sc	PARAMETERV
+LC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\queue\Menu.java, (."
+typeScanner"
+isFinalfalse"
+declarationString
+Scanner sc*sc2q
+java.util.ScannerTYPEV
+LC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\queue\Menu.java$ (+ê
+
+3com.dsa.queue.Menu.queueCreation(java.util.Scanner)METHODV
+LC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\queue\Menu.java3" 3(/"
+isFinalfalse"•
+declarationStringè<mark class="modifier">public </mark><mark class="modifier">static </mark>FixedSizedQueue <mark class="method">queueCreation</mark>(Scanner sc)"
+isStatictrue"
+accesspublic"
+
+isAbstractfalse"
+typeFixedSizedQueue*queueCreation2ç
+-java.io.PrintStream.println(java.lang.String)CALLV
+LC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\queue\Menu.java4 4(2{
+java.util.Scanner.nextInt()CALLV
+LC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\queue\Menu.java5& 5(-2í
+2com.dsa.queue.FixedSizedQueue.FixedSizedQueue(int)CALLV
+LC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\queue\Menu.java5 5("2ñ
+6com.dsa.queue.Menu.queueCreation(java.util.Scanner)!scCALLV
+LC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\queue\Menu.java5# 5(%2õ
+6com.dsa.queue.Menu.queueCreation(java.util.Scanner)!sc	PARAMETERV
+LC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\queue\Menu.java38 3(:2Ñ
+com.dsa.queue.FixedSizedQueueRETURN_TYPEV
+LC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\queue\Menu.java3 3(!÷
+6com.dsa.queue.Menu.queueCreation(java.util.Scanner)!sc	PARAMETERV
+LC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\queue\Menu.java38 3(:"
+typeScanner"
+isFinalfalse"
+declarationString
+Scanner sc*sc2q
+java.util.ScannerTYPEV
+LC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\queue\Menu.java30 3(7¬
+Ecom.dsa.queue.Menu.checkIfQueueIsEmpty(com.dsa.queue.FixedSizedQueue)METHODV
+LC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\queue\Menu.java7 7(-"
+isFinalfalse"Ã
+declarationString∂<mark class="modifier">public </mark><mark class="modifier">static </mark><mark class="modifier">boolean</mark> <mark class="method">checkIfQueueIsEmpty</mark>(FixedSizedQueue queue)"
+isStatictrue"
+accesspublic"
+
+isAbstractfalse"
+typeboolean*checkIfQueueIsEmpty2á
+'com.dsa.queue.FixedSizedQueue.isEmpty()CALLV
+LC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\queue\Menu.java8 8(2´
+Kcom.dsa.queue.Menu.checkIfQueueIsEmpty(com.dsa.queue.FixedSizedQueue)!queueCALLV
+LC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\queue\Menu.java8 8(2∞
+Kcom.dsa.queue.Menu.checkIfQueueIsEmpty(com.dsa.queue.FixedSizedQueue)!queue	PARAMETERV
+LC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\queue\Menu.java7> 7(C2n
+booleanRETURN_TYPEV
+LC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\queue\Menu.java7 7(ç
+Kcom.dsa.queue.Menu.checkIfQueueIsEmpty(com.dsa.queue.FixedSizedQueue)!queue	PARAMETERV
+LC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\queue\Menu.java7> 7(C"
+typeFixedSizedQueue"
+isFinalfalse"*
+declarationStringFixedSizedQueue queue*queue2}
+com.dsa.queue.FixedSizedQueueTYPEV
+LC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\queue\Menu.java7. 7(=º
+Dcom.dsa.queue.Menu.checkIfQueueIsFull(com.dsa.queue.FixedSizedQueue)METHODV
+LC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\queue\Menu.java: :(,"
+isFinalfalse"À
+declarationStringµ<mark class="modifier">public </mark><mark class="modifier">static </mark><mark class="modifier">boolean</mark> <mark class="method">checkIfQueueIsFull</mark>(FixedSizedQueue queue)"
+isStatictrue"
+accesspublic"
+
+isAbstractfalse"
+typeboolean*checkIfQueueIsFull2Ü
+&com.dsa.queue.FixedSizedQueue.isFull()CALLV
+LC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\queue\Menu.java; ;(2™
+Jcom.dsa.queue.Menu.checkIfQueueIsFull(com.dsa.queue.FixedSizedQueue)!queueCALLV
+LC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\queue\Menu.java; ;(2Ø
+Jcom.dsa.queue.Menu.checkIfQueueIsFull(com.dsa.queue.FixedSizedQueue)!queue	PARAMETERV
+LC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\queue\Menu.java:= :(B2n
+booleanRETURN_TYPEV
+LC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\queue\Menu.java: :(å
+Jcom.dsa.queue.Menu.checkIfQueueIsFull(com.dsa.queue.FixedSizedQueue)!queue	PARAMETERV
+LC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\queue\Menu.java:= :(B"
+typeFixedSizedQueue"
+isFinalfalse"*
+declarationStringFixedSizedQueue queue*queue2}
+com.dsa.queue.FixedSizedQueueTYPEV
+LC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\queue\Menu.java:- :(<±
+Ocom.dsa.queue.Menu.addToQueue(com.dsa.queue.FixedSizedQueue, java.util.Scanner)METHODV
+LC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\queue\Menu.java= =(#"
+isFinalfalse"…
+declarationString≥<mark class="modifier">public </mark><mark class="modifier">static </mark>String <mark class="method">addToQueue</mark>(FixedSizedQueue queue<mark class="modifier"><mark class="modifier">,</mark></mark> Scanner sc)<mark class="modifier"> <mark class="modifier">throws</mark> </mark>IndexOutOfBoundsException"
+isStatictrue"
+accesspublic"
+
+isAbstractfalse"
+typeString*
+addToQueue2ç
+-java.io.PrintStream.println(java.lang.String)CALLV
+LC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\queue\Menu.java> >(2ä
+*com.dsa.queue.FixedSizedQueue.enqueue(int)CALLV
+LC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\queue\Menu.java@ @(2{
+java.util.Scanner.nextInt()CALLV
+LC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\queue\Menu.java@  @('2µ
+Ucom.dsa.queue.Menu.addToQueue(com.dsa.queue.FixedSizedQueue, java.util.Scanner)!queueCALLV
+LC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\queue\Menu.java@ @(2¬
+bcom.dsa.queue.Menu.addToQueue(com.dsa.queue.FixedSizedQueue, java.util.Scanner)?number@63.12:63.18CALLV
+LC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\queue\Menu.java@ @(2≤
+Rcom.dsa.queue.Menu.addToQueue(com.dsa.queue.FixedSizedQueue, java.util.Scanner)!scCALLV
+LC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\queue\Menu.java@ @(2¬
+bcom.dsa.queue.Menu.addToQueue(com.dsa.queue.FixedSizedQueue, java.util.Scanner)?number@63.12:63.18CALLV
+LC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\queue\Menu.javaA A(2∫
+Ucom.dsa.queue.Menu.addToQueue(com.dsa.queue.FixedSizedQueue, java.util.Scanner)!queue	PARAMETERV
+LC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\queue\Menu.java=4 =(92∑
+Rcom.dsa.queue.Menu.addToQueue(com.dsa.queue.FixedSizedQueue, java.util.Scanner)!sc	PARAMETERV
+LC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\queue\Menu.java=B =(D2…
+bcom.dsa.queue.Menu.addToQueue(com.dsa.queue.FixedSizedQueue, java.util.Scanner)?number@63.12:63.18DECLARATIONV
+LC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\queue\Menu.java? ?(2w
+java.lang.StringRETURN_TYPEV
+LC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\queue\Menu.java= =(—
+bcom.dsa.queue.Menu.addToQueue(com.dsa.queue.FixedSizedQueue, java.util.Scanner)?number@63.12:63.18VARIABLEV
+LC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\queue\Menu.java? ?("
+typeint"
+isFinalfalse"}
+declarationStringh<mark class="modifier"> </mark><mark class="modifier">int</mark> <mark class="class-field">number</mark>*number2c
+intTYPEV
+LC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\queue\Menu.java? ?(ó
+Ucom.dsa.queue.Menu.addToQueue(com.dsa.queue.FixedSizedQueue, java.util.Scanner)!queue	PARAMETERV
+LC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\queue\Menu.java=4 =(9"
+typeFixedSizedQueue"
+isFinalfalse"*
+declarationStringFixedSizedQueue queue*queue2}
+com.dsa.queue.FixedSizedQueueTYPEV
+LC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\queue\Menu.java=$ =(3Ú
+Rcom.dsa.queue.Menu.addToQueue(com.dsa.queue.FixedSizedQueue, java.util.Scanner)!sc	PARAMETERV
+LC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\queue\Menu.java=B =(D"
+typeScanner"
+isFinalfalse"
+declarationString
+Scanner sc*sc2q
+java.util.ScannerTYPEV
+LC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\queue\Menu.java=: =(Aˇ
+Acom.dsa.queue.Menu.removeFromQueue(com.dsa.queue.FixedSizedQueue)METHODV
+LC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\queue\Menu.javaC C(%"
+isFinalfalse"°
+declarationStringã<mark class="modifier">public </mark><mark class="modifier">static </mark><mark class="modifier">int</mark> <mark class="method">removeFromQueue</mark>(FixedSizedQueue queue)<mark class="modifier"> <mark class="modifier">throws</mark> </mark>IndexOutOfBoundsException"
+isStatictrue"
+accesspublic"
+
+isAbstractfalse"
+typeint*removeFromQueue2á
+'com.dsa.queue.FixedSizedQueue.dequeue()CALLV
+LC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\queue\Menu.javaD D(2ß
+Gcom.dsa.queue.Menu.removeFromQueue(com.dsa.queue.FixedSizedQueue)!queueCALLV
+LC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\queue\Menu.javaD D(2¨
+Gcom.dsa.queue.Menu.removeFromQueue(com.dsa.queue.FixedSizedQueue)!queue	PARAMETERV
+LC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\queue\Menu.javaC6 C(;2j
+intRETURN_TYPEV
+LC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\queue\Menu.javaC C(â
+Gcom.dsa.queue.Menu.removeFromQueue(com.dsa.queue.FixedSizedQueue)!queue	PARAMETERV
+LC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\queue\Menu.javaC6 C(;"
+typeFixedSizedQueue"
+isFinalfalse"*
+declarationStringFixedSizedQueue queue*queue2}
+com.dsa.queue.FixedSizedQueueTYPEV
+LC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\queue\Menu.javaC& C(5Ú
+?com.dsa.queue.Menu.peekFromQueue(com.dsa.queue.FixedSizedQueue)METHODV
+LC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\queue\Menu.javaF F(#"
+isFinalfalse"ü
+declarationStringâ<mark class="modifier">public </mark><mark class="modifier">static </mark><mark class="modifier">int</mark> <mark class="method">peekFromQueue</mark>(FixedSizedQueue queue)<mark class="modifier"> <mark class="modifier">throws</mark> </mark>IndexOutOfBoundsException"
+isStatictrue"
+accesspublic"
+
+isAbstractfalse"
+typeint*peekFromQueue2Ñ
+$com.dsa.queue.FixedSizedQueue.peek()CALLV
+LC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\queue\Menu.javaG G(2•
+Ecom.dsa.queue.Menu.peekFromQueue(com.dsa.queue.FixedSizedQueue)!queueCALLV
+LC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\queue\Menu.javaG G(2™
+Ecom.dsa.queue.Menu.peekFromQueue(com.dsa.queue.FixedSizedQueue)!queue	PARAMETERV
+LC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\queue\Menu.javaF4 F(92j
+intRETURN_TYPEV
+LC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\queue\Menu.javaF F(á
+Ecom.dsa.queue.Menu.peekFromQueue(com.dsa.queue.FixedSizedQueue)!queue	PARAMETERV
+LC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\queue\Menu.javaF4 F(9"
+typeFixedSizedQueue"
+isFinalfalse"*
+declarationStringFixedSizedQueue queue*queue2}
+com.dsa.queue.FixedSizedQueueTYPEV
+LC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\queue\Menu.javaF$ F(3ì
+Fcom.dsa.queue.Menu.printElementsInQueue(com.dsa.queue.FixedSizedQueue)METHODV
+LC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\queue\Menu.javaI I(+"
+isFinalfalse" 
+declarationString¥<mark class="modifier">public </mark><mark class="modifier">static </mark><mark class="modifier">void</mark> <mark class="method">printElementsInQueue</mark>(FixedSizedQueue queue)"
+isStatictrue"
+accesspublic"
+
+isAbstractfalse"
+typevoid*printElementsInQueue2ã
++java.io.PrintStream.print(java.lang.String)CALLV
+LC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\queue\Menu.javaN N(2}
+java.io.PrintStream.println()CALLV
+LC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\queue\Menu.javaP P(2¨
+Lcom.dsa.queue.Menu.printElementsInQueue(com.dsa.queue.FixedSizedQueue)!queueCALLV
+LC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\queue\Menu.javaJ J(2¨
+Lcom.dsa.queue.Menu.printElementsInQueue(com.dsa.queue.FixedSizedQueue)!queueCALLV
+LC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\queue\Menu.javaJ) J(.2∏
+Xcom.dsa.queue.Menu.printElementsInQueue(com.dsa.queue.FixedSizedQueue)?front@74.12:74.17CALLV
+LC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\queue\Menu.javaK K(2∏
+Xcom.dsa.queue.Menu.printElementsInQueue(com.dsa.queue.FixedSizedQueue)?front@74.12:74.17CALLV
+LC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\queue\Menu.javaK K(2∑
+Wcom.dsa.queue.Menu.printElementsInQueue(com.dsa.queue.FixedSizedQueue)?back@74.34:74.38CALLV
+LC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\queue\Menu.javaL L(2¨
+Lcom.dsa.queue.Menu.printElementsInQueue(com.dsa.queue.FixedSizedQueue)!queueCALLV
+LC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\queue\Menu.javaL L(2∑
+Wcom.dsa.queue.Menu.printElementsInQueue(com.dsa.queue.FixedSizedQueue)?back@74.34:74.38CALLV
+LC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\queue\Menu.javaL% L()2∏
+Xcom.dsa.queue.Menu.printElementsInQueue(com.dsa.queue.FixedSizedQueue)?front@74.12:74.17CALLV
+LC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\queue\Menu.javaM M(2¥
+Tcom.dsa.queue.Menu.printElementsInQueue(com.dsa.queue.FixedSizedQueue)?i@77.16:77.17CALLV
+LC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\queue\Menu.javaM M(2∑
+Wcom.dsa.queue.Menu.printElementsInQueue(com.dsa.queue.FixedSizedQueue)?back@74.34:74.38CALLV
+LC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\queue\Menu.javaM M(#2¥
+Tcom.dsa.queue.Menu.printElementsInQueue(com.dsa.queue.FixedSizedQueue)?i@77.16:77.17CALLV
+LC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\queue\Menu.javaM( M()2¨
+Lcom.dsa.queue.Menu.printElementsInQueue(com.dsa.queue.FixedSizedQueue)!queueCALLV
+LC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\queue\Menu.javaN N("2¥
+Tcom.dsa.queue.Menu.printElementsInQueue(com.dsa.queue.FixedSizedQueue)?i@77.16:77.17CALLV
+LC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\queue\Menu.javaN) N(*2±
+Lcom.dsa.queue.Menu.printElementsInQueue(com.dsa.queue.FixedSizedQueue)!queue	PARAMETERV
+LC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\queue\Menu.javaI< I(A2ø
+Xcom.dsa.queue.Menu.printElementsInQueue(com.dsa.queue.FixedSizedQueue)?front@74.12:74.17DECLARATIONV
+LC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\queue\Menu.javaJ J(2æ
+Wcom.dsa.queue.Menu.printElementsInQueue(com.dsa.queue.FixedSizedQueue)?back@74.34:74.38DECLARATIONV
+LC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\queue\Menu.javaJ" J(&2ª
+Tcom.dsa.queue.Menu.printElementsInQueue(com.dsa.queue.FixedSizedQueue)?i@77.16:77.17DECLARATIONV
+LC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\queue\Menu.javaM M(2k
+voidRETURN_TYPEV
+LC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\queue\Menu.javaI I(ó
+Xcom.dsa.queue.Menu.printElementsInQueue(com.dsa.queue.FixedSizedQueue)?front@74.12:74.17VARIABLEV
+LC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\queue\Menu.javaJ J("
+typeint"
+isFinalfalse"û
+declarationStringà<mark class="modifier"> </mark><mark class="modifier">int</mark> <mark class="class-field">front</mark> = queue.front, back = queue.back*front2c
+intTYPEV
+LC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\queue\Menu.javaJ J(2¨
+Lcom.dsa.queue.Menu.printElementsInQueue(com.dsa.queue.FixedSizedQueue)!queueCALLV
+LC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\queue\Menu.javaJ J(î
+Wcom.dsa.queue.Menu.printElementsInQueue(com.dsa.queue.FixedSizedQueue)?back@74.34:74.38VARIABLEV
+LC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\queue\Menu.javaJ" J(&"
+typeint"
+isFinalfalse"ù
+declarationStringá<mark class="modifier"> </mark><mark class="modifier">int</mark> <mark class="class-field">back</mark> = queue.front, back = queue.back*back2c
+intTYPEV
+LC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\queue\Menu.javaJ J(2¨
+Lcom.dsa.queue.Menu.printElementsInQueue(com.dsa.queue.FixedSizedQueue)!queueCALLV
+LC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\queue\Menu.javaJ) J(.˝
+Tcom.dsa.queue.Menu.printElementsInQueue(com.dsa.queue.FixedSizedQueue)?i@77.16:77.17VARIABLEV
+LC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\queue\Menu.javaM M("
+typeint"
+isFinalfalse"Ä
+declarationStringk<mark class="modifier"> </mark><mark class="modifier">int</mark> <mark class="class-field">i</mark> = front*i2c
+intTYPEV
+LC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\queue\Menu.javaM M(2∏
+Xcom.dsa.queue.Menu.printElementsInQueue(com.dsa.queue.FixedSizedQueue)?front@74.12:74.17CALLV
+LC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\queue\Menu.javaM M(é
+Lcom.dsa.queue.Menu.printElementsInQueue(com.dsa.queue.FixedSizedQueue)!queue	PARAMETERV
+LC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\queue\Menu.javaI< I(A"
+typeFixedSizedQueue"
+isFinalfalse"*
+declarationStringFixedSizedQueue queue*queue2}
+com.dsa.queue.FixedSizedQueueTYPEV
+LC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\queue\Menu.javaI, I(;ö
+"com.dsa.queue.Menu?queue@5.34:5.39VARIABLEV
+LC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\queue\Menu.java" ('"
+isFinalfalse"
+typeFixedSizedQueue"º
+declarationString¶<mark class="modifier">public </mark><mark class="modifier">static </mark>FixedSizedQueue <mark class="class-field">queue</mark> = <mark class="modifier">null</mark>;"
+isStatictrue"
+accesspublic*queue2}
+com.dsa.queue.FixedSizedQueueTYPEV
+LC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\queue\Menu.java (!

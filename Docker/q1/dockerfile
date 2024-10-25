@@ -1,0 +1,5 @@
+FROM openjdk
+WORKDIR /com/acts/docker
+COPY . /com/acts/docker
+RUN javac HelloWorld.java
+CMD java HelloWorld

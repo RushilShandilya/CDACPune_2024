@@ -1,0 +1,85 @@
+
+MC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\queue\Queue.javaı
+com.dsa.queue.QueueTRAITW
+MC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\queue\Queue.java ("
+packagecom.dsa.queue"
+isFinalfalse"
+inner classfalse"
+
+isAbstractfalse"g
+declarationStringR<mark class="modifier">public </mark><mark class="modifier">interface </mark>Queue"
+accesspublic*Queue2à
+ com.dsa.queue.Queue.enqueue(int)DECLARATIONW
+MC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\queue\Queue.java	 (2Ö
+com.dsa.queue.Queue.dequeue()DECLARATIONW
+MC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\queue\Queue.java (2Ç
+com.dsa.queue.Queue.peek()DECLARATIONW
+MC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\queue\Queue.java (2Ñ
+com.dsa.queue.Queue.isFull()DECLARATIONW
+MC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\queue\Queue.java (2Ö
+com.dsa.queue.Queue.isEmpty()DECLARATIONW
+MC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\queue\Queue.java (ó
+ com.dsa.queue.Queue.enqueue(int)METHODW
+MC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\queue\Queue.java	 ("
+isFinalfalse"¶
+declarationStringê<mark class="modifier"> </mark><mark class="modifier">void</mark> <mark class="method">enqueue</mark>(<mark class="modifier">int</mark> element)"
+isStaticfalse"
+accesspackage_private"
+
+isAbstractfalse"
+typevoid*enqueue2é
+(com.dsa.queue.Queue.enqueue(int)!element	PARAMETERW
+MC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\queue\Queue.java (2l
+voidRETURN_TYPEW
+MC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\queue\Queue.java (‹
+(com.dsa.queue.Queue.enqueue(int)!element	PARAMETERW
+MC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\queue\Queue.java ("
+typeint"
+isFinalfalse">
+declarationString)<mark class="modifier">int</mark> element*element2d
+intTYPEW
+MC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\queue\Queue.java (’
+com.dsa.queue.Queue.dequeue()METHODW
+MC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\queue\Queue.java ("
+isFinalfalse"{
+declarationStringf<mark class="modifier"> </mark><mark class="modifier">int</mark> <mark class="method">dequeue</mark>()"
+isStaticfalse"
+accesspackage_private"
+
+isAbstractfalse"
+typeint*dequeue2k
+intRETURN_TYPEW
+MC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\queue\Queue.java (Ã
+com.dsa.queue.Queue.peek()METHODW
+MC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\queue\Queue.java ("
+isFinalfalse"x
+declarationStringc<mark class="modifier"> </mark><mark class="modifier">int</mark> <mark class="method">peek</mark>()"
+isStaticfalse"
+accesspackage_private"
+
+isAbstractfalse"
+typeint*peek2k
+intRETURN_TYPEW
+MC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\queue\Queue.java (ﬁ
+com.dsa.queue.Queue.isFull()METHODW
+MC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\queue\Queue.java ("
+isFinalfalse"~
+declarationStringi<mark class="modifier"> </mark><mark class="modifier">boolean</mark> <mark class="method">isFull</mark>()"
+isStaticfalse"
+accesspackage_private"
+
+isAbstractfalse"
+typeboolean*isFull2o
+booleanRETURN_TYPEW
+MC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\queue\Queue.java (·
+com.dsa.queue.Queue.isEmpty()METHODW
+MC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\queue\Queue.java ("
+isFinalfalse"
+declarationStringj<mark class="modifier"> </mark><mark class="modifier">boolean</mark> <mark class="method">isEmpty</mark>()"
+isStaticfalse"
+accesspackage_private"
+
+isAbstractfalse"
+typeboolean*isEmpty2o
+booleanRETURN_TYPEW
+MC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\queue\Queue.java (

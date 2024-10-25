@@ -1,0 +1,217 @@
+
+WC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\stack\FixedSizedStack.javaæ
+com.dsa.stack.FixedSizedStackCLASSa
+WC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\stack\FixedSizedStack.java ("
+packagecom.dsa.stack"
+isFinalfalse"
+inner classfalse"
+
+isAbstractfalse"†
+declarationStringä<mark class="modifier">public </mark><mark class="modifier">class </mark>FixedSizedStack<mark class="modifier"><br>implements </mark>Stack"
+accesspublic*FixedSizedStack2°
+/com.dsa.stack.FixedSizedStack.FixedSizedStack()DECLARATIONa
+WC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\stack\FixedSizedStack.java (2§
+2com.dsa.stack.FixedSizedStack.FixedSizedStack(int)DECLARATIONa
+WC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\stack\FixedSizedStack.java
+ 
+(2ô
+'com.dsa.stack.FixedSizedStack.push(int)DECLARATIONa
+WC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\stack\FixedSizedStack.java (2ï
+#com.dsa.stack.FixedSizedStack.pop()DECLARATIONa
+WC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\stack\FixedSizedStack.java (2ñ
+$com.dsa.stack.FixedSizedStack.peek()DECLARATIONa
+WC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\stack\FixedSizedStack.java" "(2ò
+&com.dsa.stack.FixedSizedStack.isFull()DECLARATIONa
+WC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\stack\FixedSizedStack.java* *(2ô
+'com.dsa.stack.FixedSizedStack.isEmpty()DECLARATIONa
+WC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\stack\FixedSizedStack.java/ /(2§
+2com.dsa.stack.FixedSizedStack?stackArray@3.10:3.20DECLARATIONa
+WC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\stack\FixedSizedStack.java
+ (2ú
+*com.dsa.stack.FixedSizedStack?top@4.8:4.11DECLARATIONa
+WC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\stack\FixedSizedStack.java (2Ä
+com.dsa.stack.StackEXTENDa
+WC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\stack\FixedSizedStack.java( (-≠
+/com.dsa.stack.FixedSizedStack.FixedSizedStack()CONSTRUCTORa
+WC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\stack\FixedSizedStack.java ("g
+declarationStringR<mark class="modifier">public </mark><mark class="method">FixedSizedStack</mark>()*FixedSizedStack2è
+com.dsa.stack.FixedSizedStackRETURN_TYPEa
+WC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\stack\FixedSizedStack.java (’
+2com.dsa.stack.FixedSizedStack.FixedSizedStack(int)CONSTRUCTORa
+WC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\stack\FixedSizedStack.java
+ 
+("ä
+declarationStringu<mark class="modifier">public </mark><mark class="method">FixedSizedStack</mark>(<mark class="modifier">int</mark> n)*FixedSizedStack2ù
+2com.dsa.stack.FixedSizedStack?stackArray@3.10:3.20CALLa
+WC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\stack\FixedSizedStack.java (2ü
+4com.dsa.stack.FixedSizedStack.FixedSizedStack(int)!nCALLa
+WC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\stack\FixedSizedStack.java (2ï
+*com.dsa.stack.FixedSizedStack?top@4.8:4.11CALLa
+WC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\stack\FixedSizedStack.java (2§
+4com.dsa.stack.FixedSizedStack.FixedSizedStack(int)!n	PARAMETERa
+WC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\stack\FixedSizedStack.java
+ 
+( 2è
+com.dsa.stack.FixedSizedStackRETURN_TYPEa
+WC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\stack\FixedSizedStack.java
+ 
+(
+4com.dsa.stack.FixedSizedStack.FixedSizedStack(int)!n	PARAMETERa
+WC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\stack\FixedSizedStack.java
+ 
+( "
+typeint"
+isFinalfalse"8
+declarationString#<mark class="modifier">int</mark> n*n2n
+intTYPEa
+WC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\stack\FixedSizedStack.java
+ 
+(˙
+'com.dsa.stack.FixedSizedStack.push(int)METHODa
+WC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\stack\FixedSizedStack.java ("
+isFinalfalse"¥
+declarationStringû<mark class="annotation">@Override</mark> <br><mark class="modifier">public </mark><mark class="modifier">void</mark> <mark class="method">push</mark>(<mark class="modifier">int</mark> element)<mark class="modifier"> <mark class="modifier">throws</mark> </mark>IndexOutOfBoundsException"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typevoid*push2ë
+&com.dsa.stack.FixedSizedStack.isFull()CALLa
+WC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\stack\FixedSizedStack.java (2∫
+Ojava.lang.IndexOutOfBoundsException.IndexOutOfBoundsException(java.lang.String)CALLa
+WC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\stack\FixedSizedStack.java (02ù
+2com.dsa.stack.FixedSizedStack?stackArray@3.10:3.20CALLa
+WC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\stack\FixedSizedStack.java ( 2ï
+*com.dsa.stack.FixedSizedStack?top@4.8:4.11CALLa
+WC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\stack\FixedSizedStack.java# (&2ö
+/com.dsa.stack.FixedSizedStack.push(int)!elementCALLa
+WC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\stack\FixedSizedStack.java* (12å
+com.dsa.stack.Stack.push(int)OVERRIDEa
+WC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\stack\FixedSizedStack.java (2ü
+/com.dsa.stack.FixedSizedStack.push(int)!element	PARAMETERa
+WC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\stack\FixedSizedStack.java ( 2v
+voidRETURN_TYPEa
+WC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\stack\FixedSizedStack.java (˜
+/com.dsa.stack.FixedSizedStack.push(int)!element	PARAMETERa
+WC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\stack\FixedSizedStack.java ( "
+typeint"
+isFinalfalse">
+declarationString)<mark class="modifier">int</mark> element*element2n
+intTYPEa
+WC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\stack\FixedSizedStack.java (©
+#com.dsa.stack.FixedSizedStack.pop()METHODa
+WC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\stack\FixedSizedStack.java ("
+isFinalfalse"â
+declarationStringÛ<mark class="annotation">@Override</mark> <br><mark class="modifier">public </mark><mark class="modifier">int</mark> <mark class="method">pop</mark>()<mark class="modifier"> <mark class="modifier">throws</mark> </mark>IndexOutOfBoundsException"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typeint*pop2í
+'com.dsa.stack.FixedSizedStack.isEmpty()CALLa
+WC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\stack\FixedSizedStack.java (2∫
+Ojava.lang.IndexOutOfBoundsException.IndexOutOfBoundsException(java.lang.String)CALLa
+WC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\stack\FixedSizedStack.java (+2ù
+2com.dsa.stack.FixedSizedStack?stackArray@3.10:3.20CALLa
+WC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\stack\FixedSizedStack.java (%2ï
+*com.dsa.stack.FixedSizedStack?top@4.8:4.11CALLa
+WC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\stack\FixedSizedStack.java& ()2ù
+2com.dsa.stack.FixedSizedStack?stackArray@3.10:3.20CALLa
+WC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\stack\FixedSizedStack.java (2ï
+*com.dsa.stack.FixedSizedStack?top@4.8:4.11CALLa
+WC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\stack\FixedSizedStack.java (2ï
+*com.dsa.stack.FixedSizedStack?top@4.8:4.11CALLa
+WC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\stack\FixedSizedStack.java (2£
+8com.dsa.stack.FixedSizedStack.pop()?toReturn@24.16:24.24CALLa
+WC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\stack\FixedSizedStack.java (2à
+com.dsa.stack.Stack.pop()OVERRIDEa
+WC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\stack\FixedSizedStack.java (2™
+8com.dsa.stack.FixedSizedStack.pop()?toReturn@24.16:24.24DECLARATIONa
+WC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\stack\FixedSizedStack.java (2u
+intRETURN_TYPEa
+WC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\stack\FixedSizedStack.java (å
+8com.dsa.stack.FixedSizedStack.pop()?toReturn@24.16:24.24VARIABLEa
+WC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\stack\FixedSizedStack.java ("
+typeint"
+isFinalfalse"ë
+declarationString|<mark class="modifier"> </mark><mark class="modifier">int</mark> <mark class="class-field">toReturn</mark> = stackArray[top]*toReturn2n
+intTYPEa
+WC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\stack\FixedSizedStack.java (2ù
+2com.dsa.stack.FixedSizedStack?stackArray@3.10:3.20CALLa
+WC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\stack\FixedSizedStack.java (%2ï
+*com.dsa.stack.FixedSizedStack?top@4.8:4.11CALLa
+WC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\stack\FixedSizedStack.java& ()≠
+
+$com.dsa.stack.FixedSizedStack.peek()METHODa
+WC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\stack\FixedSizedStack.java" "("
+isFinalfalse"≠
+declarationStringó<mark class="annotation">@Override</mark> <br><mark class="modifier">public </mark><mark class="modifier">int</mark> <mark class="method">peek</mark>()"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typeint*peek2í
+'com.dsa.stack.FixedSizedStack.isEmpty()CALLa
+WC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\stack\FixedSizedStack.java# #(2∫
+Ojava.lang.IndexOutOfBoundsException.IndexOutOfBoundsException(java.lang.String)CALLa
+WC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\stack\FixedSizedStack.java& &(+2ù
+2com.dsa.stack.FixedSizedStack?stackArray@3.10:3.20CALLa
+WC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\stack\FixedSizedStack.java$ $(2ï
+*com.dsa.stack.FixedSizedStack?top@4.8:4.11CALLa
+WC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\stack\FixedSizedStack.java$ $(!2â
+com.dsa.stack.Stack.peek()OVERRIDEa
+WC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\stack\FixedSizedStack.java" "(2u
+intRETURN_TYPEa
+WC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\stack\FixedSizedStack.java" "(Ô
+&com.dsa.stack.FixedSizedStack.isFull()METHODa
+WC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\stack\FixedSizedStack.java* *("
+isFinalfalse"≥
+declarationStringù<mark class="annotation">@Override</mark> <br><mark class="modifier">public </mark><mark class="modifier">boolean</mark> <mark class="method">isFull</mark>()"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typeboolean*isFull2ï
+*com.dsa.stack.FixedSizedStack?top@4.8:4.11CALLa
+WC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\stack\FixedSizedStack.java+ +(2ù
+2com.dsa.stack.FixedSizedStack?stackArray@3.10:3.20CALLa
+WC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\stack\FixedSizedStack.java+ +(2ã
+com.dsa.stack.Stack.isFull()OVERRIDEa
+WC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\stack\FixedSizedStack.java* *(2y
+booleanRETURN_TYPEa
+WC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\stack\FixedSizedStack.java* *(”
+'com.dsa.stack.FixedSizedStack.isEmpty()METHODa
+WC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\stack\FixedSizedStack.java/ /("
+isFinalfalse"¥
+declarationStringû<mark class="annotation">@Override</mark> <br><mark class="modifier">public </mark><mark class="modifier">boolean</mark> <mark class="method">isEmpty</mark>()"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typeboolean*isEmpty2ï
+*com.dsa.stack.FixedSizedStack?top@4.8:4.11CALLa
+WC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\stack\FixedSizedStack.java0 0(2å
+com.dsa.stack.Stack.isEmpty()OVERRIDEa
+WC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\stack\FixedSizedStack.java/ /(2y
+booleanRETURN_TYPEa
+WC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\stack\FixedSizedStack.java/ /(Ú
+2com.dsa.stack.FixedSizedStack?stackArray@3.10:3.20VARIABLEa
+WC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\stack\FixedSizedStack.java
+ ("
+isFinalfalse"
+typeint"É
+declarationStringn<mark class="modifier"> </mark><mark class="modifier">int</mark>[] <mark class="class-field">stackArray</mark>"
+isStaticfalse"
+accesspackage_private*
+stackArray2p
+int[]TYPEa
+WC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\stack\FixedSizedStack.java (	◊
+*com.dsa.stack.FixedSizedStack?top@4.8:4.11VARIABLEa
+WC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\stack\FixedSizedStack.java ("
+isFinalfalse"
+typeint"z
+declarationStringe<mark class="modifier"> </mark><mark class="modifier">int</mark> <mark class="class-field">top</mark>"
+isStaticfalse"
+accesspackage_private*top2n
+intTYPEa
+WC:\Users\dac.STUDENTSDC\Desktop\240840120142\DSA\src\com\dsa\stack\FixedSizedStack.java (
