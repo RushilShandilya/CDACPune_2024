@@ -1,0 +1,99 @@
+
+ZD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\fixedstack\StackOperations.java—
+
+"com.dsa.fixedstack.StackOperationsTRAITd
+ZD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\fixedstack\StackOperations.java ( "
+packagecom.dsa.fixedstack"
+isFinalfalse"
+inner classfalse"
+
+isAbstractfalse"q
+declarationString\<mark class="modifier">public </mark><mark class="modifier">interface </mark>StackOperations"
+accesspublic*StackOperations2°
+,com.dsa.fixedstack.StackOperations.push(int)DECLARATIONd
+ZD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\fixedstack\StackOperations.java	 (2ù
+(com.dsa.fixedstack.StackOperations.pop()DECLARATIONd
+ZD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\fixedstack\StackOperations.java (2û
+)com.dsa.fixedstack.StackOperations.peek()DECLARATIONd
+ZD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\fixedstack\StackOperations.java (2°
+,com.dsa.fixedstack.StackOperations.isEmpty()DECLARATIONd
+ZD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\fixedstack\StackOperations.java (2†
++com.dsa.fixedstack.StackOperations.isFull()DECLARATIONd
+ZD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\fixedstack\StackOperations.java (2ü
+*com.dsa.fixedstack.StackOperations.print()DECLARATIONd
+ZD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\fixedstack\StackOperations.java	 (–
+,com.dsa.fixedstack.StackOperations.push(int)METHODd
+ZD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\fixedstack\StackOperations.java	 ("
+isFinalfalse"£
+declarationStringç<mark class="modifier"> </mark><mark class="modifier">void</mark> <mark class="method">push</mark>(<mark class="modifier">int</mark> element)"
+isStaticfalse"
+accesspackage_private"
+
+isAbstractfalse"
+typevoid*push2ß
+4com.dsa.fixedstack.StackOperations.push(int)!element	PARAMETERd
+ZD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\fixedstack\StackOperations.java (2y
+voidRETURN_TYPEd
+ZD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\fixedstack\StackOperations.java (Ç
+4com.dsa.fixedstack.StackOperations.push(int)!element	PARAMETERd
+ZD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\fixedstack\StackOperations.java ("
+typeint"
+isFinalfalse">
+declarationString)<mark class="modifier">int</mark> element*element2q
+intTYPEd
+ZD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\fixedstack\StackOperations.java (Ú
+(com.dsa.fixedstack.StackOperations.pop()METHODd
+ZD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\fixedstack\StackOperations.java ("
+isFinalfalse"w
+declarationStringb<mark class="modifier"> </mark><mark class="modifier">int</mark> <mark class="method">pop</mark>()"
+isStaticfalse"
+accesspackage_private"
+
+isAbstractfalse"
+typeint*pop2x
+intRETURN_TYPEd
+ZD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\fixedstack\StackOperations.java (ı
+)com.dsa.fixedstack.StackOperations.peek()METHODd
+ZD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\fixedstack\StackOperations.java ("
+isFinalfalse"x
+declarationStringc<mark class="modifier"> </mark><mark class="modifier">int</mark> <mark class="method">peek</mark>()"
+isStaticfalse"
+accesspackage_private"
+
+isAbstractfalse"
+typeint*peek2x
+intRETURN_TYPEd
+ZD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\fixedstack\StackOperations.java (ä
+,com.dsa.fixedstack.StackOperations.isEmpty()METHODd
+ZD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\fixedstack\StackOperations.java ("
+isFinalfalse"
+declarationStringj<mark class="modifier"> </mark><mark class="modifier">boolean</mark> <mark class="method">isEmpty</mark>()"
+isStaticfalse"
+accesspackage_private"
+
+isAbstractfalse"
+typeboolean*isEmpty2|
+booleanRETURN_TYPEd
+ZD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\fixedstack\StackOperations.java (á
++com.dsa.fixedstack.StackOperations.isFull()METHODd
+ZD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\fixedstack\StackOperations.java ("
+isFinalfalse"~
+declarationStringi<mark class="modifier"> </mark><mark class="modifier">boolean</mark> <mark class="method">isFull</mark>()"
+isStaticfalse"
+accesspackage_private"
+
+isAbstractfalse"
+typeboolean*isFull2|
+booleanRETURN_TYPEd
+ZD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\fixedstack\StackOperations.java (˚
+*com.dsa.fixedstack.StackOperations.print()METHODd
+ZD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\fixedstack\StackOperations.java	 ("
+isFinalfalse"z
+declarationStringe<mark class="modifier"> </mark><mark class="modifier">void</mark> <mark class="method">print</mark>()"
+isStaticfalse"
+accesspackage_private"
+
+isAbstractfalse"
+typevoid*print2y
+voidRETURN_TYPEd
+ZD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\fixedstack\StackOperations.java (

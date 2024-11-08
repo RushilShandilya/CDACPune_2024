@@ -1,0 +1,59 @@
+
+[D:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\queue\noncircularqueue\List.java„
+#com.dsa.queue.noncircularqueue.ListTRAITe
+[D:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\queue\noncircularqueue\List.java (")
+packagecom.dsa.queue.noncircularqueue"
+isFinalfalse"
+inner classfalse"
+
+isAbstractfalse"f
+declarationStringQ<mark class="modifier">public </mark><mark class="modifier">interface </mark>List"
+accesspublic*List2¨
+2com.dsa.queue.noncircularqueue.List.addToBack(int)DECLARATIONe
+[D:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\queue\noncircularqueue\List.java	 (2«
+5com.dsa.queue.noncircularqueue.List.removeFromFront()DECLARATIONe
+[D:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\queue\noncircularqueue\List.java (2­
+7com.dsa.queue.noncircularqueue.List.getValueAtPointer()DECLARATIONe
+[D:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\queue\noncircularqueue\List.java (é
+2com.dsa.queue.noncircularqueue.List.addToBack(int)METHODe
+[D:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\queue\noncircularqueue\List.java	 ("
+isFinalfalse"¨
+declarationString’<mark class="modifier"> </mark><mark class="modifier">void</mark> <mark class="method">addToBack</mark>(<mark class="modifier">int</mark> element)"
+isStaticfalse"
+accesspackage_private"
+
+isAbstractfalse"
+typevoid*	addToBack2®
+:com.dsa.queue.noncircularqueue.List.addToBack(int)!element	PARAMETERe
+[D:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\queue\noncircularqueue\List.java (2z
+voidRETURN_TYPEe
+[D:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\queue\noncircularqueue\List.java (Š
+:com.dsa.queue.noncircularqueue.List.addToBack(int)!element	PARAMETERe
+[D:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\queue\noncircularqueue\List.java ("
+typeint"
+isFinalfalse">
+declarationString)<mark class="modifier">int</mark> element*element2r
+intTYPEe
+[D:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\queue\noncircularqueue\List.java (š
+5com.dsa.queue.noncircularqueue.List.removeFromFront()METHODe
+[D:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\queue\noncircularqueue\List.java ("
+isFinalfalse"ƒ
+declarationStringn<mark class="modifier"> </mark><mark class="modifier">int</mark> <mark class="method">removeFromFront</mark>()"
+isStaticfalse"
+accesspackage_private"
+
+isAbstractfalse"
+typeint*removeFromFront2y
+intRETURN_TYPEe
+[D:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\queue\noncircularqueue\List.java ( 
+7com.dsa.queue.noncircularqueue.List.getValueAtPointer()METHODe
+[D:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\queue\noncircularqueue\List.java ("
+isFinalfalse"…
+declarationStringp<mark class="modifier"> </mark><mark class="modifier">int</mark> <mark class="method">getValueAtPointer</mark>()"
+isStaticfalse"
+accesspackage_private"
+
+isAbstractfalse"
+typeint*getValueAtPointer2y
+intRETURN_TYPEe
+[D:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\queue\noncircularqueue\List.java (

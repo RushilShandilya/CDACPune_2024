@@ -1,0 +1,200 @@
+
+[D:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\singlylinkedlist\LinkedList.java¸
+#com.dsa.singlylinkedlist.LinkedListTRAITe
+[D:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\singlylinkedlist\LinkedList.java ("#
+packagecom.dsa.singlylinkedlist"
+isFinalfalse"
+inner classfalse"
+
+isAbstractfalse"l
+declarationStringW<mark class="modifier">public </mark><mark class="modifier">interface </mark>LinkedList"
+accesspublic*
+LinkedList2®
+2com.dsa.singlylinkedlist.LinkedList.addToRear(int)DECLARATIONe
+[D:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\singlylinkedlist\LinkedList.java	 (2©
+3com.dsa.singlylinkedlist.LinkedList.addToFront(int)DECLARATIONe
+[D:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\singlylinkedlist\LinkedList.java	 (2ß
+1com.dsa.singlylinkedlist.LinkedList.add(int, int)DECLARATIONe
+[D:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\singlylinkedlist\LinkedList.java	 (2®
+2com.dsa.singlylinkedlist.LinkedList.isPresent(int)DECLARATIONe
+[D:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\singlylinkedlist\LinkedList.java (2©
+3com.dsa.singlylinkedlist.LinkedList.deleteOnce(int)DECLARATIONe
+[D:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\singlylinkedlist\LinkedList.java	 (2®
+2com.dsa.singlylinkedlist.LinkedList.deleteAll(int)DECLARATIONe
+[D:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\singlylinkedlist\LinkedList.java	 (2£
+-com.dsa.singlylinkedlist.LinkedList.isEmpty()DECLARATIONe
+[D:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\singlylinkedlist\LinkedList.java	 	(2´
+5com.dsa.singlylinkedlist.LinkedList.deleteFromFront()DECLARATIONe
+[D:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\singlylinkedlist\LinkedList.java
+ 
+(2°
++com.dsa.singlylinkedlist.LinkedList.print()DECLARATIONe
+[D:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\singlylinkedlist\LinkedList.java	 (È
+2com.dsa.singlylinkedlist.LinkedList.addToRear(int)METHODe
+[D:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\singlylinkedlist\LinkedList.java	 ("
+isFinalfalse"®
+declarationStringí<mark class="modifier"> </mark><mark class="modifier">void</mark> <mark class="method">addToRear</mark>(<mark class="modifier">int</mark> element)"
+isStaticfalse"
+accesspackage_private"
+
+isAbstractfalse"
+typevoid*	addToRear2Æ
+:com.dsa.singlylinkedlist.LinkedList.addToRear(int)!element	PARAMETERe
+[D:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\singlylinkedlist\LinkedList.java (2z
+voidRETURN_TYPEe
+[D:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\singlylinkedlist\LinkedList.java (ä
+:com.dsa.singlylinkedlist.LinkedList.addToRear(int)!element	PARAMETERe
+[D:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\singlylinkedlist\LinkedList.java ("
+typeint"
+isFinalfalse">
+declarationString)<mark class="modifier">int</mark> element*element2r
+intTYPEe
+[D:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\singlylinkedlist\LinkedList.java (Ì
+3com.dsa.singlylinkedlist.LinkedList.addToFront(int)METHODe
+[D:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\singlylinkedlist\LinkedList.java	 ("
+isFinalfalse"©
+declarationStringì<mark class="modifier"> </mark><mark class="modifier">void</mark> <mark class="method">addToFront</mark>(<mark class="modifier">int</mark> element)"
+isStaticfalse"
+accesspackage_private"
+
+isAbstractfalse"
+typevoid*
+addToFront2Ø
+;com.dsa.singlylinkedlist.LinkedList.addToFront(int)!element	PARAMETERe
+[D:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\singlylinkedlist\LinkedList.java (2z
+voidRETURN_TYPEe
+[D:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\singlylinkedlist\LinkedList.java (ã
+;com.dsa.singlylinkedlist.LinkedList.addToFront(int)!element	PARAMETERe
+[D:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\singlylinkedlist\LinkedList.java ("
+typeint"
+isFinalfalse">
+declarationString)<mark class="modifier">int</mark> element*element2r
+intTYPEe
+[D:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\singlylinkedlist\LinkedList.java (Ù
+1com.dsa.singlylinkedlist.LinkedList.add(int, int)METHODe
+[D:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\singlylinkedlist\LinkedList.java	 ("
+isFinalfalse"ä
+declarationStringÙ<mark class="modifier"> </mark><mark class="modifier">void</mark> <mark class="method">add</mark>(<mark class="modifier">int</mark> element<mark class="modifier"><mark class="modifier">,</mark></mark> <mark class="modifier">int</mark> position)"
+isStaticfalse"
+accesspackage_private"
+
+isAbstractfalse"
+typevoid*add2≠
+9com.dsa.singlylinkedlist.LinkedList.add(int, int)!element	PARAMETERe
+[D:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\singlylinkedlist\LinkedList.java (2Æ
+:com.dsa.singlylinkedlist.LinkedList.add(int, int)!position	PARAMETERe
+[D:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\singlylinkedlist\LinkedList.java ('2z
+voidRETURN_TYPEe
+[D:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\singlylinkedlist\LinkedList.java (â
+9com.dsa.singlylinkedlist.LinkedList.add(int, int)!element	PARAMETERe
+[D:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\singlylinkedlist\LinkedList.java ("
+typeint"
+isFinalfalse">
+declarationString)<mark class="modifier">int</mark> element*element2r
+intTYPEe
+[D:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\singlylinkedlist\LinkedList.java (å
+:com.dsa.singlylinkedlist.LinkedList.add(int, int)!position	PARAMETERe
+[D:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\singlylinkedlist\LinkedList.java ('"
+typeint"
+isFinalfalse"?
+declarationString*<mark class="modifier">int</mark> position*position2r
+intTYPEe
+[D:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\singlylinkedlist\LinkedList.java (Ú
+2com.dsa.singlylinkedlist.LinkedList.isPresent(int)METHODe
+[D:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\singlylinkedlist\LinkedList.java ("
+isFinalfalse"´
+declarationStringï<mark class="modifier"> </mark><mark class="modifier">boolean</mark> <mark class="method">isPresent</mark>(<mark class="modifier">int</mark> element)"
+isStaticfalse"
+accesspackage_private"
+
+isAbstractfalse"
+typeboolean*	isPresent2Æ
+:com.dsa.singlylinkedlist.LinkedList.isPresent(int)!element	PARAMETERe
+[D:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\singlylinkedlist\LinkedList.java (!2}
+booleanRETURN_TYPEe
+[D:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\singlylinkedlist\LinkedList.java (ä
+:com.dsa.singlylinkedlist.LinkedList.isPresent(int)!element	PARAMETERe
+[D:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\singlylinkedlist\LinkedList.java (!"
+typeint"
+isFinalfalse">
+declarationString)<mark class="modifier">int</mark> element*element2r
+intTYPEe
+[D:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\singlylinkedlist\LinkedList.java (Ë
+3com.dsa.singlylinkedlist.LinkedList.deleteOnce(int)METHODe
+[D:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\singlylinkedlist\LinkedList.java	 ("
+isFinalfalse"ä
+declarationStringu<mark class="modifier"> </mark>Node <mark class="method">deleteOnce</mark>(<mark class="modifier">int</mark> element)"
+isStaticfalse"
+accesspackage_private"
+
+isAbstractfalse"
+typeNode*
+deleteOnce2Ø
+;com.dsa.singlylinkedlist.LinkedList.deleteOnce(int)!element	PARAMETERe
+[D:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\singlylinkedlist\LinkedList.java (2ì
+com.dsa.singlylinkedlist.NodeRETURN_TYPEe
+[D:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\singlylinkedlist\LinkedList.java (ã
+;com.dsa.singlylinkedlist.LinkedList.deleteOnce(int)!element	PARAMETERe
+[D:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\singlylinkedlist\LinkedList.java ("
+typeint"
+isFinalfalse">
+declarationString)<mark class="modifier">int</mark> element*element2r
+intTYPEe
+[D:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\singlylinkedlist\LinkedList.java (‰
+2com.dsa.singlylinkedlist.LinkedList.deleteAll(int)METHODe
+[D:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\singlylinkedlist\LinkedList.java	 ("
+isFinalfalse"â
+declarationStringt<mark class="modifier"> </mark>Node <mark class="method">deleteAll</mark>(<mark class="modifier">int</mark> element)"
+isStaticfalse"
+accesspackage_private"
+
+isAbstractfalse"
+typeNode*	deleteAll2Æ
+:com.dsa.singlylinkedlist.LinkedList.deleteAll(int)!element	PARAMETERe
+[D:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\singlylinkedlist\LinkedList.java (2ì
+com.dsa.singlylinkedlist.NodeRETURN_TYPEe
+[D:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\singlylinkedlist\LinkedList.java (ä
+:com.dsa.singlylinkedlist.LinkedList.deleteAll(int)!element	PARAMETERe
+[D:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\singlylinkedlist\LinkedList.java ("
+typeint"
+isFinalfalse">
+declarationString)<mark class="modifier">int</mark> element*element2r
+intTYPEe
+[D:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\singlylinkedlist\LinkedList.java (ç
+-com.dsa.singlylinkedlist.LinkedList.isEmpty()METHODe
+[D:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\singlylinkedlist\LinkedList.java	 	("
+isFinalfalse"
+declarationStringj<mark class="modifier"> </mark><mark class="modifier">boolean</mark> <mark class="method">isEmpty</mark>()"
+isStaticfalse"
+accesspackage_private"
+
+isAbstractfalse"
+typeboolean*isEmpty2}
+booleanRETURN_TYPEe
+[D:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\singlylinkedlist\LinkedList.java	 	(ö
+5com.dsa.singlylinkedlist.LinkedList.deleteFromFront()METHODe
+[D:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\singlylinkedlist\LinkedList.java
+ 
+("
+isFinalfalse"É
+declarationStringn<mark class="modifier"> </mark><mark class="modifier">int</mark> <mark class="method">deleteFromFront</mark>()"
+isStaticfalse"
+accesspackage_private"
+
+isAbstractfalse"
+typeint*deleteFromFront2y
+intRETURN_TYPEe
+[D:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\singlylinkedlist\LinkedList.java
+ 
+(˛
++com.dsa.singlylinkedlist.LinkedList.print()METHODe
+[D:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\singlylinkedlist\LinkedList.java	 ("
+isFinalfalse"z
+declarationStringe<mark class="modifier"> </mark><mark class="modifier">void</mark> <mark class="method">print</mark>()"
+isStaticfalse"
+accesspackage_private"
+
+isAbstractfalse"
+typevoid*print2z
+voidRETURN_TYPEe
+[D:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\singlylinkedlist\LinkedList.java (

@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="750edc74-457a-42e6-b110-4e8ae36b7b91" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Exception" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
+  <component name="ProjectId" id="2o3hwu44lKR3D8tTP7ynPQEC5Md" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.BinarySearchTree.executor": "Run",
+    "Application.BinaryTree.executor": "Run",
+    "Application.DoublyController.executor": "Run",
+    "Application.HashTableOperations.executor": "Run",
+    "Application.Main.executor": "Run",
+    "Application.MergeSort.executor": "Run",
+    "Application.QueueController.executor": "Run",
+    "Application.QueueTester.executor": "Run",
+    "Application.QuickSort.executor": "Run",
+    "Application.Searching.executor": "Run",
+    "Application.Sorting.executor": "Run",
+    "Application.com.dsa.binarytree.Main.executor": "Run",
+    "Application.com.dsa.circularlist.singly.Main.executor": "Run",
+    "Application.com.dsa.doublylinkedlist.Main.executor": "Run",
+    "Application.com.dsa.growablestack.Main.executor": "Run",
+    "Application.com.dsa.singlylinkedlist.Main.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "kotlin-language-version-configured": "true",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.dsa.circularlist.doubly" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.DoublyController">
+    <configuration name="BinarySearchTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.dsa.binarysearchtree.BinarySearchTree" />
+      <module name="ImplementDSA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.dsa.binarysearchtree.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DoublyController" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.dsa.circularlist.doubly.DoublyController" />
+      <module name="ImplementDSA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.dsa.circularlist.doubly.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.dsa.singlylinkedlist.Main" />
+      <module name="ImplementDSA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.dsa.singlylinkedlist.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="QueueController" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.dsa.queue.circularqueue.QueueController" />
+      <module name="ImplementDSA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.dsa.queue.circularqueue.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="QueueTester" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.dsa.queue.noncircularqueue.QueueTester" />
+      <module name="ImplementDSA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.dsa.queue.noncircularqueue.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.DoublyController" />
+        <item itemvalue="Application.QueueController" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.QueueTester" />
+        <item itemvalue="Application.BinarySearchTree" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="750edc74-457a-42e6-b110-4e8ae36b7b91" name="Changes" comment="" />
+      <created>1730104409455</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1730104409455</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/dsa/circularlist/singly/Main.java</url>
+          <line>24</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/dsa/circularlist/singly/Main.java</url>
+          <line>16</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

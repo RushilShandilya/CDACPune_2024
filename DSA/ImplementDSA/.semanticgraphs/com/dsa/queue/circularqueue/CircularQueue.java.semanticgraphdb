@@ -1,0 +1,272 @@
+
+aD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\queue\circularqueue\CircularQueue.javaæ
+)com.dsa.queue.circularqueue.CircularQueueCLASSk
+aD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\queue\circularqueue\CircularQueue.java ("&
+packagecom.dsa.queue.circularqueue"
+isFinalfalse"
+inner classfalse"
+
+isAbstractfalse"û
+declarationStringà<mark class="modifier">public </mark><mark class="modifier">class </mark>CircularQueue<mark class="modifier"><br>implements </mark>Queue"
+accesspublic*CircularQueue2∏
+<com.dsa.queue.circularqueue.CircularQueue.CircularQueue(int)DECLARATIONk
+aD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\queue\circularqueue\CircularQueue.java (2Æ
+2com.dsa.queue.circularqueue.CircularQueue.resize()DECLARATIONk
+aD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\queue\circularqueue\CircularQueue.java (2Æ
+2com.dsa.queue.circularqueue.CircularQueue.isFull()DECLARATIONk
+aD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\queue\circularqueue\CircularQueue.java (2Ø
+3com.dsa.queue.circularqueue.CircularQueue.isEmpty()DECLARATIONk
+aD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\queue\circularqueue\CircularQueue.java (2≤
+6com.dsa.queue.circularqueue.CircularQueue.enqueue(int)DECLARATIONk
+aD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\queue\circularqueue\CircularQueue.java (2Ø
+3com.dsa.queue.circularqueue.CircularQueue.dequeue()DECLARATIONk
+aD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\queue\circularqueue\CircularQueue.java& &(2µ
+9com.dsa.queue.circularqueue.CircularQueue?queue@3.18:3.23DECLARATIONk
+aD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\queue\circularqueue\CircularQueue.java (2µ
+9com.dsa.queue.circularqueue.CircularQueue?front@4.16:4.21DECLARATIONk
+aD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\queue\circularqueue\CircularQueue.java (2¥
+8com.dsa.queue.circularqueue.CircularQueue?back@4.23:4.27DECLARATIONk
+aD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\queue\circularqueue\CircularQueue.java (2ò
+!com.dsa.queue.circularqueue.QueueEXTENDk
+aD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\queue\circularqueue\CircularQueue.java& (+Ü
+<com.dsa.queue.circularqueue.CircularQueue.CircularQueue(int)CONSTRUCTORk
+aD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\queue\circularqueue\CircularQueue.java ("ã
+declarationStringv<mark class="modifier">public </mark><mark class="method">CircularQueue</mark>(<mark class="modifier">int</mark> size)*CircularQueue2Æ
+9com.dsa.queue.circularqueue.CircularQueue?queue@3.18:3.23CALLk
+aD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\queue\circularqueue\CircularQueue.java (2∂
+Acom.dsa.queue.circularqueue.CircularQueue.CircularQueue(int)!sizeCALLk
+aD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\queue\circularqueue\CircularQueue.java (2Æ
+9com.dsa.queue.circularqueue.CircularQueue?front@4.16:4.21CALLk
+aD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\queue\circularqueue\CircularQueue.java (2≠
+8com.dsa.queue.circularqueue.CircularQueue?back@4.23:4.27CALLk
+aD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\queue\circularqueue\CircularQueue.java (2ª
+Acom.dsa.queue.circularqueue.CircularQueue.CircularQueue(int)!size	PARAMETERk
+aD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\queue\circularqueue\CircularQueue.java (!2•
+)com.dsa.queue.circularqueue.CircularQueueRETURN_TYPEk
+aD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\queue\circularqueue\CircularQueue.java (ó
+Acom.dsa.queue.circularqueue.CircularQueue.CircularQueue(int)!size	PARAMETERk
+aD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\queue\circularqueue\CircularQueue.java (!"
+typeint"
+isFinalfalse";
+declarationString&<mark class="modifier">int</mark> size*size2x
+intTYPEk
+aD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\queue\circularqueue\CircularQueue.java (∂
+2com.dsa.queue.circularqueue.CircularQueue.resize()METHODk
+aD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\queue\circularqueue\CircularQueue.java ("
+isFinalfalse"Å
+declarationStringl<mark class="modifier">public </mark><mark class="modifier">void</mark> <mark class="method">resize</mark>()"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typevoid*resize2Æ
+9com.dsa.queue.circularqueue.CircularQueue?queue@3.18:3.23CALLk
+aD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\queue\circularqueue\CircularQueue.java (2Æ
+9com.dsa.queue.circularqueue.CircularQueue?queue@3.18:3.23CALLk
+aD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\queue\circularqueue\CircularQueue.java (2Æ
+9com.dsa.queue.circularqueue.CircularQueue?queue@3.18:3.23CALLk
+aD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\queue\circularqueue\CircularQueue.java (2∏
+Ccom.dsa.queue.circularqueue.CircularQueue.resize()?size@12.12:12.16CALLk
+aD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\queue\circularqueue\CircularQueue.java ( 2µ
+@com.dsa.queue.circularqueue.CircularQueue.resize()?i@15.17:15.18CALLk
+aD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\queue\circularqueue\CircularQueue.java (2º
+Gcom.dsa.queue.circularqueue.CircularQueue.resize()?oldQueue@13.14:13.22CALLk
+aD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\queue\circularqueue\CircularQueue.java ($2µ
+@com.dsa.queue.circularqueue.CircularQueue.resize()?i@15.17:15.18CALLk
+aD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\queue\circularqueue\CircularQueue.java/ (02Æ
+9com.dsa.queue.circularqueue.CircularQueue?queue@3.18:3.23CALLk
+aD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\queue\circularqueue\CircularQueue.java2 (72µ
+@com.dsa.queue.circularqueue.CircularQueue.resize()?i@15.17:15.18CALLk
+aD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\queue\circularqueue\CircularQueue.java8 (92º
+Gcom.dsa.queue.circularqueue.CircularQueue.resize()?oldQueue@13.14:13.22CALLk
+aD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\queue\circularqueue\CircularQueue.java= (E2µ
+@com.dsa.queue.circularqueue.CircularQueue.resize()?i@15.17:15.18CALLk
+aD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\queue\circularqueue\CircularQueue.javaF (G2ø
+Ccom.dsa.queue.circularqueue.CircularQueue.resize()?size@12.12:12.16DECLARATIONk
+aD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\queue\circularqueue\CircularQueue.java (2√
+Gcom.dsa.queue.circularqueue.CircularQueue.resize()?oldQueue@13.14:13.22DECLARATIONk
+aD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\queue\circularqueue\CircularQueue.java (2º
+@com.dsa.queue.circularqueue.CircularQueue.resize()?i@15.17:15.18DECLARATIONk
+aD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\queue\circularqueue\CircularQueue.java (2Ä
+voidRETURN_TYPEk
+aD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\queue\circularqueue\CircularQueue.java (ô
+Ccom.dsa.queue.circularqueue.CircularQueue.resize()?size@12.12:12.16VARIABLEk
+aD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\queue\circularqueue\CircularQueue.java ("
+typeint"
+isFinalfalse"ä
+declarationStringu<mark class="modifier"> </mark><mark class="modifier">int</mark> <mark class="class-field">size</mark> = queue.length*size2x
+intTYPEk
+aD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\queue\circularqueue\CircularQueue.java (2Æ
+9com.dsa.queue.circularqueue.CircularQueue?queue@3.18:3.23CALLk
+aD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\queue\circularqueue\CircularQueue.java (¢
+Gcom.dsa.queue.circularqueue.CircularQueue.resize()?oldQueue@13.14:13.22VARIABLEk
+aD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\queue\circularqueue\CircularQueue.java ("
+typeint"
+isFinalfalse"â
+declarationStringt<mark class="modifier"> </mark><mark class="modifier">int</mark>[] <mark class="class-field">oldQueue</mark> = queue*oldQueue2z
+int[]TYPEk
+aD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\queue\circularqueue\CircularQueue.java (2Æ
+9com.dsa.queue.circularqueue.CircularQueue?queue@3.18:3.23CALLk
+aD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\queue\circularqueue\CircularQueue.java (”
+@com.dsa.queue.circularqueue.CircularQueue.resize()?i@15.17:15.18VARIABLEk
+aD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\queue\circularqueue\CircularQueue.java ("
+typeint"
+isFinalfalse"|
+declarationStringg<mark class="modifier"> </mark><mark class="modifier">int</mark> <mark class="class-field">i</mark> = 0*i2x
+intTYPEk
+aD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\queue\circularqueue\CircularQueue.java (≠
+2com.dsa.queue.circularqueue.CircularQueue.isFull()METHODk
+aD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\queue\circularqueue\CircularQueue.java ("
+isFinalfalse"Ñ
+declarationStringo<mark class="modifier">public </mark><mark class="modifier">boolean</mark> <mark class="method">isFull</mark>()"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typeboolean*isFull2≠
+8com.dsa.queue.circularqueue.CircularQueue?back@4.23:4.27CALLk
+aD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\queue\circularqueue\CircularQueue.java (2Æ
+9com.dsa.queue.circularqueue.CircularQueue?queue@3.18:3.23CALLk
+aD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\queue\circularqueue\CircularQueue.java (!2Æ
+9com.dsa.queue.circularqueue.CircularQueue?front@4.16:4.21CALLk
+aD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\queue\circularqueue\CircularQueue.java, (12É
+booleanRETURN_TYPEk
+aD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\queue\circularqueue\CircularQueue.java (œ
+3com.dsa.queue.circularqueue.CircularQueue.isEmpty()METHODk
+aD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\queue\circularqueue\CircularQueue.java ("
+isFinalfalse"Ö
+declarationStringp<mark class="modifier">public </mark><mark class="modifier">boolean</mark> <mark class="method">isEmpty</mark>()"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typeboolean*isEmpty2Æ
+9com.dsa.queue.circularqueue.CircularQueue?front@4.16:4.21CALLk
+aD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\queue\circularqueue\CircularQueue.java (2É
+booleanRETURN_TYPEk
+aD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\queue\circularqueue\CircularQueue.java (“
+6com.dsa.queue.circularqueue.CircularQueue.enqueue(int)METHODk
+aD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\queue\circularqueue\CircularQueue.java ("
+isFinalfalse"⁄
+declarationStringƒ<mark class="annotation">@Override</mark> <br><mark class="modifier">public </mark><mark class="modifier">void</mark> <mark class="method">enqueue</mark>(<mark class="modifier">int</mark> element)"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typevoid*enqueue2®
+3com.dsa.queue.circularqueue.CircularQueue.isEmpty()CALLk
+aD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\queue\circularqueue\CircularQueue.java (2ß
+2com.dsa.queue.circularqueue.CircularQueue.isFull()CALLk
+aD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\queue\circularqueue\CircularQueue.java (2¢
+-java.io.PrintStream.println(java.lang.String)CALLk
+aD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\queue\circularqueue\CircularQueue.java (2ß
+2com.dsa.queue.circularqueue.CircularQueue.resize()CALLk
+aD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\queue\circularqueue\CircularQueue.java (2Æ
+9com.dsa.queue.circularqueue.CircularQueue?front@4.16:4.21CALLk
+aD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\queue\circularqueue\CircularQueue.java (2≠
+8com.dsa.queue.circularqueue.CircularQueue?back@4.23:4.27CALLk
+aD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\queue\circularqueue\CircularQueue.java! !(2≠
+8com.dsa.queue.circularqueue.CircularQueue?back@4.23:4.27CALLk
+aD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\queue\circularqueue\CircularQueue.java! !(2Æ
+9com.dsa.queue.circularqueue.CircularQueue?queue@3.18:3.23CALLk
+aD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\queue\circularqueue\CircularQueue.java! !(!2Æ
+9com.dsa.queue.circularqueue.CircularQueue?queue@3.18:3.23CALLk
+aD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\queue\circularqueue\CircularQueue.java" "(2≠
+8com.dsa.queue.circularqueue.CircularQueue?back@4.23:4.27CALLk
+aD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\queue\circularqueue\CircularQueue.java" "(2≥
+>com.dsa.queue.circularqueue.CircularQueue.enqueue(int)!elementCALLk
+aD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\queue\circularqueue\CircularQueue.java" "(2ß
+.com.dsa.queue.circularqueue.Queue.enqueue(int)OVERRIDEk
+aD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\queue\circularqueue\CircularQueue.java (2∏
+>com.dsa.queue.circularqueue.CircularQueue.enqueue(int)!element	PARAMETERk
+aD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\queue\circularqueue\CircularQueue.java (#2Ä
+voidRETURN_TYPEk
+aD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\queue\circularqueue\CircularQueue.java (ö
+>com.dsa.queue.circularqueue.CircularQueue.enqueue(int)!element	PARAMETERk
+aD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\queue\circularqueue\CircularQueue.java (#"
+typeint"
+isFinalfalse">
+declarationString)<mark class="modifier">int</mark> element*element2x
+intTYPEk
+aD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\queue\circularqueue\CircularQueue.java (π
+3com.dsa.queue.circularqueue.CircularQueue.dequeue()METHODk
+aD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\queue\circularqueue\CircularQueue.java& &("
+isFinalfalse"Ç
+declarationStringÏ<mark class="annotation">@Override</mark> <br><mark class="modifier">public </mark><mark class="modifier">int</mark> <mark class="method">dequeue</mark>()<mark class="modifier"> <mark class="modifier">throws</mark> </mark>QueueException"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typeint*dequeue2®
+3com.dsa.queue.circularqueue.CircularQueue.isEmpty()CALLk
+aD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\queue\circularqueue\CircularQueue.java* *(2¿
+Kcom.dsa.queue.circularqueue.QueueException.QueueException(java.lang.String)CALLk
+aD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\queue\circularqueue\CircularQueue.java*! *(/2Æ
+9com.dsa.queue.circularqueue.CircularQueue?queue@3.18:3.23CALLk
+aD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\queue\circularqueue\CircularQueue.java' '(2Æ
+9com.dsa.queue.circularqueue.CircularQueue?front@4.16:4.21CALLk
+aD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\queue\circularqueue\CircularQueue.java' '(2Æ
+9com.dsa.queue.circularqueue.CircularQueue?queue@3.18:3.23CALLk
+aD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\queue\circularqueue\CircularQueue.java( ((2Æ
+9com.dsa.queue.circularqueue.CircularQueue?front@4.16:4.21CALLk
+aD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\queue\circularqueue\CircularQueue.java( ((2Æ
+9com.dsa.queue.circularqueue.CircularQueue?front@4.16:4.21CALLk
+aD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\queue\circularqueue\CircularQueue.java+ +(2≠
+8com.dsa.queue.circularqueue.CircularQueue?back@4.23:4.27CALLk
+aD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\queue\circularqueue\CircularQueue.java+ +(2Æ
+9com.dsa.queue.circularqueue.CircularQueue?front@4.16:4.21CALLk
+aD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\queue\circularqueue\CircularQueue.java, ,(2≠
+8com.dsa.queue.circularqueue.CircularQueue?back@4.23:4.27CALLk
+aD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\queue\circularqueue\CircularQueue.java- -(2Æ
+9com.dsa.queue.circularqueue.CircularQueue?front@4.16:4.21CALLk
+aD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\queue\circularqueue\CircularQueue.java. .(2Æ
+9com.dsa.queue.circularqueue.CircularQueue?front@4.16:4.21CALLk
+aD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\queue\circularqueue\CircularQueue.java. .(2Æ
+9com.dsa.queue.circularqueue.CircularQueue?queue@3.18:3.23CALLk
+aD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\queue\circularqueue\CircularQueue.java.  .(%2∂
+Acom.dsa.queue.circularqueue.CircularQueue.dequeue()?x@39.12:39.13CALLk
+aD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\queue\circularqueue\CircularQueue.java0 0(2§
++com.dsa.queue.circularqueue.Queue.dequeue()OVERRIDEk
+aD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\queue\circularqueue\CircularQueue.java& &(2Ω
+Acom.dsa.queue.circularqueue.CircularQueue.dequeue()?x@39.12:39.13DECLARATIONk
+aD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\queue\circularqueue\CircularQueue.java' '(2
+intRETURN_TYPEk
+aD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\queue\circularqueue\CircularQueue.java& &(¬
+Acom.dsa.queue.circularqueue.CircularQueue.dequeue()?x@39.12:39.13VARIABLEk
+aD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\queue\circularqueue\CircularQueue.java' '("
+typeint"
+isFinalfalse"á
+declarationStringr<mark class="modifier"> </mark><mark class="modifier">int</mark> <mark class="class-field">x</mark> = queue[front]*x2x
+intTYPEk
+aD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\queue\circularqueue\CircularQueue.java' '(2Æ
+9com.dsa.queue.circularqueue.CircularQueue?queue@3.18:3.23CALLk
+aD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\queue\circularqueue\CircularQueue.java' '(2Æ
+9com.dsa.queue.circularqueue.CircularQueue?front@4.16:4.21CALLk
+aD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\queue\circularqueue\CircularQueue.java' '(Ç
+9com.dsa.queue.circularqueue.CircularQueue?queue@3.18:3.23VARIABLEk
+aD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\queue\circularqueue\CircularQueue.java ("
+isFinalfalse"
+typeint"Ö
+declarationStringp<mark class="modifier">private </mark><mark class="modifier">int</mark>[] <mark class="class-field">queue</mark>"
+isStaticfalse"
+accessprivate*queue2z
+int[]TYPEk
+aD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\queue\circularqueue\CircularQueue.java (˛
+9com.dsa.queue.circularqueue.CircularQueue?front@4.16:4.21VARIABLEk
+aD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\queue\circularqueue\CircularQueue.java ("
+isFinalfalse"
+typeint"É
+declarationStringn<mark class="modifier">private </mark><mark class="modifier">int</mark> <mark class="class-field">front</mark>"
+isStaticfalse"
+accessprivate*front2x
+intTYPEk
+aD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\queue\circularqueue\CircularQueue.java (˚
+8com.dsa.queue.circularqueue.CircularQueue?back@4.23:4.27VARIABLEk
+aD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\queue\circularqueue\CircularQueue.java ("
+isFinalfalse"
+typeint"Ç
+declarationStringm<mark class="modifier">private </mark><mark class="modifier">int</mark> <mark class="class-field">back</mark>"
+isStaticfalse"
+accessprivate*back2x
+intTYPEk
+aD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\queue\circularqueue\CircularQueue.java (

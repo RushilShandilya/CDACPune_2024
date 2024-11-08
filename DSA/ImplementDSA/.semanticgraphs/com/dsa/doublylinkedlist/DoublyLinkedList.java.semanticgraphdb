@@ -1,0 +1,500 @@
+
+aD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\doublylinkedlist\DoublyLinkedList.java≈
+)com.dsa.doublylinkedlist.DoublyLinkedListCLASSk
+aD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\doublylinkedlist\DoublyLinkedList.java ("#
+packagecom.dsa.doublylinkedlist"
+isFinalfalse"
+inner classfalse"
+
+isAbstractfalse"¶
+declarationStringê<mark class="modifier">public </mark><mark class="modifier">class </mark>DoublyLinkedList<mark class="modifier"><br>implements </mark>LinkedList"
+accesspublic*DoublyLinkedList2∏
+<com.dsa.doublylinkedlist.DoublyLinkedList.DoublyLinkedList()DECLARATIONk
+aD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\doublylinkedlist\DoublyLinkedList.java (2¥
+8com.dsa.doublylinkedlist.DoublyLinkedList.addToRear(int)DECLARATIONk
+aD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\doublylinkedlist\DoublyLinkedList.java (2µ
+9com.dsa.doublylinkedlist.DoublyLinkedList.addToFront(int)DECLARATIONk
+aD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\doublylinkedlist\DoublyLinkedList.java (2¥
+8com.dsa.doublylinkedlist.DoublyLinkedList.isPresent(int)DECLARATIONk
+aD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\doublylinkedlist\DoublyLinkedList.java( ((2µ
+9com.dsa.doublylinkedlist.DoublyLinkedList.deleteOnce(int)DECLARATIONk
+aD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\doublylinkedlist\DoublyLinkedList.java2 2(2¥
+8com.dsa.doublylinkedlist.DoublyLinkedList.deleteAll(int)DECLARATIONk
+aD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\doublylinkedlist\DoublyLinkedList.java@ @(2Ø
+3com.dsa.doublylinkedlist.DoublyLinkedList.isEmpty()DECLARATIONk
+aD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\doublylinkedlist\DoublyLinkedList.javaV V(2∑
+;com.dsa.doublylinkedlist.DoublyLinkedList.deleteFromFront()DECLARATIONk
+aD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\doublylinkedlist\DoublyLinkedList.java[ [(2≠
+1com.dsa.doublylinkedlist.DoublyLinkedList.print()DECLARATIONk
+aD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\doublylinkedlist\DoublyLinkedList.javaf f(2¥
+8com.dsa.doublylinkedlist.DoublyLinkedList?head@4.23:4.27DECLARATIONk
+aD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\doublylinkedlist\DoublyLinkedList.java (2¥
+8com.dsa.doublylinkedlist.DoublyLinkedList?tail@5.23:5.27DECLARATIONk
+aD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\doublylinkedlist\DoublyLinkedList.java (2ö
+#com.dsa.doublylinkedlist.LinkedListEXTENDk
+aD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\doublylinkedlist\DoublyLinkedList.java) (3º
+<com.dsa.doublylinkedlist.DoublyLinkedList.DoublyLinkedList()CONSTRUCTORk
+aD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\doublylinkedlist\DoublyLinkedList.java ("h
+declarationStringS<mark class="modifier">public </mark><mark class="method">DoublyLinkedList</mark>()*DoublyLinkedList2≠
+8com.dsa.doublylinkedlist.DoublyLinkedList?head@4.23:4.27CALLk
+aD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\doublylinkedlist\DoublyLinkedList.java (2≠
+8com.dsa.doublylinkedlist.DoublyLinkedList?tail@5.23:5.27CALLk
+aD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\doublylinkedlist\DoublyLinkedList.java	 	(2•
+)com.dsa.doublylinkedlist.DoublyLinkedListRETURN_TYPEk
+aD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\doublylinkedlist\DoublyLinkedList.java (Ÿ
+8com.dsa.doublylinkedlist.DoublyLinkedList.addToRear(int)METHODk
+aD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\doublylinkedlist\DoublyLinkedList.java ("
+isFinalfalse"‹
+declarationString∆<mark class="annotation">@Override</mark> <br><mark class="modifier">public </mark><mark class="modifier">void</mark> <mark class="method">addToRear</mark>(<mark class="modifier">int</mark> element)"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typevoid*	addToRear2ú
+'com.dsa.doublylinkedlist.Node.Node(int)CALLk
+aD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\doublylinkedlist\DoublyLinkedList.java (2ú
+'com.dsa.doublylinkedlist.Node.Node(int)CALLk
+aD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\doublylinkedlist\DoublyLinkedList.java ( 2≠
+8com.dsa.doublylinkedlist.DoublyLinkedList?head@4.23:4.27CALLk
+aD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\doublylinkedlist\DoublyLinkedList.java (2≠
+8com.dsa.doublylinkedlist.DoublyLinkedList?head@4.23:4.27CALLk
+aD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\doublylinkedlist\DoublyLinkedList.java (2µ
+@com.dsa.doublylinkedlist.DoublyLinkedList.addToRear(int)!elementCALLk
+aD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\doublylinkedlist\DoublyLinkedList.java (#2≠
+8com.dsa.doublylinkedlist.DoublyLinkedList?tail@5.23:5.27CALLk
+aD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\doublylinkedlist\DoublyLinkedList.java (2≠
+8com.dsa.doublylinkedlist.DoublyLinkedList?head@4.23:4.27CALLk
+aD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\doublylinkedlist\DoublyLinkedList.java (2µ
+@com.dsa.doublylinkedlist.DoublyLinkedList.addToRear(int)!elementCALLk
+aD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\doublylinkedlist\DoublyLinkedList.java! ((2≠
+8com.dsa.doublylinkedlist.DoublyLinkedList?tail@5.23:5.27CALLk
+aD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\doublylinkedlist\DoublyLinkedList.java (2æ
+Icom.dsa.doublylinkedlist.DoublyLinkedList.addToRear(int)?node@18.17:18.21CALLk
+aD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\doublylinkedlist\DoublyLinkedList.java (2æ
+Icom.dsa.doublylinkedlist.DoublyLinkedList.addToRear(int)?node@18.17:18.21CALLk
+aD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\doublylinkedlist\DoublyLinkedList.java (2≠
+8com.dsa.doublylinkedlist.DoublyLinkedList?tail@5.23:5.27CALLk
+aD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\doublylinkedlist\DoublyLinkedList.java (2≠
+8com.dsa.doublylinkedlist.DoublyLinkedList?tail@5.23:5.27CALLk
+aD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\doublylinkedlist\DoublyLinkedList.java (2≠
+8com.dsa.doublylinkedlist.DoublyLinkedList?tail@5.23:5.27CALLk
+aD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\doublylinkedlist\DoublyLinkedList.java (2´
+2com.dsa.doublylinkedlist.LinkedList.addToRear(int)OVERRIDEk
+aD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\doublylinkedlist\DoublyLinkedList.java (2∫
+@com.dsa.doublylinkedlist.DoublyLinkedList.addToRear(int)!element	PARAMETERk
+aD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\doublylinkedlist\DoublyLinkedList.java (%2≈
+Icom.dsa.doublylinkedlist.DoublyLinkedList.addToRear(int)?node@18.17:18.21DECLARATIONk
+aD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\doublylinkedlist\DoublyLinkedList.java (2Ä
+voidRETURN_TYPEk
+aD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\doublylinkedlist\DoublyLinkedList.java (»
+Icom.dsa.doublylinkedlist.DoublyLinkedList.addToRear(int)?node@18.17:18.21VARIABLEk
+aD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\doublylinkedlist\DoublyLinkedList.java ("
+typeNode"
+isFinalfalse"r
+declarationString]<mark class="modifier"> </mark>Node <mark class="class-field">node</mark> = new Node(element)*node2í
+com.dsa.doublylinkedlist.NodeTYPEk
+aD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\doublylinkedlist\DoublyLinkedList.java (2ú
+'com.dsa.doublylinkedlist.Node.Node(int)CALLk
+aD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\doublylinkedlist\DoublyLinkedList.java ( 2µ
+@com.dsa.doublylinkedlist.DoublyLinkedList.addToRear(int)!elementCALLk
+aD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\doublylinkedlist\DoublyLinkedList.java! ((ú
+@com.dsa.doublylinkedlist.DoublyLinkedList.addToRear(int)!element	PARAMETERk
+aD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\doublylinkedlist\DoublyLinkedList.java (%"
+typeint"
+isFinalfalse">
+declarationString)<mark class="modifier">int</mark> element*element2x
+intTYPEk
+aD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\doublylinkedlist\DoublyLinkedList.java (ı
+9com.dsa.doublylinkedlist.DoublyLinkedList.addToFront(int)METHODk
+aD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\doublylinkedlist\DoublyLinkedList.java ("
+isFinalfalse"›
+declarationString«<mark class="annotation">@Override</mark> <br><mark class="modifier">public </mark><mark class="modifier">void</mark> <mark class="method">addToFront</mark>(<mark class="modifier">int</mark> element)"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typevoid*
+addToFront2ú
+'com.dsa.doublylinkedlist.Node.Node(int)CALLk
+aD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\doublylinkedlist\DoublyLinkedList.java (2ú
+'com.dsa.doublylinkedlist.Node.Node(int)CALLk
+aD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\doublylinkedlist\DoublyLinkedList.java ( 2≠
+8com.dsa.doublylinkedlist.DoublyLinkedList?head@4.23:4.27CALLk
+aD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\doublylinkedlist\DoublyLinkedList.java (2≠
+8com.dsa.doublylinkedlist.DoublyLinkedList?head@4.23:4.27CALLk
+aD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\doublylinkedlist\DoublyLinkedList.java (2∂
+Acom.dsa.doublylinkedlist.DoublyLinkedList.addToFront(int)!elementCALLk
+aD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\doublylinkedlist\DoublyLinkedList.java (#2≠
+8com.dsa.doublylinkedlist.DoublyLinkedList?tail@5.23:5.27CALLk
+aD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\doublylinkedlist\DoublyLinkedList.java (2≠
+8com.dsa.doublylinkedlist.DoublyLinkedList?head@4.23:4.27CALLk
+aD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\doublylinkedlist\DoublyLinkedList.java (2∂
+Acom.dsa.doublylinkedlist.DoublyLinkedList.addToFront(int)!elementCALLk
+aD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\doublylinkedlist\DoublyLinkedList.java! ((2ø
+Jcom.dsa.doublylinkedlist.DoublyLinkedList.addToFront(int)?node@31.17:31.21CALLk
+aD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\doublylinkedlist\DoublyLinkedList.java   (2≠
+8com.dsa.doublylinkedlist.DoublyLinkedList?head@4.23:4.27CALLk
+aD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\doublylinkedlist\DoublyLinkedList.java   (2≠
+8com.dsa.doublylinkedlist.DoublyLinkedList?head@4.23:4.27CALLk
+aD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\doublylinkedlist\DoublyLinkedList.java! !(2ø
+Jcom.dsa.doublylinkedlist.DoublyLinkedList.addToFront(int)?node@31.17:31.21CALLk
+aD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\doublylinkedlist\DoublyLinkedList.java! !(2≠
+8com.dsa.doublylinkedlist.DoublyLinkedList?head@4.23:4.27CALLk
+aD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\doublylinkedlist\DoublyLinkedList.java# #(2ø
+Jcom.dsa.doublylinkedlist.DoublyLinkedList.addToFront(int)?node@31.17:31.21CALLk
+aD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\doublylinkedlist\DoublyLinkedList.java# #(2¨
+3com.dsa.doublylinkedlist.LinkedList.addToFront(int)OVERRIDEk
+aD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\doublylinkedlist\DoublyLinkedList.java (2ª
+Acom.dsa.doublylinkedlist.DoublyLinkedList.addToFront(int)!element	PARAMETERk
+aD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\doublylinkedlist\DoublyLinkedList.java (&2∆
+Jcom.dsa.doublylinkedlist.DoublyLinkedList.addToFront(int)?node@31.17:31.21DECLARATIONk
+aD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\doublylinkedlist\DoublyLinkedList.java (2Ä
+voidRETURN_TYPEk
+aD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\doublylinkedlist\DoublyLinkedList.java ( 
+Jcom.dsa.doublylinkedlist.DoublyLinkedList.addToFront(int)?node@31.17:31.21VARIABLEk
+aD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\doublylinkedlist\DoublyLinkedList.java ("
+typeNode"
+isFinalfalse"r
+declarationString]<mark class="modifier"> </mark>Node <mark class="class-field">node</mark> = new Node(element)*node2í
+com.dsa.doublylinkedlist.NodeTYPEk
+aD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\doublylinkedlist\DoublyLinkedList.java (2ú
+'com.dsa.doublylinkedlist.Node.Node(int)CALLk
+aD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\doublylinkedlist\DoublyLinkedList.java ( 2∂
+Acom.dsa.doublylinkedlist.DoublyLinkedList.addToFront(int)!elementCALLk
+aD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\doublylinkedlist\DoublyLinkedList.java! ((ù
+Acom.dsa.doublylinkedlist.DoublyLinkedList.addToFront(int)!element	PARAMETERk
+aD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\doublylinkedlist\DoublyLinkedList.java (&"
+typeint"
+isFinalfalse">
+declarationString)<mark class="modifier">int</mark> element*element2x
+intTYPEk
+aD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\doublylinkedlist\DoublyLinkedList.java (û
+8com.dsa.doublylinkedlist.DoublyLinkedList.isPresent(int)METHODk
+aD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\doublylinkedlist\DoublyLinkedList.java( (("
+isFinalfalse"ﬂ
+declarationString…<mark class="annotation">@Override</mark> <br><mark class="modifier">public </mark><mark class="modifier">boolean</mark> <mark class="method">isPresent</mark>(<mark class="modifier">int</mark> element)"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typeboolean*	isPresent2≠
+8com.dsa.doublylinkedlist.DoublyLinkedList?head@4.23:4.27CALLk
+aD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\doublylinkedlist\DoublyLinkedList.java) )(2æ
+Icom.dsa.doublylinkedlist.DoublyLinkedList.isPresent(int)?temp@41.13:41.17CALLk
+aD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\doublylinkedlist\DoublyLinkedList.java* *(2æ
+Icom.dsa.doublylinkedlist.DoublyLinkedList.isPresent(int)?temp@41.13:41.17CALLk
+aD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\doublylinkedlist\DoublyLinkedList.java+ +(2µ
+@com.dsa.doublylinkedlist.DoublyLinkedList.isPresent(int)!elementCALLk
+aD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\doublylinkedlist\DoublyLinkedList.java+ +("2æ
+Icom.dsa.doublylinkedlist.DoublyLinkedList.isPresent(int)?temp@41.13:41.17CALLk
+aD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\doublylinkedlist\DoublyLinkedList.java, ,(2æ
+Icom.dsa.doublylinkedlist.DoublyLinkedList.isPresent(int)?temp@41.13:41.17CALLk
+aD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\doublylinkedlist\DoublyLinkedList.java, ,(2´
+2com.dsa.doublylinkedlist.LinkedList.isPresent(int)OVERRIDEk
+aD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\doublylinkedlist\DoublyLinkedList.java( ((2∫
+@com.dsa.doublylinkedlist.DoublyLinkedList.isPresent(int)!element	PARAMETERk
+aD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\doublylinkedlist\DoublyLinkedList.java(! (((2≈
+Icom.dsa.doublylinkedlist.DoublyLinkedList.isPresent(int)?temp@41.13:41.17DECLARATIONk
+aD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\doublylinkedlist\DoublyLinkedList.java) )(2É
+booleanRETURN_TYPEk
+aD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\doublylinkedlist\DoublyLinkedList.java( ((î
+Icom.dsa.doublylinkedlist.DoublyLinkedList.isPresent(int)?temp@41.13:41.17VARIABLEk
+aD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\doublylinkedlist\DoublyLinkedList.java) )("
+typeNode"
+isFinalfalse"e
+declarationStringP<mark class="modifier"> </mark>Node <mark class="class-field">temp</mark> = head*temp2í
+com.dsa.doublylinkedlist.NodeTYPEk
+aD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\doublylinkedlist\DoublyLinkedList.java) )(2≠
+8com.dsa.doublylinkedlist.DoublyLinkedList?head@4.23:4.27CALLk
+aD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\doublylinkedlist\DoublyLinkedList.java) )(ú
+@com.dsa.doublylinkedlist.DoublyLinkedList.isPresent(int)!element	PARAMETERk
+aD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\doublylinkedlist\DoublyLinkedList.java(! ((("
+typeint"
+isFinalfalse">
+declarationString)<mark class="modifier">int</mark> element*element2x
+intTYPEk
+aD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\doublylinkedlist\DoublyLinkedList.java( (( ·
+9com.dsa.doublylinkedlist.DoublyLinkedList.deleteOnce(int)METHODk
+aD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\doublylinkedlist\DoublyLinkedList.java2 2("
+isFinalfalse"ø
+declarationString©<mark class="annotation">@Override</mark> <br><mark class="modifier">public </mark>Node <mark class="method">deleteOnce</mark>(<mark class="modifier">int</mark> element)"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typeNode*
+deleteOnce2≠
+8com.dsa.doublylinkedlist.DoublyLinkedList?head@4.23:4.27CALLk
+aD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\doublylinkedlist\DoublyLinkedList.java3 3(2ø
+Jcom.dsa.doublylinkedlist.DoublyLinkedList.deleteOnce(int)?temp@51.13:51.17CALLk
+aD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\doublylinkedlist\DoublyLinkedList.java4 4(2ø
+Jcom.dsa.doublylinkedlist.DoublyLinkedList.deleteOnce(int)?temp@51.13:51.17CALLk
+aD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\doublylinkedlist\DoublyLinkedList.java5 5(2∂
+Acom.dsa.doublylinkedlist.DoublyLinkedList.deleteOnce(int)!elementCALLk
+aD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\doublylinkedlist\DoublyLinkedList.java5" 5()2ø
+Jcom.dsa.doublylinkedlist.DoublyLinkedList.deleteOnce(int)?temp@51.13:51.17CALLk
+aD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\doublylinkedlist\DoublyLinkedList.java6 6(!2ø
+Jcom.dsa.doublylinkedlist.DoublyLinkedList.deleteOnce(int)?temp@51.13:51.17CALLk
+aD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\doublylinkedlist\DoublyLinkedList.java7 7(2¿
+Kcom.dsa.doublylinkedlist.DoublyLinkedList.deleteOnce(int)?temp2@54.21:54.26CALLk
+aD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\doublylinkedlist\DoublyLinkedList.java7 7(!2¿
+Kcom.dsa.doublylinkedlist.DoublyLinkedList.deleteOnce(int)?temp2@54.21:54.26CALLk
+aD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\doublylinkedlist\DoublyLinkedList.java8 8(2ø
+Jcom.dsa.doublylinkedlist.DoublyLinkedList.deleteOnce(int)?temp@51.13:51.17CALLk
+aD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\doublylinkedlist\DoublyLinkedList.java8" 8(&2ø
+Jcom.dsa.doublylinkedlist.DoublyLinkedList.deleteOnce(int)?temp@51.13:51.17CALLk
+aD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\doublylinkedlist\DoublyLinkedList.java: :(2ø
+Jcom.dsa.doublylinkedlist.DoublyLinkedList.deleteOnce(int)?temp@51.13:51.17CALLk
+aD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\doublylinkedlist\DoublyLinkedList.java: :(2≠
+8com.dsa.doublylinkedlist.DoublyLinkedList?head@4.23:4.27CALLk
+aD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\doublylinkedlist\DoublyLinkedList.java< <(2¨
+3com.dsa.doublylinkedlist.LinkedList.deleteOnce(int)OVERRIDEk
+aD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\doublylinkedlist\DoublyLinkedList.java2 2(2ª
+Acom.dsa.doublylinkedlist.DoublyLinkedList.deleteOnce(int)!element	PARAMETERk
+aD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\doublylinkedlist\DoublyLinkedList.java2 2(&2∆
+Jcom.dsa.doublylinkedlist.DoublyLinkedList.deleteOnce(int)?temp@51.13:51.17DECLARATIONk
+aD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\doublylinkedlist\DoublyLinkedList.java3 3(2«
+Kcom.dsa.doublylinkedlist.DoublyLinkedList.deleteOnce(int)?temp2@54.21:54.26DECLARATIONk
+aD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\doublylinkedlist\DoublyLinkedList.java6 6(2ô
+com.dsa.doublylinkedlist.NodeRETURN_TYPEk
+aD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\doublylinkedlist\DoublyLinkedList.java2 2(ï
+Jcom.dsa.doublylinkedlist.DoublyLinkedList.deleteOnce(int)?temp@51.13:51.17VARIABLEk
+aD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\doublylinkedlist\DoublyLinkedList.java3 3("
+typeNode"
+isFinalfalse"e
+declarationStringP<mark class="modifier"> </mark>Node <mark class="class-field">temp</mark> = head*temp2í
+com.dsa.doublylinkedlist.NodeTYPEk
+aD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\doublylinkedlist\DoublyLinkedList.java3 3(2≠
+8com.dsa.doublylinkedlist.DoublyLinkedList?head@4.23:4.27CALLk
+aD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\doublylinkedlist\DoublyLinkedList.java3 3(Ø
+Kcom.dsa.doublylinkedlist.DoublyLinkedList.deleteOnce(int)?temp2@54.21:54.26VARIABLEk
+aD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\doublylinkedlist\DoublyLinkedList.java6 6("
+typeNode"
+isFinalfalse"k
+declarationStringV<mark class="modifier"> </mark>Node <mark class="class-field">temp2</mark> = temp.next*temp22í
+com.dsa.doublylinkedlist.NodeTYPEk
+aD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\doublylinkedlist\DoublyLinkedList.java6 6(2ø
+Jcom.dsa.doublylinkedlist.DoublyLinkedList.deleteOnce(int)?temp@51.13:51.17CALLk
+aD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\doublylinkedlist\DoublyLinkedList.java6 6(!ù
+Acom.dsa.doublylinkedlist.DoublyLinkedList.deleteOnce(int)!element	PARAMETERk
+aD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\doublylinkedlist\DoublyLinkedList.java2 2(&"
+typeint"
+isFinalfalse">
+declarationString)<mark class="modifier">int</mark> element*element2x
+intTYPEk
+aD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\doublylinkedlist\DoublyLinkedList.java2 2(´1
+8com.dsa.doublylinkedlist.DoublyLinkedList.deleteAll(int)METHODk
+aD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\doublylinkedlist\DoublyLinkedList.java@ @("
+isFinalfalse"æ
+declarationString®<mark class="annotation">@Override</mark> <br><mark class="modifier">public </mark>Node <mark class="method">deleteAll</mark>(<mark class="modifier">int</mark> element)"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typeNode*	deleteAll2ú
+'com.dsa.doublylinkedlist.Node.Node(int)CALLk
+aD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\doublylinkedlist\DoublyLinkedList.javaE" E(&2ú
+'com.dsa.doublylinkedlist.Node.Node(int)CALLk
+aD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\doublylinkedlist\DoublyLinkedList.javaI$ I((2≠
+8com.dsa.doublylinkedlist.DoublyLinkedList?head@4.23:4.27CALLk
+aD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\doublylinkedlist\DoublyLinkedList.javaB B(2≠
+8com.dsa.doublylinkedlist.DoublyLinkedList?head@4.23:4.27CALLk
+aD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\doublylinkedlist\DoublyLinkedList.javaC C(2µ
+@com.dsa.doublylinkedlist.DoublyLinkedList.deleteAll(int)!elementCALLk
+aD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\doublylinkedlist\DoublyLinkedList.javaC C("2¡
+Lcom.dsa.doublylinkedlist.DoublyLinkedList.deleteAll(int)?newNode@65.49:65.56CALLk
+aD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\doublylinkedlist\DoublyLinkedList.javaD D(2¡
+Lcom.dsa.doublylinkedlist.DoublyLinkedList.deleteAll(int)?newNode@65.49:65.56CALLk
+aD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\doublylinkedlist\DoublyLinkedList.javaE E(2µ
+@com.dsa.doublylinkedlist.DoublyLinkedList.deleteAll(int)!elementCALLk
+aD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\doublylinkedlist\DoublyLinkedList.javaE' E(.2√
+Ncom.dsa.doublylinkedlist.DoublyLinkedList.deleteAll(int)?dummyNext@65.13:65.22CALLk
+aD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\doublylinkedlist\DoublyLinkedList.javaF F(2¡
+Lcom.dsa.doublylinkedlist.DoublyLinkedList.deleteAll(int)?newNode@65.49:65.56CALLk
+aD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\doublylinkedlist\DoublyLinkedList.javaF  F('2√
+Ncom.dsa.doublylinkedlist.DoublyLinkedList.deleteAll(int)?dummyPrev@65.31:65.40CALLk
+aD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\doublylinkedlist\DoublyLinkedList.javaG G(2¡
+Lcom.dsa.doublylinkedlist.DoublyLinkedList.deleteAll(int)?newNode@65.49:65.56CALLk
+aD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\doublylinkedlist\DoublyLinkedList.javaG  G('2µ
+@com.dsa.doublylinkedlist.DoublyLinkedList.deleteAll(int)!elementCALLk
+aD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\doublylinkedlist\DoublyLinkedList.javaI) I(02√
+Ncom.dsa.doublylinkedlist.DoublyLinkedList.deleteAll(int)?dummyNext@65.13:65.22CALLk
+aD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\doublylinkedlist\DoublyLinkedList.javaJ J(2æ
+Icom.dsa.doublylinkedlist.DoublyLinkedList.deleteAll(int)?node@73.25:73.29CALLk
+aD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\doublylinkedlist\DoublyLinkedList.javaJ% J()2æ
+Icom.dsa.doublylinkedlist.DoublyLinkedList.deleteAll(int)?node@73.25:73.29CALLk
+aD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\doublylinkedlist\DoublyLinkedList.javaK K(2√
+Ncom.dsa.doublylinkedlist.DoublyLinkedList.deleteAll(int)?dummyPrev@65.31:65.40CALLk
+aD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\doublylinkedlist\DoublyLinkedList.javaK  K()2√
+Ncom.dsa.doublylinkedlist.DoublyLinkedList.deleteAll(int)?dummyPrev@65.31:65.40CALLk
+aD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\doublylinkedlist\DoublyLinkedList.javaL L(2æ
+Icom.dsa.doublylinkedlist.DoublyLinkedList.deleteAll(int)?node@73.25:73.29CALLk
+aD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\doublylinkedlist\DoublyLinkedList.javaL  L($2√
+Ncom.dsa.doublylinkedlist.DoublyLinkedList.deleteAll(int)?dummyNext@65.13:65.22CALLk
+aD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\doublylinkedlist\DoublyLinkedList.javaM M(2æ
+Icom.dsa.doublylinkedlist.DoublyLinkedList.deleteAll(int)?node@73.25:73.29CALLk
+aD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\doublylinkedlist\DoublyLinkedList.javaM  M($2≠
+8com.dsa.doublylinkedlist.DoublyLinkedList?head@4.23:4.27CALLk
+aD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\doublylinkedlist\DoublyLinkedList.javaP P(2≠
+8com.dsa.doublylinkedlist.DoublyLinkedList?head@4.23:4.27CALLk
+aD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\doublylinkedlist\DoublyLinkedList.javaP P(2¡
+Lcom.dsa.doublylinkedlist.DoublyLinkedList.deleteAll(int)?newNode@65.49:65.56CALLk
+aD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\doublylinkedlist\DoublyLinkedList.javaR R(2´
+2com.dsa.doublylinkedlist.LinkedList.deleteAll(int)OVERRIDEk
+aD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\doublylinkedlist\DoublyLinkedList.java@ @(2∫
+@com.dsa.doublylinkedlist.DoublyLinkedList.deleteAll(int)!element	PARAMETERk
+aD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\doublylinkedlist\DoublyLinkedList.java@ @(%2 
+Ncom.dsa.doublylinkedlist.DoublyLinkedList.deleteAll(int)?dummyNext@65.13:65.22DECLARATIONk
+aD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\doublylinkedlist\DoublyLinkedList.javaA A(2 
+Ncom.dsa.doublylinkedlist.DoublyLinkedList.deleteAll(int)?dummyPrev@65.31:65.40DECLARATIONk
+aD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\doublylinkedlist\DoublyLinkedList.javaA A((2»
+Lcom.dsa.doublylinkedlist.DoublyLinkedList.deleteAll(int)?newNode@65.49:65.56DECLARATIONk
+aD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\doublylinkedlist\DoublyLinkedList.javaA1 A(82≈
+Icom.dsa.doublylinkedlist.DoublyLinkedList.deleteAll(int)?node@73.25:73.29DECLARATIONk
+aD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\doublylinkedlist\DoublyLinkedList.javaI I(2ô
+com.dsa.doublylinkedlist.NodeRETURN_TYPEk
+aD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\doublylinkedlist\DoublyLinkedList.java@ @(≠
+Ncom.dsa.doublylinkedlist.DoublyLinkedList.deleteAll(int)?dummyNext@65.13:65.22VARIABLEk
+aD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\doublylinkedlist\DoublyLinkedList.javaA A("
+typeNode"
+isFinalfalse"£
+declarationStringç<mark class="modifier"> </mark>Node <mark class="class-field">dummyNext</mark> = <mark class="modifier">null</mark><mark class="modifier">,</mark> dummyPrev = <mark class="modifier">null</mark><mark class="modifier">,</mark> newNode = <mark class="modifier">null</mark>*	dummyNext2í
+com.dsa.doublylinkedlist.NodeTYPEk
+aD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\doublylinkedlist\DoublyLinkedList.javaA A(≠
+Ncom.dsa.doublylinkedlist.DoublyLinkedList.deleteAll(int)?dummyPrev@65.31:65.40VARIABLEk
+aD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\doublylinkedlist\DoublyLinkedList.javaA A(("
+typeNode"
+isFinalfalse"£
+declarationStringç<mark class="modifier"> </mark>Node <mark class="class-field">dummyPrev</mark> = <mark class="modifier">null</mark><mark class="modifier">,</mark> dummyPrev = <mark class="modifier">null</mark><mark class="modifier">,</mark> newNode = <mark class="modifier">null</mark>*	dummyPrev2í
+com.dsa.doublylinkedlist.NodeTYPEk
+aD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\doublylinkedlist\DoublyLinkedList.javaA A(ß
+Lcom.dsa.doublylinkedlist.DoublyLinkedList.deleteAll(int)?newNode@65.49:65.56VARIABLEk
+aD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\doublylinkedlist\DoublyLinkedList.javaA1 A(8"
+typeNode"
+isFinalfalse"°
+declarationStringã<mark class="modifier"> </mark>Node <mark class="class-field">newNode</mark> = <mark class="modifier">null</mark><mark class="modifier">,</mark> dummyPrev = <mark class="modifier">null</mark><mark class="modifier">,</mark> newNode = <mark class="modifier">null</mark>*newNode2í
+com.dsa.doublylinkedlist.NodeTYPEk
+aD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\doublylinkedlist\DoublyLinkedList.javaA A(»
+Icom.dsa.doublylinkedlist.DoublyLinkedList.deleteAll(int)?node@73.25:73.29VARIABLEk
+aD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\doublylinkedlist\DoublyLinkedList.javaI I("
+typeNode"
+isFinalfalse"r
+declarationString]<mark class="modifier"> </mark>Node <mark class="class-field">node</mark> = new Node(element)*node2í
+com.dsa.doublylinkedlist.NodeTYPEk
+aD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\doublylinkedlist\DoublyLinkedList.javaI I(2ú
+'com.dsa.doublylinkedlist.Node.Node(int)CALLk
+aD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\doublylinkedlist\DoublyLinkedList.javaI$ I((2µ
+@com.dsa.doublylinkedlist.DoublyLinkedList.deleteAll(int)!elementCALLk
+aD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\doublylinkedlist\DoublyLinkedList.javaI) I(0ú
+@com.dsa.doublylinkedlist.DoublyLinkedList.deleteAll(int)!element	PARAMETERk
+aD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\doublylinkedlist\DoublyLinkedList.java@ @(%"
+typeint"
+isFinalfalse">
+declarationString)<mark class="modifier">int</mark> element*element2x
+intTYPEk
+aD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\doublylinkedlist\DoublyLinkedList.java@ @(¶
+3com.dsa.doublylinkedlist.DoublyLinkedList.isEmpty()METHODk
+aD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\doublylinkedlist\DoublyLinkedList.javaV V("
+isFinalfalse"¥
+declarationStringû<mark class="annotation">@Override</mark> <br><mark class="modifier">public </mark><mark class="modifier">boolean</mark> <mark class="method">isEmpty</mark>()"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typeboolean*isEmpty2≠
+8com.dsa.doublylinkedlist.DoublyLinkedList?head@4.23:4.27CALLk
+aD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\doublylinkedlist\DoublyLinkedList.javaW W(2¶
+-com.dsa.doublylinkedlist.LinkedList.isEmpty()OVERRIDEk
+aD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\doublylinkedlist\DoublyLinkedList.javaV V(2É
+booleanRETURN_TYPEk
+aD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\doublylinkedlist\DoublyLinkedList.javaV V(ä
+;com.dsa.doublylinkedlist.DoublyLinkedList.deleteFromFront()METHODk
+aD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\doublylinkedlist\DoublyLinkedList.java[ [("
+isFinalfalse"∏
+declarationString¢<mark class="annotation">@Override</mark> <br><mark class="modifier">public </mark><mark class="modifier">int</mark> <mark class="method">deleteFromFront</mark>()"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typeint*deleteFromFront2≠
+8com.dsa.doublylinkedlist.DoublyLinkedList?head@4.23:4.27CALLk
+aD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\doublylinkedlist\DoublyLinkedList.java\ \(2≠
+8com.dsa.doublylinkedlist.DoublyLinkedList?head@4.23:4.27CALLk
+aD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\doublylinkedlist\DoublyLinkedList.java] ](2≠
+8com.dsa.doublylinkedlist.DoublyLinkedList?head@4.23:4.27CALLk
+aD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\doublylinkedlist\DoublyLinkedList.java] ](2≠
+8com.dsa.doublylinkedlist.DoublyLinkedList?head@4.23:4.27CALLk
+aD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\doublylinkedlist\DoublyLinkedList.java_ _(2≠
+8com.dsa.doublylinkedlist.DoublyLinkedList?head@4.23:4.27CALLk
+aD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\doublylinkedlist\DoublyLinkedList.java` `(2¬
+Mcom.dsa.doublylinkedlist.DoublyLinkedList.deleteFromFront()?value@92.12:92.17CALLk
+aD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\doublylinkedlist\DoublyLinkedList.javab b(2Æ
+5com.dsa.doublylinkedlist.LinkedList.deleteFromFront()OVERRIDEk
+aD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\doublylinkedlist\DoublyLinkedList.java[ [(2…
+Mcom.dsa.doublylinkedlist.DoublyLinkedList.deleteFromFront()?value@92.12:92.17DECLARATIONk
+aD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\doublylinkedlist\DoublyLinkedList.java\ \(2
+intRETURN_TYPEk
+aD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\doublylinkedlist\DoublyLinkedList.java[ [(¢
+Mcom.dsa.doublylinkedlist.DoublyLinkedList.deleteFromFront()?value@92.12:92.17VARIABLEk
+aD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\doublylinkedlist\DoublyLinkedList.java\ \("
+typeint"
+isFinalfalse"â
+declarationStringt<mark class="modifier"> </mark><mark class="modifier">int</mark> <mark class="class-field">value</mark> = head.value*value2x
+intTYPEk
+aD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\doublylinkedlist\DoublyLinkedList.java\ \(2≠
+8com.dsa.doublylinkedlist.DoublyLinkedList?head@4.23:4.27CALLk
+aD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\doublylinkedlist\DoublyLinkedList.java\ \(Î
+1com.dsa.doublylinkedlist.DoublyLinkedList.print()METHODk
+aD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\doublylinkedlist\DoublyLinkedList.javaf f("
+isFinalfalse"Ø
+declarationStringô<mark class="annotation">@Override</mark> <br><mark class="modifier">public </mark><mark class="modifier">void</mark> <mark class="method">print</mark>()"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typevoid*print2†
++java.io.PrintStream.print(java.lang.String)CALLk
+aD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\doublylinkedlist\DoublyLinkedList.javai i(2≠
+8com.dsa.doublylinkedlist.DoublyLinkedList?head@4.23:4.27CALLk
+aD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\doublylinkedlist\DoublyLinkedList.javag g(2π
+Dcom.dsa.doublylinkedlist.DoublyLinkedList.print()?temp@103.13:103.17CALLk
+aD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\doublylinkedlist\DoublyLinkedList.javah h(2π
+Dcom.dsa.doublylinkedlist.DoublyLinkedList.print()?temp@103.13:103.17CALLk
+aD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\doublylinkedlist\DoublyLinkedList.javai i(!2π
+Dcom.dsa.doublylinkedlist.DoublyLinkedList.print()?temp@103.13:103.17CALLk
+aD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\doublylinkedlist\DoublyLinkedList.javaj j(2π
+Dcom.dsa.doublylinkedlist.DoublyLinkedList.print()?temp@103.13:103.17CALLk
+aD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\doublylinkedlist\DoublyLinkedList.javaj j(2§
++com.dsa.doublylinkedlist.LinkedList.print()OVERRIDEk
+aD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\doublylinkedlist\DoublyLinkedList.javaf f(2¿
+Dcom.dsa.doublylinkedlist.DoublyLinkedList.print()?temp@103.13:103.17DECLARATIONk
+aD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\doublylinkedlist\DoublyLinkedList.javag g(2Ä
+voidRETURN_TYPEk
+aD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\doublylinkedlist\DoublyLinkedList.javaf f(è
+Dcom.dsa.doublylinkedlist.DoublyLinkedList.print()?temp@103.13:103.17VARIABLEk
+aD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\doublylinkedlist\DoublyLinkedList.javag g("
+typeNode"
+isFinalfalse"e
+declarationStringP<mark class="modifier"> </mark>Node <mark class="class-field">temp</mark> = head*temp2í
+com.dsa.doublylinkedlist.NodeTYPEk
+aD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\doublylinkedlist\DoublyLinkedList.javag g(2≠
+8com.dsa.doublylinkedlist.DoublyLinkedList?head@4.23:4.27CALLk
+aD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\doublylinkedlist\DoublyLinkedList.javag g(ú
+8com.dsa.doublylinkedlist.DoublyLinkedList?head@4.23:4.27VARIABLEk
+aD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\doublylinkedlist\DoublyLinkedList.java ("
+isFinalfalse"
+typeNode"â
+declarationStringt<mark class="modifier">public </mark><mark class="modifier">static </mark>Node <mark class="class-field">head</mark>"
+isStatictrue"
+accesspublic*head2í
+com.dsa.doublylinkedlist.NodeTYPEk
+aD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\doublylinkedlist\DoublyLinkedList.java (ú
+8com.dsa.doublylinkedlist.DoublyLinkedList?tail@5.23:5.27VARIABLEk
+aD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\doublylinkedlist\DoublyLinkedList.java ("
+isFinalfalse"
+typeNode"â
+declarationStringt<mark class="modifier">public </mark><mark class="modifier">static </mark>Node <mark class="class-field">tail</mark>"
+isStatictrue"
+accesspublic*tail2í
+com.dsa.doublylinkedlist.NodeTYPEk
+aD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\doublylinkedlist\DoublyLinkedList.java (

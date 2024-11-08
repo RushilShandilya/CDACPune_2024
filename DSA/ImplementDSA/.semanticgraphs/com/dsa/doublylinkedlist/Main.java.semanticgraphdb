@@ -1,0 +1,92 @@
+
+UD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\doublylinkedlist\Main.javaŽ
+com.dsa.doublylinkedlist.MainCLASS_
+UD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\doublylinkedlist\Main.java ("#
+packagecom.dsa.doublylinkedlist"
+isFinalfalse"
+inner classfalse"
+
+isAbstractfalse"b
+declarationStringM<mark class="modifier">public </mark><mark class="modifier">class </mark>Main"
+accesspublic*Main2¦
+6com.dsa.doublylinkedlist.Main.main(java.lang.String[])DECLARATION_
+UD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\doublylinkedlist\Main.java (‰$
+6com.dsa.doublylinkedlist.Main.main(java.lang.String[])METHOD_
+UD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\doublylinkedlist\Main.java ("
+isFinalfalse"²
+declarationStringœ<mark class="modifier">public </mark><mark class="modifier">static </mark><mark class="modifier">void</mark> <mark class="method">main</mark>(String[] args)"
+isStatictrue"
+accesspublic"
+
+isAbstractfalse"
+typevoid*main2¢
+9com.dsa.doublylinkedlist.DoublyLinkedList.addToFront(int)CALL_
+UD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\doublylinkedlist\Main.java (2¢
+9com.dsa.doublylinkedlist.DoublyLinkedList.addToFront(int)CALL_
+UD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\doublylinkedlist\Main.java (2¢
+9com.dsa.doublylinkedlist.DoublyLinkedList.addToFront(int)CALL_
+UD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\doublylinkedlist\Main.java (2¢
+9com.dsa.doublylinkedlist.DoublyLinkedList.addToFront(int)CALL_
+UD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\doublylinkedlist\Main.java	 	(2¢
+9com.dsa.doublylinkedlist.DoublyLinkedList.addToFront(int)CALL_
+UD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\doublylinkedlist\Main.java
+ 
+(2š
+1com.dsa.doublylinkedlist.DoublyLinkedList.print()CALL_
+UD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\doublylinkedlist\Main.java (2†
+java.io.PrintStream.println()CALL_
+UD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\doublylinkedlist\Main.java (2¡
+8com.dsa.doublylinkedlist.DoublyLinkedList.addToRear(int)CALL_
+UD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\doublylinkedlist\Main.java (2¡
+8com.dsa.doublylinkedlist.DoublyLinkedList.addToRear(int)CALL_
+UD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\doublylinkedlist\Main.java (2¡
+8com.dsa.doublylinkedlist.DoublyLinkedList.addToRear(int)CALL_
+UD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\doublylinkedlist\Main.java (2š
+1com.dsa.doublylinkedlist.DoublyLinkedList.print()CALL_
+UD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\doublylinkedlist\Main.java (2¥
+<com.dsa.doublylinkedlist.DoublyLinkedList.DoublyLinkedList()CALL_
+UD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\doublylinkedlist\Main.java$ (42®
+Ecom.dsa.doublylinkedlist.Main.main(java.lang.String[])?list@4.25:4.29CALL_
+UD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\doublylinkedlist\Main.java (2®
+Ecom.dsa.doublylinkedlist.Main.main(java.lang.String[])?list@4.25:4.29CALL_
+UD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\doublylinkedlist\Main.java (2®
+Ecom.dsa.doublylinkedlist.Main.main(java.lang.String[])?list@4.25:4.29CALL_
+UD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\doublylinkedlist\Main.java (2®
+Ecom.dsa.doublylinkedlist.Main.main(java.lang.String[])?list@4.25:4.29CALL_
+UD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\doublylinkedlist\Main.java	 	(2®
+Ecom.dsa.doublylinkedlist.Main.main(java.lang.String[])?list@4.25:4.29CALL_
+UD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\doublylinkedlist\Main.java
+ 
+(2®
+Ecom.dsa.doublylinkedlist.Main.main(java.lang.String[])?list@4.25:4.29CALL_
+UD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\doublylinkedlist\Main.java (2®
+Ecom.dsa.doublylinkedlist.Main.main(java.lang.String[])?list@4.25:4.29CALL_
+UD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\doublylinkedlist\Main.java (2®
+Ecom.dsa.doublylinkedlist.Main.main(java.lang.String[])?list@4.25:4.29CALL_
+UD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\doublylinkedlist\Main.java (2®
+Ecom.dsa.doublylinkedlist.Main.main(java.lang.String[])?list@4.25:4.29CALL_
+UD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\doublylinkedlist\Main.java (2®
+Ecom.dsa.doublylinkedlist.Main.main(java.lang.String[])?list@4.25:4.29CALL_
+UD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\doublylinkedlist\Main.java (2©
+;com.dsa.doublylinkedlist.Main.main(java.lang.String[])!args	PARAMETER_
+UD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\doublylinkedlist\Main.java% ()2µ
+Ecom.dsa.doublylinkedlist.Main.main(java.lang.String[])?list@4.25:4.29DECLARATION_
+UD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\doublylinkedlist\Main.java (2t
+voidRETURN_TYPE_
+UD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\doublylinkedlist\Main.java (§
+Ecom.dsa.doublylinkedlist.Main.main(java.lang.String[])?list@4.25:4.29VARIABLE_
+UD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\doublylinkedlist\Main.java ("
+typeDoublyLinkedList"
+isFinalfalse"ƒ
+declarationStringn<mark class="modifier"> </mark>DoublyLinkedList <mark class="class-field">list</mark> = new DoublyLinkedList()*list2’
+)com.dsa.doublylinkedlist.DoublyLinkedListTYPE_
+UD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\doublylinkedlist\Main.java (2¥
+<com.dsa.doublylinkedlist.DoublyLinkedList.DoublyLinkedList()CALL_
+UD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\doublylinkedlist\Main.java$ (4ô
+;com.dsa.doublylinkedlist.Main.main(java.lang.String[])!args	PARAMETER_
+UD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\doublylinkedlist\Main.java% ()"
+typeString[]"
+isFinalfalse""
+declarationStringString[] args*args2{
+java.lang.String[]TYPE_
+UD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\doublylinkedlist\Main.java ($

@@ -1,0 +1,150 @@
+
+^D:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\circularlist\singly\LinkedList.java×
+&com.dsa.circularlist.singly.LinkedListTRAITh
+^D:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\circularlist\singly\LinkedList.java ("&
+packagecom.dsa.circularlist.singly"
+isFinalfalse"
+inner classfalse"
+
+isAbstractfalse"l
+declarationStringW<mark class="modifier">public </mark><mark class="modifier">interface </mark>LinkedList"
+accesspublic*
+LinkedList2¯
+6com.dsa.circularlist.singly.LinkedList.addToFront(int)DECLARATIONh
+^D:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\circularlist\singly\LinkedList.java	 (2®
+5com.dsa.circularlist.singly.LinkedList.addToRear(int)DECLARATIONh
+^D:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\circularlist\singly\LinkedList.java	 (2¯
+6com.dsa.circularlist.singly.LinkedList.deleteOnce(int)DECLARATIONh
+^D:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\circularlist\singly\LinkedList.java	 (2®
+5com.dsa.circularlist.singly.LinkedList.deleteAll(int)DECLARATIONh
+^D:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\circularlist\singly\LinkedList.java	 (2©
+0com.dsa.circularlist.singly.LinkedList.isEmpty()DECLARATIONh
+^D:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\circularlist\singly\LinkedList.java (2®
+5com.dsa.circularlist.singly.LinkedList.isPresent(int)DECLARATIONh
+^D:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\circularlist\singly\LinkedList.java (2§
+.com.dsa.circularlist.singly.LinkedList.print()DECLARATIONh
+^D:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\circularlist\singly\LinkedList.java		 	(ü
+6com.dsa.circularlist.singly.LinkedList.addToFront(int)METHODh
+^D:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\circularlist\singly\LinkedList.java	 ("
+isFinalfalse"©
+declarationString“<mark class="modifier"> </mark><mark class="modifier">void</mark> <mark class="method">addToFront</mark>(<mark class="modifier">int</mark> element)"
+isStaticfalse"
+accesspackage_private"
+
+isAbstractfalse"
+typevoid*
+addToFront2µ
+>com.dsa.circularlist.singly.LinkedList.addToFront(int)!element	PARAMETERh
+^D:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\circularlist\singly\LinkedList.java (2}
+voidRETURN_TYPEh
+^D:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\circularlist\singly\LinkedList.java (”
+>com.dsa.circularlist.singly.LinkedList.addToFront(int)!element	PARAMETERh
+^D:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\circularlist\singly\LinkedList.java ("
+typeint"
+isFinalfalse">
+declarationString)<mark class="modifier">int</mark> element*element2u
+intTYPEh
+^D:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\circularlist\singly\LinkedList.java (ø
+5com.dsa.circularlist.singly.LinkedList.addToRear(int)METHODh
+^D:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\circularlist\singly\LinkedList.java	 ("
+isFinalfalse"¨
+declarationString’<mark class="modifier"> </mark><mark class="modifier">void</mark> <mark class="method">addToRear</mark>(<mark class="modifier">int</mark> element)"
+isStaticfalse"
+accesspackage_private"
+
+isAbstractfalse"
+typevoid*	addToRear2´
+=com.dsa.circularlist.singly.LinkedList.addToRear(int)!element	PARAMETERh
+^D:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\circularlist\singly\LinkedList.java (2}
+voidRETURN_TYPEh
+^D:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\circularlist\singly\LinkedList.java (“
+=com.dsa.circularlist.singly.LinkedList.addToRear(int)!element	PARAMETERh
+^D:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\circularlist\singly\LinkedList.java ("
+typeint"
+isFinalfalse">
+declarationString)<mark class="modifier">int</mark> element*element2u
+intTYPEh
+^D:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\circularlist\singly\LinkedList.java (ú
+6com.dsa.circularlist.singly.LinkedList.deleteOnce(int)METHODh
+^D:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\circularlist\singly\LinkedList.java	 ("
+isFinalfalse"Š
+declarationStringu<mark class="modifier"> </mark>Node <mark class="method">deleteOnce</mark>(<mark class="modifier">int</mark> element)"
+isStaticfalse"
+accesspackage_private"
+
+isAbstractfalse"
+typeNode*
+deleteOnce2µ
+>com.dsa.circularlist.singly.LinkedList.deleteOnce(int)!element	PARAMETERh
+^D:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\circularlist\singly\LinkedList.java (2™
+ com.dsa.circularlist.singly.NodeRETURN_TYPEh
+^D:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\circularlist\singly\LinkedList.java (”
+>com.dsa.circularlist.singly.LinkedList.deleteOnce(int)!element	PARAMETERh
+^D:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\circularlist\singly\LinkedList.java ("
+typeint"
+isFinalfalse">
+declarationString)<mark class="modifier">int</mark> element*element2u
+intTYPEh
+^D:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\circularlist\singly\LinkedList.java (ö
+5com.dsa.circularlist.singly.LinkedList.deleteAll(int)METHODh
+^D:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\circularlist\singly\LinkedList.java	 ("
+isFinalfalse"‰
+declarationStringt<mark class="modifier"> </mark>Node <mark class="method">deleteAll</mark>(<mark class="modifier">int</mark> element)"
+isStaticfalse"
+accesspackage_private"
+
+isAbstractfalse"
+typeNode*	deleteAll2´
+=com.dsa.circularlist.singly.LinkedList.deleteAll(int)!element	PARAMETERh
+^D:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\circularlist\singly\LinkedList.java (2™
+ com.dsa.circularlist.singly.NodeRETURN_TYPEh
+^D:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\circularlist\singly\LinkedList.java (“
+=com.dsa.circularlist.singly.LinkedList.deleteAll(int)!element	PARAMETERh
+^D:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\circularlist\singly\LinkedList.java ("
+typeint"
+isFinalfalse">
+declarationString)<mark class="modifier">int</mark> element*element2u
+intTYPEh
+^D:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\circularlist\singly\LinkedList.java (—
+0com.dsa.circularlist.singly.LinkedList.isEmpty()METHODh
+^D:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\circularlist\singly\LinkedList.java ("
+isFinalfalse"
+declarationStringj<mark class="modifier"> </mark><mark class="modifier">boolean</mark> <mark class="method">isEmpty</mark>()"
+isStaticfalse"
+accesspackage_private"
+
+isAbstractfalse"
+typeboolean*isEmpty2€
+booleanRETURN_TYPEh
+^D:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\circularlist\singly\LinkedList.java (‚
+5com.dsa.circularlist.singly.LinkedList.isPresent(int)METHODh
+^D:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\circularlist\singly\LinkedList.java ("
+isFinalfalse"«
+declarationString•<mark class="modifier"> </mark><mark class="modifier">boolean</mark> <mark class="method">isPresent</mark>(<mark class="modifier">int</mark> element)"
+isStaticfalse"
+accesspackage_private"
+
+isAbstractfalse"
+typeboolean*	isPresent2´
+=com.dsa.circularlist.singly.LinkedList.isPresent(int)!element	PARAMETERh
+^D:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\circularlist\singly\LinkedList.java (!2€
+booleanRETURN_TYPEh
+^D:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\circularlist\singly\LinkedList.java (“
+=com.dsa.circularlist.singly.LinkedList.isPresent(int)!element	PARAMETERh
+^D:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\circularlist\singly\LinkedList.java (!"
+typeint"
+isFinalfalse">
+declarationString)<mark class="modifier">int</mark> element*element2u
+intTYPEh
+^D:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\circularlist\singly\LinkedList.java (‡
+.com.dsa.circularlist.singly.LinkedList.print()METHODh
+^D:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\circularlist\singly\LinkedList.java		 	("
+isFinalfalse"z
+declarationStringe<mark class="modifier"> </mark><mark class="modifier">void</mark> <mark class="method">print</mark>()"
+isStaticfalse"
+accesspackage_private"
+
+isAbstractfalse"
+typevoid*print2}
+voidRETURN_TYPEh
+^D:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\circularlist\singly\LinkedList.java	 	(

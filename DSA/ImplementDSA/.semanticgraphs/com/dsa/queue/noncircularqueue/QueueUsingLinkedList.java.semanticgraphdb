@@ -1,0 +1,127 @@
+
+kD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\queue\noncircularqueue\QueueUsingLinkedList.java…
+3com.dsa.queue.noncircularqueue.QueueUsingLinkedListCLASSu
+kD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\queue\noncircularqueue\QueueUsingLinkedList.java (!")
+packagecom.dsa.queue.noncircularqueue"
+isFinalfalse"
+inner classfalse"
+
+isAbstractfalse"•
+declarationStringè<mark class="modifier">public </mark><mark class="modifier">class </mark>QueueUsingLinkedList<mark class="modifier"><br>implements </mark>Queue"
+accesspublic*QueueUsingLinkedList2–
+Jcom.dsa.queue.noncircularqueue.QueueUsingLinkedList.QueueUsingLinkedList()DECLARATIONu
+kD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\queue\noncircularqueue\QueueUsingLinkedList.java (2∆
+@com.dsa.queue.noncircularqueue.QueueUsingLinkedList.enqueue(int)DECLARATIONu
+kD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\queue\noncircularqueue\QueueUsingLinkedList.java (2√
+=com.dsa.queue.noncircularqueue.QueueUsingLinkedList.dequeue()DECLARATIONu
+kD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\queue\noncircularqueue\QueueUsingLinkedList.java (2√
+=com.dsa.queue.noncircularqueue.QueueUsingLinkedList.isEmpty()DECLARATIONu
+kD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\queue\noncircularqueue\QueueUsingLinkedList.java (2¿
+:com.dsa.queue.noncircularqueue.QueueUsingLinkedList.peek()DECLARATIONu
+kD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\queue\noncircularqueue\QueueUsingLinkedList.java (2»
+Bcom.dsa.queue.noncircularqueue.QueueUsingLinkedList?list@3.29:3.33DECLARATIONu
+kD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\queue\noncircularqueue\QueueUsingLinkedList.java (!2•
+$com.dsa.queue.noncircularqueue.QueueEXTENDu
+kD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\queue\noncircularqueue\QueueUsingLinkedList.java- (2å
+Jcom.dsa.queue.noncircularqueue.QueueUsingLinkedList.QueueUsingLinkedList()CONSTRUCTORu
+kD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\queue\noncircularqueue\QueueUsingLinkedList.java ("l
+declarationStringW<mark class="modifier">public </mark><mark class="method">QueueUsingLinkedList</mark>()*QueueUsingLinkedList2µ
+6com.dsa.queue.noncircularqueue.LinkedList.LinkedList()CALLu
+kD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\queue\noncircularqueue\QueueUsingLinkedList.java (2¡
+Bcom.dsa.queue.noncircularqueue.QueueUsingLinkedList?list@3.29:3.33CALLu
+kD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\queue\noncircularqueue\QueueUsingLinkedList.java (2π
+3com.dsa.queue.noncircularqueue.QueueUsingLinkedListRETURN_TYPEu
+kD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\queue\noncircularqueue\QueueUsingLinkedList.java (‹
+@com.dsa.queue.noncircularqueue.QueueUsingLinkedList.enqueue(int)METHODu
+kD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\queue\noncircularqueue\QueueUsingLinkedList.java ("
+isFinalfalse"⁄
+declarationStringƒ<mark class="annotation">@Override</mark> <br><mark class="modifier">public </mark><mark class="modifier">void</mark> <mark class="method">enqueue</mark>(<mark class="modifier">int</mark> element)"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typevoid*enqueue2∑
+8com.dsa.queue.noncircularqueue.LinkedList.addToBack(int)CALLu
+kD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\queue\noncircularqueue\QueueUsingLinkedList.java	 	(2¡
+Bcom.dsa.queue.noncircularqueue.QueueUsingLinkedList?list@3.29:3.33CALLu
+kD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\queue\noncircularqueue\QueueUsingLinkedList.java	 	(2«
+Hcom.dsa.queue.noncircularqueue.QueueUsingLinkedList.enqueue(int)!elementCALLu
+kD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\queue\noncircularqueue\QueueUsingLinkedList.java	 	(2¥
+1com.dsa.queue.noncircularqueue.Queue.enqueue(int)OVERRIDEu
+kD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\queue\noncircularqueue\QueueUsingLinkedList.java (2Ã
+Hcom.dsa.queue.noncircularqueue.QueueUsingLinkedList.enqueue(int)!element	PARAMETERu
+kD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\queue\noncircularqueue\QueueUsingLinkedList.java (#2ä
+voidRETURN_TYPEu
+kD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\queue\noncircularqueue\QueueUsingLinkedList.java (π
+Hcom.dsa.queue.noncircularqueue.QueueUsingLinkedList.enqueue(int)!element	PARAMETERu
+kD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\queue\noncircularqueue\QueueUsingLinkedList.java (#"
+typeint"
+isFinalfalse">
+declarationString)<mark class="modifier">int</mark> element*element2Ç
+intTYPEu
+kD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\queue\noncircularqueue\QueueUsingLinkedList.java (Å
+=com.dsa.queue.noncircularqueue.QueueUsingLinkedList.dequeue()METHODu
+kD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\queue\noncircularqueue\QueueUsingLinkedList.java ("
+isFinalfalse"ç
+declarationString˜<mark class="annotation">@Override</mark> <br><mark class="modifier">public </mark><mark class="modifier">int</mark> <mark class="method">dequeue</mark>()<mark class="modifier"> <mark class="modifier">throws</mark> </mark>IndexOutOfBoundsException"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typeint*dequeue2º
+=com.dsa.queue.noncircularqueue.QueueUsingLinkedList.isEmpty()CALLu
+kD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\queue\noncircularqueue\QueueUsingLinkedList.java (2∫
+;com.dsa.queue.noncircularqueue.LinkedList.removeFromFront()CALLu
+kD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\queue\noncircularqueue\QueueUsingLinkedList.java# (22Œ
+Ojava.lang.IndexOutOfBoundsException.IndexOutOfBoundsException(java.lang.String)CALLu
+kD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\queue\noncircularqueue\QueueUsingLinkedList.java (+2¡
+Bcom.dsa.queue.noncircularqueue.QueueUsingLinkedList?list@3.29:3.33CALLu
+kD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\queue\noncircularqueue\QueueUsingLinkedList.java ("2±
+.com.dsa.queue.noncircularqueue.Queue.dequeue()OVERRIDEu
+kD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\queue\noncircularqueue\QueueUsingLinkedList.java (2â
+intRETURN_TYPEu
+kD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\queue\noncircularqueue\QueueUsingLinkedList.java (ü
+=com.dsa.queue.noncircularqueue.QueueUsingLinkedList.isEmpty()METHODu
+kD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\queue\noncircularqueue\QueueUsingLinkedList.java ("
+isFinalfalse"¥
+declarationStringû<mark class="annotation">@Override</mark> <br><mark class="modifier">public </mark><mark class="modifier">boolean</mark> <mark class="method">isEmpty</mark>()"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typeboolean*isEmpty2±
+.com.dsa.queue.noncircularqueue.Queue.isEmpty()OVERRIDEu
+kD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\queue\noncircularqueue\QueueUsingLinkedList.java (2ç
+booleanRETURN_TYPEu
+kD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\queue\noncircularqueue\QueueUsingLinkedList.java (˜
+:com.dsa.queue.noncircularqueue.QueueUsingLinkedList.peek()METHODu
+kD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\queue\noncircularqueue\QueueUsingLinkedList.java ("
+isFinalfalse"ä
+declarationStringÙ<mark class="annotation">@Override</mark> <br><mark class="modifier">public </mark><mark class="modifier">int</mark> <mark class="method">peek</mark>()<mark class="modifier"> <mark class="modifier">throws</mark> </mark>IndexOutOfBoundsException"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typeint*peek2º
+=com.dsa.queue.noncircularqueue.QueueUsingLinkedList.isEmpty()CALLu
+kD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\queue\noncircularqueue\QueueUsingLinkedList.java (2º
+=com.dsa.queue.noncircularqueue.LinkedList.getValueAtPointer()CALLu
+kD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\queue\noncircularqueue\QueueUsingLinkedList.java# (42Œ
+Ojava.lang.IndexOutOfBoundsException.IndexOutOfBoundsException(java.lang.String)CALLu
+kD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\queue\noncircularqueue\QueueUsingLinkedList.java (02¡
+Bcom.dsa.queue.noncircularqueue.QueueUsingLinkedList?list@3.29:3.33CALLu
+kD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\queue\noncircularqueue\QueueUsingLinkedList.java ("2Æ
++com.dsa.queue.noncircularqueue.Queue.peek()OVERRIDEu
+kD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\queue\noncircularqueue\QueueUsingLinkedList.java (2â
+intRETURN_TYPEu
+kD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\queue\noncircularqueue\QueueUsingLinkedList.java (“
+Bcom.dsa.queue.noncircularqueue.QueueUsingLinkedList?list@3.29:3.33VARIABLEu
+kD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\queue\noncircularqueue\QueueUsingLinkedList.java (!"
+isFinalfalse"
+type
+LinkedList"è
+declarationStringz<mark class="modifier">public </mark><mark class="modifier">static </mark>LinkedList <mark class="class-field">list</mark>"
+isStatictrue"
+accesspublic*list2®
+)com.dsa.queue.noncircularqueue.LinkedListTYPEu
+kD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\queue\noncircularqueue\QueueUsingLinkedList.java (

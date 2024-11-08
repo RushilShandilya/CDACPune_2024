@@ -1,0 +1,55 @@
+
+[D:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\queue\noncircularqueue\Node.javaò
+#com.dsa.queue.noncircularqueue.NodeCLASSe
+[D:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\queue\noncircularqueue\Node.java (")
+packagecom.dsa.queue.noncircularqueue"
+isFinalfalse"
+inner classfalse"
+
+isAbstractfalse"b
+declarationStringM<mark class="modifier">public </mark><mark class="modifier">class </mark>Node"
+accesspublic*Node2£
+-com.dsa.queue.noncircularqueue.Node.Node(int)DECLARATIONe
+[D:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\queue\noncircularqueue\Node.java (2¨
+2com.dsa.queue.noncircularqueue.Node?value@3.8:3.13DECLARATIONe
+[D:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\queue\noncircularqueue\Node.java (2§
+1com.dsa.queue.noncircularqueue.Node?next@4.9:4.13DECLARATIONe
+[D:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\queue\noncircularqueue\Node.java	 (á
+-com.dsa.queue.noncircularqueue.Node.Node(int)CONSTRUCTORe
+[D:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\queue\noncircularqueue\Node.java ("ƒ
+declarationStringn<mark class="modifier">public </mark><mark class="method">Node</mark>(<mark class="modifier">int</mark> value)*Node2¢
+3com.dsa.queue.noncircularqueue.Node.Node(int)!valueCALLe
+[D:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\queue\noncircularqueue\Node.java (2¡
+2com.dsa.queue.noncircularqueue.Node?value@3.8:3.13CALLe
+[D:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\queue\noncircularqueue\Node.java (2 
+1com.dsa.queue.noncircularqueue.Node?next@4.9:4.13CALLe
+[D:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\queue\noncircularqueue\Node.java (2§
+3com.dsa.queue.noncircularqueue.Node.Node(int)!value	PARAMETERe
+[D:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\queue\noncircularqueue\Node.java (2™
+#com.dsa.queue.noncircularqueue.NodeRETURN_TYPEe
+[D:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\queue\noncircularqueue\Node.java (ÿ
+3com.dsa.queue.noncircularqueue.Node.Node(int)!value	PARAMETERe
+[D:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\queue\noncircularqueue\Node.java ("
+typeint"
+isFinalfalse"<
+declarationString'<mark class="modifier">int</mark> value*value2r
+intTYPEe
+[D:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\queue\noncircularqueue\Node.java (ë
+2com.dsa.queue.noncircularqueue.Node?value@3.8:3.13VARIABLEe
+[D:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\queue\noncircularqueue\Node.java ("
+isFinalfalse"
+typeint"|
+declarationStringg<mark class="modifier"> </mark><mark class="modifier">int</mark> <mark class="class-field">value</mark>"
+isStaticfalse"
+accesspackage_private*value2r
+intTYPEe
+[D:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\queue\noncircularqueue\Node.java (í
+1com.dsa.queue.noncircularqueue.Node?next@4.9:4.13VARIABLEe
+[D:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\queue\noncircularqueue\Node.java	 ("
+isFinalfalse"
+typeNode"^
+declarationStringI<mark class="modifier"> </mark>Node <mark class="class-field">next</mark>"
+isStaticfalse"
+accesspackage_private*next2’
+#com.dsa.queue.noncircularqueue.NodeTYPEe
+[D:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\queue\noncircularqueue\Node.java (

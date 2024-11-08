@@ -1,0 +1,145 @@
+
+aD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\queue\noncircularqueue\LinkedList.java¯
+)com.dsa.queue.noncircularqueue.LinkedListCLASSk
+aD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\queue\noncircularqueue\LinkedList.java (")
+packagecom.dsa.queue.noncircularqueue"
+isFinalfalse"
+inner classfalse"
+
+isAbstractfalse"š
+declarationString„<mark class="modifier">public </mark><mark class="modifier">class </mark>LinkedList<mark class="modifier"><br>implements </mark>List"
+accesspublic*
+LinkedList2²
+6com.dsa.queue.noncircularqueue.LinkedList.LinkedList()DECLARATIONk
+aD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\queue\noncircularqueue\LinkedList.java (2´
+8com.dsa.queue.noncircularqueue.LinkedList.addToBack(int)DECLARATIONk
+aD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\queue\noncircularqueue\LinkedList.java (2·
+;com.dsa.queue.noncircularqueue.LinkedList.removeFromFront()DECLARATIONk
+aD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\queue\noncircularqueue\LinkedList.java (2¹
+=com.dsa.queue.noncircularqueue.LinkedList.getValueAtPointer()DECLARATIONk
+aD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\queue\noncircularqueue\LinkedList.java ( 2´
+8com.dsa.queue.noncircularqueue.LinkedList?head@3.23:3.27DECLARATIONk
+aD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\queue\noncircularqueue\LinkedList.java (2´
+8com.dsa.queue.noncircularqueue.LinkedList?tail@4.23:4.27DECLARATIONk
+aD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\queue\noncircularqueue\LinkedList.java (2š
+#com.dsa.queue.noncircularqueue.ListEXTENDk
+aD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\queue\noncircularqueue\LinkedList.java# ('ª
+6com.dsa.queue.noncircularqueue.LinkedList.LinkedList()CONSTRUCTORk
+aD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\queue\noncircularqueue\LinkedList.java ("b
+declarationStringM<mark class="modifier">public </mark><mark class="method">LinkedList</mark>()*
+LinkedList2­
+8com.dsa.queue.noncircularqueue.LinkedList?head@3.23:3.27CALLk
+aD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\queue\noncircularqueue\LinkedList.java (2­
+8com.dsa.queue.noncircularqueue.LinkedList?tail@4.23:4.27CALLk
+aD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\queue\noncircularqueue\LinkedList.java (2¥
+)com.dsa.queue.noncircularqueue.LinkedListRETURN_TYPEk
+aD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\queue\noncircularqueue\LinkedList.java (ë
+8com.dsa.queue.noncircularqueue.LinkedList.addToBack(int)METHODk
+aD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\queue\noncircularqueue\LinkedList.java ("
+isFinalfalse"Ü
+declarationStringÆ<mark class="annotation">@Override</mark> <br><mark class="modifier">public </mark><mark class="modifier">void</mark> <mark class="method">addToBack</mark>(<mark class="modifier">int</mark> element)"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typevoid*	addToBack2¢
+-com.dsa.queue.noncircularqueue.Node.Node(int)CALLk
+aD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\queue\noncircularqueue\LinkedList.java (2¢
+-com.dsa.queue.noncircularqueue.Node.Node(int)CALLk
+aD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\queue\noncircularqueue\LinkedList.java ( 2­
+8com.dsa.queue.noncircularqueue.LinkedList?head@3.23:3.27CALLk
+aD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\queue\noncircularqueue\LinkedList.java (2­
+8com.dsa.queue.noncircularqueue.LinkedList?head@3.23:3.27CALLk
+aD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\queue\noncircularqueue\LinkedList.java (2µ
+@com.dsa.queue.noncircularqueue.LinkedList.addToBack(int)!elementCALLk
+aD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\queue\noncircularqueue\LinkedList.java (#2­
+8com.dsa.queue.noncircularqueue.LinkedList?tail@4.23:4.27CALLk
+aD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\queue\noncircularqueue\LinkedList.java (2­
+8com.dsa.queue.noncircularqueue.LinkedList?head@3.23:3.27CALLk
+aD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\queue\noncircularqueue\LinkedList.java (2­
+8com.dsa.queue.noncircularqueue.LinkedList?tail@4.23:4.27CALLk
+aD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\queue\noncircularqueue\LinkedList.java (2µ
+@com.dsa.queue.noncircularqueue.LinkedList.addToBack(int)!elementCALLk
+aD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\queue\noncircularqueue\LinkedList.java! ((2­
+8com.dsa.queue.noncircularqueue.LinkedList?tail@4.23:4.27CALLk
+aD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\queue\noncircularqueue\LinkedList.java (2­
+8com.dsa.queue.noncircularqueue.LinkedList?tail@4.23:4.27CALLk
+aD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\queue\noncircularqueue\LinkedList.java (2«
+2com.dsa.queue.noncircularqueue.List.addToBack(int)OVERRIDEk
+aD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\queue\noncircularqueue\LinkedList.java (2º
+@com.dsa.queue.noncircularqueue.LinkedList.addToBack(int)!element	PARAMETERk
+aD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\queue\noncircularqueue\LinkedList.java (%2€
+voidRETURN_TYPEk
+aD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\queue\noncircularqueue\LinkedList.java (œ
+@com.dsa.queue.noncircularqueue.LinkedList.addToBack(int)!element	PARAMETERk
+aD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\queue\noncircularqueue\LinkedList.java (%"
+typeint"
+isFinalfalse">
+declarationString)<mark class="modifier">int</mark> element*element2x
+intTYPEk
+aD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\queue\noncircularqueue\LinkedList.java (ª
+;com.dsa.queue.noncircularqueue.LinkedList.removeFromFront()METHODk
+aD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\queue\noncircularqueue\LinkedList.java ("
+isFinalfalse"¸
+declarationString¢<mark class="annotation">@Override</mark> <br><mark class="modifier">public </mark><mark class="modifier">int</mark> <mark class="method">removeFromFront</mark>()"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typeint*removeFromFront2­
+8com.dsa.queue.noncircularqueue.LinkedList?head@3.23:3.27CALLk
+aD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\queue\noncircularqueue\LinkedList.java (2­
+8com.dsa.queue.noncircularqueue.LinkedList?head@3.23:3.27CALLk
+aD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\queue\noncircularqueue\LinkedList.java (2­
+8com.dsa.queue.noncircularqueue.LinkedList?head@3.23:3.27CALLk
+aD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\queue\noncircularqueue\LinkedList.java (2Â
+Mcom.dsa.queue.noncircularqueue.LinkedList.removeFromFront()?value@24.12:24.17CALLk
+aD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\queue\noncircularqueue\LinkedList.java (2®
+5com.dsa.queue.noncircularqueue.List.removeFromFront()OVERRIDEk
+aD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\queue\noncircularqueue\LinkedList.java (2É
+Mcom.dsa.queue.noncircularqueue.LinkedList.removeFromFront()?value@24.12:24.17DECLARATIONk
+aD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\queue\noncircularqueue\LinkedList.java (2
+intRETURN_TYPEk
+aD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\queue\noncircularqueue\LinkedList.java (¢
+Mcom.dsa.queue.noncircularqueue.LinkedList.removeFromFront()?value@24.12:24.17VARIABLEk
+aD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\queue\noncircularqueue\LinkedList.java ("
+typeint"
+isFinalfalse"‰
+declarationStringt<mark class="modifier"> </mark><mark class="modifier">int</mark> <mark class="class-field">value</mark> = head.value*value2x
+intTYPEk
+aD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\queue\noncircularqueue\LinkedList.java (2­
+8com.dsa.queue.noncircularqueue.LinkedList?head@3.23:3.27CALLk
+aD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\queue\noncircularqueue\LinkedList.java (Á
+=com.dsa.queue.noncircularqueue.LinkedList.getValueAtPointer()METHODk
+aD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\queue\noncircularqueue\LinkedList.java ( "
+isFinalfalse"º
+declarationString¤<mark class="annotation">@Override</mark> <br><mark class="modifier">public </mark><mark class="modifier">int</mark> <mark class="method">getValueAtPointer</mark>()"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typeint*getValueAtPointer2­
+8com.dsa.queue.noncircularqueue.LinkedList?head@3.23:3.27CALLk
+aD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\queue\noncircularqueue\LinkedList.java   (2°
+7com.dsa.queue.noncircularqueue.List.getValueAtPointer()OVERRIDEk
+aD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\queue\noncircularqueue\LinkedList.java ( 2
+intRETURN_TYPEk
+aD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\queue\noncircularqueue\LinkedList.java (¢
+8com.dsa.queue.noncircularqueue.LinkedList?head@3.23:3.27VARIABLEk
+aD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\queue\noncircularqueue\LinkedList.java ("
+isFinalfalse"
+typeNode"‰
+declarationStringt<mark class="modifier">public </mark><mark class="modifier">static </mark>Node <mark class="class-field">head</mark>"
+isStatictrue"
+accesspublic*head2˜
+#com.dsa.queue.noncircularqueue.NodeTYPEk
+aD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\queue\noncircularqueue\LinkedList.java (¢
+8com.dsa.queue.noncircularqueue.LinkedList?tail@4.23:4.27VARIABLEk
+aD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\queue\noncircularqueue\LinkedList.java ("
+isFinalfalse"
+typeNode"‰
+declarationStringt<mark class="modifier">public </mark><mark class="modifier">static </mark>Node <mark class="class-field">tail</mark>"
+isStatictrue"
+accesspublic*tail2˜
+#com.dsa.queue.noncircularqueue.NodeTYPEk
+aD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\queue\noncircularqueue\LinkedList.java (

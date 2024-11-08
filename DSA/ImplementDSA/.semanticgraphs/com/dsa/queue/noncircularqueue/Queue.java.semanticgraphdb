@@ -1,0 +1,72 @@
+
+\D:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\queue\noncircularqueue\Queue.javaü
+$com.dsa.queue.noncircularqueue.QueueTRAITf
+\D:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\queue\noncircularqueue\Queue.java (")
+packagecom.dsa.queue.noncircularqueue"
+isFinalfalse"
+inner classfalse"
+
+isAbstractfalse"g
+declarationStringR<mark class="modifier">public </mark><mark class="modifier">interface </mark>Queue"
+accesspublic*Queue2®
+1com.dsa.queue.noncircularqueue.Queue.enqueue(int)DECLARATIONf
+\D:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\queue\noncircularqueue\Queue.java	 (2•
+.com.dsa.queue.noncircularqueue.Queue.dequeue()DECLARATIONf
+\D:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\queue\noncircularqueue\Queue.java (2•
+.com.dsa.queue.noncircularqueue.Queue.isEmpty()DECLARATIONf
+\D:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\queue\noncircularqueue\Queue.java (2¢
++com.dsa.queue.noncircularqueue.Queue.peek()DECLARATIONf
+\D:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\queue\noncircularqueue\Queue.java (Ê
+1com.dsa.queue.noncircularqueue.Queue.enqueue(int)METHODf
+\D:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\queue\noncircularqueue\Queue.java	 ("
+isFinalfalse"¶
+declarationStringê<mark class="modifier"> </mark><mark class="modifier">void</mark> <mark class="method">enqueue</mark>(<mark class="modifier">int</mark> element)"
+isStaticfalse"
+accesspackage_private"
+
+isAbstractfalse"
+typevoid*enqueue2Æ
+9com.dsa.queue.noncircularqueue.Queue.enqueue(int)!element	PARAMETERf
+\D:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\queue\noncircularqueue\Queue.java (2{
+voidRETURN_TYPEf
+\D:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\queue\noncircularqueue\Queue.java (ã
+9com.dsa.queue.noncircularqueue.Queue.enqueue(int)!element	PARAMETERf
+\D:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\queue\noncircularqueue\Queue.java ("
+typeint"
+isFinalfalse">
+declarationString)<mark class="modifier">int</mark> element*element2s
+intTYPEf
+\D:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\queue\noncircularqueue\Queue.java (Ñ
+.com.dsa.queue.noncircularqueue.Queue.dequeue()METHODf
+\D:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\queue\noncircularqueue\Queue.java ("
+isFinalfalse"{
+declarationStringf<mark class="modifier"> </mark><mark class="modifier">int</mark> <mark class="method">dequeue</mark>()"
+isStaticfalse"
+accesspackage_private"
+
+isAbstractfalse"
+typeint*dequeue2z
+intRETURN_TYPEf
+\D:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\queue\noncircularqueue\Queue.java (ê
+.com.dsa.queue.noncircularqueue.Queue.isEmpty()METHODf
+\D:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\queue\noncircularqueue\Queue.java ("
+isFinalfalse"
+declarationStringj<mark class="modifier"> </mark><mark class="modifier">boolean</mark> <mark class="method">isEmpty</mark>()"
+isStaticfalse"
+accesspackage_private"
+
+isAbstractfalse"
+typeboolean*isEmpty2~
+booleanRETURN_TYPEf
+\D:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\queue\noncircularqueue\Queue.java (˚
++com.dsa.queue.noncircularqueue.Queue.peek()METHODf
+\D:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\queue\noncircularqueue\Queue.java ("
+isFinalfalse"x
+declarationStringc<mark class="modifier"> </mark><mark class="modifier">int</mark> <mark class="method">peek</mark>()"
+isStaticfalse"
+accesspackage_private"
+
+isAbstractfalse"
+typeint*peek2z
+intRETURN_TYPEf
+\D:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\queue\noncircularqueue\Queue.java (

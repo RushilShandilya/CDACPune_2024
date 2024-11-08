@@ -1,0 +1,148 @@
+
+^D:/240840120142/Java/240840120142/ImplementDSA/src/com/dsa/circularlist/doubly/LinkedList.javaú
+&com.dsa.circularlist.doubly.LinkedListTRAITh
+^D:/240840120142/Java/240840120142/ImplementDSA/src/com/dsa/circularlist/doubly/LinkedList.java ("&
+packagecom.dsa.circularlist.doubly"
+isFinalfalse"
+inner classfalse"
+
+isAbstractfalse"l
+declarationStringW<mark class="modifier">public </mark><mark class="modifier">interface </mark>LinkedList"
+accesspublic*
+LinkedList2²
+9com.dsa.circularlist.doubly.LinkedList.insertToFront(int)DECLARATIONh
+^D:/240840120142/Java/240840120142/ImplementDSA/src/com/dsa/circularlist/doubly/LinkedList.java	 (2±
+8com.dsa.circularlist.doubly.LinkedList.insertToBack(int)DECLARATIONh
+^D:/240840120142/Java/240840120142/ImplementDSA/src/com/dsa/circularlist/doubly/LinkedList.java	 (2¹
+@com.dsa.circularlist.doubly.LinkedList.insertInBetween(int, int)DECLARATIONh
+^D:/240840120142/Java/240840120142/ImplementDSA/src/com/dsa/circularlist/doubly/LinkedList.java	 (2±
+8com.dsa.circularlist.doubly.LinkedList.deleteFromFront()DECLARATIONh
+^D:/240840120142/Java/240840120142/ImplementDSA/src/com/dsa/circularlist/doubly/LinkedList.java (2°
+7com.dsa.circularlist.doubly.LinkedList.deleteFromBack()DECLARATIONh
+^D:/240840120142/Java/240840120142/ImplementDSA/src/com/dsa/circularlist/doubly/LinkedList.java (2µ
+<com.dsa.circularlist.doubly.LinkedList.deleteAtPosition(int)DECLARATIONh
+^D:/240840120142/Java/240840120142/ImplementDSA/src/com/dsa/circularlist/doubly/LinkedList.java (2©
+0com.dsa.circularlist.doubly.LinkedList.isEmpty()DECLARATIONh
+^D:/240840120142/Java/240840120142/ImplementDSA/src/com/dsa/circularlist/doubly/LinkedList.java	 	(ˆ
+9com.dsa.circularlist.doubly.LinkedList.insertToFront(int)METHODh
+^D:/240840120142/Java/240840120142/ImplementDSA/src/com/dsa/circularlist/doubly/LinkedList.java	 ("
+isFinalfalse"¬
+declarationString–<mark class="modifier"> </mark><mark class="modifier">void</mark> <mark class="method">insertToFront</mark>(<mark class="modifier">int</mark> element)"
+isStaticfalse"
+accesspackage_private"
+
+isAbstractfalse"
+typevoid*insertToFront2¸
+Acom.dsa.circularlist.doubly.LinkedList.insertToFront(int)!element	PARAMETERh
+^D:/240840120142/Java/240840120142/ImplementDSA/src/com/dsa/circularlist/doubly/LinkedList.java ("2}
+voidRETURN_TYPEh
+^D:/240840120142/Java/240840120142/ImplementDSA/src/com/dsa/circularlist/doubly/LinkedList.java (—
+Acom.dsa.circularlist.doubly.LinkedList.insertToFront(int)!element	PARAMETERh
+^D:/240840120142/Java/240840120142/ImplementDSA/src/com/dsa/circularlist/doubly/LinkedList.java (""
+typeint"
+isFinalfalse">
+declarationString)<mark class="modifier">int</mark> element*element2u
+intTYPEh
+^D:/240840120142/Java/240840120142/ImplementDSA/src/com/dsa/circularlist/doubly/LinkedList.java („
+8com.dsa.circularlist.doubly.LinkedList.insertToBack(int)METHODh
+^D:/240840120142/Java/240840120142/ImplementDSA/src/com/dsa/circularlist/doubly/LinkedList.java	 ("
+isFinalfalse"«
+declarationString•<mark class="modifier"> </mark><mark class="modifier">void</mark> <mark class="method">insertToBack</mark>(<mark class="modifier">int</mark> element)"
+isStaticfalse"
+accesspackage_private"
+
+isAbstractfalse"
+typevoid*insertToBack2·
+@com.dsa.circularlist.doubly.LinkedList.insertToBack(int)!element	PARAMETERh
+^D:/240840120142/Java/240840120142/ImplementDSA/src/com/dsa/circularlist/doubly/LinkedList.java (!2}
+voidRETURN_TYPEh
+^D:/240840120142/Java/240840120142/ImplementDSA/src/com/dsa/circularlist/doubly/LinkedList.java (–
+@com.dsa.circularlist.doubly.LinkedList.insertToBack(int)!element	PARAMETERh
+^D:/240840120142/Java/240840120142/ImplementDSA/src/com/dsa/circularlist/doubly/LinkedList.java (!"
+typeint"
+isFinalfalse">
+declarationString)<mark class="modifier">int</mark> element*element2u
+intTYPEh
+^D:/240840120142/Java/240840120142/ImplementDSA/src/com/dsa/circularlist/doubly/LinkedList.java (Å
+@com.dsa.circularlist.doubly.LinkedList.insertInBetween(int, int)METHODh
+^D:/240840120142/Java/240840120142/ImplementDSA/src/com/dsa/circularlist/doubly/LinkedList.java	 ("
+isFinalfalse"–
+declarationString€<mark class="modifier"> </mark><mark class="modifier">void</mark> <mark class="method">insertInBetween</mark>(<mark class="modifier">int</mark> element<mark class="modifier"><mark class="modifier">,</mark></mark> <mark class="modifier">int</mark> position)"
+isStaticfalse"
+accesspackage_private"
+
+isAbstractfalse"
+typevoid*insertInBetween2¿
+Hcom.dsa.circularlist.doubly.LinkedList.insertInBetween(int, int)!element	PARAMETERh
+^D:/240840120142/Java/240840120142/ImplementDSA/src/com/dsa/circularlist/doubly/LinkedList.java ($2À
+Icom.dsa.circularlist.doubly.LinkedList.insertInBetween(int, int)!position	PARAMETERh
+^D:/240840120142/Java/240840120142/ImplementDSA/src/com/dsa/circularlist/doubly/LinkedList.java* (22}
+voidRETURN_TYPEh
+^D:/240840120142/Java/240840120142/ImplementDSA/src/com/dsa/circularlist/doubly/LinkedList.java (ž
+Hcom.dsa.circularlist.doubly.LinkedList.insertInBetween(int, int)!element	PARAMETERh
+^D:/240840120142/Java/240840120142/ImplementDSA/src/com/dsa/circularlist/doubly/LinkedList.java ($"
+typeint"
+isFinalfalse">
+declarationString)<mark class="modifier">int</mark> element*element2u
+intTYPEh
+^D:/240840120142/Java/240840120142/ImplementDSA/src/com/dsa/circularlist/doubly/LinkedList.java (¡
+Icom.dsa.circularlist.doubly.LinkedList.insertInBetween(int, int)!position	PARAMETERh
+^D:/240840120142/Java/240840120142/ImplementDSA/src/com/dsa/circularlist/doubly/LinkedList.java* (2"
+typeint"
+isFinalfalse"?
+declarationString*<mark class="modifier">int</mark> position*position2u
+intTYPEh
+^D:/240840120142/Java/240840120142/ImplementDSA/src/com/dsa/circularlist/doubly/LinkedList.java& ()û
+8com.dsa.circularlist.doubly.LinkedList.deleteFromFront()METHODh
+^D:/240840120142/Java/240840120142/ImplementDSA/src/com/dsa/circularlist/doubly/LinkedList.java ("
+isFinalfalse"Û
+declarationStringÅ<mark class="modifier"> </mark><mark class="modifier">int</mark> <mark class="method">deleteFromFront</mark>()<mark class="modifier"> <mark class="modifier">throws</mark> </mark>LinkedListException"
+isStaticfalse"
+accesspackage_private"
+
+isAbstractfalse"
+typeint*deleteFromFront2|
+intRETURN_TYPEh
+^D:/240840120142/Java/240840120142/ImplementDSA/src/com/dsa/circularlist/doubly/LinkedList.java (ø
+7com.dsa.circularlist.doubly.LinkedList.deleteFromBack()METHODh
+^D:/240840120142/Java/240840120142/ImplementDSA/src/com/dsa/circularlist/doubly/LinkedList.java ("
+isFinalfalse"Ú
+declarationStringÄ<mark class="modifier"> </mark><mark class="modifier">int</mark> <mark class="method">deleteFromBack</mark>()<mark class="modifier"> <mark class="modifier">throws</mark> </mark>LinkedListException"
+isStaticfalse"
+accesspackage_private"
+
+isAbstractfalse"
+typeint*deleteFromBack2|
+intRETURN_TYPEh
+^D:/240840120142/Java/240840120142/ImplementDSA/src/com/dsa/circularlist/doubly/LinkedList.java (è
+<com.dsa.circularlist.doubly.LinkedList.deleteAtPosition(int)METHODh
+^D:/240840120142/Java/240840120142/ImplementDSA/src/com/dsa/circularlist/doubly/LinkedList.java ("
+isFinalfalse"…
+declarationStringï<mark class="modifier"> </mark><mark class="modifier">int</mark> <mark class="method">deleteAtPosition</mark>(<mark class="modifier">int</mark> element)<mark class="modifier"> <mark class="modifier">throws</mark> </mark>LinkedListException"
+isStaticfalse"
+accesspackage_private"
+
+isAbstractfalse"
+typeint*deleteAtPosition2»
+Dcom.dsa.circularlist.doubly.LinkedList.deleteAtPosition(int)!element	PARAMETERh
+^D:/240840120142/Java/240840120142/ImplementDSA/src/com/dsa/circularlist/doubly/LinkedList.java ($2|
+intRETURN_TYPEh
+^D:/240840120142/Java/240840120142/ImplementDSA/src/com/dsa/circularlist/doubly/LinkedList.java (š
+Dcom.dsa.circularlist.doubly.LinkedList.deleteAtPosition(int)!element	PARAMETERh
+^D:/240840120142/Java/240840120142/ImplementDSA/src/com/dsa/circularlist/doubly/LinkedList.java ($"
+typeint"
+isFinalfalse">
+declarationString)<mark class="modifier">int</mark> element*element2u
+intTYPEh
+^D:/240840120142/Java/240840120142/ImplementDSA/src/com/dsa/circularlist/doubly/LinkedList.java (—
+0com.dsa.circularlist.doubly.LinkedList.isEmpty()METHODh
+^D:/240840120142/Java/240840120142/ImplementDSA/src/com/dsa/circularlist/doubly/LinkedList.java	 	("
+isFinalfalse"
+declarationStringj<mark class="modifier"> </mark><mark class="modifier">boolean</mark> <mark class="method">isEmpty</mark>()"
+isStaticfalse"
+accesspackage_private"
+
+isAbstractfalse"
+typeboolean*isEmpty2€
+booleanRETURN_TYPEh
+^D:/240840120142/Java/240840120142/ImplementDSA/src/com/dsa/circularlist/doubly/LinkedList.java	 	(

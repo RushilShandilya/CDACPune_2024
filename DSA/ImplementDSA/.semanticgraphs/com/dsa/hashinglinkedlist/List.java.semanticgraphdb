@@ -1,0 +1,68 @@
+
+VD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\hashinglinkedlist\List.javaƒ
+com.dsa.hashinglinkedlist.ListTRAIT`
+VD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\hashinglinkedlist\List.java ("$
+packagecom.dsa.hashinglinkedlist"
+isFinalfalse"
+inner classfalse"
+
+isAbstractfalse"f
+declarationStringQ<mark class="modifier">public </mark><mark class="modifier">interface </mark>List"
+accesspublic*List2õ
+*com.dsa.hashinglinkedlist.List.insert(int)DECLARATION`
+VD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\hashinglinkedlist\List.java	 (2õ
+*com.dsa.hashinglinkedlist.List.search(int)DECLARATION`
+VD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\hashinglinkedlist\List.java (2ô
+(com.dsa.hashinglinkedlist.List.isEmpty()DECLARATION`
+VD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\hashinglinkedlist\List.java (ƒ
+*com.dsa.hashinglinkedlist.List.insert(int)METHOD`
+VD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\hashinglinkedlist\List.java	 ("
+isFinalfalse"•
+declarationStringè<mark class="modifier"> </mark><mark class="modifier">void</mark> <mark class="method">insert</mark>(<mark class="modifier">int</mark> element)"
+isStaticfalse"
+accesspackage_private"
+
+isAbstractfalse"
+typevoid*insert2°
+2com.dsa.hashinglinkedlist.List.insert(int)!element	PARAMETER`
+VD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\hashinglinkedlist\List.java (2u
+voidRETURN_TYPE`
+VD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\hashinglinkedlist\List.java (¯
+2com.dsa.hashinglinkedlist.List.insert(int)!element	PARAMETER`
+VD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\hashinglinkedlist\List.java ("
+typeint"
+isFinalfalse">
+declarationString)<mark class="modifier">int</mark> element*element2m
+intTYPE`
+VD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\hashinglinkedlist\List.java (Õ
+*com.dsa.hashinglinkedlist.List.search(int)METHOD`
+VD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\hashinglinkedlist\List.java ("
+isFinalfalse"®
+declarationStringí<mark class="modifier"> </mark><mark class="modifier">boolean</mark> <mark class="method">search</mark>(<mark class="modifier">int</mark> element)"
+isStaticfalse"
+accesspackage_private"
+
+isAbstractfalse"
+typeboolean*search2°
+2com.dsa.hashinglinkedlist.List.search(int)!element	PARAMETER`
+VD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\hashinglinkedlist\List.java (2x
+booleanRETURN_TYPE`
+VD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\hashinglinkedlist\List.java (¯
+2com.dsa.hashinglinkedlist.List.search(int)!element	PARAMETER`
+VD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\hashinglinkedlist\List.java ("
+typeint"
+isFinalfalse">
+declarationString)<mark class="modifier">int</mark> element*element2m
+intTYPE`
+VD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\hashinglinkedlist\List.java (˛
+(com.dsa.hashinglinkedlist.List.isEmpty()METHOD`
+VD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\hashinglinkedlist\List.java ("
+isFinalfalse"
+declarationStringj<mark class="modifier"> </mark><mark class="modifier">boolean</mark> <mark class="method">isEmpty</mark>()"
+isStaticfalse"
+accesspackage_private"
+
+isAbstractfalse"
+typeboolean*isEmpty2x
+booleanRETURN_TYPE`
+VD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\hashinglinkedlist\List.java (

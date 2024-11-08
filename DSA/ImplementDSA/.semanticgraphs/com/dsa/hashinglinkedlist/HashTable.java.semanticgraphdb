@@ -1,0 +1,55 @@
+
+[D:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\hashinglinkedlist\HashTable.java–
+#com.dsa.hashinglinkedlist.HashTableTRAITe
+[D:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\hashinglinkedlist\HashTable.java ("$
+packagecom.dsa.hashinglinkedlist"
+isFinalfalse"
+inner classfalse"
+
+isAbstractfalse"k
+declarationStringV<mark class="modifier">public </mark><mark class="modifier">interface </mark>HashTable"
+accesspublic*	HashTable2•
+/com.dsa.hashinglinkedlist.HashTable.insert(int)DECLARATIONe
+[D:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\hashinglinkedlist\HashTable.java	 (2•
+/com.dsa.hashinglinkedlist.HashTable.search(int)DECLARATIONe
+[D:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\hashinglinkedlist\HashTable.java (›
+/com.dsa.hashinglinkedlist.HashTable.insert(int)METHODe
+[D:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\hashinglinkedlist\HashTable.java	 ("
+isFinalfalse"•
+declarationStringè<mark class="modifier"> </mark><mark class="modifier">void</mark> <mark class="method">insert</mark>(<mark class="modifier">int</mark> element)"
+isStaticfalse"
+accesspackage_private"
+
+isAbstractfalse"
+typevoid*insert2´
+7com.dsa.hashinglinkedlist.HashTable.insert(int)!element	PARAMETERe
+[D:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\hashinglinkedlist\HashTable.java (2z
+voidRETURN_TYPEe
+[D:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\hashinglinkedlist\HashTable.java (á
+7com.dsa.hashinglinkedlist.HashTable.insert(int)!element	PARAMETERe
+[D:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\hashinglinkedlist\HashTable.java ("
+typeint"
+isFinalfalse">
+declarationString)<mark class="modifier">int</mark> element*element2r
+intTYPEe
+[D:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\hashinglinkedlist\HashTable.java (Ê
+/com.dsa.hashinglinkedlist.HashTable.search(int)METHODe
+[D:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\hashinglinkedlist\HashTable.java ("
+isFinalfalse"®
+declarationStringí<mark class="modifier"> </mark><mark class="modifier">boolean</mark> <mark class="method">search</mark>(<mark class="modifier">int</mark> element)"
+isStaticfalse"
+accesspackage_private"
+
+isAbstractfalse"
+typeboolean*search2´
+7com.dsa.hashinglinkedlist.HashTable.search(int)!element	PARAMETERe
+[D:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\hashinglinkedlist\HashTable.java (2}
+booleanRETURN_TYPEe
+[D:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\hashinglinkedlist\HashTable.java (á
+7com.dsa.hashinglinkedlist.HashTable.search(int)!element	PARAMETERe
+[D:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\hashinglinkedlist\HashTable.java ("
+typeint"
+isFinalfalse">
+declarationString)<mark class="modifier">int</mark> element*element2r
+intTYPEe
+[D:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\hashinglinkedlist\HashTable.java (

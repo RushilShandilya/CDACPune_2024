@@ -1,0 +1,70 @@
+
+UD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\doublylinkedlist\Node.java⁄
+com.dsa.doublylinkedlist.NodeCLASS_
+UD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\doublylinkedlist\Node.java ("#
+packagecom.dsa.doublylinkedlist"
+isFinalfalse"
+inner classfalse"
+
+isAbstractfalse"b
+declarationStringM<mark class="modifier">public </mark><mark class="modifier">class </mark>Node"
+accesspublic*Node2ó
+'com.dsa.doublylinkedlist.Node.Node(int)DECLARATION_
+UD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\doublylinkedlist\Node.java (2ú
+,com.dsa.doublylinkedlist.Node?value@3.8:3.13DECLARATION_
+UD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\doublylinkedlist\Node.java (2õ
++com.dsa.doublylinkedlist.Node?prev@4.9:4.13DECLARATION_
+UD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\doublylinkedlist\Node.java	 (2õ
++com.dsa.doublylinkedlist.Node?next@5.9:5.13DECLARATION_
+UD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\doublylinkedlist\Node.java	 (∞	
+'com.dsa.doublylinkedlist.Node.Node(int)CONSTRUCTOR_
+UD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\doublylinkedlist\Node.java ("É
+declarationStringn<mark class="modifier">public </mark><mark class="method">Node</mark>(<mark class="modifier">int</mark> value)*Node2ñ
+-com.dsa.doublylinkedlist.Node.Node(int)!valueCALL_
+UD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\doublylinkedlist\Node.java (2ï
+,com.dsa.doublylinkedlist.Node?value@3.8:3.13CALL_
+UD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\doublylinkedlist\Node.java (2î
++com.dsa.doublylinkedlist.Node?prev@4.9:4.13CALL_
+UD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\doublylinkedlist\Node.java	 	(2î
++com.dsa.doublylinkedlist.Node?next@5.9:5.13CALL_
+UD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\doublylinkedlist\Node.java
+ 
+(2õ
+-com.dsa.doublylinkedlist.Node.Node(int)!value	PARAMETER_
+UD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\doublylinkedlist\Node.java (2ç
+com.dsa.doublylinkedlist.NodeRETURN_TYPE_
+UD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\doublylinkedlist\Node.java (Ì
+-com.dsa.doublylinkedlist.Node.Node(int)!value	PARAMETER_
+UD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\doublylinkedlist\Node.java ("
+typeint"
+isFinalfalse"<
+declarationString'<mark class="modifier">int</mark> value*value2l
+intTYPE_
+UD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\doublylinkedlist\Node.java (Ÿ
+,com.dsa.doublylinkedlist.Node?value@3.8:3.13VARIABLE_
+UD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\doublylinkedlist\Node.java ("
+isFinalfalse"
+typeint"|
+declarationStringg<mark class="modifier"> </mark><mark class="modifier">int</mark> <mark class="class-field">value</mark>"
+isStaticfalse"
+accesspackage_private*value2l
+intTYPE_
+UD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\doublylinkedlist\Node.java (’
++com.dsa.doublylinkedlist.Node?prev@4.9:4.13VARIABLE_
+UD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\doublylinkedlist\Node.java	 ("
+isFinalfalse"
+typeNode"^
+declarationStringI<mark class="modifier"> </mark>Node <mark class="class-field">prev</mark>"
+isStaticfalse"
+accesspackage_private*prev2Ü
+com.dsa.doublylinkedlist.NodeTYPE_
+UD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\doublylinkedlist\Node.java (’
++com.dsa.doublylinkedlist.Node?next@5.9:5.13VARIABLE_
+UD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\doublylinkedlist\Node.java	 ("
+isFinalfalse"
+typeNode"^
+declarationStringI<mark class="modifier"> </mark>Node <mark class="class-field">next</mark>"
+isStaticfalse"
+accesspackage_private*next2Ü
+com.dsa.doublylinkedlist.NodeTYPE_
+UD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\doublylinkedlist\Node.java (

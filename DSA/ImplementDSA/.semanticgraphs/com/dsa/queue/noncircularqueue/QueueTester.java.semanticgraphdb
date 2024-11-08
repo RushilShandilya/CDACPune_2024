@@ -1,0 +1,82 @@
+
+bD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\queue\noncircularqueue\QueueTester.javaÖ
+*com.dsa.queue.noncircularqueue.QueueTesterCLASSl
+bD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\queue\noncircularqueue\QueueTester.java (")
+packagecom.dsa.queue.noncircularqueue"
+isFinalfalse"
+inner classfalse"
+
+isAbstractfalse"i
+declarationStringT<mark class="modifier">public </mark><mark class="modifier">class </mark>QueueTester"
+accesspublic*QueueTester2À
+Ccom.dsa.queue.noncircularqueue.QueueTester.main(java.lang.String[])DECLARATIONl
+bD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\queue\noncircularqueue\QueueTester.java (¢
+Ccom.dsa.queue.noncircularqueue.QueueTester.main(java.lang.String[])METHODl
+bD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\queue\noncircularqueue\QueueTester.java ("
+isFinalfalse"²
+declarationStringœ<mark class="modifier">public </mark><mark class="modifier">static </mark><mark class="modifier">void</mark> <mark class="method">main</mark>(String[] args)"
+isStatictrue"
+accesspublic"
+
+isAbstractfalse"
+typevoid*main2¶
+@com.dsa.queue.noncircularqueue.QueueUsingLinkedList.enqueue(int)CALLl
+bD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\queue\noncircularqueue\QueueTester.java* (12³
+=com.dsa.queue.noncircularqueue.QueueUsingLinkedList.isEmpty()CALLl
+bD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\queue\noncircularqueue\QueueTester.java	 	(2¡
++java.io.PrintStream.print(java.lang.String)CALLl
+bD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\queue\noncircularqueue\QueueTester.java	* 	(/2³
+=com.dsa.queue.noncircularqueue.QueueUsingLinkedList.dequeue()CALLl
+bD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\queue\noncircularqueue\QueueTester.java	5 	(<2À
+Jcom.dsa.queue.noncircularqueue.QueueUsingLinkedList.QueueUsingLinkedList()CALLl
+bD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\queue\noncircularqueue\QueueTester.java( (<2Ó
+]com.dsa.queue.noncircularqueue.QueueTester.main(java.lang.String[])?insertIntoQueue@4.14:4.29CALLl
+bD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\queue\noncircularqueue\QueueTester.java (#2È
+Rcom.dsa.queue.noncircularqueue.QueueTester.main(java.lang.String[])?list@5.29:5.33CALLl
+bD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\queue\noncircularqueue\QueueTester.java% ()2Å
+Ocom.dsa.queue.noncircularqueue.QueueTester.main(java.lang.String[])?x@7.16:7.17CALLl
+bD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\queue\noncircularqueue\QueueTester.java2 (32È
+Rcom.dsa.queue.noncircularqueue.QueueTester.main(java.lang.String[])?list@5.29:5.33CALLl
+bD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\queue\noncircularqueue\QueueTester.java	 	(2È
+Rcom.dsa.queue.noncircularqueue.QueueTester.main(java.lang.String[])?list@5.29:5.33CALLl
+bD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\queue\noncircularqueue\QueueTester.java	0 	(42Ã
+Hcom.dsa.queue.noncircularqueue.QueueTester.main(java.lang.String[])!args	PARAMETERl
+bD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\queue\noncircularqueue\QueueTester.java% ()2Ú
+]com.dsa.queue.noncircularqueue.QueueTester.main(java.lang.String[])?insertIntoQueue@4.14:4.29DECLARATIONl
+bD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\queue\noncircularqueue\QueueTester.java (2Ï
+Rcom.dsa.queue.noncircularqueue.QueueTester.main(java.lang.String[])?list@5.29:5.33DECLARATIONl
+bD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\queue\noncircularqueue\QueueTester.java (!2Ì
+Ocom.dsa.queue.noncircularqueue.QueueTester.main(java.lang.String[])?x@7.16:7.17DECLARATIONl
+bD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\queue\noncircularqueue\QueueTester.java (2
+voidRETURN_TYPEl
+bD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\queue\noncircularqueue\QueueTester.java (Ñ
+]com.dsa.queue.noncircularqueue.QueueTester.main(java.lang.String[])?insertIntoQueue@4.14:4.29VARIABLEl
+bD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\queue\noncircularqueue\QueueTester.java ("
+typeint"
+isFinalfalse"Ê
+declarationString´<mark class="modifier"> </mark><mark class="modifier">int</mark>[] <mark class="class-field">insertIntoQueue</mark> = new <mark class="modifier">int</mark>[] { 10, 20, 30, 40, 50 }*insertIntoQueue2{
+int[]TYPEl
+bD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\queue\noncircularqueue\QueueTester.java (ÿ
+Rcom.dsa.queue.noncircularqueue.QueueTester.main(java.lang.String[])?list@5.29:5.33VARIABLEl
+bD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\queue\noncircularqueue\QueueTester.java (!"
+typeQueueUsingLinkedList"
+isFinalfalse"‹
+declarationStringv<mark class="modifier"> </mark>QueueUsingLinkedList <mark class="class-field">list</mark> = new QueueUsingLinkedList()*list2©
+3com.dsa.queue.noncircularqueue.QueueUsingLinkedListTYPEl
+bD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\queue\noncircularqueue\QueueTester.java (2À
+Jcom.dsa.queue.noncircularqueue.QueueUsingLinkedList.QueueUsingLinkedList()CALLl
+bD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\queue\noncircularqueue\QueueTester.java( (<à
+Ocom.dsa.queue.noncircularqueue.QueueTester.main(java.lang.String[])?x@7.16:7.17VARIABLEl
+bD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\queue\noncircularqueue\QueueTester.java ("
+typeint"
+isFinalfalse"x
+declarationStringc<mark class="modifier"> </mark><mark class="modifier">int</mark> <mark class="class-field">x</mark>*x2y
+intTYPEl
+bD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\queue\noncircularqueue\QueueTester.java (œ
+Hcom.dsa.queue.noncircularqueue.QueueTester.main(java.lang.String[])!args	PARAMETERl
+bD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\queue\noncircularqueue\QueueTester.java% ()"
+typeString[]"
+isFinalfalse""
+declarationStringString[] args*args2ˆ
+java.lang.String[]TYPEl
+bD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\queue\noncircularqueue\QueueTester.java ($

@@ -1,0 +1,85 @@
+
+SD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\growablestack\Stack.java…
+com.dsa.growablestack.StackTRAIT]
+SD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\growablestack\Stack.java (" 
+packagecom.dsa.growablestack"
+isFinalfalse"
+inner classfalse"
+
+isAbstractfalse"g
+declarationStringR<mark class="modifier">public </mark><mark class="modifier">interface </mark>Stack"
+accesspublic*Stack2ì
+%com.dsa.growablestack.Stack.push(int)DECLARATION]
+SD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\growablestack\Stack.java	 (2è
+!com.dsa.growablestack.Stack.pop()DECLARATION]
+SD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\growablestack\Stack.java (2ê
+"com.dsa.growablestack.Stack.peek()DECLARATION]
+SD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\growablestack\Stack.java (2ì
+%com.dsa.growablestack.Stack.isEmpty()DECLARATION]
+SD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\growablestack\Stack.java (2ë
+#com.dsa.growablestack.Stack.print()DECLARATION]
+SD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\growablestack\Stack.java	 (≠
+%com.dsa.growablestack.Stack.push(int)METHOD]
+SD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\growablestack\Stack.java	 ("
+isFinalfalse"£
+declarationStringç<mark class="modifier"> </mark><mark class="modifier">void</mark> <mark class="method">push</mark>(<mark class="modifier">int</mark> element)"
+isStaticfalse"
+accesspackage_private"
+
+isAbstractfalse"
+typevoid*push2ô
+-com.dsa.growablestack.Stack.push(int)!element	PARAMETER]
+SD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\growablestack\Stack.java (2r
+voidRETURN_TYPE]
+SD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\growablestack\Stack.java (Ì
+-com.dsa.growablestack.Stack.push(int)!element	PARAMETER]
+SD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\growablestack\Stack.java ("
+typeint"
+isFinalfalse">
+declarationString)<mark class="modifier">int</mark> element*element2j
+intTYPE]
+SD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\growablestack\Stack.java (›
+!com.dsa.growablestack.Stack.pop()METHOD]
+SD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\growablestack\Stack.java ("
+isFinalfalse"w
+declarationStringb<mark class="modifier"> </mark><mark class="modifier">int</mark> <mark class="method">pop</mark>()"
+isStaticfalse"
+accesspackage_private"
+
+isAbstractfalse"
+typeint*pop2q
+intRETURN_TYPE]
+SD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\growablestack\Stack.java (‡
+"com.dsa.growablestack.Stack.peek()METHOD]
+SD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\growablestack\Stack.java ("
+isFinalfalse"x
+declarationStringc<mark class="modifier"> </mark><mark class="modifier">int</mark> <mark class="method">peek</mark>()"
+isStaticfalse"
+accesspackage_private"
+
+isAbstractfalse"
+typeint*peek2q
+intRETURN_TYPE]
+SD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\growablestack\Stack.java (ı
+%com.dsa.growablestack.Stack.isEmpty()METHOD]
+SD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\growablestack\Stack.java ("
+isFinalfalse"
+declarationStringj<mark class="modifier"> </mark><mark class="modifier">boolean</mark> <mark class="method">isEmpty</mark>()"
+isStaticfalse"
+accesspackage_private"
+
+isAbstractfalse"
+typeboolean*isEmpty2u
+booleanRETURN_TYPE]
+SD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\growablestack\Stack.java (Ê
+#com.dsa.growablestack.Stack.print()METHOD]
+SD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\growablestack\Stack.java	 ("
+isFinalfalse"z
+declarationStringe<mark class="modifier"> </mark><mark class="modifier">void</mark> <mark class="method">print</mark>()"
+isStaticfalse"
+accesspackage_private"
+
+isAbstractfalse"
+typevoid*print2r
+voidRETURN_TYPE]
+SD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\growablestack\Stack.java (

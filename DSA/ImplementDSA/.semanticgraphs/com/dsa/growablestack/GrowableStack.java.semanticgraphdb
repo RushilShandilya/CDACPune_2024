@@ -1,0 +1,161 @@
+
+[D:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\growablestack\GrowableStack.java£
+#com.dsa.growablestack.GrowableStackCLASSe
+[D:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\growablestack\GrowableStack.java (" 
+packagecom.dsa.growablestack"
+isFinalfalse"
+inner classfalse"
+
+isAbstractfalse"’
+declarationStringø<mark class="modifier">public </mark><mark class="modifier">class </mark>GrowableStack<mark class="modifier"> extends </mark>SinglyLinkedList<mark class="modifier"><br>implements </mark>Stack"
+accesspublic*GrowableStack2©
+3com.dsa.growablestack.GrowableStack.GrowableStack()DECLARATIONe
+[D:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\growablestack\GrowableStack.java (2£
+-com.dsa.growablestack.GrowableStack.push(int)DECLARATIONe
+[D:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\growablestack\GrowableStack.java (2ü
+)com.dsa.growablestack.GrowableStack.pop()DECLARATIONe
+[D:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\growablestack\GrowableStack.java (2†
+*com.dsa.growablestack.GrowableStack.peek()DECLARATIONe
+[D:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\growablestack\GrowableStack.java (2£
+-com.dsa.growablestack.GrowableStack.isEmpty()DECLARATIONe
+[D:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\growablestack\GrowableStack.java (2°
++com.dsa.growablestack.GrowableStack.print()DECLARATIONe
+[D:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\growablestack\GrowableStack.java" "(2®
+2com.dsa.growablestack.GrowableStack?list@6.21:6.25DECLARATIONe
+[D:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\growablestack\GrowableStack.java (2å
+com.dsa.growablestack.StackEXTENDe
+[D:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\growablestack\GrowableStack.java? (D2ö
+)com.dsa.singlylinkedlist.SinglyLinkedListEXTENDe
+[D:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\growablestack\GrowableStack.java# (3ç
+3com.dsa.growablestack.GrowableStack.GrowableStack()CONSTRUCTORe
+[D:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\growablestack\GrowableStack.java ("e
+declarationStringP<mark class="modifier">public </mark><mark class="method">GrowableStack</mark>()*GrowableStack2´
+<com.dsa.singlylinkedlist.SinglyLinkedList.SinglyLinkedList()CALLe
+[D:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\growablestack\GrowableStack.java (#2°
+2com.dsa.growablestack.GrowableStack?list@6.21:6.25CALLe
+[D:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\growablestack\GrowableStack.java (2ô
+#com.dsa.growablestack.GrowableStackRETURN_TYPEe
+[D:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\growablestack\GrowableStack.java (ë
+-com.dsa.growablestack.GrowableStack.push(int)METHODe
+[D:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\growablestack\GrowableStack.java ("
+isFinalfalse"◊
+declarationString¡<mark class="annotation">@Override</mark> <br><mark class="modifier">public </mark><mark class="modifier">void</mark> <mark class="method">push</mark>(<mark class="modifier">int</mark> element)"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typevoid*push2®
+9com.dsa.singlylinkedlist.SinglyLinkedList.addToFront(int)CALLe
+[D:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\growablestack\GrowableStack.java (2°
+2com.dsa.growablestack.GrowableStack?list@6.21:6.25CALLe
+[D:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\growablestack\GrowableStack.java (2§
+5com.dsa.growablestack.GrowableStack.push(int)!elementCALLe
+[D:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\growablestack\GrowableStack.java (2ò
+%com.dsa.growablestack.Stack.push(int)OVERRIDEe
+[D:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\growablestack\GrowableStack.java (2©
+5com.dsa.growablestack.GrowableStack.push(int)!element	PARAMETERe
+[D:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\growablestack\GrowableStack.java ( 2z
+voidRETURN_TYPEe
+[D:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\growablestack\GrowableStack.java (Ö
+5com.dsa.growablestack.GrowableStack.push(int)!element	PARAMETERe
+[D:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\growablestack\GrowableStack.java ( "
+typeint"
+isFinalfalse">
+declarationString)<mark class="modifier">int</mark> element*element2r
+intTYPEe
+[D:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\growablestack\GrowableStack.java (£
+
+)com.dsa.growablestack.GrowableStack.pop()METHODe
+[D:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\growablestack\GrowableStack.java ("
+isFinalfalse"â
+declarationStringÛ<mark class="annotation">@Override</mark> <br><mark class="modifier">public </mark><mark class="modifier">int</mark> <mark class="method">pop</mark>()<mark class="modifier"> <mark class="modifier">throws</mark> </mark>IndexOutOfBoundsException"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typeint*pop2ú
+-com.dsa.growablestack.GrowableStack.isEmpty()CALLe
+[D:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\growablestack\GrowableStack.java (2™
+;com.dsa.singlylinkedlist.SinglyLinkedList.deleteFromFront()CALLe
+[D:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\growablestack\GrowableStack.java (-2æ
+Ojava.lang.IndexOutOfBoundsException.IndexOutOfBoundsException(java.lang.String)CALLe
+[D:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\growablestack\GrowableStack.java (02î
+!com.dsa.growablestack.Stack.pop()OVERRIDEe
+[D:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\growablestack\GrowableStack.java (2y
+intRETURN_TYPEe
+[D:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\growablestack\GrowableStack.java (·
+
+*com.dsa.growablestack.GrowableStack.peek()METHODe
+[D:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\growablestack\GrowableStack.java ("
+isFinalfalse"≠
+declarationStringó<mark class="annotation">@Override</mark> <br><mark class="modifier">public </mark><mark class="modifier">int</mark> <mark class="method">peek</mark>()"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typeint*peek2¢
+3com.dsa.singlylinkedlist.SinglyLinkedList.isEmpty()CALLe
+[D:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\growablestack\GrowableStack.java (2ó
+(com.dsa.singlylinkedlist.Node.getValue()CALLe
+[D:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\growablestack\GrowableStack.java9 (A2æ
+Ojava.lang.IndexOutOfBoundsException.IndexOutOfBoundsException(java.lang.String)CALLe
+[D:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\growablestack\GrowableStack.java (02°
+2com.dsa.growablestack.GrowableStack?list@6.21:6.25CALLe
+[D:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\growablestack\GrowableStack.java (2ï
+"com.dsa.growablestack.Stack.peek()OVERRIDEe
+[D:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\growablestack\GrowableStack.java (2y
+intRETURN_TYPEe
+[D:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\growablestack\GrowableStack.java (Í
+
+-com.dsa.growablestack.GrowableStack.isEmpty()METHODe
+[D:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\growablestack\GrowableStack.java ("
+isFinalfalse"¥
+declarationStringû<mark class="annotation">@Override</mark> <br><mark class="modifier">public </mark><mark class="modifier">boolean</mark> <mark class="method">isEmpty</mark>()"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typeboolean*isEmpty2¢
+3com.dsa.singlylinkedlist.SinglyLinkedList.isEmpty()CALLe
+[D:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\growablestack\GrowableStack.java (2°
+2com.dsa.growablestack.GrowableStack?list@6.21:6.25CALLe
+[D:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\growablestack\GrowableStack.java (2ò
+%com.dsa.growablestack.Stack.isEmpty()OVERRIDEe
+[D:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\growablestack\GrowableStack.java (2¶
+3com.dsa.singlylinkedlist.SinglyLinkedList.isEmpty()OVERRIDEe
+[D:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\growablestack\GrowableStack.java (2†
+-com.dsa.singlylinkedlist.LinkedList.isEmpty()OVERRIDEe
+[D:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\growablestack\GrowableStack.java (2}
+booleanRETURN_TYPEe
+[D:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\growablestack\GrowableStack.java (”
+
++com.dsa.growablestack.GrowableStack.print()METHODe
+[D:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\growablestack\GrowableStack.java" "("
+isFinalfalse"Ø
+declarationStringô<mark class="annotation">@Override</mark> <br><mark class="modifier">public </mark><mark class="modifier">void</mark> <mark class="method">print</mark>()"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typevoid*print2†
+1com.dsa.singlylinkedlist.SinglyLinkedList.print()CALLe
+[D:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\growablestack\GrowableStack.java# #(2°
+2com.dsa.growablestack.GrowableStack?list@6.21:6.25CALLe
+[D:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\growablestack\GrowableStack.java# #(2ñ
+#com.dsa.growablestack.Stack.print()OVERRIDEe
+[D:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\growablestack\GrowableStack.java" "(2§
+1com.dsa.singlylinkedlist.SinglyLinkedList.print()OVERRIDEe
+[D:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\growablestack\GrowableStack.java" "(2û
++com.dsa.singlylinkedlist.LinkedList.print()OVERRIDEe
+[D:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\growablestack\GrowableStack.java" "(2z
+voidRETURN_TYPEe
+[D:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\growablestack\GrowableStack.java" "(å
+2com.dsa.growablestack.GrowableStack?list@6.21:6.25VARIABLEe
+[D:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\growablestack\GrowableStack.java ("
+isFinalfalse"
+typeSinglyLinkedList"j
+declarationStringU<mark class="modifier"> </mark>SinglyLinkedList <mark class="class-field">list</mark>"
+isStaticfalse"
+accesspackage_private*list2ò
+)com.dsa.singlylinkedlist.SinglyLinkedListTYPEe
+[D:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\growablestack\GrowableStack.java (

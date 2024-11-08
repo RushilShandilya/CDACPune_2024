@@ -1,0 +1,46 @@
+
+YD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\queue\circularqueue\Queue.javaΩ
+!com.dsa.queue.circularqueue.QueueTRAITc
+YD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\queue\circularqueue\Queue.java ("&
+packagecom.dsa.queue.circularqueue"
+isFinalfalse"
+inner classfalse"
+
+isAbstractfalse"g
+declarationStringR<mark class="modifier">public </mark><mark class="modifier">interface </mark>Queue"
+accesspublic*Queue2¢
+.com.dsa.queue.circularqueue.Queue.enqueue(int)DECLARATIONc
+YD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\queue\circularqueue\Queue.java	 (2ü
++com.dsa.queue.circularqueue.Queue.dequeue()DECLARATIONc
+YD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\queue\circularqueue\Queue.java (◊
+.com.dsa.queue.circularqueue.Queue.enqueue(int)METHODc
+YD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\queue\circularqueue\Queue.java	 ("
+isFinalfalse"¶
+declarationStringê<mark class="modifier"> </mark><mark class="modifier">void</mark> <mark class="method">enqueue</mark>(<mark class="modifier">int</mark> element)"
+isStaticfalse"
+accesspackage_private"
+
+isAbstractfalse"
+typevoid*enqueue2®
+6com.dsa.queue.circularqueue.Queue.enqueue(int)!element	PARAMETERc
+YD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\queue\circularqueue\Queue.java (2x
+voidRETURN_TYPEc
+YD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\queue\circularqueue\Queue.java (Ç
+6com.dsa.queue.circularqueue.Queue.enqueue(int)!element	PARAMETERc
+YD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\queue\circularqueue\Queue.java ("
+typeint"
+isFinalfalse">
+declarationString)<mark class="modifier">int</mark> element*element2p
+intTYPEc
+YD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\queue\circularqueue\Queue.java (˚
++com.dsa.queue.circularqueue.Queue.dequeue()METHODc
+YD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\queue\circularqueue\Queue.java ("
+isFinalfalse"{
+declarationStringf<mark class="modifier"> </mark><mark class="modifier">int</mark> <mark class="method">dequeue</mark>()"
+isStaticfalse"
+accesspackage_private"
+
+isAbstractfalse"
+typeint*dequeue2w
+intRETURN_TYPEc
+YD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\queue\circularqueue\Queue.java (

@@ -1,0 +1,140 @@
+
+UD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\singlylinkedlist\Main.javaé
+com.dsa.singlylinkedlist.MainCLASS_
+UD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\singlylinkedlist\Main.java ("#
+packagecom.dsa.singlylinkedlist"
+isFinalfalse"
+inner classfalse"
+
+isAbstractfalse"b
+declarationStringM<mark class="modifier">public </mark><mark class="modifier">class </mark>Main"
+accesspublic*Main2¶
+6com.dsa.singlylinkedlist.Main.main(java.lang.String[])DECLARATION_
+UD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\singlylinkedlist\Main.java (˘0
+6com.dsa.singlylinkedlist.Main.main(java.lang.String[])METHOD_
+UD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\singlylinkedlist\Main.java ("
+isFinalfalse"≤
+declarationStringú<mark class="modifier">public </mark><mark class="modifier">static </mark><mark class="modifier">void</mark> <mark class="method">main</mark>(String[] args)"
+isStatictrue"
+accesspublic"
+
+isAbstractfalse"
+typevoid*main2¢
+9com.dsa.singlylinkedlist.SinglyLinkedList.addToFront(int)CALL_
+UD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\singlylinkedlist\Main.java  (*2°
+8com.dsa.singlylinkedlist.SinglyLinkedList.addToRear(int)CALL_
+UD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\singlylinkedlist\Main.java ((2ö
+1com.dsa.singlylinkedlist.SinglyLinkedList.print()CALL_
+UD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\singlylinkedlist\Main.java (2°
+8com.dsa.singlylinkedlist.SinglyLinkedList.deleteAll(int)CALL_
+UD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\singlylinkedlist\Main.java (2ö
+1com.dsa.singlylinkedlist.SinglyLinkedList.print()CALL_
+UD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\singlylinkedlist\Main.java (2°
+8com.dsa.singlylinkedlist.SinglyLinkedList.deleteAll(int)CALL_
+UD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\singlylinkedlist\Main.java (2ö
+1com.dsa.singlylinkedlist.SinglyLinkedList.print()CALL_
+UD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\singlylinkedlist\Main.java (2†
+7com.dsa.singlylinkedlist.SinglyLinkedList.add(int, int)CALL_
+UD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\singlylinkedlist\Main.java (2ö
+1com.dsa.singlylinkedlist.SinglyLinkedList.print()CALL_
+UD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\singlylinkedlist\Main.java (2Ω
+Tcom.dsa.singlylinkedlist.SinglyLinkedList.reverseList(com.dsa.singlylinkedlist.Node)CALL_
+UD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\singlylinkedlist\Main.java (2ö
+1com.dsa.singlylinkedlist.SinglyLinkedList.print()CALL_
+UD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\singlylinkedlist\Main.java (2•
+<com.dsa.singlylinkedlist.SinglyLinkedList.SinglyLinkedList()CALL_
+UD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\singlylinkedlist\Main.java$ (42Ø
+Fcom.dsa.singlylinkedlist.Main.main(java.lang.String[])?front@7.14:7.19CALL_
+UD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\singlylinkedlist\Main.java (2Æ
+Ecom.dsa.singlylinkedlist.Main.main(java.lang.String[])?list@6.25:6.29CALL_
+UD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\singlylinkedlist\Main.java (2´
+Bcom.dsa.singlylinkedlist.Main.main(java.lang.String[])?i@8.16:8.17CALL_
+UD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\singlylinkedlist\Main.java+ (,2∞
+Gcom.dsa.singlylinkedlist.Main.main(java.lang.String[])?last@10.14:10.18CALL_
+UD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\singlylinkedlist\Main.java (2Æ
+Ecom.dsa.singlylinkedlist.Main.main(java.lang.String[])?list@6.25:6.29CALL_
+UD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\singlylinkedlist\Main.java (2≠
+Dcom.dsa.singlylinkedlist.Main.main(java.lang.String[])?i@11.16:11.17CALL_
+UD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\singlylinkedlist\Main.java) (*2Æ
+Ecom.dsa.singlylinkedlist.Main.main(java.lang.String[])?list@6.25:6.29CALL_
+UD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\singlylinkedlist\Main.java (2Æ
+Ecom.dsa.singlylinkedlist.Main.main(java.lang.String[])?list@6.25:6.29CALL_
+UD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\singlylinkedlist\Main.java (2Æ
+Ecom.dsa.singlylinkedlist.Main.main(java.lang.String[])?list@6.25:6.29CALL_
+UD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\singlylinkedlist\Main.java (2Æ
+Ecom.dsa.singlylinkedlist.Main.main(java.lang.String[])?list@6.25:6.29CALL_
+UD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\singlylinkedlist\Main.java (2Æ
+Ecom.dsa.singlylinkedlist.Main.main(java.lang.String[])?list@6.25:6.29CALL_
+UD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\singlylinkedlist\Main.java (2Æ
+Ecom.dsa.singlylinkedlist.Main.main(java.lang.String[])?list@6.25:6.29CALL_
+UD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\singlylinkedlist\Main.java (2Æ
+Ecom.dsa.singlylinkedlist.Main.main(java.lang.String[])?list@6.25:6.29CALL_
+UD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\singlylinkedlist\Main.java (2Æ
+Ecom.dsa.singlylinkedlist.Main.main(java.lang.String[])?list@6.25:6.29CALL_
+UD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\singlylinkedlist\Main.java (2Æ
+Ecom.dsa.singlylinkedlist.Main.main(java.lang.String[])?list@6.25:6.29CALL_
+UD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\singlylinkedlist\Main.java (2©
+;com.dsa.singlylinkedlist.Main.main(java.lang.String[])!args	PARAMETER_
+UD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\singlylinkedlist\Main.java% ()2µ
+Ecom.dsa.singlylinkedlist.Main.main(java.lang.String[])?list@6.25:6.29DECLARATION_
+UD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\singlylinkedlist\Main.java (2∂
+Fcom.dsa.singlylinkedlist.Main.main(java.lang.String[])?front@7.14:7.19DECLARATION_
+UD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\singlylinkedlist\Main.java (2≤
+Bcom.dsa.singlylinkedlist.Main.main(java.lang.String[])?i@8.16:8.17DECLARATION_
+UD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\singlylinkedlist\Main.java (2∑
+Gcom.dsa.singlylinkedlist.Main.main(java.lang.String[])?last@10.14:10.18DECLARATION_
+UD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\singlylinkedlist\Main.java
+ 
+(2¥
+Dcom.dsa.singlylinkedlist.Main.main(java.lang.String[])?i@11.16:11.17DECLARATION_
+UD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\singlylinkedlist\Main.java (2t
+voidRETURN_TYPE_
+UD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\singlylinkedlist\Main.java (ß
+Ecom.dsa.singlylinkedlist.Main.main(java.lang.String[])?list@6.25:6.29VARIABLE_
+UD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\singlylinkedlist\Main.java ("
+typeSinglyLinkedList"
+isFinalfalse"É
+declarationStringn<mark class="modifier"> </mark>SinglyLinkedList <mark class="class-field">list</mark> = new SinglyLinkedList()*list2í
+)com.dsa.singlylinkedlist.SinglyLinkedListTYPE_
+UD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\singlylinkedlist\Main.java (2•
+<com.dsa.singlylinkedlist.SinglyLinkedList.SinglyLinkedList()CALL_
+UD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\singlylinkedlist\Main.java$ (4á
+Fcom.dsa.singlylinkedlist.Main.main(java.lang.String[])?front@7.14:7.19VARIABLE_
+UD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\singlylinkedlist\Main.java ("
+typeint"
+isFinalfalse"ª
+declarationString•<mark class="modifier"> </mark><mark class="modifier">int</mark>[] <mark class="class-field">front</mark> = new <mark class="modifier">int</mark>[] { 7, 6, 5, 5, 5 }*front2n
+int[]TYPE_
+UD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\singlylinkedlist\Main.java (π
+Bcom.dsa.singlylinkedlist.Main.main(java.lang.String[])?i@8.16:8.17VARIABLE_
+UD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\singlylinkedlist\Main.java ("
+typeint"
+isFinalfalse"x
+declarationStringc<mark class="modifier"> </mark><mark class="modifier">int</mark> <mark class="class-field">i</mark>*i2l
+intTYPE_
+UD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\singlylinkedlist\Main.java (è
+Gcom.dsa.singlylinkedlist.Main.main(java.lang.String[])?last@10.14:10.18VARIABLE_
+UD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\singlylinkedlist\Main.java
+ 
+("
+typeint"
+isFinalfalse"√
+declarationString≠<mark class="modifier"> </mark><mark class="modifier">int</mark>[] <mark class="class-field">last</mark> = new <mark class="modifier">int</mark>[] { 10, 20, 20, 20, 30, 40 }*last2n
+int[]TYPE_
+UD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\singlylinkedlist\Main.java
+ 
+(ª
+Dcom.dsa.singlylinkedlist.Main.main(java.lang.String[])?i@11.16:11.17VARIABLE_
+UD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\singlylinkedlist\Main.java ("
+typeint"
+isFinalfalse"x
+declarationStringc<mark class="modifier"> </mark><mark class="modifier">int</mark> <mark class="class-field">i</mark>*i2l
+intTYPE_
+UD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\singlylinkedlist\Main.java (Ù
+;com.dsa.singlylinkedlist.Main.main(java.lang.String[])!args	PARAMETER_
+UD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\singlylinkedlist\Main.java% ()"
+typeString[]"
+isFinalfalse""
+declarationStringString[] args*args2{
+java.lang.String[]TYPE_
+UD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\singlylinkedlist\Main.java ($

@@ -1,0 +1,55 @@
+
+VD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\hashinglinkedlist\Node.java«
+com.dsa.hashinglinkedlist.NodeCLASS`
+VD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\hashinglinkedlist\Node.java ("$
+packagecom.dsa.hashinglinkedlist"
+isFinalfalse"
+inner classfalse"
+
+isAbstractfalse"b
+declarationStringM<mark class="modifier">public </mark><mark class="modifier">class </mark>Node"
+accesspublic*Node2ô
+(com.dsa.hashinglinkedlist.Node.Node(int)DECLARATION`
+VD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\hashinglinkedlist\Node.java (2ü
+.com.dsa.hashinglinkedlist.Node?value@3.12:3.17DECLARATION`
+VD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\hashinglinkedlist\Node.java (2û
+-com.dsa.hashinglinkedlist.Node?next@4.13:4.17DECLARATION`
+VD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\hashinglinkedlist\Node.java (ß
+(com.dsa.hashinglinkedlist.Node.Node(int)CONSTRUCTOR`
+VD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\hashinglinkedlist\Node.java ("É
+declarationStringn<mark class="modifier">public </mark><mark class="method">Node</mark>(<mark class="modifier">int</mark> value)*Node2ò
+.com.dsa.hashinglinkedlist.Node.Node(int)!valueCALL`
+VD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\hashinglinkedlist\Node.java (2ò
+.com.dsa.hashinglinkedlist.Node?value@3.12:3.17CALL`
+VD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\hashinglinkedlist\Node.java (2ó
+-com.dsa.hashinglinkedlist.Node?next@4.13:4.17CALL`
+VD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\hashinglinkedlist\Node.java (2ù
+.com.dsa.hashinglinkedlist.Node.Node(int)!value	PARAMETER`
+VD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\hashinglinkedlist\Node.java (2è
+com.dsa.hashinglinkedlist.NodeRETURN_TYPE`
+VD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\hashinglinkedlist\Node.java (
+.com.dsa.hashinglinkedlist.Node.Node(int)!value	PARAMETER`
+VD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\hashinglinkedlist\Node.java ("
+typeint"
+isFinalfalse"<
+declarationString'<mark class="modifier">int</mark> value*value2m
+intTYPE`
+VD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\hashinglinkedlist\Node.java (›
+.com.dsa.hashinglinkedlist.Node?value@3.12:3.17VARIABLE`
+VD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\hashinglinkedlist\Node.java ("
+isFinalfalse"
+typeint"|
+declarationStringg<mark class="modifier"> </mark><mark class="modifier">int</mark> <mark class="class-field">value</mark>"
+isStaticfalse"
+accesspackage_private*value2m
+intTYPE`
+VD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\hashinglinkedlist\Node.java (⁄
+-com.dsa.hashinglinkedlist.Node?next@4.13:4.17VARIABLE`
+VD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\hashinglinkedlist\Node.java ("
+isFinalfalse"
+typeNode"^
+declarationStringI<mark class="modifier"> </mark>Node <mark class="class-field">next</mark>"
+isStaticfalse"
+accesspackage_private*next2à
+com.dsa.hashinglinkedlist.NodeTYPE`
+VD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\hashinglinkedlist\Node.java (

@@ -1,0 +1,70 @@
+
+RD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\growablestack\Main.javaˇ
+com.dsa.growablestack.MainCLASS\
+RD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\growablestack\Main.java (" 
+packagecom.dsa.growablestack"
+isFinalfalse"
+inner classfalse"
+
+isAbstractfalse"b
+declarationStringM<mark class="modifier">public </mark><mark class="modifier">class </mark>Main"
+accesspublic*Main2†
+3com.dsa.growablestack.Main.main(java.lang.String[])DECLARATION\
+RD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\growablestack\Main.java (õ
+3com.dsa.growablestack.Main.main(java.lang.String[])METHOD\
+RD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\growablestack\Main.java ("
+isFinalfalse"≤
+declarationStringú<mark class="modifier">public </mark><mark class="modifier">static </mark><mark class="modifier">void</mark> <mark class="method">main</mark>(String[] args)"
+isStatictrue"
+accesspublic"
+
+isAbstractfalse"
+typevoid*main2ì
+-com.dsa.growablestack.GrowableStack.push(int)CALL\
+RD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\growablestack\Main.java (2ì
+-com.dsa.growablestack.GrowableStack.push(int)CALL\
+RD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\growablestack\Main.java (2ì
+-com.dsa.growablestack.GrowableStack.push(int)CALL\
+RD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\growablestack\Main.java (2ë
++com.dsa.growablestack.GrowableStack.print()CALL\
+RD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\growablestack\Main.java	 	(2è
+)com.dsa.growablestack.GrowableStack.pop()CALL\
+RD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\growablestack\Main.java (2ë
++com.dsa.growablestack.GrowableStack.print()CALL\
+RD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\growablestack\Main.java (2ô
+3com.dsa.growablestack.GrowableStack.GrowableStack()CALL\
+RD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\growablestack\Main.java" (/2©
+Ccom.dsa.growablestack.Main.main(java.lang.String[])?stack@4.22:4.27CALL\
+RD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\growablestack\Main.java (2©
+Ccom.dsa.growablestack.Main.main(java.lang.String[])?stack@4.22:4.27CALL\
+RD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\growablestack\Main.java (2©
+Ccom.dsa.growablestack.Main.main(java.lang.String[])?stack@4.22:4.27CALL\
+RD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\growablestack\Main.java (2©
+Ccom.dsa.growablestack.Main.main(java.lang.String[])?stack@4.22:4.27CALL\
+RD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\growablestack\Main.java	 	(2©
+Ccom.dsa.growablestack.Main.main(java.lang.String[])?stack@4.22:4.27CALL\
+RD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\growablestack\Main.java (2©
+Ccom.dsa.growablestack.Main.main(java.lang.String[])?stack@4.22:4.27CALL\
+RD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\growablestack\Main.java (2£
+8com.dsa.growablestack.Main.main(java.lang.String[])!args	PARAMETER\
+RD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\growablestack\Main.java% ()2∞
+Ccom.dsa.growablestack.Main.main(java.lang.String[])?stack@4.22:4.27DECLARATION\
+RD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\growablestack\Main.java (2q
+voidRETURN_TYPE\
+RD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\growablestack\Main.java (Ö
+Ccom.dsa.growablestack.Main.main(java.lang.String[])?stack@4.22:4.27VARIABLE\
+RD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\growablestack\Main.java ("
+typeGrowableStack"
+isFinalfalse"~
+declarationStringi<mark class="modifier"> </mark>GrowableStack <mark class="class-field">stack</mark> = new GrowableStack()*stack2â
+#com.dsa.growablestack.GrowableStackTYPE\
+RD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\growablestack\Main.java (2ô
+3com.dsa.growablestack.GrowableStack.GrowableStack()CALL\
+RD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\growablestack\Main.java" (/Î
+8com.dsa.growablestack.Main.main(java.lang.String[])!args	PARAMETER\
+RD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\growablestack\Main.java% ()"
+typeString[]"
+isFinalfalse""
+declarationStringString[] args*args2x
+java.lang.String[]TYPE\
+RD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\growablestack\Main.java ($

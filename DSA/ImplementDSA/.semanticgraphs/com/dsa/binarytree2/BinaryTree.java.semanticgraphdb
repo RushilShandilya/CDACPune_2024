@@ -1,0 +1,283 @@
+
+VD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\binarytree2\BinaryTree.javaë
+com.dsa.binarytree2.BinaryTreeCLASS`
+VD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\binarytree2\BinaryTree.java ("
+packagecom.dsa.binarytree2"
+isFinalfalse"
+inner classfalse"
+
+isAbstractfalse"h
+declarationStringS<mark class="modifier">public </mark><mark class="modifier">class </mark>BinaryTree"
+accesspublic*
+BinaryTree2ú
++com.dsa.binarytree2.BinaryTree.BinaryTree()DECLARATION`
+VD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\binarytree2\BinaryTree.java (2°
+0com.dsa.binarytree2.BinaryTree.createTree(int[])DECLARATION`
+VD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\binarytree2\BinaryTree.java (!2∂
+Ecom.dsa.binarytree2.BinaryTree.traverseTree(com.dsa.binarytree2.Node)DECLARATION`
+VD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\binarytree2\BinaryTree.java (#2∂
+Ecom.dsa.binarytree2.BinaryTree.heightOfTree(com.dsa.binarytree2.Node)DECLARATION`
+VD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\binarytree2\BinaryTree.java ("2®
+7com.dsa.binarytree2.BinaryTree.main(java.lang.String[])DECLARATION`
+VD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\binarytree2\BinaryTree.java" "(2û
+-com.dsa.binarytree2.BinaryTree?root@3.23:3.27DECLARATION`
+VD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\binarytree2\BinaryTree.java (2ü
+.com.dsa.binarytree2.BinaryTree?index@4.22:4.27DECLARATION`
+VD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\binarytree2\BinaryTree.java (∏
++com.dsa.binarytree2.BinaryTree.BinaryTree()CONSTRUCTOR`
+VD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\binarytree2\BinaryTree.java ("b
+declarationStringM<mark class="modifier">public </mark><mark class="method">BinaryTree</mark>()*
+BinaryTree2ó
+-com.dsa.binarytree2.BinaryTree?root@3.23:3.27CALL`
+VD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\binarytree2\BinaryTree.java (2è
+com.dsa.binarytree2.BinaryTreeRETURN_TYPE`
+VD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\binarytree2\BinaryTree.java (ò
+0com.dsa.binarytree2.BinaryTree.createTree(int[])METHOD`
+VD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\binarytree2\BinaryTree.java (!"
+isFinalfalse"∑
+declarationString°<mark class="modifier">public </mark><mark class="modifier">static </mark>Node <mark class="method">createTree</mark>(<mark class="modifier">int</mark>[] values)"
+isStatictrue"
+accesspublic"
+
+isAbstractfalse"
+typeNode*
+createTree2ö
+0com.dsa.binarytree2.BinaryTree.createTree(int[])CALL`
+VD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\binarytree2\BinaryTree.java (2ö
+0com.dsa.binarytree2.BinaryTree.createTree(int[])CALL`
+VD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\binarytree2\BinaryTree.java (2å
+"com.dsa.binarytree2.Node.Node(int)CALL`
+VD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\binarytree2\BinaryTree.java (2ò
+.com.dsa.binarytree2.BinaryTree?index@4.22:4.27CALL`
+VD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\binarytree2\BinaryTree.java	
+ 	(2ò
+.com.dsa.binarytree2.BinaryTree?index@4.22:4.27CALL`
+VD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\binarytree2\BinaryTree.java
+ 
+(2°
+7com.dsa.binarytree2.BinaryTree.createTree(int[])!valuesCALL`
+VD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\binarytree2\BinaryTree.java
+ 
+(2°
+7com.dsa.binarytree2.BinaryTree.createTree(int[])!valuesCALL`
+VD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\binarytree2\BinaryTree.java
+# 
+()2ò
+.com.dsa.binarytree2.BinaryTree?index@4.22:4.27CALL`
+VD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\binarytree2\BinaryTree.java
+* 
+(/2°
+7com.dsa.binarytree2.BinaryTree.createTree(int[])!valuesCALL`
+VD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\binarytree2\BinaryTree.java (#2ò
+.com.dsa.binarytree2.BinaryTree?index@4.22:4.27CALL`
+VD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\binarytree2\BinaryTree.java$ ()2´
+Acom.dsa.binarytree2.BinaryTree.createTree(int[])?node@12.13:12.17CALL`
+VD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\binarytree2\BinaryTree.java (2°
+7com.dsa.binarytree2.BinaryTree.createTree(int[])!valuesCALL`
+VD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\binarytree2\BinaryTree.java (%2´
+Acom.dsa.binarytree2.BinaryTree.createTree(int[])?node@12.13:12.17CALL`
+VD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\binarytree2\BinaryTree.java (2°
+7com.dsa.binarytree2.BinaryTree.createTree(int[])!valuesCALL`
+VD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\binarytree2\BinaryTree.java  (&2´
+Acom.dsa.binarytree2.BinaryTree.createTree(int[])?node@12.13:12.17CALL`
+VD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\binarytree2\BinaryTree.java (2¶
+7com.dsa.binarytree2.BinaryTree.createTree(int[])!values	PARAMETER`
+VD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\binarytree2\BinaryTree.java( (.2≤
+Acom.dsa.binarytree2.BinaryTree.createTree(int[])?node@12.13:12.17DECLARATION`
+VD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\binarytree2\BinaryTree.java (2â
+com.dsa.binarytree2.NodeRETURN_TYPE`
+VD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\binarytree2\BinaryTree.java (¢
+Acom.dsa.binarytree2.BinaryTree.createTree(int[])?node@12.13:12.17VARIABLE`
+VD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\binarytree2\BinaryTree.java ("
+typeNode"
+isFinalfalse"x
+declarationStringc<mark class="modifier"> </mark>Node <mark class="class-field">node</mark> = new Node(values[index])*node2Ç
+com.dsa.binarytree2.NodeTYPE`
+VD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\binarytree2\BinaryTree.java (2å
+"com.dsa.binarytree2.Node.Node(int)CALL`
+VD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\binarytree2\BinaryTree.java (2°
+7com.dsa.binarytree2.BinaryTree.createTree(int[])!valuesCALL`
+VD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\binarytree2\BinaryTree.java (#2ò
+.com.dsa.binarytree2.BinaryTree?index@4.22:4.27CALL`
+VD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\binarytree2\BinaryTree.java$ ()Å
+7com.dsa.binarytree2.BinaryTree.createTree(int[])!values	PARAMETER`
+VD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\binarytree2\BinaryTree.java( (."
+typeint[]"
+isFinalfalse"?
+declarationString*<mark class="modifier">int</mark>[] values*values2o
+int[]TYPE`
+VD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\binarytree2\BinaryTree.java" ('‹
+Ecom.dsa.binarytree2.BinaryTree.traverseTree(com.dsa.binarytree2.Node)METHOD`
+VD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\binarytree2\BinaryTree.java (#"
+isFinalfalse"∂
+declarationString†<mark class="modifier">public </mark><mark class="modifier">static </mark><mark class="modifier">void</mark> <mark class="method">traverseTree</mark>(Node root)"
+isStatictrue"
+accesspublic"
+
+isAbstractfalse"
+typevoid*traverseTree2Ø
+Ecom.dsa.binarytree2.BinaryTree.traverseTree(com.dsa.binarytree2.Node)CALL`
+VD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\binarytree2\BinaryTree.java (2ï
++java.io.PrintStream.print(java.lang.String)CALL`
+VD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\binarytree2\BinaryTree.java (2Ø
+Ecom.dsa.binarytree2.BinaryTree.traverseTree(com.dsa.binarytree2.Node)CALL`
+VD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\binarytree2\BinaryTree.java (2¥
+Jcom.dsa.binarytree2.BinaryTree.traverseTree(com.dsa.binarytree2.Node)!rootCALL`
+VD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\binarytree2\BinaryTree.java (2¥
+Jcom.dsa.binarytree2.BinaryTree.traverseTree(com.dsa.binarytree2.Node)!rootCALL`
+VD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\binarytree2\BinaryTree.java (2¥
+Jcom.dsa.binarytree2.BinaryTree.traverseTree(com.dsa.binarytree2.Node)!rootCALL`
+VD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\binarytree2\BinaryTree.java (2¥
+Jcom.dsa.binarytree2.BinaryTree.traverseTree(com.dsa.binarytree2.Node)!rootCALL`
+VD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\binarytree2\BinaryTree.java (2π
+Jcom.dsa.binarytree2.BinaryTree.traverseTree(com.dsa.binarytree2.Node)!root	PARAMETER`
+VD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\binarytree2\BinaryTree.java) (-2u
+voidRETURN_TYPE`
+VD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\binarytree2\BinaryTree.java (Ñ
+Jcom.dsa.binarytree2.BinaryTree.traverseTree(com.dsa.binarytree2.Node)!root	PARAMETER`
+VD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\binarytree2\BinaryTree.java) (-"
+typeNode"
+isFinalfalse"
+declarationString	Node root*root2Ç
+com.dsa.binarytree2.NodeTYPE`
+VD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\binarytree2\BinaryTree.java$ ((°
+Ecom.dsa.binarytree2.BinaryTree.heightOfTree(com.dsa.binarytree2.Node)METHOD`
+VD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\binarytree2\BinaryTree.java (""
+isFinalfalse"µ
+declarationStringü<mark class="modifier">public </mark><mark class="modifier">static </mark><mark class="modifier">int</mark> <mark class="method">heightOfTree</mark>(Node root)"
+isStatictrue"
+accesspublic"
+
+isAbstractfalse"
+typeint*heightOfTree2Ø
+Ecom.dsa.binarytree2.BinaryTree.heightOfTree(com.dsa.binarytree2.Node)CALL`
+VD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\binarytree2\BinaryTree.java (2Ø
+Ecom.dsa.binarytree2.BinaryTree.heightOfTree(com.dsa.binarytree2.Node)CALL`
+VD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\binarytree2\BinaryTree.java (2Ü
+java.lang.Math.max(int, int)CALL`
+VD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\binarytree2\BinaryTree.java   (2¥
+Jcom.dsa.binarytree2.BinaryTree.heightOfTree(com.dsa.binarytree2.Node)!rootCALL`
+VD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\binarytree2\BinaryTree.java (2¥
+Jcom.dsa.binarytree2.BinaryTree.heightOfTree(com.dsa.binarytree2.Node)!rootCALL`
+VD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\binarytree2\BinaryTree.java (!2¥
+Jcom.dsa.binarytree2.BinaryTree.heightOfTree(com.dsa.binarytree2.Node)!rootCALL`
+VD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\binarytree2\BinaryTree.java (!2Ω
+Scom.dsa.binarytree2.BinaryTree.heightOfTree(com.dsa.binarytree2.Node)?a@29.12:29.13CALL`
+VD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\binarytree2\BinaryTree.java   (2Ω
+Scom.dsa.binarytree2.BinaryTree.heightOfTree(com.dsa.binarytree2.Node)?b@30.12:30.13CALL`
+VD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\binarytree2\BinaryTree.java   (2π
+Jcom.dsa.binarytree2.BinaryTree.heightOfTree(com.dsa.binarytree2.Node)!root	PARAMETER`
+VD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\binarytree2\BinaryTree.java( (,2ƒ
+Scom.dsa.binarytree2.BinaryTree.heightOfTree(com.dsa.binarytree2.Node)?a@29.12:29.13DECLARATION`
+VD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\binarytree2\BinaryTree.java (2ƒ
+Scom.dsa.binarytree2.BinaryTree.heightOfTree(com.dsa.binarytree2.Node)?b@30.12:30.13DECLARATION`
+VD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\binarytree2\BinaryTree.java (2t
+intRETURN_TYPE`
+VD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\binarytree2\BinaryTree.java (’
+Scom.dsa.binarytree2.BinaryTree.heightOfTree(com.dsa.binarytree2.Node)?a@29.12:29.13VARIABLE`
+VD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\binarytree2\BinaryTree.java ("
+typeint"
+isFinalfalse"ó
+declarationStringÅ<mark class="modifier"> </mark><mark class="modifier">int</mark> <mark class="class-field">a</mark> = heightOfTree(root.left) + 1*a2m
+intTYPE`
+VD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\binarytree2\BinaryTree.java (2Ø
+Ecom.dsa.binarytree2.BinaryTree.heightOfTree(com.dsa.binarytree2.Node)CALL`
+VD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\binarytree2\BinaryTree.java (2¥
+Jcom.dsa.binarytree2.BinaryTree.heightOfTree(com.dsa.binarytree2.Node)!rootCALL`
+VD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\binarytree2\BinaryTree.java (!÷
+Scom.dsa.binarytree2.BinaryTree.heightOfTree(com.dsa.binarytree2.Node)?b@30.12:30.13VARIABLE`
+VD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\binarytree2\BinaryTree.java ("
+typeint"
+isFinalfalse"ò
+declarationStringÇ<mark class="modifier"> </mark><mark class="modifier">int</mark> <mark class="class-field">b</mark> = heightOfTree(root.right) + 1*b2m
+intTYPE`
+VD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\binarytree2\BinaryTree.java (2Ø
+Ecom.dsa.binarytree2.BinaryTree.heightOfTree(com.dsa.binarytree2.Node)CALL`
+VD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\binarytree2\BinaryTree.java (2¥
+Jcom.dsa.binarytree2.BinaryTree.heightOfTree(com.dsa.binarytree2.Node)!rootCALL`
+VD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\binarytree2\BinaryTree.java (!Ñ
+Jcom.dsa.binarytree2.BinaryTree.heightOfTree(com.dsa.binarytree2.Node)!root	PARAMETER`
+VD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\binarytree2\BinaryTree.java( (,"
+typeNode"
+isFinalfalse"
+declarationString	Node root*root2Ç
+com.dsa.binarytree2.NodeTYPE`
+VD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\binarytree2\BinaryTree.java# ('è
+7com.dsa.binarytree2.BinaryTree.main(java.lang.String[])METHOD`
+VD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\binarytree2\BinaryTree.java" "("
+isFinalfalse"≤
+declarationStringú<mark class="modifier">public </mark><mark class="modifier">static </mark><mark class="modifier">void</mark> <mark class="method">main</mark>(String[] args)"
+isStatictrue"
+accesspublic"
+
+isAbstractfalse"
+typevoid*main2ö
+0com.dsa.binarytree2.BinaryTree.createTree(int[])CALL`
+VD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\binarytree2\BinaryTree.java# #(2Ø
+Ecom.dsa.binarytree2.BinaryTree.traverseTree(com.dsa.binarytree2.Node)CALL`
+VD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\binarytree2\BinaryTree.java$ $(2Ø
+Ecom.dsa.binarytree2.BinaryTree.heightOfTree(com.dsa.binarytree2.Node)CALL`
+VD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\binarytree2\BinaryTree.java% %(!2á
+java.io.PrintStream.println()CALL`
+VD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\binarytree2\BinaryTree.java& &(2ä
+ java.io.PrintStream.println(int)CALL`
+VD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\binarytree2\BinaryTree.java' '(2≤
+Hcom.dsa.binarytree2.BinaryTree.main(java.lang.String[])?root@35.13:35.17CALL`
+VD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\binarytree2\BinaryTree.java$ $(2≤
+Hcom.dsa.binarytree2.BinaryTree.main(java.lang.String[])?root@35.13:35.17CALL`
+VD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\binarytree2\BinaryTree.java%" %(&2¥
+Jcom.dsa.binarytree2.BinaryTree.main(java.lang.String[])?height@37.12:37.18CALL`
+VD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\binarytree2\BinaryTree.java' '(!2´
+<com.dsa.binarytree2.BinaryTree.main(java.lang.String[])!args	PARAMETER`
+VD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\binarytree2\BinaryTree.java"% "()2π
+Hcom.dsa.binarytree2.BinaryTree.main(java.lang.String[])?root@35.13:35.17DECLARATION`
+VD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\binarytree2\BinaryTree.java# #(2ª
+Jcom.dsa.binarytree2.BinaryTree.main(java.lang.String[])?height@37.12:37.18DECLARATION`
+VD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\binarytree2\BinaryTree.java% %(2u
+voidRETURN_TYPE`
+VD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\binarytree2\BinaryTree.java" "(≥
+Hcom.dsa.binarytree2.BinaryTree.main(java.lang.String[])?root@35.13:35.17VARIABLE`
+VD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\binarytree2\BinaryTree.java# #("
+typeNode"
+isFinalfalse"≤
+declarationStringú<mark class="modifier"> </mark>Node <mark class="class-field">root</mark> = createTree(new <mark class="modifier">int</mark>[] { 1, 2, 3, 4, -1, -1, 5, 6 })*root2Ç
+com.dsa.binarytree2.NodeTYPE`
+VD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\binarytree2\BinaryTree.java# #(2ö
+0com.dsa.binarytree2.BinaryTree.createTree(int[])CALL`
+VD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\binarytree2\BinaryTree.java# #( 
+Jcom.dsa.binarytree2.BinaryTree.main(java.lang.String[])?height@37.12:37.18VARIABLE`
+VD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\binarytree2\BinaryTree.java% %("
+typeint"
+isFinalfalse"í
+declarationString}<mark class="modifier"> </mark><mark class="modifier">int</mark> <mark class="class-field">height</mark> = heightOfTree(root)*height2m
+intTYPE`
+VD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\binarytree2\BinaryTree.java% %(2Ø
+Ecom.dsa.binarytree2.BinaryTree.heightOfTree(com.dsa.binarytree2.Node)CALL`
+VD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\binarytree2\BinaryTree.java% %(!2≤
+Hcom.dsa.binarytree2.BinaryTree.main(java.lang.String[])?root@35.13:35.17CALL`
+VD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\binarytree2\BinaryTree.java%" %(&˜
+<com.dsa.binarytree2.BinaryTree.main(java.lang.String[])!args	PARAMETER`
+VD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\binarytree2\BinaryTree.java"% "()"
+typeString[]"
+isFinalfalse""
+declarationStringString[] args*args2|
+java.lang.String[]TYPE`
+VD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\binarytree2\BinaryTree.java" "($ˆ
+-com.dsa.binarytree2.BinaryTree?root@3.23:3.27VARIABLE`
+VD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\binarytree2\BinaryTree.java ("
+isFinalfalse"
+typeNode"â
+declarationStringt<mark class="modifier">public </mark><mark class="modifier">static </mark>Node <mark class="class-field">root</mark>"
+isStatictrue"
+accesspublic*root2Ç
+com.dsa.binarytree2.NodeTYPE`
+VD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\binarytree2\BinaryTree.java (Ü
+.com.dsa.binarytree2.BinaryTree?index@4.22:4.27VARIABLE`
+VD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\binarytree2\BinaryTree.java ("
+isFinalfalse"
+typeint"Æ
+declarationStringò<mark class="modifier">public </mark><mark class="modifier">static </mark><mark class="modifier">int</mark> <mark class="class-field">index</mark> = -1;"
+isStatictrue"
+accesspublic*index2m
+intTYPE`
+VD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\binarytree2\BinaryTree.java (

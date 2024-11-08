@@ -1,0 +1,82 @@
+
+OD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\fixedstack\Main.java
+com.dsa.fixedstack.MainCLASSY
+OD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\fixedstack\Main.java ("
+packagecom.dsa.fixedstack"
+isFinalfalse"
+inner classfalse"
+
+isAbstractfalse"b
+declarationStringM<mark class="modifier">public </mark><mark class="modifier">class </mark>Main"
+accesspublic*Main2ö
+0com.dsa.fixedstack.Main.main(java.lang.String[])DECLARATIONY
+OD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\fixedstack\Main.java (±
+0com.dsa.fixedstack.Main.main(java.lang.String[])METHODY
+OD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\fixedstack\Main.java ("
+isFinalfalse"≤
+declarationStringú<mark class="modifier">public </mark><mark class="modifier">static </mark><mark class="modifier">void</mark> <mark class="method">main</mark>(String[] args)"
+isStatictrue"
+accesspublic"
+
+isAbstractfalse"
+typevoid*main2é
++com.dsa.fixedstack.FixedSizeStack.push(int)CALLY
+OD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\fixedstack\Main.java (2é
++com.dsa.fixedstack.FixedSizeStack.push(int)CALLY
+OD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\fixedstack\Main.java (2é
++com.dsa.fixedstack.FixedSizeStack.push(int)CALLY
+OD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\fixedstack\Main.java (2é
++com.dsa.fixedstack.FixedSizeStack.push(int)CALLY
+OD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\fixedstack\Main.java	 	(2é
++com.dsa.fixedstack.FixedSizeStack.push(int)CALLY
+OD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\fixedstack\Main.java
+ 
+(2å
+)com.dsa.fixedstack.FixedSizeStack.print()CALLY
+OD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\fixedstack\Main.java (2ä
+'com.dsa.fixedstack.FixedSizeStack.pop()CALLY
+OD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\fixedstack\Main.java (2å
+)com.dsa.fixedstack.FixedSizeStack.print()CALLY
+OD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\fixedstack\Main.java (2ò
+5com.dsa.fixedstack.FixedSizeStack.FixedSizeStack(int)CALLY
+OD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\fixedstack\Main.java# (12£
+@com.dsa.fixedstack.Main.main(java.lang.String[])?stack@4.23:4.28CALLY
+OD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\fixedstack\Main.java (2£
+@com.dsa.fixedstack.Main.main(java.lang.String[])?stack@4.23:4.28CALLY
+OD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\fixedstack\Main.java (2£
+@com.dsa.fixedstack.Main.main(java.lang.String[])?stack@4.23:4.28CALLY
+OD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\fixedstack\Main.java (2£
+@com.dsa.fixedstack.Main.main(java.lang.String[])?stack@4.23:4.28CALLY
+OD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\fixedstack\Main.java	 	(2£
+@com.dsa.fixedstack.Main.main(java.lang.String[])?stack@4.23:4.28CALLY
+OD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\fixedstack\Main.java
+ 
+(2£
+@com.dsa.fixedstack.Main.main(java.lang.String[])?stack@4.23:4.28CALLY
+OD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\fixedstack\Main.java (2£
+@com.dsa.fixedstack.Main.main(java.lang.String[])?stack@4.23:4.28CALLY
+OD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\fixedstack\Main.java (2£
+@com.dsa.fixedstack.Main.main(java.lang.String[])?stack@4.23:4.28CALLY
+OD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\fixedstack\Main.java (2ù
+5com.dsa.fixedstack.Main.main(java.lang.String[])!args	PARAMETERY
+OD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\fixedstack\Main.java% ()2™
+@com.dsa.fixedstack.Main.main(java.lang.String[])?stack@4.23:4.28DECLARATIONY
+OD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\fixedstack\Main.java (2n
+voidRETURN_TYPEY
+OD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\fixedstack\Main.java (˛
+@com.dsa.fixedstack.Main.main(java.lang.String[])?stack@4.23:4.28VARIABLEY
+OD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\fixedstack\Main.java ("
+typeFixedSizeStack"
+isFinalfalse"Å
+declarationStringl<mark class="modifier"> </mark>FixedSizeStack <mark class="class-field">stack</mark> = new FixedSizeStack(5)*stack2Ñ
+!com.dsa.fixedstack.FixedSizeStackTYPEY
+OD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\fixedstack\Main.java (2ò
+5com.dsa.fixedstack.FixedSizeStack.FixedSizeStack(int)CALLY
+OD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\fixedstack\Main.java# (1‚
+5com.dsa.fixedstack.Main.main(java.lang.String[])!args	PARAMETERY
+OD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\fixedstack\Main.java% ()"
+typeString[]"
+isFinalfalse""
+declarationStringString[] args*args2u
+java.lang.String[]TYPEY
+OD:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\fixedstack\Main.java ($

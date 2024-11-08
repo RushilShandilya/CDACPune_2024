@@ -1,0 +1,171 @@
+
+\D:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\hashinglinkedlist\LinkedList.java«
+$com.dsa.hashinglinkedlist.LinkedListCLASSf
+\D:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\hashinglinkedlist\LinkedList.java ("$
+packagecom.dsa.hashinglinkedlist"
+isFinalfalse"
+inner classfalse"
+
+isAbstractfalse"ö
+declarationStringÑ<mark class="modifier">public </mark><mark class="modifier">class </mark>LinkedList<mark class="modifier"><br>implements </mark>List"
+accesspublic*
+LinkedList2®
+1com.dsa.hashinglinkedlist.LinkedList.LinkedList()DECLARATIONf
+\D:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\hashinglinkedlist\LinkedList.java (2ß
+0com.dsa.hashinglinkedlist.LinkedList.insert(int)DECLARATIONf
+\D:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\hashinglinkedlist\LinkedList.java (2ß
+0com.dsa.hashinglinkedlist.LinkedList.search(int)DECLARATIONf
+\D:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\hashinglinkedlist\LinkedList.java (2•
+.com.dsa.hashinglinkedlist.LinkedList.isEmpty()DECLARATIONf
+\D:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\hashinglinkedlist\LinkedList.java" "(2™
+3com.dsa.hashinglinkedlist.LinkedList?head@3.24:3.28DECLARATIONf
+\D:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\hashinglinkedlist\LinkedList.java (2™
+3com.dsa.hashinglinkedlist.LinkedList?tail@4.24:4.28DECLARATIONf
+\D:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\hashinglinkedlist\LinkedList.java (2ê
+com.dsa.hashinglinkedlist.ListEXTENDf
+\D:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\hashinglinkedlist\LinkedList.java# ('Ç
+1com.dsa.hashinglinkedlist.LinkedList.LinkedList()CONSTRUCTORf
+\D:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\hashinglinkedlist\LinkedList.java ("b
+declarationStringM<mark class="modifier">public </mark><mark class="method">LinkedList</mark>()*
+LinkedList2£
+3com.dsa.hashinglinkedlist.LinkedList?head@3.24:3.28CALLf
+\D:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\hashinglinkedlist\LinkedList.java (2£
+3com.dsa.hashinglinkedlist.LinkedList?tail@4.24:4.28CALLf
+\D:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\hashinglinkedlist\LinkedList.java (2õ
+$com.dsa.hashinglinkedlist.LinkedListRETURN_TYPEf
+\D:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\hashinglinkedlist\LinkedList.java (Ø
+0com.dsa.hashinglinkedlist.LinkedList.insert(int)METHODf
+\D:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\hashinglinkedlist\LinkedList.java ("
+isFinalfalse"Ÿ
+declarationString√<mark class="annotation">@Override</mark> <br><mark class="modifier">public </mark><mark class="modifier">void</mark> <mark class="method">insert</mark>(<mark class="modifier">int</mark> element)"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typevoid*insert2ò
+(com.dsa.hashinglinkedlist.Node.Node(int)CALLf
+\D:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\hashinglinkedlist\LinkedList.java (2®
+8com.dsa.hashinglinkedlist.LinkedList.insert(int)!elementCALLf
+\D:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\hashinglinkedlist\LinkedList.java ($2£
+3com.dsa.hashinglinkedlist.LinkedList?head@3.24:3.28CALLf
+\D:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\hashinglinkedlist\LinkedList.java (2£
+3com.dsa.hashinglinkedlist.LinkedList?head@3.24:3.28CALLf
+\D:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\hashinglinkedlist\LinkedList.java (2±
+Acom.dsa.hashinglinkedlist.LinkedList.insert(int)?node@13.13:13.17CALLf
+\D:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\hashinglinkedlist\LinkedList.java (2£
+3com.dsa.hashinglinkedlist.LinkedList?tail@4.24:4.28CALLf
+\D:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\hashinglinkedlist\LinkedList.java (2±
+Acom.dsa.hashinglinkedlist.LinkedList.insert(int)?node@13.13:13.17CALLf
+\D:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\hashinglinkedlist\LinkedList.java (2£
+3com.dsa.hashinglinkedlist.LinkedList?tail@4.24:4.28CALLf
+\D:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\hashinglinkedlist\LinkedList.java (2±
+Acom.dsa.hashinglinkedlist.LinkedList.insert(int)?node@13.13:13.17CALLf
+\D:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\hashinglinkedlist\LinkedList.java (2£
+3com.dsa.hashinglinkedlist.LinkedList?tail@4.24:4.28CALLf
+\D:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\hashinglinkedlist\LinkedList.java (2£
+3com.dsa.hashinglinkedlist.LinkedList?tail@4.24:4.28CALLf
+\D:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\hashinglinkedlist\LinkedList.java (2û
+*com.dsa.hashinglinkedlist.List.insert(int)OVERRIDEf
+\D:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\hashinglinkedlist\LinkedList.java (2≠
+8com.dsa.hashinglinkedlist.LinkedList.insert(int)!element	PARAMETERf
+\D:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\hashinglinkedlist\LinkedList.java ("2∏
+Acom.dsa.hashinglinkedlist.LinkedList.insert(int)?node@13.13:13.17DECLARATIONf
+\D:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\hashinglinkedlist\LinkedList.java (2{
+voidRETURN_TYPEf
+\D:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\hashinglinkedlist\LinkedList.java (¶
+Acom.dsa.hashinglinkedlist.LinkedList.insert(int)?node@13.13:13.17VARIABLEf
+\D:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\hashinglinkedlist\LinkedList.java ("
+typeNode"
+isFinalfalse"r
+declarationString]<mark class="modifier"> </mark>Node <mark class="class-field">node</mark> = new Node(element)*node2é
+com.dsa.hashinglinkedlist.NodeTYPEf
+\D:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\hashinglinkedlist\LinkedList.java (2ò
+(com.dsa.hashinglinkedlist.Node.Node(int)CALLf
+\D:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\hashinglinkedlist\LinkedList.java (2®
+8com.dsa.hashinglinkedlist.LinkedList.insert(int)!elementCALLf
+\D:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\hashinglinkedlist\LinkedList.java ($ä
+8com.dsa.hashinglinkedlist.LinkedList.insert(int)!element	PARAMETERf
+\D:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\hashinglinkedlist\LinkedList.java (""
+typeint"
+isFinalfalse">
+declarationString)<mark class="modifier">int</mark> element*element2s
+intTYPEf
+\D:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\hashinglinkedlist\LinkedList.java (ì
+0com.dsa.hashinglinkedlist.LinkedList.search(int)METHODf
+\D:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\hashinglinkedlist\LinkedList.java ("
+isFinalfalse"‹
+declarationString∆<mark class="annotation">@Override</mark> <br><mark class="modifier">public </mark><mark class="modifier">boolean</mark> <mark class="method">search</mark>(<mark class="modifier">int</mark> element)"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typeboolean*search2£
+3com.dsa.hashinglinkedlist.LinkedList?head@3.24:3.28CALLf
+\D:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\hashinglinkedlist\LinkedList.java (2±
+Acom.dsa.hashinglinkedlist.LinkedList.search(int)?temp@25.13:25.17CALLf
+\D:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\hashinglinkedlist\LinkedList.java (2±
+Acom.dsa.hashinglinkedlist.LinkedList.search(int)?temp@25.13:25.17CALLf
+\D:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\hashinglinkedlist\LinkedList.java (2®
+8com.dsa.hashinglinkedlist.LinkedList.search(int)!elementCALLf
+\D:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\hashinglinkedlist\LinkedList.java ($2±
+Acom.dsa.hashinglinkedlist.LinkedList.search(int)?temp@25.13:25.17CALLf
+\D:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\hashinglinkedlist\LinkedList.java (2±
+Acom.dsa.hashinglinkedlist.LinkedList.search(int)?temp@25.13:25.17CALLf
+\D:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\hashinglinkedlist\LinkedList.java (2û
+*com.dsa.hashinglinkedlist.List.search(int)OVERRIDEf
+\D:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\hashinglinkedlist\LinkedList.java (2≠
+8com.dsa.hashinglinkedlist.LinkedList.search(int)!element	PARAMETERf
+\D:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\hashinglinkedlist\LinkedList.java (%2∏
+Acom.dsa.hashinglinkedlist.LinkedList.search(int)?temp@25.13:25.17DECLARATIONf
+\D:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\hashinglinkedlist\LinkedList.java (2~
+booleanRETURN_TYPEf
+\D:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\hashinglinkedlist\LinkedList.java (˘
+Acom.dsa.hashinglinkedlist.LinkedList.search(int)?temp@25.13:25.17VARIABLEf
+\D:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\hashinglinkedlist\LinkedList.java ("
+typeNode"
+isFinalfalse"e
+declarationStringP<mark class="modifier"> </mark>Node <mark class="class-field">temp</mark> = head*temp2é
+com.dsa.hashinglinkedlist.NodeTYPEf
+\D:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\hashinglinkedlist\LinkedList.java (2£
+3com.dsa.hashinglinkedlist.LinkedList?head@3.24:3.28CALLf
+\D:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\hashinglinkedlist\LinkedList.java (ä
+8com.dsa.hashinglinkedlist.LinkedList.search(int)!element	PARAMETERf
+\D:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\hashinglinkedlist\LinkedList.java (%"
+typeint"
+isFinalfalse">
+declarationString)<mark class="modifier">int</mark> element*element2s
+intTYPEf
+\D:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\hashinglinkedlist\LinkedList.java (Ç
+.com.dsa.hashinglinkedlist.LinkedList.isEmpty()METHODf
+\D:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\hashinglinkedlist\LinkedList.java" "("
+isFinalfalse"¥
+declarationStringû<mark class="annotation">@Override</mark> <br><mark class="modifier">public </mark><mark class="modifier">boolean</mark> <mark class="method">isEmpty</mark>()"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typeboolean*isEmpty2£
+3com.dsa.hashinglinkedlist.LinkedList?head@3.24:3.28CALLf
+\D:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\hashinglinkedlist\LinkedList.java# #(2ú
+(com.dsa.hashinglinkedlist.List.isEmpty()OVERRIDEf
+\D:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\hashinglinkedlist\LinkedList.java" "(2~
+booleanRETURN_TYPEf
+\D:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\hashinglinkedlist\LinkedList.java" "(ê
+3com.dsa.hashinglinkedlist.LinkedList?head@3.24:3.28VARIABLEf
+\D:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\hashinglinkedlist\LinkedList.java ("
+isFinalfalse"
+typeNode"ä
+declarationStringu<mark class="modifier">private </mark><mark class="modifier">static </mark>Node <mark class="class-field">head</mark>"
+isStatictrue"
+accessprivate*head2é
+com.dsa.hashinglinkedlist.NodeTYPEf
+\D:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\hashinglinkedlist\LinkedList.java (ê
+3com.dsa.hashinglinkedlist.LinkedList?tail@4.24:4.28VARIABLEf
+\D:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\hashinglinkedlist\LinkedList.java ("
+isFinalfalse"
+typeNode"ä
+declarationStringu<mark class="modifier">private </mark><mark class="modifier">static </mark>Node <mark class="class-field">tail</mark>"
+isStatictrue"
+accessprivate*tail2é
+com.dsa.hashinglinkedlist.NodeTYPEf
+\D:\240840120142\Java\240840120142\ImplementDSA\src\com\dsa\hashinglinkedlist\LinkedList.java (

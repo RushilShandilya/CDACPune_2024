@@ -32,6 +32,25 @@ public class SinglyLinkedList implements LinkedList{
     }
 
     @Override
+    public void add(int element, int position) {
+        if(position<0) return ;
+        if(position==0) addToFront(element);
+        else{
+            int count = 1;
+            Node temp = head , prev = null;
+            while(count<=position){
+                prev = temp;
+                temp = temp.next;
+                ++count;
+            }
+           Node node = new Node(element);
+           assert prev != null;
+           prev.next = node;
+           node.next = temp;
+        }
+    }
+
+    @Override
     public boolean isPresent(int element) {
         Node temp = head;
         while(temp!=null){
@@ -95,5 +114,17 @@ public class SinglyLinkedList implements LinkedList{
             temp = temp.next;
         }
         System.out.println();
+    }
+
+    public Node reverseList(Node head){
+        if(head==null || head.next==null) return head;
+
+        Node node = reverseList(head.next);
+
+        Node front = head.next;
+        front.next = head;
+        head.next = null;
+
+        return node;
     }
 }
