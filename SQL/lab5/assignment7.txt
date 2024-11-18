@@ -1,0 +1,129 @@
+1>
+mysql> Select DEPTNO,Sum(SAL) as TotalSalary
+    -> From EMP e 
+    -> Group By DEPTNO ;
++--------+-------------+
+| DEPTNO | TotalSalary |
++--------+-------------+
+|     10 |    10587.50 |
+|     20 |    13158.75 |
+|     30 |    11374.00 |
++--------+-------------+
+3 rows in set (0.001 sec)
+
+2>
+mysql> Select DEPTNO,Sum(SAL) as TotalSalary
+    -> From EMP e 
+    -> Group By DEPTNO
+    -> HAVING Sum(sal)>10000;
++--------+-------------+
+| DEPTNO | TotalSalary |
++--------+-------------+
+|     10 |    10587.50 |
+|     20 |    13158.75 |
+|     30 |    11374.00 |
++--------+-------------+
+3 rows in set (0.001 sec)
+
+3>
+mysql> Select DEPTNO,Sum(SAL) as TotalSalary
+    -> From EMP e 
+    -> WHERE DEPTNO!=30
+    -> Group By DEPTNO
+    -> HAVING Sum(sal)>9000;
++--------+-------------+
+| DEPTNO | TotalSalary |
++--------+-------------+
+|     10 |    10587.50 |
+|     20 |    13158.75 |
++--------+-------------+
+2 rows in set (0.001 sec)
+
+4>
+mysql> SELECT JOB , MAX(SAL)
+    -> FROM EMP e
+    -> WHERE DEPTNO = 10 or DEPTNO = 20
+    -> GROUP BY JOB
+    -> HAVING JOB LIKE "CLERK" or JOB LIKE "Manager" or Job like "Salesman"; 
++---------+----------+
+| JOB     | MAX(SAL) |
++---------+----------+
+| CLERK   |  1573.00 |
+| MANAGER |  3599.75 |
++---------+----------+
+2 rows in set (0.010 sec)
+
+5>
+mysql> SELECT JOB , COUNT(EmpNo) as NumberOfEmployee
+    -> FROM EMP e
+    -> WHERE SAL>3000
+    -> GROUP BY JOB;
++-----------+------------------+
+| JOB       | NumberOfEmployee |
++-----------+------------------+
+| ANALYST   |                2 |
+| MANAGER   |                2 |
+| PRESIDENT |                1 |
++-----------+------------------+
+3 rows in set (0.001 sec)
+
+
+6>
+mysql> SELECT DEPTNO, COUNT(DEPTNO) as NumberOfEmployee 
+    -> FROM EMP e
+    -> GROUP BY DEPTNO 
+    -> HAVING COUNT(DEPTNO)>=3; 
++--------+------------------+
+| DEPTNO | NumberOfEmployee |
++--------+------------------+
+|     10 |                3 |
+|     20 |                5 |
+|     30 |                6 |
++--------+------------------+
+3 rows in set (0.001 sec)
+
+7>
+mysql> SELECT 
+    -> DEPTNO,
+    -> SUM(SAL) as TotalSum,
+    -> MIN(SUM(SAL)) OVER() as MinimumSum
+    -> FROM EMP e
+    -> WHERE Job Like "Manager"
+    -> GROUP BY DEPTNO;
++--------+----------+------------+
+| DEPTNO | TotalSum | MinimumSum |
++--------+----------+------------+
+|     10 |  2964.50 |    2964.50 |
+|     20 |  3599.75 |    2964.50 |
+|     30 |  3448.50 |    2964.50 |
++--------+----------+------------+
+3 rows in set (0.001 sec)
+
+8>
+mysql> SELECT DEPTNO,SUM(SAL)
+    -> FROM EMP E
+    -> WHERE JOB LIKE "CLERK"
+    -> GROUP BY DEPTNO 
+    -> HAVING COUNT(JOB)>=2;
++--------+----------+
+| DEPTNO | SUM(SAL) |
++--------+----------+
+|     20 |  2299.00 |
++--------+----------+
+1 row in set (0.001 sec)
+
+
+9>
+mysql> SELECT DEPTNO,COUNT(DEPTNO)
+    -> FROM EMP e
+    -> WHERE SAL>1500
+    -> GROUP BY DEPTNO
+    -> ;
++--------+---------------+
+| DEPTNO | COUNT(DEPTNO) |
++--------+---------------+
+|     10 |             3 |
+|     20 |             3 |
+|     30 |             5 |
++--------+---------------+
+3 rows in set (0.001 sec)

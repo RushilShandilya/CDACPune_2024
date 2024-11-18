@@ -1,0 +1,130 @@
+1>
+MariaDB [rushil]> SELECT *
+    -> FROM room r
+    -> LEFT JOIN Courses c
+    -> ON r.rid = c.rid;
++-----+--------+-----------+------+-------+------+------+
+| rid | rname  | rloc      | cid  | cname | rid  | fid  |
++-----+--------+-----------+------+-------+------+------+
+| 100 | Jasmin | 1st floor |  121 | DBDA  |  100 |   10 |
+| 101 | Rose   | 2nd floor |  131 | DAC   |  101 | NULL |
+| 100 | Jasmin | 1st floor |  141 | DTISS |  100 | NULL |
+| 105 | Lotus  | 1st floor |  151 | DOIT  |  105 |   12 |
+| 103 | Mogra  | 1st floor | NULL | NULL  | NULL | NULL |
++-----+--------+-----------+------+-------+------+------+
+5 rows in set (0.009 sec)
+
+2>
+MariaDB [rushil]> SELECT s.sname,p.*
+    -> FROM salesman s
+    -> LEFT JOIN Product p
+    -> ON s.sid = p.sid
+    -> WHERE s.sname Like "Kirti";
++-------+------+--------+-------+------+------+------+
+| sname | pid  | pname  | price | qty  | cid  | sid  |
++-------+------+--------+-------+------+------+------+
+| Kirti |  123 | lays   | 30.00 |   30 |    1 |   12 |
+| Kirti |  134 | nachos | 50.00 |   50 |    1 |   12 |
++-------+------+--------+-------+------+------+------+
+2 rows in set (0.009 sec)
+
+3>
+MariaDB [rushil]> SELECT e.EMPNO ,e.ENAME ,d.DEPTNO ,d.DNAME ,d.LOC 
+    -> FROM EMP e
+    -> LEFT JOIN DEPT d
+    -> ON e.DEPTNO  = d.DEPTNO ;
++-------+--------+--------+------------+----------+
+| EMPNO | ENAME  | DEPTNO | DNAME      | LOC      |
++-------+--------+--------+------------+----------+
+|  7782 | CLARK  |     10 | ACCOUNTING | NEW YORK |
+|  7839 | KING   |     10 | ACCOUNTING | NEW YORK |
+|  7934 | MILLER |     10 | ACCOUNTING | NEW YORK |
+|  7369 | SMITH  |     20 | RESEARCH   | DALLAS   |
+|  7566 | JONES  |     20 | RESEARCH   | DALLAS   |
+|  7788 | SCOTT  |     20 | RESEARCH   | DALLAS   |
+|  7876 | ADAMS  |     20 | RESEARCH   | DALLAS   |
+|  7902 | FORD   |     20 | RESEARCH   | DALLAS   |
+|  1111 | Geeta  |     20 | RESEARCH   | DALLAS   |
+|  7499 | ALLEN  |     30 | SALES      | CHICAGO  |
+|  7521 | WARD   |     30 | SALES      | CHICAGO  |
+|  7654 | MARTIN |     30 | SALES      | CHICAGO  |
+|  7698 | BLAKE  |     30 | SALES      | CHICAGO  |
+|  7844 | TURNER |     30 | SALES      | CHICAGO  |
+|  7900 | JAMES  |     30 | SALES      | CHICAGO  |
+|  2222 | Raj    |     40 | OPERATIONS | BOSTON   |
+|  2222 | Raj    |     40 | OPERATIONS | BOSTON   |
+|  2222 | Raj    |     40 | OPERATIONS | BOSTON   |
+|  2222 | Raj    |     40 | OPERATIONS | BOSTON   |
++-------+--------+--------+------------+----------+
+19 rows in set (0.001 sec)
+
+4>
+MariaDB [rushil]> SELECT e.EMPNO ,e.ENAME ,d.DEPTNO ,d.DNAME ,d.LOC 
+    -> FROM EMP e
+    -> LEFT JOIN DEPT d
+    -> ON e.DEPTNO  = d.DEPTNO 
+    -> WHERE e.job LIKE "Manager";
++-------+-------+--------+------------+----------+
+| EMPNO | ENAME | DEPTNO | DNAME      | LOC      |
++-------+-------+--------+------------+----------+
+|  7782 | CLARK |     10 | ACCOUNTING | NEW YORK |
+|  7566 | JONES |     20 | RESEARCH   | DALLAS   |
+|  7698 | BLAKE |     30 | SALES      | CHICAGO  |
++-------+-------+--------+------------+----------+
+3 rows in set (0.001 sec)
+
+5>
+MariaDB [rushil]> SELECT d.*,e.*
+    -> FROM DEPT d 
+    -> LEFT JOIN EMP e 
+    -> ON d.DEPTNO = e.DEPTNO;
++--------+------------+----------+-------+--------+-----------+------+------------+----------+---------+--------+
+| DEPTNO | DNAME      | LOC      | EMPNO | ENAME  | JOB       | MGR  | HIREDATE   | SAL      | COMM    | DEPTNO |
++--------+------------+----------+-------+--------+-----------+------+------------+----------+---------+--------+
+|     20 | RESEARCH   | DALLAS   |  7369 | SMITH  | CLERK     | 7902 | 1980-12-17 |   968.00 |    NULL |     20 |
+|     30 | SALES      | CHICAGO  |  7499 | ALLEN  | SALESMAN  | 7698 | 1981-02-20 |  1936.00 |  300.00 |     30 |
+|     30 | SALES      | CHICAGO  |  7521 | WARD   | SALESMAN  | 7698 | 1981-02-22 |  1512.50 |  500.00 |     30 |
+|     20 | RESEARCH   | DALLAS   |  7566 | JONES  | MANAGER   | 7839 | 1981-04-02 |  3599.75 |    NULL |     20 |
+|     30 | SALES      | CHICAGO  |  7654 | MARTIN | SALESMAN  | 7698 | 1981-09-28 |  1512.50 | 1400.00 |     30 |
+|     30 | SALES      | CHICAGO  |  7698 | BLAKE  | MANAGER   | 7839 | 1981-05-01 |  3448.50 |    NULL |     30 |
+|     10 | ACCOUNTING | NEW YORK |  7782 | CLARK  | MANAGER   | 7839 | 1981-06-09 |  2964.50 |    NULL |     10 |
+|     20 | RESEARCH   | DALLAS   |  7788 | SCOTT  | ANALYST   | 7566 | 1982-12-09 |  3630.00 |    NULL |     20 |
+|     10 | ACCOUNTING | NEW YORK |  7839 | KING   | PRESIDENT | NULL | 1981-11-17 |  6050.00 |    NULL |     10 |
+|     30 | SALES      | CHICAGO  |  7844 | TURNER | SALESMAN  | 7698 | 1981-09-08 |  1815.00 |    0.00 |     30 |
+|     20 | RESEARCH   | DALLAS   |  7876 | ADAMS  | CLERK     | 7788 | 1983-01-12 |  1331.00 |    NULL |     20 |
+|     30 | SALES      | CHICAGO  |  7900 | JAMES  | CLERK     | 7698 | 1981-12-03 |  1149.50 |    NULL |     30 |
+|     20 | RESEARCH   | DALLAS   |  7902 | FORD   | ANALYST   | 7566 | 1981-12-03 |  3630.00 |    NULL |     20 |
+|     10 | ACCOUNTING | NEW YORK |  7934 | MILLER | CLERK     | 7782 | 1982-01-23 |  1573.00 |    NULL |     10 |
+|     20 | RESEARCH   | DALLAS   |  1111 | Geeta  | NULL      | NULL | NULL       | 10000.00 |  300.00 |     20 |
+|     40 | OPERATIONS | BOSTON   |  2222 | Raj    | Analyst   | NULL | NULL       |     NULL |    NULL |     40 |
+|     40 | OPERATIONS | BOSTON   |  2222 | Raj    | Analyst   | NULL | NULL       |     NULL |    NULL |     40 |
+|     40 | OPERATIONS | BOSTON   |  2222 | Raj    | Analyst   | NULL | NULL       |     NULL |    NULL |     40 |
+|     40 | OPERATIONS | BOSTON   |  2222 | Raj    | Analyst   | NULL | NULL       |     NULL |    NULL |     40 |
++--------+------------+----------+-------+--------+-----------+------+------------+----------+---------+--------+
+19 rows in set (0.001 sec)
+
+6>
+mysql> SELECT e1.empno,e1.ename,e1.mgr,e2.empno,e2.ename
+    -> FROM EMP e1
+    -> JOIN EMP e2
+    -> ON e1.mgr = e2.empno;
++-------+--------+------+-------+-------+
+| empno | ename  | mgr  | empno | ename |
++-------+--------+------+-------+-------+
+|  7902 | FORD   | 7566 |  7566 | JONES |
+|  7788 | SCOTT  | 7566 |  7566 | JONES |
+|  7900 | JAMES  | 7698 |  7698 | BLAKE |
+|  7844 | TURNER | 7698 |  7698 | BLAKE |
+|  7654 | MARTIN | 7698 |  7698 | BLAKE |
+|  7521 | WARD   | 7698 |  7698 | BLAKE |
+|  7499 | ALLEN  | 7698 |  7698 | BLAKE |
+|  7934 | MILLER | 7782 |  7782 | CLARK |
+|  7876 | ADAMS  | 7788 |  7788 | SCOTT |
+|  7782 | CLARK  | 7839 |  7839 | KING  |
+|  7698 | BLAKE  | 7839 |  7839 | KING  |
+|  7566 | JONES  | 7839 |  7839 | KING  |
+|  7369 | SMITH  | 7902 |  7902 | FORD  |
++-------+--------+------+-------+-------+
+13 rows in set (0.00 sec)
+
+7>

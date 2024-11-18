@@ -1,0 +1,127 @@
+1>
+create table transaction
+( 	tid int primary key,
+	sid int references salesman(sid),
+	custid int references customer(custid),
+	vid int references vehicle(vid),
+	buyprice int not null
+);
+
+SELECT t.tid,c.custid,c.cname,t.buyprice
+From transaction t, customer c
+Where t.custid = c.custid;
+
+mysql> SELECT t.tid,c.custid,c.cname,t.buyprice
+    -> From transaction t, customer c
+    -> Where t.custid = c.custid;
++-------+--------+--------+----------+
+| tid   | custid | cname  | buyprice |
++-------+--------+--------+----------+
+|   100 |      2 | Ganesh |    80000 |
+|  1001 |      1 | Nilima |    90000 |
+| 10003 |      3 | Kishor |   120000 |
++-------+--------+--------+----------+
+3 rows in set (0.00 sec)
+
+2>
+SELECT t.tid,c.custid,c.cname,v.vid,v.vname, s.sid, s.sname,t.buyprice
+FROM transaction t, customer c, salesman s , vehicle v
+WHERE t.custid = c.custid and t.vid = v.vid and t.sid = s.sid;
+
+mysql> SELECT t.tid,c.custid,c.cname,v.vid,v.vname, s.sid, s.sname,t.buyprice
+    -> FROM transaction t, customer c, salesman s , vehicle v
+    -> WHERE t.custid = c.custid and t.vid = v.vid and t.sid = s.sid;
++-------+--------+--------+-----+--------+-----+--------+----------+
+| tid   | custid | cname  | vid | vname  | sid | sname  | buyprice |
++-------+--------+--------+-----+--------+-----+--------+----------+
+|   100 |      2 | Ganesh |   1 | Activa |  10 | Rajesh |    80000 |
+|  1001 |      1 | Nilima |   2 | Santro |  10 | Rajesh |    90000 |
+| 10003 |      3 | Kishor |   3 | Yamaha |  11 | Seema  |   120000 |
++-------+--------+--------+-----+--------+-----+--------+----------+
+
+
+2.1>
+mysql> Select e.ename,d.deptno,d.dname,e.sal,e.comm
+    -> From  emp e , dept d
+    -> Where e.deptno = d.deptno;
++--------+--------+------------+---------+---------+
+| ename  | deptno | dname      | sal     | comm    |
++--------+--------+------------+---------+---------+
+| SMITH  |     20 | RESEARCH   |  800.00 |    NULL |
+| ALLEN  |     30 | SALES      | 1600.00 |  300.00 |
+| WARD   |     30 | SALES      | 1250.00 |  500.00 |
+| JONES  |     20 | RESEARCH   | 2975.00 |    NULL |
+| MARTIN |     30 | SALES      | 1250.00 | 1400.00 |
+| BLAKE  |     30 | SALES      | 2850.00 |    NULL |
+| CLARK  |     10 | ACCOUNTING | 2450.00 |    NULL |
+| SCOTT  |     20 | RESEARCH   | 3000.00 |    NULL |
+| KING   |     10 | ACCOUNTING | 5000.00 |    NULL |
+| TURNER |     30 | SALES      | 1500.00 |    0.00 |
+| ADAMS  |     20 | RESEARCH   | 1100.00 |    NULL |
+| JAMES  |     30 | SALES      |  950.00 |    NULL |
+| FORD   |     20 | RESEARCH   | 3000.00 |    NULL |
+| MILLER |     10 | ACCOUNTING | 1300.00 |    NULL |
++--------+--------+------------+---------+---------+
+14 rows in set (0.00 sec)
+
+2.2>
+mysql> Select e.empno,e.ename,e.sal,e.job,d.deptno,d.dname
+    -> From emp e , dept d
+    -> Where (e.deptno = d.deptno) and (e.job like "Clerk" or e.job like "salesman") and sal is not null;
++-------+--------+---------+----------+--------+------------+
+| empno | ename  | sal     | job      | deptno | dname      |
++-------+--------+---------+----------+--------+------------+
+|  7934 | MILLER | 1300.00 | CLERK    |     10 | ACCOUNTING |
+|  7876 | ADAMS  | 1100.00 | CLERK    |     20 | RESEARCH   |
+|  7369 | SMITH  |  800.00 | CLERK    |     20 | RESEARCH   |
+|  7900 | JAMES  |  950.00 | CLERK    |     30 | SALES      |
+|  7844 | TURNER | 1500.00 | SALESMAN |     30 | SALES      |
+|  7654 | MARTIN | 1250.00 | SALESMAN |     30 | SALES      |
+|  7521 | WARD   | 1250.00 | SALESMAN |     30 | SALES      |
+|  7499 | ALLEN  | 1600.00 | SALESMAN |     30 | SALES      |
++-------+--------+---------+----------+--------+------------+
+8 rows in set (0.00 sec)
+
+2.3>
+mysql> Select e.ename,d.deptno,d.dname,e.sal,e.comm
+    -> From emp e, dept d
+    -> Where (e.deptno = d.deptno) and (d.deptno = 10 or d.deptno = 20) and Comm is not null;
+Empty set (0.00 sec)
+
+2.4>
+mysql> select e.ename,e.sal,s.grade
+    -> from emp e , salgrade s
+    -> where e.sal between s.losal and s.hisal;
++--------+---------+-------+
+| ename  | sal     | grade |
++--------+---------+-------+
+| SMITH  |  800.00 |     1 |
+| ALLEN  | 1600.00 |     3 |
+| WARD   | 1250.00 |     2 |
+| JONES  | 2975.00 |     4 |
+| MARTIN | 1250.00 |     2 |
+| BLAKE  | 2850.00 |     4 |
+| CLARK  | 2450.00 |     4 |
+| SCOTT  | 3000.00 |     4 |
+| KING   | 5000.00 |     5 |
+| TURNER | 1500.00 |     3 |
+| ADAMS  | 1100.00 |     1 |
+| JAMES  |  950.00 |     1 |
+| FORD   | 3000.00 |     4 |
+| MILLER | 1300.00 |     2 |
++--------+---------+-------+
+14 rows in set (0.00 sec);
+
+2.5>
+mysql> select d.dname,d.deptno,d.loc
+    ->  from emp e , dept d
+    ->  where e.job like "clerk" and e.deptno = d.deptno;
++------------+--------+----------+
+| dname      | deptno | loc      |
++------------+--------+----------+
+| ACCOUNTING |     10 | NEW YORK |
+| RESEARCH   |     20 | DALLAS   |
+| RESEARCH   |     20 | DALLAS   |
+| SALES      |     30 | CHICAGO  |
++------------+--------+----------+
+4 rows in set (0.00 sec)

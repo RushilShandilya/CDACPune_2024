@@ -1,0 +1,143 @@
+1>
+mysql> delimiter $
+mysql>
+mysql> Create Procedure get_dept30_info()
+    -> Begin
+    -> Select * from EMP Where deptNo=30;
+    -> End
+    -> $
+Query OK, 0 rows affected (0.01 sec)
+
+mysql> delimiter ;
+mysql> call get_dept30_info;
++-------+--------+----------+------+------------+----------+---------+--------+
+| EMPNO | ENAME  | JOB      | MGR  | HIREDATE   | SAL      | COMM    | DEPTNO |
++-------+--------+----------+------+------------+----------+---------+--------+
+|  7499 | ALLEN  | SALESMAN | 7698 | 1981-02-20 |  1600.00 |  300.00 |     30 |
+|  7521 | WARD   | SALESMAN | 7698 | 1981-02-22 |  1250.00 |  500.00 |     30 |
+|  7654 | MARTIN | SALESMAN | 7698 | 1981-09-28 |  1250.00 | 1400.00 |     30 |
+|  7698 | BLAKE  | MANAGER  | 7839 | 1981-05-01 |  2850.00 |    NULL |     30 |
+|  7844 | TURNER | SALESMAN | 7698 | 1981-09-08 |  1500.00 |    0.00 |     30 |
+|  7900 | JAMES  | CLERK    | 7698 | 1981-12-03 |   950.00 |    NULL |     30 |
+|  1231 | aryan  | manager  |  123 | 2002-11-11 | 10000.00 |  800.00 |     30 |
++-------+--------+----------+------+------------+----------+---------+--------+
+7 rows in set (0.00 sec)
+
+Query OK, 0 rows affected (0.02 sec)
+
+2>
+--Write a stored procedure which will display count of all analysts in the emp table.
+mysql> delimiter $
+mysql> create procedure get_display_info()
+    -> begin
+    -> select count(job) as NumberOfAnalyst from EMP where job like "Analyst";
+    -> end $
+Query OK, 0 rows affected (0.01 sec)
+
+mysql>
+mysql> delimiter ;
+mysql> call get_display_info();
++-----------------+
+| NumberOfAnalyst |
++-----------------+
+|               2 |
++-----------------+
+1 row in set (0.00 sec)
+
+Query OK, 0 rows affected (0.00 sec)
+
+3>
+--Write a stored procedure which will find avg salary for any deptno passed to it.  Pass deptno as     in parameter  .
+
+mysql> delimiter $
+mysql> create procedure get_dept_info
+    -> (
+    -> deptNo int
+    -> )
+    ->
+    -> begin
+    -> select * from EMP e where e.deptno = deptNo;
+    -> end $
+Query OK, 0 rows affected (0.01 sec)
+
+mysql> delimiter ;
+mysql> call get_dept_info(10);
++-------+--------+-----------+------+------------+---------+------+--------+
+| EMPNO | ENAME  | JOB       | MGR  | HIREDATE   | SAL     | COMM | DEPTNO |
++-------+--------+-----------+------+------------+---------+------+--------+
+|  7782 | CLARK  | MANAGER   | 7839 | 1981-06-09 | 2450.00 | NULL |     10 |
+|  7839 | KING   | PRESIDENT | NULL | 1981-11-17 | 5000.00 | NULL |     10 |
+|  7934 | MILLER | CLERK     | 7782 | 1982-01-23 | 1300.00 | NULL |     10 |
++-------+--------+-----------+------+------------+---------+------+--------+
+3 rows in set (0.00 sec)
+
+Query OK, 0 rows affected (0.01 sec)
+
+mysql> call get_dept_info(20);
++-------+-------+---------+------+------------+---------+------+--------+
+| EMPNO | ENAME | JOB     | MGR  | HIREDATE   | SAL     | COMM | DEPTNO |
++-------+-------+---------+------+------------+---------+------+--------+
+|  7369 | SMITH | CLERK   | 7902 | 1980-12-17 |  800.00 | NULL |     20 |
+|  7566 | JONES | MANAGER | 7839 | 1981-04-02 | 2975.00 | NULL |     20 |
+|  7788 | SCOTT | ANALYST | 7566 | 1982-12-09 | 3000.00 | NULL |     20 |
+|  7876 | ADAMS | CLERK   | 7788 | 1983-01-12 | 1100.00 | NULL |     20 |
+|  7902 | FORD  | ANALYST | 7566 | 1981-12-03 | 3000.00 | NULL |     20 |
++-------+-------+---------+------+------------+---------+------+--------+
+5 rows in set (0.00 sec)
+
+Query OK, 0 rows affected (0.02 sec)
+
+mysql> call get_dept_info(30);
++-------+--------+----------+------+------------+---------+---------+--------+
+| EMPNO | ENAME  | JOB      | MGR  | HIREDATE   | SAL     | COMM    | DEPTNO |
++-------+--------+----------+------+------------+---------+---------+--------+
+|  7499 | ALLEN  | SALESMAN | 7698 | 1981-02-20 | 1600.00 |  300.00 |     30 |
+|  7521 | WARD   | SALESMAN | 7698 | 1981-02-22 | 1250.00 |  500.00 |     30 |
+|  7654 | MARTIN | SALESMAN | 7698 | 1981-09-28 | 1250.00 | 1400.00 |     30 |
+|  7698 | BLAKE  | MANAGER  | 7839 | 1981-05-01 | 2850.00 |    NULL |     30 |
+|  7844 | TURNER | SALESMAN | 7698 | 1981-09-08 | 1500.00 |    0.00 |     30 |
+|  7900 | JAMES  | CLERK    | 7698 | 1981-12-03 |  950.00 |    NULL |     30 |
++-------+--------+----------+------+------------+---------+---------+--------+
+6 rows in set (0.00 sec)
+
+Query OK, 0 rows affected (0.04 sec)
+
+4>
+--Pass empno,ename,sal to the procedure and insert it into the table.
+
+delimiter $
+create procedure insert_into_emp
+(
+	empno1 int,
+	ename1 varchar(20),
+	sal1 decimal(7,2)
+)
+begin
+	insert into EMP(empno,ename,sal) values(empno1,ename1,sal1);
+end $
+delimiter ;
+
+mysql> call insert_into_emp(7575,"Rushil",1500);
+Query OK, 1 row affected (0.01 sec)
+
+mysql> select * from EMP;
++-------+--------+-----------+------+------------+---------+---------+--------+
+| EMPNO | ENAME  | JOB       | MGR  | HIREDATE   | SAL     | COMM    | DEPTNO |
++-------+--------+-----------+------+------------+---------+---------+--------+
+|  7369 | SMITH  | CLERK     | 7902 | 1980-12-17 |  800.00 |    NULL |     20 |
+|  7499 | ALLEN  | SALESMAN  | 7698 | 1981-02-20 | 1600.00 |  300.00 |     30 |
+|  7521 | WARD   | SALESMAN  | 7698 | 1981-02-22 | 1250.00 |  500.00 |     30 |
+|  7566 | JONES  | MANAGER   | 7839 | 1981-04-02 | 2975.00 |    NULL |     20 |
+|  7654 | MARTIN | SALESMAN  | 7698 | 1981-09-28 | 1250.00 | 1400.00 |     30 |
+|  7698 | BLAKE  | MANAGER   | 7839 | 1981-05-01 | 2850.00 |    NULL |     30 |
+|  7782 | CLARK  | MANAGER   | 7839 | 1981-06-09 | 2450.00 |    NULL |     10 |
+|  7788 | SCOTT  | ANALYST   | 7566 | 1982-12-09 | 3000.00 |    NULL |     20 |
+|  7839 | KING   | PRESIDENT | NULL | 1981-11-17 | 5000.00 |    NULL |     10 |
+|  7844 | TURNER | SALESMAN  | 7698 | 1981-09-08 | 1500.00 |    0.00 |     30 |
+|  7876 | ADAMS  | CLERK     | 7788 | 1983-01-12 | 1100.00 |    NULL |     20 |
+|  7900 | JAMES  | CLERK     | 7698 | 1981-12-03 |  950.00 |    NULL |     30 |
+|  7902 | FORD   | ANALYST   | 7566 | 1981-12-03 | 3000.00 |    NULL |     20 |
+|  7934 | MILLER | CLERK     | 7782 | 1982-01-23 | 1300.00 |    NULL |     10 |
+|  7575 | Rushil | NULL      | NULL | NULL       | 1500.00 |    NULL |   NULL |
++-------+--------+-----------+------+------------+---------+---------+--------+
+15 rows in set (0.00 sec)

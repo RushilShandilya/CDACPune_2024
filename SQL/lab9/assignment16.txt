@@ -1,0 +1,215 @@
+1>
+Delimiter $
+Drop Procedure If Exists infoAboutDeptNo20 $
+
+Create Procedure infoAboutDeptNo20()
+Begin
+	Declare ename varchar(20);
+	Declare deptno int;
+	Declare done int default 0;
+	
+	Declare cursor1 Cursor For
+	SELECT e.ename,e.deptno
+	FROM EMP e
+	WHERE e.deptno = 20;
+
+	OPEN cursor1;
+		
+	read_loop:LOOP
+		FETCH cursor1 INTO ename,deptno;
+	
+		IF done THEN
+		 	Leave read_loop;
+		END IF;
+		
+		SELECT ename,deptno;
+	END LOOP ;
+
+	CLOSE cursor1;
+END $
+
+Delimiter ;
+
+MariaDB [rushil]> call infoAboutDeptNo20;
++-------+--------+
+| ename | deptno |
++-------+--------+
+| SMITH |     20 |
++-------+--------+
+1 row in set (0.001 sec)
+
++-------+--------+
+| ename | deptno |
++-------+--------+
+| JONES |     20 |
++-------+--------+
+1 row in set (0.001 sec)
+
++-------+--------+
+| ename | deptno |
++-------+--------+
+| SCOTT |     20 |
++-------+--------+
+1 row in set (0.002 sec)
+
++-------+--------+
+| ename | deptno |
++-------+--------+
+| ADAMS |     20 |
++-------+--------+
+1 row in set (0.002 sec)
+
++-------+--------+
+| ename | deptno |
++-------+--------+
+| FORD  |     20 |
++-------+--------+
+1 row in set (0.002 sec)
+
+2>
+Delimiter $
+
+Drop Procedure if exists getJobInfo $
+
+Create Procedure getJobInfo
+(
+	IN job varchar(20)
+)
+Begin
+	Declare ename varchar(20);
+	Declare done int default 0;	
+
+	Declare job_cursor Cursor For
+	SELECT e.ename 
+	FROM EMP e
+	WHERE e.job = job;
+	
+	OPEN job_cursor;
+
+	begin_loop:LOOP
+		FETCH job_cursor INTO ename;
+		
+		if done then
+			Leave begin_loop;
+		end if;
+	
+		SELECT ename; 
+	
+	END LOOP;
+
+	Close job_cursor;
+END $
+
+Delimiter ;
+MariaDB [rushil]> call getJobInfo("salesman");
++-------+
+| ename |
++-------+
+| ALLEN |
++-------+
+1 row in set (0.002 sec)
+
++-------+
+| ename |
++-------+
+| WARD  |
++-------+
+1 row in set (0.002 sec)
+
++--------+
+| ename  |
++--------+
+| MARTIN |
++--------+
+1 row in set (0.002 sec)
+
++--------+
+| ename  |
++--------+
+| TURNER |
++--------+
+1 row in set (0.002 sec)
+
+3>
+Delimiter $
+DROP PROCEDURE IF EXISTS checkPerfectNumber $
+
+CREATE PROCEDURE checkPerfectNumber
+(
+	IN num int,
+	OUT value int
+)
+BEGIN
+	DECLARE sumOfDivisor int DEFAULT 0;
+	DECLARE divisor int DEFAULT 1;
+	SET value = 0;
+
+	while divisor<num do
+		IF num%divisor=0 THEN
+			SET sumOfDivisor = sumOfDivisor+divisor;
+		END IF;
+		SET divisor = divisor+1;
+	END while;
+	IF sumOfDivisor = num THEN
+		SET value = 1;
+	END IF;
+	
+END $
+
+Delimiter ;
+MariaDB [rushil]> call checkPerfectNumber(6,@isPerfect);
+Query OK, 0 rows affected (0.010 sec)
+
+MariaDB [rushil]> select @isPerfect;
++------------+
+| @isPerfect |
++------------+
+|          1 |
++------------+
+1 row in set (0.000 sec)
+
+4>
+Delimiter $
+DROP PROCEDURE IF EXISTS checkPrime $
+CREATE PROCEDURE checkPrime
+(
+	IN num int,
+	OUT checkPrime int
+)
+BEGIN
+	DECLARE divisor int DEFAULT 2;
+	SET checkPrime = 1;
+	WHILE divisor<num DO
+			IF num%divisor = 0 THEN
+				SET checkPrime = 0;
+			END IF;
+		SET divisor = divisor +1;
+	END WHILE;
+END $
+
+Delimiter ;
+
+MariaDB [rushil]> call checkPrime(5,@isPrime);
+Query OK, 0 rows affected (0.001 sec)
+
+MariaDB [rushil]> select @isPrime;
++----------+
+| @isPrime |
++----------+
+|        1 |
++----------+
+1 row in set (0.000 sec)
+
+MariaDB [rushil]> call checkPrime(6,@isPrime);
+Query OK, 0 rows affected (0.000 sec)
+
+MariaDB [rushil]> select @isPrime;
++----------+
+| @isPrime |
++----------+
+|        0 |
++----------+
+1 row in set (0.000 sec)
+
+5>
+

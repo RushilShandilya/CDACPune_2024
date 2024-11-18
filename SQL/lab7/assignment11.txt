@@ -1,0 +1,86 @@
+CREATE TABLE faculty(fid int primary key, fname varchar (20) not null,  sp_skill1 varchar (30), sp_skill2 varchar(30));
+
+insert into faculty values
+(10,"Amol","Database","Java"),
+(11,"Asha","Java","MySQL"),
+(12,"Kiran","CPP","Database"),
+(13,"Seeta","MYSQL","Database");
+
+
+CREATE TABLE room
+    (rid int primary key, 
+     rname varchar(15) not null,  
+     rloc varchar(20)
+   );
+
+insert into room values
+(100,"Jasmin","1st floor"),
+(101,"Rose","2nd floor"),
+(105,"Lotus","1st floor"),
+(103,"Mogra","1st floor");
+
+CREATE TABLE Courses
+   (
+cid int primary key,
+  
+     cname varchar (15) not null  ,
+ 
+     rid int, 
+   fid int,
+   foreign key(rid) references room(rid) on delete set null,
+   
+     foreign key(fid) references faculty(fid) on delete set null
+   );
+   
+insert into Courses values
+(121,"DBDA",100,10),
+(131,"DAC",101,null),
+(141,"DTISS",100,null),
+(151,"DOIT",105,12);
+
+1>
+mysql> SELECT r.rid , r.rname,c.cid,c.cname
+    -> FROM room r
+    -> LEFT JOIN Courses c
+    -> ON r.rid = c.rid;
++-----+--------+------+-------+
+| rid | rname  | cid  | cname |
++-----+--------+------+-------+
+| 100 | Jasmin |  121 | DBDA  |
+| 100 | Jasmin |  141 | DTISS |
+| 101 | Rose   |  131 | DAC   |
+| 103 | Mogra  | NULL | NULL  |
+| 105 | Lotus  |  151 | DOIT  |
++-----+--------+------+-------+
+5 rows in set (0.00 sec)
+
+2>
+mysql> SELECT *
+    -> FROM Room r
+    -> LEFT JOIN Courses c
+    -> ON r.rid = c.rid
+    -> WHERE c.cid IS NULL;
++-----+--------+-----------+------+-------+------+------+
+| rid | rname  | rloc      | cid  | cname | rid  | fid  |
++-----+--------+-----------+------+-------+------+------+
+| 100 | Jasmin | 1st floor | NULL | NULL  | NULL | NULL |
+| 101 | Rose   | 2nd floor | NULL | NULL  | NULL | NULL |
+| 103 | Mogra  | 1st floor | NULL | NULL  | NULL | NULL |
+| 105 | Lotus  | 1st floor | NULL | NULL  | NULL | NULL |
++-----+--------+-----------+------+-------+------+------+
+4 rows in set (0.00 sec)
+
+
+3>
+mysql> SELECT *
+    -> FROM Courses c
+    -> LEFT JOIN Faculty f
+    -> ON c.fid = f.fid
+    -> WHERE f.sp_skill1 Like "Database" or f.sp_skill2 Like "Database";
++-----+-------+------+------+------+-------+-----------+-----------+
+| cid | cname | rid  | fid  | fid  | fname | sp_skill1 | sp_skill2 |
++-----+-------+------+------+------+-------+-----------+-----------+
+| 121 | DBDA  |  100 |   10 |   10 | Amol  | Database  | Java      |
+| 151 | DOIT  |  105 |   12 |   12 | Kiran | CPP       | Database  |
++-----+-------+------+------+------+-------+-----------+-----------+
+2 rows in set (0.00 sec)

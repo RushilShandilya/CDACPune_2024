@@ -1,0 +1,563 @@
+2>
+mysql> select * from EMP
+    -> where sal%3=0;
++-------+--------+----------+------+------------+---------+------+--------+
+| EMPNO | ENAME  | JOB      | MGR  | HIREDATE   | SAL     | COMM | DEPTNO |
++-------+--------+----------+------+------------+---------+------+--------+
+|  7698 | BLAKE  | MANAGER  | 7839 | 1981-05-01 | 2850.00 | NULL |     30 |
+|  7788 | SCOTT  | ANALYST  | 7566 | 1982-12-09 | 3000.00 | NULL |     20 |
+|  7844 | TURNER | SALESMAN | 7698 | 1981-09-08 | 1500.00 | 0.00 |     30 |
+|  7902 | FORD   | ANALYST  | 7566 | 1981-12-03 | 3000.00 | NULL |     20 |
++-------+--------+----------+------+------------+---------+------+--------+
+4 rows in set (0.001 sec)
+
+3>
+mysql> select ename,sal, concat(ename,"****",round(sal)) as NameAndSalary from EMP;
++--------+---------+----------------+
+| ename  | sal     | NameAndSalary  |
++--------+---------+----------------+
+| SMITH  |  800.00 | SMITH****800   |
+| ALLEN  | 1600.00 | ALLEN****1600  |
+| WARD   | 1250.00 | WARD****1250   |
+| JONES  | 2975.00 | JONES****2975  |
+| MARTIN | 1250.00 | MARTIN****1250 |
+| BLAKE  | 2850.00 | BLAKE****2850  |
+| CLARK  | 2450.00 | CLARK****2450  |
+| SCOTT  | 3000.00 | SCOTT****3000  |
+| KING   | 5000.00 | KING****5000   |
+| TURNER | 1500.00 | TURNER****1500 |
+| ADAMS  | 1100.00 | ADAMS****1100  |
+| JAMES  |  950.00 | JAMES****950   |
+| FORD   | 3000.00 | FORD****3000   |
+| MILLER | 1300.00 | MILLER****1300 |
++--------+---------+----------------+
+14 rows in set (0.010 sec)
+
+4>
+mysql> select concat(ename,"@mycompany.com") as email from EMP;
++----------------------+
+| email                |
++----------------------+
+| SMITH@mycompany.com  |
+| ALLEN@mycompany.com  |
+| WARD@mycompany.com   |
+| JONES@mycompany.com  |
+| MARTIN@mycompany.com |
+| BLAKE@mycompany.com  |
+| CLARK@mycompany.com  |
+| SCOTT@mycompany.com  |
+| KING@mycompany.com   |
+| TURNER@mycompany.com |
+| ADAMS@mycompany.com  |
+| JAMES@mycompany.com  |
+| FORD@mycompany.com   |
+| MILLER@mycompany.com |
++----------------------+
+14 rows in set (0.001 sec)
+
+5>
+mysql> select concat(ename," ",length(ename)) as length from EMP;
++----------+
+| length   |
++----------+
+| SMITH 5  |
+| ALLEN 5  |
+| WARD 4   |
+| JONES 5  |
+| MARTIN 6 |
+| BLAKE 5  |
+| CLARK 5  |
+| SCOTT 5  |
+| KING 4   |
+| TURNER 6 |
+| ADAMS 5  |
+| JAMES 5  |
+| FORD 4   |
+| MILLER 6 |
++----------+
+14 rows in set (0.000 sec)
+
+6>
+mysql> select concat(substring(ename,1,3),".",substring(job,2,2),"@mycompany") as email from EMP;
++------------------+
+| email            |
++------------------+
+| SMI.LE@mycompany |
+| ALL.AL@mycompany |
+| WAR.AL@mycompany |
+| JON.AN@mycompany |
+| MAR.AL@mycompany |
+| BLA.AN@mycompany |
+| CLA.AN@mycompany |
+| SCO.NA@mycompany |
+| KIN.RE@mycompany |
+| TUR.AL@mycompany |
+| ADA.LE@mycompany |
+| JAM.LE@mycompany |
+| FOR.NA@mycompany |
+| MIL.LE@mycompany |
++------------------+
+14 rows in set (0.001 sec)
+
+7>
+select concat(
+Upper(substring(ename,1,1)),lower(substring(ename,2,length(ename)))
+," ",
+Upper(substring(job,1,1)),lower(substring(job,2,length(job)))) as NameAndJob
+
+from EMP;
+
++-----------------+
+| NameAndJob      |
++-----------------+
+| Smith Clerk     |
+| Allen Salesman  |
+| Ward Salesman   |
+| Jones Manager   |
+| Martin Salesman |
+| Blake Manager   |
+| Clark Manager   |
+| Scott Analyst   |
+| King President  |
+| Turner Salesman |
+| Adams Clerk     |
+| James Clerk     |
+| Ford Analyst    |
+| Miller Clerk    |
++-----------------+
+14 rows in set (0.000 sec)
+
+8>
+mysql> select concat(lower(substring(ename,1,3)),upper(substring(ename,4,length(ename)))) as newname from EMP;
++---------+
+| newname |
++---------+
+| smiTH   |
+| allEN   |
+| warD    |
+| jonES   |
+| marTIN  |
+| blaKE   |
+| claRK   |
+| scoTT   |
+| kinG    |
+| turNER  |
+| adaMS   |
+| jamES   |
+| forD    |
+| milLER  |
++---------+
+14 rows in set (0.000 sec)
+
+9>
+mysql> select substring(ename,length(ename)-2,length(ename)) from EMP;
++------------------------------------------------+
+| substring(ename,length(ename)-2,length(ename)) |
++------------------------------------------------+
+| ITH                                            |
+| LEN                                            |
+| ARD                                            |
+| NES                                            |
+| TIN                                            |
+| AKE                                            |
+| ARK                                            |
+| OTT                                            |
+| ING                                            |
+| NER                                            |
+| AMS                                            |
+| MES                                            |
+| ORD                                            |
+| LER                                            |
++------------------------------------------------+
+14 rows in set (0.001 sec)
+
+10>
+mysql> select concat(lower(substring(ename,1,3)),lower(substring(job,length(job)-2,length(job))),"@knowit.com") as emailid from EMP;
++-------------------+
+| emailid           |
++-------------------+
+| smierk@knowit.com |
+| allman@knowit.com |
+| warman@knowit.com |
+| jonger@knowit.com |
+| marman@knowit.com |
+| blager@knowit.com |
+| clager@knowit.com |
+| scoyst@knowit.com |
+| kinent@knowit.com |
+| turman@knowit.com |
+| adaerk@knowit.com |
+| jamerk@knowit.com |
+| foryst@knowit.com |
+| milerk@knowit.com |
++-------------------+
+14 rows in set (0.001 sec)
+
+11>
+mysql> select *,(extract(YEAR from curdate())-extract(YEAR from hiredate)) as YearOfExperience from EMP  wh
+ere (extract(YEAR from curdate())-
++-------+--------+-----------+------+------------+---------+---------+--------+------------------+
+| EMPNO | ENAME  | JOB       | MGR  | HIREDATE   | SAL     | COMM    | DEPTNO | YearOfExperience |
++-------+--------+-----------+------+------------+---------+---------+--------+------------------+
+|  7369 | SMITH  | CLERK     | 7902 | 1980-12-17 |  800.00 |    NULL |     20 |               44 |
+|  7499 | ALLEN  | SALESMAN  | 7698 | 1981-02-20 | 1600.00 |  300.00 |     30 |               43 |
+|  7521 | WARD   | SALESMAN  | 7698 | 1981-02-22 | 1250.00 |  500.00 |     30 |               43 |
+|  7566 | JONES  | MANAGER   | 7839 | 1981-04-02 | 2975.00 |    NULL |     20 |               43 |
+|  7654 | MARTIN | SALESMAN  | 7698 | 1981-09-28 | 1250.00 | 1400.00 |     30 |               43 |
+|  7698 | BLAKE  | MANAGER   | 7839 | 1981-05-01 | 2850.00 |    NULL |     30 |               43 |
+|  7782 | CLARK  | MANAGER   | 7839 | 1981-06-09 | 2450.00 |    NULL |     10 |               43 |
+|  7788 | SCOTT  | ANALYST   | 7566 | 1982-12-09 | 3000.00 |    NULL |     20 |               42 |
+|  7839 | KING   | PRESIDENT | NULL | 1981-11-17 | 5000.00 |    NULL |     10 |               43 |
+|  7844 | TURNER | SALESMAN  | 7698 | 1981-09-08 | 1500.00 |    0.00 |     30 |               43 |
+|  7876 | ADAMS  | CLERK     | 7788 | 1983-01-12 | 1100.00 |    NULL |     20 |               41 |
+|  7900 | JAMES  | CLERK     | 7698 | 1981-12-03 |  950.00 |    NULL |     30 |               43 |
+|  7902 | FORD   | ANALYST   | 7566 | 1981-12-03 | 3000.00 |    NULL |     20 |               43 |
+|  7934 | MILLER | CLERK     | 7782 | 1982-01-23 | 1300.00 |    NULL |     10 |               42 |
++-------+--------+-----------+------+------------+---------+---------+--------+------------------+
+14 rows in set (0.001 sec)
+
+12>
+mysql> update EMP set sal = (1.1)*sal where (extract(YEAR from curdate())-extract(Year from hiredate))>40;
+
+13>mysql> SELECT *,
+    -> CASE 
+    -> WHEN COMM is NULL THEN "Need Improvement"
+    -> WHEN COMM<500 THEN "Okay"
+    -> WHEN COMM>=500 and COMM<1000 THEN "Good"
+    -> ELSE "Excellent"
+    -> END Remarks
+    -> FROM EMP e; 
++-------+--------+-----------+------+------------+---------+---------+--------+------------------+
+| EMPNO | ENAME  | JOB       | MGR  | HIREDATE   | SAL     | COMM    | DEPTNO | Remarks          |
++-------+--------+-----------+------+------------+---------+---------+--------+------------------+
+|  7369 | SMITH  | CLERK     | 7902 | 1980-12-17 |  968.00 |    NULL |     20 | Need Improvement |
+|  7499 | ALLEN  | SALESMAN  | 7698 | 1981-02-20 | 1936.00 |  300.00 |     30 | Okay             |
+|  7521 | WARD   | SALESMAN  | 7698 | 1981-02-22 | 1512.50 |  500.00 |     30 | Good             |
+|  7566 | JONES  | MANAGER   | 7839 | 1981-04-02 | 3599.75 |    NULL |     20 | Need Improvement |
+|  7654 | MARTIN | SALESMAN  | 7698 | 1981-09-28 | 1512.50 | 1400.00 |     30 | Excellent        |
+|  7698 | BLAKE  | MANAGER   | 7839 | 1981-05-01 | 3448.50 |    NULL |     30 | Need Improvement |
+|  7782 | CLARK  | MANAGER   | 7839 | 1981-06-09 | 2964.50 |    NULL |     10 | Need Improvement |
+|  7788 | SCOTT  | ANALYST   | 7566 | 1982-12-09 | 3630.00 |    NULL |     20 | Need Improvement |
+|  7839 | KING   | PRESIDENT | NULL | 1981-11-17 | 6050.00 |    NULL |     10 | Need Improvement |
+|  7844 | TURNER | SALESMAN  | 7698 | 1981-09-08 | 1815.00 |    0.00 |     30 | Okay             |
+|  7876 | ADAMS  | CLERK     | 7788 | 1983-01-12 | 1331.00 |    NULL |     20 | Need Improvement |
+|  7900 | JAMES  | CLERK     | 7698 | 1981-12-03 | 1149.50 |    NULL |     30 | Need Improvement |
+|  7902 | FORD   | ANALYST   | 7566 | 1981-12-03 | 3630.00 |    NULL |     20 | Need Improvement |
+|  7934 | MILLER | CLERK     | 7782 | 1982-01-23 | 1573.00 |    NULL |     10 | Need Improvement |
++-------+--------+-----------+------+------------+---------+---------+--------+------------------+
+14 rows in set (0.001 sec)
+
+14>
+mysql> Select * FROM EMP e
+    -> WHERE SAL>=1000 and SAL <=3000;
++-------+--------+----------+------+------------+---------+---------+--------+
+| EMPNO | ENAME  | JOB      | MGR  | HIREDATE   | SAL     | COMM    | DEPTNO |
++-------+--------+----------+------+------------+---------+---------+--------+
+|  7499 | ALLEN  | SALESMAN | 7698 | 1981-02-20 | 1936.00 |  300.00 |     30 |
+|  7521 | WARD   | SALESMAN | 7698 | 1981-02-22 | 1512.50 |  500.00 |     30 |
+|  7654 | MARTIN | SALESMAN | 7698 | 1981-09-28 | 1512.50 | 1400.00 |     30 |
+|  7782 | CLARK  | MANAGER  | 7839 | 1981-06-09 | 2964.50 |    NULL |     10 |
+|  7844 | TURNER | SALESMAN | 7698 | 1981-09-08 | 1815.00 |    0.00 |     30 |
+|  7876 | ADAMS  | CLERK    | 7788 | 1983-01-12 | 1331.00 |    NULL |     20 |
+|  7900 | JAMES  | CLERK    | 7698 | 1981-12-03 | 1149.50 |    NULL |     30 |
+|  7934 | MILLER | CLERK    | 7782 | 1982-01-23 | 1573.00 |    NULL |     10 |
++-------+--------+----------+------+------------+---------+---------+--------+
+8 rows in set (0.001 sec)
+
+15>
+mysql> SELECT lpad(ename,10,' ') as Name , rpad(JOB ,9,' ') as JOB
+    -> FROM EMP e;
++------------+-----------+
+| Name       | JOB       |
++------------+-----------+
+|      SMITH | CLERK     |
+|      ALLEN | SALESMAN  |
+|       WARD | SALESMAN  |
+|      JONES | MANAGER   |
+|     MARTIN | SALESMAN  |
+|      BLAKE | MANAGER   |
+|      CLARK | MANAGER   |
+|      SCOTT | ANALYST   |
+|       KING | PRESIDENT |
+|     TURNER | SALESMAN  |
+|      ADAMS | CLERK     |
+|      JAMES | CLERK     |
+|       FORD | ANALYST   |
+|     MILLER | CLERK     |
++------------+-----------+
+14 rows in set (0.001 sec)
+
+
+16>
+mysql> SELECT CONCAT( "Hello ", UPPER(SUBSTR(ename,1,1)), LOWER(SUBSTR(ename,2,LENGTH(ename))),  " !") as Greeting  FROM EMP e  Where COMM IS NOT NULL;
++----------------+
+| Greeting       |
++----------------+
+| Hello Allen !  |
+| Hello Ward !   |
+| Hello Martin ! |
+| Hello Turner ! |
++----------------+
+4 rows in set (0.000 sec)
+
+17>
+mysql> SELECT CONCAT(
+    -> "Hello ",
+    -> UPPER(SUBSTR(ename,1,1)),
+    -> LOWER(SUBSTR(ename,2,LENGTH(ename))), 
+    -> " .") as Greeting 
+    -> FROM EMP e ;
++----------------+
+| Greeting       |
++----------------+
+| Hello Smith .  |
+| Hello Allen .  |
+| Hello Ward .   |
+| Hello Jones .  |
+| Hello Martin . |
+| Hello Blake .  |
+| Hello Clark .  |
+| Hello Scott .  |
+| Hello King .   |
+| Hello Turner . |
+| Hello Adams .  |
+| Hello James .  |
+| Hello Ford .   |
+| Hello Miller . |
++----------------+
+14 rows in set (0.001 sec)
+
+18>
+mysql> SELECT CONCAT(
+    -> ENAME ,
+    -> " is a ",
+    -> LOWER(job) 
+    -> ) as Description
+    -> FROM EMP e;
++----------------------+
+| Description          |
++----------------------+
+| SMITH is a clerk     |
+| ALLEN is a salesman  |
+| WARD is a salesman   |
+| JONES is a manager   |
+| MARTIN is a salesman |
+| BLAKE is a manager   |
+| CLARK is a manager   |
+| SCOTT is a analyst   |
+| KING is a president  |
+| TURNER is a salesman |
+| ADAMS is a clerk     |
+| JAMES is a clerk     |
+| FORD is a analyst    |
+| MILLER is a clerk    |
++----------------------+
+14 rows in set (0.001 sec)
+
+19>
+
+
+20>
+mysql> SELECT COUNT(job)
+    -> From EMP e 
+    -> WHERE JOB Like "Analyst";
++------------+
+| COUNT(job) |
++------------+
+|          2 |
++------------+
+1 row in set (0.001 sec)
+
+21>
+mysql> SELECT MAX(SAL)
+    -> FROM EMP e 
+    -> WHERE SAL>1500 and SAL<3000;
++----------+
+| MAX(SAL) |
++----------+
+|  2964.50 |
++----------+
+1 row in set (0.001 sec)
+
+22>
+mysql> SELECT EMPNO,SAL
+    -> FROM EMP
+    -> WHERE DEPTNO=10
+    -> ORDER BY SAL DESC;
++-------+---------+
+| EMPNO | SAL     |
++-------+---------+
+|  7839 | 6050.00 |
+|  7782 | 2964.50 |
+|  7934 | 1573.00 |
++-------+---------+
+3 rows in set (0.001 sec)
+
+23>
+mysql> SELECT ename,deptno,hiredate
+    -> FROM EMP e 
+    -> WHERE HIREDATE BETWEEN '1981-01-01' AND '1983-03-31'
+    -> ORDER BY HIREDATE;
++--------+--------+------------+
+| ename  | deptno | hiredate   |
++--------+--------+------------+
+| ALLEN  |     30 | 1981-02-20 |
+| WARD   |     30 | 1981-02-22 |
+| JONES  |     20 | 1981-04-02 |
+| BLAKE  |     30 | 1981-05-01 |
+| CLARK  |     10 | 1981-06-09 |
+| TURNER |     30 | 1981-09-08 |
+| MARTIN |     30 | 1981-09-28 |
+| KING   |     10 | 1981-11-17 |
+| FORD   |     20 | 1981-12-03 |
+| JAMES  |     30 | 1981-12-03 |
+| MILLER |     10 | 1982-01-23 |
+| SCOTT  |     20 | 1982-12-09 |
+| ADAMS  |     20 | 1983-01-12 |
++--------+--------+------------+
+13 rows in set (0.001 sec)
+
+24>
+mysql> Select COUNT(*) as CommisionedEmployee
+    -> FROM EMP e 
+    -> WHERE COMM is not null;
++---------------------+
+| CommisionedEmployee |
++---------------------+
+|                   4 |
++---------------------+
+1 row in set (0.000 sec)
+
+25>
+mysql> SELECT SUM(SAL) as TotalSalary FROM EMP;
++-------------+
+| TotalSalary |
++-------------+
+|    35120.25 |
++-------------+
+1 row in set (0.000 sec)
+
+26>
+mysql> SELECT DEPTNO,SUM(SAL) as TotalSalary
+    -> FROM EMP
+    -> GROUP BY DEPTNO; 
++--------+-------------+
+| DEPTNO | TotalSalary |
++--------+-------------+
+|     10 |    10587.50 |
+|     20 |    13158.75 |
+|     30 |    11374.00 |
++--------+-------------+
+3 rows in set (0.001 sec)
+
+
+27>
+
+
+28>
+mysql> SELECT COUNT(*) as NumberOfClerk
+    -> FROM EMP
+    -> WHERE DEPTNO=10 or DEPTNO=20 and JOB LIKE "CLERK";
++---------------+
+| NumberOfClerk |
++---------------+
+|             5 |
++---------------+
+1 row in set (0.000 sec)
+
+
+29>
+
+30>
+mysql> SELECT *
+    -> FROM EMP
+    -> WHERE SAL%3=0;
++-------+--------+----------+------+------------+---------+------+--------+
+| EMPNO | ENAME  | JOB      | MGR  | HIREDATE   | SAL     | COMM | DEPTNO |
++-------+--------+----------+------+------------+---------+------+--------+
+|  7788 | SCOTT  | ANALYST  | 7566 | 1982-12-09 | 3630.00 | NULL |     20 |
+|  7844 | TURNER | SALESMAN | 7698 | 1981-09-08 | 1815.00 | 0.00 |     30 |
+|  7902 | FORD   | ANALYST  | 7566 | 1981-12-03 | 3630.00 | NULL |     20 |
++-------+--------+----------+------+------------+---------+------+--------+
+3 rows in set (0.001 sec)
+
+31>
+mysql> SELECT *
+    -> FROM EMP
+    -> WHERE !(DEPTNO=10 or DEPTNO=20) and SAL>=2000; 
++-------+-------+---------+------+------------+---------+------+--------+
+| EMPNO | ENAME | JOB     | MGR  | HIREDATE   | SAL     | COMM | DEPTNO |
++-------+-------+---------+------+------------+---------+------+--------+
+|  7698 | BLAKE | MANAGER | 7839 | 1981-05-01 | 3448.50 | NULL |     30 |
++-------+-------+---------+------+------------+---------+------+--------+
+1 row in set (0.001 sec)
+
+32>
+mysql> SELECT *
+    -> FROM EMP
+    -> WHERE (DEPTNO=20 or DEPTNO=30) and SAL>=1000 and (JOB like "CLERK" or JOB like "ANALYST"); 
++-------+-------+---------+------+------------+---------+------+--------+
+| EMPNO | ENAME | JOB     | MGR  | HIREDATE   | SAL     | COMM | DEPTNO |
++-------+-------+---------+------+------------+---------+------+--------+
+|  7788 | SCOTT | ANALYST | 7566 | 1982-12-09 | 3630.00 | NULL |     20 |
+|  7876 | ADAMS | CLERK   | 7788 | 1983-01-12 | 1331.00 | NULL |     20 |
+|  7900 | JAMES | CLERK   | 7698 | 1981-12-03 | 1149.50 | NULL |     30 |
+|  7902 | FORD  | ANALYST | 7566 | 1981-12-03 | 3630.00 | NULL |     20 |
++-------+-------+---------+------+------------+---------+------+--------+
+4 rows in set (0.001 sec)
+
+33>
+mysql> SELECT *
+    -> FROM EMP
+    -> WHERE (DEPTNO=10 or DEPTNO=30) OR EXTRACT(YEAR from hiredate)=1982;
++-------+--------+-----------+------+------------+---------+---------+--------+
+| EMPNO | ENAME  | JOB       | MGR  | HIREDATE   | SAL     | COMM    | DEPTNO |
++-------+--------+-----------+------+------------+---------+---------+--------+
+|  7499 | ALLEN  | SALESMAN  | 7698 | 1981-02-20 | 1936.00 |  300.00 |     30 |
+|  7521 | WARD   | SALESMAN  | 7698 | 1981-02-22 | 1512.50 |  500.00 |     30 |
+|  7654 | MARTIN | SALESMAN  | 7698 | 1981-09-28 | 1512.50 | 1400.00 |     30 |
+|  7698 | BLAKE  | MANAGER   | 7839 | 1981-05-01 | 3448.50 |    NULL |     30 |
+|  7782 | CLARK  | MANAGER   | 7839 | 1981-06-09 | 2964.50 |    NULL |     10 |
+|  7788 | SCOTT  | ANALYST   | 7566 | 1982-12-09 | 3630.00 |    NULL |     20 |
+|  7839 | KING   | PRESIDENT | NULL | 1981-11-17 | 6050.00 |    NULL |     10 |
+|  7844 | TURNER | SALESMAN  | 7698 | 1981-09-08 | 1815.00 |    0.00 |     30 |
+|  7900 | JAMES  | CLERK     | 7698 | 1981-12-03 | 1149.50 |    NULL |     30 |
+|  7934 | MILLER | CLERK     | 7782 | 1982-01-23 | 1573.00 |    NULL |     10 |
++-------+--------+-----------+------+------------+---------+---------+--------+
+10 rows in set (0.001 sec)
+
+34>
+Same as question 23
+
+35>
+mysql> SELECT *
+    -> FROM EMP
+    -> WHERE (DEPTNO=20 or DEPTNO=30) and COMM IS NULL; 
++-------+-------+---------+------+------------+---------+------+--------+
+| EMPNO | ENAME | JOB     | MGR  | HIREDATE   | SAL     | COMM | DEPTNO |
++-------+-------+---------+------+------------+---------+------+--------+
+|  7369 | SMITH | CLERK   | 7902 | 1980-12-17 |  968.00 | NULL |     20 |
+|  7566 | JONES | MANAGER | 7839 | 1981-04-02 | 3599.75 | NULL |     20 |
+|  7698 | BLAKE | MANAGER | 7839 | 1981-05-01 | 3448.50 | NULL |     30 |
+|  7788 | SCOTT | ANALYST | 7566 | 1982-12-09 | 3630.00 | NULL |     20 |
+|  7876 | ADAMS | CLERK   | 7788 | 1983-01-12 | 1331.00 | NULL |     20 |
+|  7900 | JAMES | CLERK   | 7698 | 1981-12-03 | 1149.50 | NULL |     30 |
+|  7902 | FORD  | ANALYST | 7566 | 1981-12-03 | 3630.00 | NULL |     20 |
++-------+-------+---------+------+------------+---------+------+--------+
+7 rows in set (0.000 sec)
+
+36>
+mysql> SELECT JOB,MAX(SAL) FROM EMP e 
+    -> WHERE JOB LIKE "MANAGER" or JOB LIKE "SALESMAN" or JOB LIKE "CLERK"
+    -> GROUP BY JOB
+    -> ORDER BY SAL DESC;
++----------+----------+
+| JOB      | MAX(SAL) |
++----------+----------+
+| MANAGER  |  3599.75 |
+| SALESMAN |  1936.00 |
+| CLERK    |  1573.00 |
++----------+----------+
+3 rows in set (0.000 sec)
+
+37>Same as 1

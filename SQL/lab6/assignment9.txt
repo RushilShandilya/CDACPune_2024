@@ -1,0 +1,220 @@
+1>
+mysql> Select * from EMP WHERE Sal > (SELECT SAL FROM EMP WHERE ename like "Smith");
++-------+--------+-----------+------+------------+----------+---------+--------+
+| EMPNO | ENAME  | JOB       | MGR  | HIREDATE   | SAL      | COMM    | DEPTNO |
++-------+--------+-----------+------+------------+----------+---------+--------+
+|  7499 | ALLEN  | SALESMAN  | 7698 | 1981-02-20 |  1600.00 |  300.00 |     30 |
+|  7521 | WARD   | SALESMAN  | 7698 | 1981-02-22 |  1250.00 |  500.00 |     30 |
+|  7566 | JONES  | MANAGER   | 7839 | 1981-04-02 |  2975.00 |    NULL |     20 |
+|  7654 | MARTIN | SALESMAN  | 7698 | 1981-09-28 |  1250.00 | 1400.00 |     30 |
+|  7698 | BLAKE  | MANAGER   | 7839 | 1981-05-01 |  2850.00 |    NULL |     30 |
+|  7782 | CLARK  | MANAGER   | 7839 | 1981-06-09 |  2450.00 |    NULL |     10 |
+|  7788 | SCOTT  | ANALYST   | 7566 | 1982-12-09 |  3000.00 |    NULL |     20 |
+|  7839 | KING   | PRESIDENT | NULL | 1981-11-17 |  5000.00 |    NULL |     10 |
+|  7844 | TURNER | SALESMAN  | 7698 | 1981-09-08 |  1500.00 |    0.00 |     30 |
+|  7876 | ADAMS  | CLERK     | 7788 | 1983-01-12 |  1100.00 |    NULL |     20 |
+|  7900 | JAMES  | CLERK     | 7698 | 1981-12-03 |   950.00 |    NULL |     30 |
+|  7902 | FORD   | ANALYST   | 7566 | 1981-12-03 |  3000.00 |    NULL |     20 |
+|  7934 | MILLER | CLERK     | 7782 | 1982-01-23 |  1300.00 |    NULL |     10 |
+|  1231 | aryan  | manager   |  123 | 2002-11-11 | 10000.00 |  800.00 |     20 |
+|  1231 | aryan  | manager   |  123 | 2002-11-11 | 10000.00 |  800.00 |     30 |
++-------+--------+-----------+------+------------+----------+---------+--------+
+15 rows in set (0.00 sec)
+
+2> 
+mysql> Select * from EMP WHERE DeptNo = (SELECT DeptNo From Emp Where Ename = "Smith");
++-------+-------+---------+------+------------+----------+--------+--------+
+| EMPNO | ENAME | JOB     | MGR  | HIREDATE   | SAL      | COMM   | DEPTNO |
++-------+-------+---------+------+------------+----------+--------+--------+
+|  7369 | SMITH | CLERK   | 7902 | 1980-12-17 |   800.00 |   NULL |     20 |
+|  7566 | JONES | MANAGER | 7839 | 1981-04-02 |  2975.00 |   NULL |     20 |
+|  7788 | SCOTT | ANALYST | 7566 | 1982-12-09 |  3000.00 |   NULL |     20 |
+|  7876 | ADAMS | CLERK   | 7788 | 1983-01-12 |  1100.00 |   NULL |     20 |
+|  7902 | FORD  | ANALYST | 7566 | 1981-12-03 |  3000.00 |   NULL |     20 |
+|  1231 | aryan | manager |  123 | 2002-11-11 | 10000.00 | 800.00 |     20 |
++-------+-------+---------+------+------------+----------+--------+--------+
+6 rows in set (0.00 sec)
+
+3>
+mysql> SELECT * FROM EMP WHERE SAL>(SELECT SAL From Emp Where ENAME LIKE "ADAMS") and SAL<(SELECT SAL From Emp Where ENAME LIKE "SCOTT");
++-------+--------+----------+------+------------+---------+---------+--------+
+| EMPNO | ENAME  | JOB      | MGR  | HIREDATE   | SAL     | COMM    | DEPTNO |
++-------+--------+----------+------+------------+---------+---------+--------+
+|  7499 | ALLEN  | SALESMAN | 7698 | 1981-02-20 | 1600.00 |  300.00 |     30 |
+|  7521 | WARD   | SALESMAN | 7698 | 1981-02-22 | 1250.00 |  500.00 |     30 |
+|  7566 | JONES  | MANAGER  | 7839 | 1981-04-02 | 2975.00 |    NULL |     20 |
+|  7654 | MARTIN | SALESMAN | 7698 | 1981-09-28 | 1250.00 | 1400.00 |     30 |
+|  7698 | BLAKE  | MANAGER  | 7839 | 1981-05-01 | 2850.00 |    NULL |     30 |
+|  7782 | CLARK  | MANAGER  | 7839 | 1981-06-09 | 2450.00 |    NULL |     10 |
+|  7844 | TURNER | SALESMAN | 7698 | 1981-09-08 | 1500.00 |    0.00 |     30 |
+|  7934 | MILLER | CLERK    | 7782 | 1982-01-23 | 1300.00 |    NULL |     10 |
++-------+--------+----------+------+------------+---------+---------+--------+
+
+4>
+mysql> SELECT * FROM EMP WHERE SAL>(SELECT SAL From Emp Where ENAME LIKE "Ward") or SAL>(SELECT SAL From Emp Where ENAME LIKE "Blake");
++-------+--------+-----------+------+------------+----------+--------+--------+
+| EMPNO | ENAME  | JOB       | MGR  | HIREDATE   | SAL      | COMM   | DEPTNO |
++-------+--------+-----------+------+------------+----------+--------+--------+
+|  7499 | ALLEN  | SALESMAN  | 7698 | 1981-02-20 |  1600.00 | 300.00 |     30 |
+|  7566 | JONES  | MANAGER   | 7839 | 1981-04-02 |  2975.00 |   NULL |     20 |
+|  7698 | BLAKE  | MANAGER   | 7839 | 1981-05-01 |  2850.00 |   NULL |     30 |
+|  7782 | CLARK  | MANAGER   | 7839 | 1981-06-09 |  2450.00 |   NULL |     10 |
+|  7788 | SCOTT  | ANALYST   | 7566 | 1982-12-09 |  3000.00 |   NULL |     20 |
+|  7839 | KING   | PRESIDENT | NULL | 1981-11-17 |  5000.00 |   NULL |     10 |
+|  7844 | TURNER | SALESMAN  | 7698 | 1981-09-08 |  1500.00 |   0.00 |     30 |
+|  7902 | FORD   | ANALYST   | 7566 | 1981-12-03 |  3000.00 |   NULL |     20 |
+|  7934 | MILLER | CLERK     | 7782 | 1982-01-23 |  1300.00 |   NULL |     10 |
+|  1231 | aryan  | manager   |  123 | 2002-11-11 | 10000.00 | 800.00 |     20 |
+|  1231 | aryan  | manager   |  123 | 2002-11-11 | 10000.00 | 800.00 |     30 |
++-------+--------+-----------+------+------------+----------+--------+--------+
+11 rows in set (0.00 sec)
+
+5> 
+mysql> SELECT * FROM EMP WHERE SAL>(SELECT AVG(SAL) FROM emp where Deptno=10);
++-------+-------+-----------+------+------------+----------+--------+--------+
+| EMPNO | ENAME | JOB       | MGR  | HIREDATE   | SAL      | COMM   | DEPTNO |
++-------+-------+-----------+------+------------+----------+--------+--------+
+|  7566 | JONES | MANAGER   | 7839 | 1981-04-02 |  2975.00 |   NULL |     20 |
+|  7788 | SCOTT | ANALYST   | 7566 | 1982-12-09 |  3000.00 |   NULL |     20 |
+|  7839 | KING  | PRESIDENT | NULL | 1981-11-17 |  5000.00 |   NULL |     10 |
+|  7902 | FORD  | ANALYST   | 7566 | 1981-12-03 |  3000.00 |   NULL |     20 |
+|  1231 | aryan | manager   |  123 | 2002-11-11 | 10000.00 | 800.00 |     20 |
+|  1231 | aryan | manager   |  123 | 2002-11-11 | 10000.00 | 800.00 |     30 |
++-------+-------+-----------+------+------------+----------+--------+--------+
+6 rows in set (0.00 sec)
+
+6> Skipping
+7>????
+
+
+create table category(
+cid int primary key auto_increment, 
+cname varchar (15) unique not null, 
+description varchar(30));
+
+insert into category values
+(1,"chips","very crunchy"),
+(2,"chocolate","very chocolaty"),
+(3,"snacks","yummy"),
+(4,"cold drinks","thanda thanda cool cool");
+
+mysql> select * from category;
++-----+-------------+-------------------------+
+| cid | cname       | description     	      |
++-----+-------------+-------------------------+
+|   1 | chips       | very crunchy            |
+|   2 | chocolate   | very chocolaty  	      |
+|   3 | snacks      | yummy		      |
+|   4 | cold drinks | thanda thanda cool cool |
++-----+-------------+-------------------------+
+4 rows in set (0.00 sec)
+
+MYSQL : 
+create table Product(pid  int primary key, pname varchar (20), price float (6,2) default 20.00, qty int check(qty>0),  
+   cid int  ,   sid int,   constraint fk_cid1 foreign key(cid) references category(cid) on delete set null, 
+   constraint fk_sid1 foreign key(sid) references salesman(sid));
+   
+   insert into Product values
+   (123,'lays',30,30.00,1,12),
+   (111,'pepsi',40,50.00,4,11),
+   (134,'nachos',50,50.00,1,12),
+   (124,'dairy milk',40,60.00,2,14),
+   (125,'pringles',40,60.00,1,14),
+   (213,'Sketch Pens',56,150.00,null,11),
+   (167,'eraser',90,5.00,null,null);
+
+create table salesman(sid int primary key, sname varchar (15) unique not null, city varchar(15));
+
+insert into salesman values
+(11,"Rahul","Pune"),
+(12,"Kirti","Mumbai"),
+(13,"Prasad","Nashik"),
+(14,"Arnav","Amravati");
+
+
+1.
+MariaDB [rushil]> select p.pid,p.pname,c.cid,c.cname FROM Product p , category c WHERE p.cid = c.cid and c.cname Like "chips";
++-----+----------+-----+-------+
+| pid | pname    | cid | cname |
++-----+----------+-----+-------+
+| 123 | lays     |   1 | chips |
+| 125 | pringles |   1 | chips |
+| 134 | nachos   |   1 | chips |
++-----+----------+-----+-------+
+3 rows in set (0.001 sec)
+
+2.
+MariaDB [rushil]> select p.*,s.sname from Product p , salesman s WHERE p.sid = s.sid and s.sname Like "Kirti";
++-----+--------+-------+------+------+------+-------+
+| pid | pname  | price | qty  | cid  | sid  | sname |
++-----+--------+-------+------+------+------+-------+
+| 123 | lays   | 30.00 |   30 |    1 |   12 | Kirti |
+| 134 | nachos | 50.00 |   50 |    1 |   12 | Kirti |
++-----+--------+-------+------+------+------+-------+
+2 rows in set (0.001 sec)
+
+3.
+MariaDB [rushil]> SELECT *
+    -> FROM salesman s
+    -> LEFT JOIN Product p
+    -> ON s.sid = p.sid
+    -> WHERE pid is Null;
++-----+--------+------+------+-------+-------+------+------+------+
+| sid | sname  | city | pid  | pname | price | qty  | cid  | sid  |
++-----+--------+------+------+-------+-------+------+------+------+
+|  13 | Prasad | Pune | NULL | NULL  |  NULL | NULL | NULL | NULL |
++-----+--------+------+------+-------+-------+------+------+------+
+1 row in set (0.001 sec)
+
+4.
+MariaDB [rushil]> SELECT *
+    -> FROM category c 
+    -> LEFT JOIN Product p 
+    -> ON c.cid = p.cid
+    -> WHERE p.pid is NULL;
++-----+--------+-------------+------+-------+-------+------+------+------+
+| cid | cname  | description | pid  | pname | price | qty  | cid  | sid  |
++-----+--------+-------------+------+-------+-------+------+------+------+
+|   3 | snacks | yummy       | NULL | NULL  |  NULL | NULL | NULL | NULL |
++-----+--------+-------------+------+-------+-------+------+------+------+
+1 row in set (0.001 sec)
+
+5.
+MariaDB [rushil]> SELECT *
+    -> FROM Product p
+    -> LEFT JOIN category c
+    -> ON p.cid = c.cid
+    -> WHERE c.cid is null;
++-----+-------------+-------+------+------+------+------+-------+-------------+
+| pid | pname       | price | qty  | cid  | sid  | cid  | cname | description |
++-----+-------------+-------+------+------+------+------+-------+-------------+
+| 167 | eraser      | 90.00 |    5 | NULL | NULL | NULL | NULL  | NULL        |
+| 213 | Sketch Pens | 56.00 |  150 | NULL |   11 | NULL | NULL  | NULL        |
++-----+-------------+-------+------+------+------+------+-------+-------------+
+2 rows in set (0.000 sec)
+
+6.
+MariaDB [rushil]> SELECT * FROM salesman s WHERE city like "P%" or city like "N%";
++-----+--------+--------+
+| sid | sname  | city   |
++-----+--------+--------+
+|  11 | Rahul  | Pune   |
+|  13 | Prasad | Nashik |
++-----+--------+--------+
+2 rows in set (0.001 sec)
+
+7.
+MariaDB [rushil]> alter table salesman add column credit_limit decimal(10,2);
+
+8.
+MariaDB [rushil]> SELECT d.DEPTNO,d.DNAME,EMPNO,ENAME
+    -> FROM DEPT d 
+    -> LEFT JOIN EMP e 
+    -> ON d.DEPTNO = e.DEPTNO 
+    -> WHERE EMPNO IS NULL;
++--------+------------+-------+-------+
+| DEPTNO | DNAME      | EMPNO | ENAME |
++--------+------------+-------+-------+
+|     40 | OPERATIONS |  NULL | NULL  |
++--------+------------+-------+-------+
+1 row in set (0.001 sec)

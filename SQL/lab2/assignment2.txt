@@ -1,3 +1,24 @@
+1>
+mysql> SELECT vid as VehicleID , vname as VehicleName , price , discount , details
+    -> From vehicle v;
++-----------+---------------+--------+----------+---------------------------------+
+| VehicleID | VehicleName   | price  | discount | details                         |
++-----------+---------------+--------+----------+---------------------------------+
+|         1 | Activa        |  80000 |       10 | Two wheeler.Sturdy.Milage 30 km |
+|         2 | Santro        |  95000 |       20 | Product of Hyandai.             |
+|         3 | Yamaha        | 160000 |        5 | sturdy and good milage          |
+|         4 | i-10          | 300000 |        8 | Good small car                  |
+|         5 | WaganR        | 250000 |       10 | Good milage car                 |
+|         6 | Hero Splendor |  80000 |        9 | Best bike                       |
+|         7 | Royal Enfild  | 190000 |        5 | A royal bike                    |
++-----------+---------------+--------+----------+---------------------------------+
+7 rows in set (0.001 sec)
+
+2>
+mysql>
+Create Table  Salesman1 as (Select * from salesman s);
+CREATE Table Customer1 as (Select * from customer s);
+
 mysql> select * from emp;
 +-------+--------+-----------+------+------------+---------+---------+--------+
 | EMPNO | ENAME  | JOB       | MGR  | HIREDATE   | SAL     | COMM    | DEPTNO |
@@ -17,7 +38,6 @@ mysql> select * from emp;
 |  7902 | FORD   | ANALYST   | 7566 | 1981-12-03 | 3000.00 |    NULL |     20 |
 |  7934 | MILLER | CLERK     | 7782 | 1982-01-23 | 1300.00 |    NULL |     10 |
 +-------+--------+-----------+------+------------+---------+---------+--------+
-
 3>
 mysql> select * from emp where SAL>2000 and COMM>200;
 Empty set (0.00 sec)
@@ -181,7 +201,6 @@ mysql> select * from emp,dept;
 56 rows in set (0.00 sec)
 
 11>
-
 mysql> select ename,emp.deptno,dname from emp,dept where ename='Smith';
 +-------+--------+------------+
 | ename | deptno | dname      |
@@ -194,7 +213,6 @@ mysql> select ename,emp.deptno,dname from emp,dept where ename='Smith';
 4 rows in set (0.00 sec)
 
 12>
-
 mysql> select * from emp where sal>2000 or job='clerk' or job='salesman';
 +-------+--------+-----------+------+------------+---------+---------+--------+
 | EMPNO | ENAME  | JOB       | MGR  | HIREDATE   | SAL     | COMM    | DEPTNO |
@@ -317,8 +335,37 @@ mysql> select * from emp where mgr is null;
 |  7839 | KING  | PRESIDENT | NULL | 1981-11-17 | 5000.00 | NULL |     10 |
 +-------+-------+-----------+------+------------+---------+------+--------+
 
-19>
+19>mysql> UPDATE emp10
+    -> SET sal = 1.15*(sal+comm);
+Query OK, 4 rows affected, 2 warnings (0.010 sec)
+Rows matched: 14  Changed: 4  Warnings: 2
+ 
+mysql> UPDATE emp10 
+    -> SET MGR = 777
+    -> WHERE DEPTNO=10;
+Query OK, 0 rows affected (0.000 sec)
+Rows matched: 3  Changed: 0  Warnings: 0
 
+mysql> select * from emp10;
++-------+--------+-----------+------+------------+---------+---------+--------+
+| EMPNO | ENAME  | JOB       | MGR  | HIREDATE   | SAL     | COMM    | DEPTNO |
++-------+--------+-----------+------+------------+---------+---------+--------+
+|  7369 | SMITH  | CLERK     | 7902 | 1980-12-17 |    NULL |    NULL |     20 |
+|  7499 | ALLEN  | SALESMAN  | 7698 | 1981-02-20 | 2857.75 |  300.00 |     30 |
+|  7521 | WARD   | SALESMAN  | 7698 | 1981-02-22 | 2889.38 |  500.00 |     30 |
+|  7566 | JONES  | MANAGER   | 7839 | 1981-04-02 |    NULL |    NULL |     20 |
+|  7654 | MARTIN | SALESMAN  | 7698 | 1981-09-28 | 5114.63 | 1400.00 |     30 |
+|  7698 | BLAKE  | MANAGER   | 7839 | 1981-05-01 |    NULL |    NULL |     30 |
+|  7782 | CLARK  | MANAGER   |  777 | 1981-06-09 |    NULL |    NULL |     10 |
+|  7788 | SCOTT  | ANALYST   | 7566 | 1982-12-09 |    NULL |    NULL |     20 |
+|  7839 | KING   | PRESIDENT |  777 | 1981-11-17 |    NULL |    NULL |     10 |
+|  7844 | TURNER | SALESMAN  | 7698 | 1981-09-08 | 1983.75 |    0.00 |     30 |
+|  7876 | ADAMS  | CLERK     | 7788 | 1983-01-12 |    NULL |    NULL |     20 |
+|  7900 | JAMES  | CLERK     | 7698 | 1981-12-03 |    NULL |    NULL |     30 |
+|  7902 | FORD   | ANALYST   | 7566 | 1981-12-03 |    NULL |    NULL |     20 |
+|  7934 | MILLER | CLERK     |  777 | 1982-01-23 |    NULL |    NULL |     10 |
++-------+--------+-----------+------+------------+---------+---------+--------+
+14 rows in set (0.001 sec)
 
 20>
 mysql> select *
@@ -390,3 +437,33 @@ mysql> select distinct deptno from emp;
 |     10 |
 +--------+
 3 rows in set (0.00 sec)
+
+25>
+mysql> Select ename,job,sal,
+    -> Case
+    -> WHEN job like "clerk" then 1.07 * sal
+    -> WHEN job like "analyst" then 1.05 * sal
+    -> WHEN job like "manager" then 1.02 * sal
+    -> ELSE sal
+    -> END newSal
+    -> FROM EMP e;
++--------+-----------+---------+-----------+
+| ename  | job       | sal     | newSal    |
++--------+-----------+---------+-----------+
+| SMITH  | CLERK     |  968.00 | 1035.7600 |
+| ALLEN  | SALESMAN  | 1936.00 | 1936.0000 |
+| WARD   | SALESMAN  | 1512.50 | 1512.5000 |
+| JONES  | MANAGER   | 3599.75 | 3671.7450 |
+| MARTIN | SALESMAN  | 1512.50 | 1512.5000 |
+| BLAKE  | MANAGER   | 3448.50 | 3517.4700 |
+| CLARK  | MANAGER   | 2964.50 | 3023.7900 |
+| SCOTT  | ANALYST   | 3630.00 | 3811.5000 |
+| KING   | PRESIDENT | 6050.00 | 6050.0000 |
+| TURNER | SALESMAN  | 1815.00 | 1815.0000 |
+| ADAMS  | CLERK     | 1331.00 | 1424.1700 |
+| JAMES  | CLERK     | 1149.50 | 1229.9650 |
+| FORD   | ANALYST   | 3630.00 | 3811.5000 |
+| MILLER | CLERK     | 1573.00 | 1683.1100 |
++--------+-----------+---------+-----------+
+14 rows in set (0.002 sec)
+

@@ -1,0 +1,210 @@
+1. Write a procedure which accepts in parameter
+as empno and calculates total salary for that employee. Display salary out of procedure.
+total salary = sal +comm
+
+
+mysql> DELIMITER $
+mysql>
+mysql> drop procedure if exists get_totalSalary $
+Query OK, 0 rows affected (0.01 sec)
+
+mysql> create procedure get_totalSalary
+    -> (
+    -> IN ename varchar(20),
+    -> OUT salary decimal(7,2)
+    -> )
+    ->
+    -> begin
+    -> select SUM(e.sal + IFNULL(e.comm,0))
+    -> into salary
+    -> from EMP e
+    -> where e.ename = ename;
+    -> end $
+Query OK, 0 rows affected (0.02 sec)
+
+mysql>
+mysql> delimiter ;
+mysql> call get_totalSalary("SMITH",@salary);
+Query OK, 1 row affected (0.00 sec)
+
+mysql> select @salary;
++---------+
+| @salary |
++---------+
+|  800.00 |
++---------+
+1 row in set (0.00 sec)
+
+mysql> select * from EMP where ename like "SMITH";
++-------+-------+-------+------+------------+--------+------+--------+
+| EMPNO | ENAME | JOB   | MGR  | HIREDATE   | SAL    | COMM | DEPTNO |
++-------+-------+-------+------+------------+--------+------+--------+
+|  7369 | SMITH | CLERK | 7902 | 1980-12-17 | 800.00 | NULL |     20 |
++-------+-------+-------+------+------------+--------+------+--------+
+1 row in set (0.00 sec)
+
+2. Write a procedure which takes empno of 2 employees. Compare salaries of employees and display ename,sal and job for the employee who
+earns more salary out of procedure.
+
+mysql> DELIMITER $
+mysql>
+mysql> drop procedure if exists get_BiggerSalary $
+Query OK, 0 rows affected (0.01 sec)
+
+mysql>
+mysql> create procedure get_BiggerSalary
+    -> (
+    -> IN emp1 INT,
+    -> IN emp2 INT,
+    -> OUT ename varchar(20),
+    -> OUT salary decimal(7,2),
+    -> OUT job varchar(20)
+    -> )
+    -> begin
+    -> DECLARE sal1 decimal(10,2);
+    -> DECLARE sal2 decimal(10,2);
+    ->
+    -> select (e.sal + ifnull(e.comm,0)) as TotalSalary INTO sal1 from EMP e Where e.empno = emp1;
+    -> select (e.sal + ifnull(e.comm,0)) as TotalSalary INTO sal2 from EMP e Where e.empno = emp2;
+    ->
+    -> IF sal1>sal2 THEN
+    -> SELECT e.ename,(e.sal+ifnull(e.comm,0)),e.job
+    -> INTO ename,salary,job
+    -> FROM EMP e
+    -> WHERE e.empno = emp1;
+    -> ELSE
+    -> SELECT e.ename,(e.sal+ifnull(e.comm,0)),e.job
+    -> INTO ename,salary,job
+    -> FROM EMP e
+    -> WHERE e.empno = emp2;
+    -> END IF;
+    -> end $
+Query OK, 0 rows affected (0.01 sec)
+
+mysql>
+mysql> delimiter ;
+mysql> call get_BiggerSalary(7369,7499,@ename,@salary,@job);
+Query OK, 1 row affected (0.00 sec)
+
+mysql> select @ename as name , @salary as totalSalary, @job as job;
++-------+-------------+----------+
+| name  | totalSalary | job      |
++-------+-------------+----------+
+| ALLEN |     1900.00 | SALESMAN |
++-------+-------------+----------+
+1 row in set (0.00 sec)
+
+3>
+4>
+-- Pass empno to the procedure.
+-- Find if employee exists in the table. If so, print sal out of procedure else print sal as 0.
+
+Delimiter $
+
+DROP Procedure if exists get_Salary $
+
+create procedure get_Salary
+(
+	IN empno int,
+	OUT salary decimal(7,2)
+)
+BEGIN
+	DECLARE ifempExists boolean;
+	
+	SELECT EXISTS(SELECT 1 from EMP e where e.empno = empno) INTO ifempExists;
+	
+	IF ifempExists THEN
+		SELECT sal INTO salary From EMP e WHERE e.empno=empno;
+	ELSE 
+		SET salary = 0;
+	END IF;	
+END $
+
+delimiter ;
+
+call get_Salary(7579,@salary);
+Select @salary;
+
+call get_Salary(7499,@salary);
+Select @salary;
+
+MariaDB [rushil]> select @salary;
++---------+
+| @salary |
++---------+
+| 1936.00 |
++---------+
+
+5>
+-- Write a function which will display email for employees working as salesman.
+-- email generated is as follows
+-- 2nd and 3rd letter of name+last 2 letters of job in caps + deptno+'@mycompany.com'.
+
+Delimiter $
+
+Drop Function if exists employeeEmail $
+
+Create Function employeeEmail(IN empno INT)
+Returns varchar(40)
+Deterministic
+Begin
+	Declare name varchar(20);
+	Declare job varchar(20);
+	Declare deptno int;
+
+	Select e.ename,e.job,e.deptno	
+	INTO name,job,deptno
+	FROM EMP e
+	WHERE e.empno = empno;
+
+	Return Concat(substring(name,2,2),substring(job,length(job)-1,2),deptno,'@mycompany.com');
+End $
+
+Delimiter ;
+
+MariaDB [rushil]> select e.empno,e.ename,e.job,e.deptno, employeeEmail(e.empno) as Email From EMP e;
++-------+--------+-----------+--------+-----------------------+
+| empno | ename  | job       | deptno | Email                 |
++-------+--------+-----------+--------+-----------------------+
+|  7369 | SMITH  | CLERK     |     20 | MIERK20@mycompany.com |
+|  7499 | ALLEN  | SALESMAN  |     30 | LLMAN30@mycompany.com |
+|  7521 | WARD   | SALESMAN  |     30 | ARMAN30@mycompany.com |
+|  7566 | JONES  | MANAGER   |     20 | ONGER20@mycompany.com |
+|  7654 | MARTIN | SALESMAN  |     30 | ARMAN30@mycompany.com |
+|  7698 | BLAKE  | MANAGER   |     30 | LAGER30@mycompany.com |
+|  7782 | CLARK  | MANAGER   |     10 | LAGER10@mycompany.com |
+|  7788 | SCOTT  | ANALYST   |     20 | COYST20@mycompany.com |
+|  7839 | KING   | PRESIDENT |     10 | INENT10@mycompany.com |
+|  7844 | TURNER | SALESMAN  |     30 | URMAN30@mycompany.com |
+|  7876 | ADAMS  | CLERK     |     20 | DAERK20@mycompany.com |
+|  7900 | JAMES  | CLERK     |     30 | AMERK30@mycompany.com |
+|  7902 | FORD   | ANALYST   |     20 | ORYST20@mycompany.com |
+|  7934 | MILLER | CLERK     |     10 | ILERK10@mycompany.com |
++-------+--------+-----------+--------+-----------------------+
+14 rows in set (0.004 sec)
+
+6>
+Delimiter $
+
+Drop Function if exists getSquare $
+
+Delimiter $
+Create Function getSquare(IN num INT)
+RETURNS INT
+Begin
+	RETURN num*num;
+END $
+Delimiter ;
+
+SELECT getSquare(9) as Square;
+MariaDB [rushil]> SELECT getSquare(9) as Square;
++--------+
+| Square |
++--------+
+|     81 |
++--------+
+1 row in set (0.001 sec)
+
+7>
+
+
