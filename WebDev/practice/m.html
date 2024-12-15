@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width= , initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .main{
+            width: 100%;
+            height: 500px;
+            border: 2px solid black;
+            transition: width 0.5s, height 0.5s;
+            text-align: center;
+        }
+
+        .li{
+            width: 100px;
+            height: 100px;  
+            border: 2px solid black;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="main">
+
+    </div>
+
+    <button onclick="load('name')">click</button>
+
+    <script>
+       
+        function load(mansi){
+            const div = document.querySelector('.main');
+            let li = document.createElement('li');
+            li.setAttribute('class', 'li');
+            li.innerText = `${mansi}`;
+            div.appendChild(li);
+        }
+
+        load('mansi');
+        
+    </script>
+</body>
+</html>

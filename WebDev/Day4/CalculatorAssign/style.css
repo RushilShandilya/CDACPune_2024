@@ -1,0 +1,84 @@
+/* Apply basic reset to remove default margin/padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Set background color for the page */
+body {
+    background-color: #f4f4f9;
+    font-family: Arial, sans-serif;
+}
+
+/* Center the main content */
+main {
+    max-width: 400px; /* Set max width for the calculator */
+    margin: 100px auto; /* Center horizontally and add some space at the top */
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Soft shadow */
+}
+
+/* Title styling */
+header h1 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Label and input fields */
+label {
+    font-size: 1rem;
+    margin-bottom: 5px;
+    /* display: inline-block; */
+}
+
+input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0 15px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1rem;
+}
+
+select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1rem;
+}
+
+/* Button styling */
+button {
+    width: 100%;
+    padding: 12px;
+    background-color: #4CAF50; /* Green button */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: all 1s ease-out;
+}
+
+/* Hover effect for the button */
+button:hover {
+    background-color: #4583a0; /* Darker green on hover */
+}
+
+/* Styling the result */
+h2 {
+    margin-top: 20px;
+    font-size: 1.2rem;
+    color: #333;
+}
+
+#result {
+    font-weight: bold;
+    color: #1e90ff; /* Blue color for the result */
+}

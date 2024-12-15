@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+   
+</head>  
+<body>
+    <button onclick="display()">Click Me</button>
+    <h1 id="h1a"> <b>This is CDAC 1</b></h1>
+    <h1 id="h1b">This is CDAC 2</h1>
+    
+    <script>
+        function display(){
+       // h1Tags=  document.getElementsByTagName("h1")
+       
+        console.log(h1Tags);
+      alert("asdf")
+        console.log(h1Tags.length);
+        console.log(h1Tags[0]);
+        console.log(h1Tags[1]);
+        console.log(h1Tags[0].innerText);
+        h1Tags[0].innerText= "<i>WOW, It is fun</i>"
+        }
+    </script>
+</body>
+
+</html>

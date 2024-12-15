@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Document</title>
+	</head>
+	<script language="javaScript">
+		/* class Employee {
+			constructor(id, name, salary) {
+				this.id = id;
+				this.name = name;
+				this.salary = salary;
+			}
+		} */
+		function Employee(id, name, salary) {
+			this.id = id;
+			this.name = name;
+			this.salary = salary;
+			e1 = new Employee(1, "naushad", 50000);
+			e2 = new Employee(2, "naushad", 60000);
+			e3 = { id: 3, name: "Akhtar", salary: 70000, status: true };
+			e4 = { id: 4, name: "Akhtar1", salary: 80000 };
+
+			e5 = JSON.stringify(e3);
+			console.log("e5 =:  " + e5);
+
+			e6 = JSON.parse(e5);
+			e7 = [
+				{ id: 5, name: "Akhtar", salary: 70000, status: true },
+				{ id: 6, name: "Akhtar1", salary: 80000 }
+			];
+			num = [1, 2, 3, 4, 5, 6, 7];
+			console.log("for each method");
+			num.forEach((v, i, a) => { console.log(v + " " + i + " " + a); });
+
+			console.table(e7);
+			console.log(e6.id);
+			console.log(e6);
+			//console.log(e2); 
+			empList = [e3, e4];
+			console.log(empList);
+			displayEmployee(empList, empList);
+			function displayEmployee(...employees) {
+				//num = [1, 2, 3, 4, 5, 6];
+				console.table(employees);
+				console.log(" Id \t Name \t\t Salary");
+				for (employee in employees) {
+					for (e in employees[employee]) {
+						console.log(employees[employee][e].id);
+					}
+				}
+			}
+	</script>
+
+	<body>
+		<h1>This is Objects </h1>
+	</body>
+
+</html>

@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table with Delete Row</title>
+</head>
+<body>
+    <table id="dataTable" border="1">
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Name</th>
+                <th>Age</th>
+                <th>Actions</th> <!-- Column for delete button -->
+            </tr>
+        </thead>
+        <tbody>
+            <!-- Table rows will be dynamically inserted -->
+        </tbody>
+    </table>
+
+    <script>
+        // Example data
+        const data = [
+            { id: 1, name: 'John Doe', age: 30 },
+            { id: 2, name: 'Jane Smith', age: 25 },
+            { id: 3, name: 'Alice Brown', age: 28 }
+        ];
+
+        // Function to generate the table dynamically
+        function generateTable() {
+            const table = document.getElementById('dataTable');
+            const tbody = table.querySelector('tbody');
+
+            // Clear previous content in the table body
+            tbody.innerHTML = '';
+
+            // Populate the table body
+            data.forEach((item, index) => {
+                const row = document.createElement('tr');
+
+                // Add data cells for each column (ID, Name, Age)
+                const tdId = document.createElement('td');
+                tdId.textContent = item.id;
+                row.appendChild(tdId);
+
+                const tdName = document.createElement('td');
+                tdName.textContent = item.name;
+                row.appendChild(tdName);
+
+                const tdAge = document.createElement('td');
+                tdAge.textContent = item.age;
+                row.appendChild(tdAge);
+
+                // Add the "Delete" button in the Actions column (4th column)
+                const tdActions = document.createElement('td');
+                const deleteBtn = document.createElement('button');
+                deleteBtn.textContent = 'Delete';
+                deleteBtn.onclick = () => deleteRow(index);  // Bind delete function
+                tdActions.appendChild(deleteBtn);
+                row.appendChild(tdActions);
+
+                tbody.appendChild(row);
+            });
+        }
+
+        // Function to delete a row
+        function deleteRow(index) {
+            // Remove the item from the data array
+            data.splice(index, 1);
+
+            // Regenerate the table after deletion
+            generateTable();
+        }
+
+        // Generate the table when the page loads
+        window.onload = generateTable;
+    </script>
+</body>
+</html>

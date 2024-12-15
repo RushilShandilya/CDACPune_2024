@@ -1,0 +1,42 @@
+.common {
+  background-color: azure;
+}
+body {
+  margin-left: 50px;
+}
+p::first-letter {
+  font-size: 2cm;
+}
+
+p:hover {
+  background-color: yellow;
+}
+
+#p1 {
+  text-shadow: 2px 2px gray;
+  font-style: normal;
+  border-style: double;
+  border-color: red;
+  margin-left: 20px;
+  padding-left: 20px;
+}
+p.c {
+  font-size: 1cm;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: italic;
+  color: red;
+}
+p.a {
+  color: bisque;
+}
+p.b {
+  color: cadetblue;
+}
+h1,
+h2 {
+  color: blue;
+}
+h2 span span {
+  color: aqua;
+}

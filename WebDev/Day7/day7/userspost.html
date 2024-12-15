@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Document</title>
+		<script>
+			function getUser() {
+				uname = document.getElementById("uname").value;
+				lokesh = new XMLHttpRequest();
+				lokesh.open("POST", "users.jsp");
+				lokesh.onreadystatechange = function () {
+					console.log(lokesh.readyState);
+					if (lokesh.readyState == 4 && lokesh.status == 200) {
+						data = lokesh.responseText;
+						console.log(typeof data);
+						document.getElementById("res").innerHTML = data;
+					}
+				};
+				lokesh.setRequestHeader("Content-Type", "application/x-www-form-urlencoded");
+				lokesh.send("username=" + uname);
+			}
+		</script>
+	</head>
+
+	<body>
+		<h1>User Test Page</h1>
+
+		<!-- <button type="button" onclick="getUser()">Get Users</button> -->
+		<label>User NAme</label> <input type="text" title="A" id="uname" onblur="getUser()" name="uname"><span
+			id="res"></span>
+	</body>
+
+</html>

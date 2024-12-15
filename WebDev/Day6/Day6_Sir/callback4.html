@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Document</title>
+		<script>
+			function waiter(kitchen, item) {
+				console.log("ORder is getting ready");
+				setTimeout(() => {
+					kitchen(item + " is ready");
+				}, 5000);
+			}
+			waiter(res => {
+				console.log(res);  // Outputs: Idli Pav is ready  // This is the callback function's output.  // The callback function is passed as an argument to the waiter function.  // The waiter function calls the callback function with the desired output.  // The callback function is then executed in the context of the waiter function.  // The result of the callback function is then logged to the console.  // The waiter function continues to execute and log the remaining messages.  // Finally, the waiter function logs the message "End of App".  // This demonstrates the concept of callbacks in JavaScript.  // The callback function is a function that is passed as an argument to another function, and then called within that function.  // The callback function is executed in the context of the function that calls it.  // The result of the callback function is then passed as an argument to the function that calls it.  // The callback
+			}, "Idli Pav");
+			console.log("Wash Cloths");
+			console.log("End of App");
+		</script>
+	</head>
+
+	<body>
+
+	</body>
+
+</html>

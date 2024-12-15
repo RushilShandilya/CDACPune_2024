@@ -1,0 +1,6 @@
+Assigments 2 :
+Create a Resume using HTML5
+Use Validation
+Use all possible CSS
+
+

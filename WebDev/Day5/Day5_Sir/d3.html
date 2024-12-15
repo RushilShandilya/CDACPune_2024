@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+        <style>
+            .spancolor {
+                color: red;
+            }
+        </style>
+        <script>
+            function toUpper() {
+                fname = document.getElementById("fname").value;
+                uCase = fname.toUpperCase();
+                document.getElementById("fname").value = uCase;
+                document.getElementById("dd").innerText = uCase;
+                document.getElementById("dd").className = "spancolor";
+            }
+        </script>
+    </head>
+
+    <body>
+        <label for="fname">
+            Name :
+        </label> 
+        
+        <input type="text" id="fname" value="" />
+
+        <button onclick="toUpper()">UpperCase</button>
+
+        <br />
+
+        <h1>
+            The Text You Entered is <span id="dd"></span> 
+        </h1>
+
+    </body>
+</html>

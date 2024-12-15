@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping Cart</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        .container {
+            margin-top: 20px;
+        }
+        .cart-table th, .cart-table td {
+            text-align: center;
+        }
+        .cart-table input {
+            width: 60px;
+        }
+        .cart-table input[readonly] {
+            background-color: #f8f9fa;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Container for the Page -->
+    <div class="container">
+        <!-- Header with moving clock -->
+        <h1 class="text-center">
+            Welcome To CDAC <span id="clock" style="font-size: 24px; font-weight: normal;"></span>
+        </h1>
+
+        <!-- Shopping Cart Table -->
+        <table class="table table-bordered cart-table">
+            <thead>
+                <tr>
+                    <th>Images</th>
+                    <th>Description</th>
+                    <th>Rate</th>
+                    <th>Qty</th>
+                    <th>Total</th>
+                    <th>Select</th>
+                </tr>
+            </thead>
+            <tbody id="cartBody">
+                <!-- Item 1 -->
+                <tr>
+                    <td><img src="image1.jpg" alt="XXX" width="50"></td>
+                    <td>Describe Item</td>
+                    <td><span class="rate">300</span></td>
+                    <td><input type="number" class="qty" value="2" min="1"></td>
+                    <td><input type="text" class="total" value="600" readonly></td>
+                    <td><input type="checkbox" class="selectItem"></td>
+                </tr>
+                <!-- Item 2 -->
+                <tr>
+                    <td><img src="image2.jpg" alt="AAA" width="50"></td>
+                    <td>Describe Item</td>
+                    <td><span class="rate">500</span></td>
+                    <td><input type="number" class="qty" value="2" min="1"></td>
+                    <td><input type="text" class="total" value="1000" readonly></td>
+                    <td><input type="checkbox" class="selectItem"></td>
+                </tr>
+                <!-- Item 3 -->
+                <tr>
+                    <td><img src="image3.jpg" alt="BBB" width="50"></td>
+                    <td>Describe Item</td>
+                    <td><span class="rate">100</span></td>
+                    <td><input type="number" class="qty" value="4" min="1"></td>
+                    <td><input type="text" class="total" value="400" readonly></td>
+                    <td><input type="checkbox" class="selectItem"></td>
+                </tr>
+                <!-- Item 4 -->
+                <tr>
+                    <td><img src="image4.jpg" alt="CCC" width="50"></td>
+                    <td>Describe Item</td>
+                    <td><span class="rate">125</span></td>
+                    <td><input type="number" class="qty" value="4" min="1"></td>
+                    <td><input type="text" class="total" value="500" readonly></td>
+                    <td><input type="checkbox" class="selectItem"></td>
+                </tr>
+                <!-- Item 5 -->
+                <tr>
+                    <td><img src="image5.jpg" alt="DDD" width="50"></td>
+                    <td>Describe Item</td>
+                    <td><span class="rate">400</span></td>
+                    <td><input type="number" class="qty" value="2" min="1"></td>
+                    <td><input type="text" class="total" value="800" readonly></td>
+                    <td><input type="checkbox" class="selectItem"></td>
+                </tr>
+            </tbody>
+        </table>
+
+        <!-- Total Cart Amount -->
+        <h3>Total Cart Amount: <span id="totalAmount">Rs. 0.00</span></h3>
+    </div>
+
+    <!-- Bootstrap and JS -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js"></script>
+
+    <script>
+        // Function to update the total for each row and calculate the cart amount
+        function updateCart() {
+            let totalCartAmount = 0;
+            const rows = document.querySelectorAll('tr');
+            rows.forEach(function(row) {
+                const qtyInput = row.querySelector('.qty');
+                const rateElement = row.querySelector('.rate');
+                const totalInput = row.querySelector('.total');
+                const selectCheckbox = row.querySelector('.selectItem');
+                
+                if (qtyInput && rateElement && totalInput) {
+                    const qty = parseInt(qtyInput.value);
+                    const rate = parseFloat(rateElement.textContent);
+                    const total = qty * rate;
+                    totalInput.value = total.toFixed(2);
+
+                    // Update the cart total if the item is selected
+                    if (selectCheckbox && selectCheckbox.checked) {
+                        totalCartAmount += total;
+                    }
+                }
+            });
+            const totalAmountElement = document.getElementById('totalAmount');
+            totalAmountElement.textContent = 'Rs. ' + totalCartAmount.toFixed(2);
+        }
+
+        // Event listener to update total and cart when quantity changes
+        document.addEventListener('input', function(event) {
+            if (event.target.classList.contains('qty')) {
+                updateCart();
+            }
+        });
+
+        // Event listener for select checkbox to update the total cart amount
+        document.addEventListener('change', function(event) {
+            if (event.target.classList.contains('selectItem')) {
+                updateCart();
+            }
+        });
+
+        // Function to update the clock
+        function updateClock() {
+            const currentTime = new Date();
+            const hours = String(currentTime.getHours()).padStart(2, '0');
+            const minutes = String(currentTime.getMinutes()).padStart(2, '0');
+            const seconds = String(currentTime.getSeconds()).padStart(2, '0');
+            const clockElement = document.getElementById('clock');
+            clockElement.textContent = hours + ':' + minutes + ':' + seconds;
+        }
+
+        // Update the clock every second
+        setInterval(updateClock, 1000);
+
+        // Initialize the cart on page load
+        document.addEventListener('DOMContentLoaded', function() {
+            updateCart();
+        });
+    </script>
+</body>
+</html>

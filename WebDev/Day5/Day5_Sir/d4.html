@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+
+        <style>
+            .blue {
+                color: blue;
+                text-shadow: 2px 2px grey;
+            }
+            .red {
+                color: red;
+            }
+        </style>
+
+        <script>
+            function checkValue() {
+                let result = document.getElementById("result");
+                let num = document.getElementById("num");
+                val = num.value;
+                result.innerText = val;
+                if (val > 100) {
+                   result.className = "blue";
+                   // result.style.color = "blue";
+                } else {
+                    result.className = "red";
+                }
+            }
+        </script>
+
+    </head>
+
+    <body>
+        <input type="text" id="num" />
+
+        <button onclick="checkValue()">
+            Check Button
+        </button>
+
+        <h1>Result is 
+            <span id="result"></span>
+        </h1>
+
+    </body>
+</html>
+

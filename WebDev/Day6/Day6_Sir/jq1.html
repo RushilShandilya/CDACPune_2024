@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Document</title>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+		<script src="jq.js"></script>
+		<style>
+
+		</style>
+		<script>
+			emp = [
+				{ "id": 6, "fname": "Ritu" },
+				{ "id": 7, "fname": "Mitu" },
+				{ "id": 8, "fname": "Sita" },
+				{ "id": 9, "fname": "Gita" },
+				{ "id": 10, "fname": "Priya" },
+				{ "id": 11, "fname": "Alok" }
+			];
+
+			$(() => {
+				x = $("#abc");
+				x.text("naushad").css("color", "red");
+				x.animate({ width: "300px", opacity: 0.2 }, 1000);
+				//x.fadeOut(5000, () => { alert("Done Fading"); });
+				for (e in emp) {
+					$("#emptable").append(`<tr><td>${emp[e].id}</td><td>${emp[e].fname}</td></tr>`);
+				}
+			});
+
+			<!-- tr = document.createElement("tr");
+			td = document.createElement("td");
+			tn = document.createTextNode(`${emp[e].id}`);
+			tr.appendChild(td);
+			td.appendChild(tn);
+			document.getElementById("emptable").appendChild(tr); -->
+
+			function checkName() {
+				fn = $("#fname").val();
+				$("#res").text(fn).css({
+					"color": "pink", "background-color": "green"
+				});
+			}
+		</script>
+	</head>
+
+	<body>
+		<table id="emptable">
+			<tr>
+				<th>ID</th>
+				<th>Name</th>
+			</tr>
+			<tr>
+				<td>1</td>
+				<td>Naushad</td>
+			</tr>
+			<tr>
+				<td>2</td>
+				<td>Mitesh</td>
+			</tr>
+			<tr>
+				<td>3</td>
+				<td>Rajesh</td>
+			</tr>
+			<tr>
+				<td>4</td>
+				<td>Ramesh</td>
+			</tr>
+			<tr>
+				<td>5</td>
+				<td>Suresh</td>
+			</tr>
+		</table>
+		<h1 id="abc"><span class="d"></span>Jquery Hello</h1>
+		<h1 id="abc1"><span class="d"></span>Jquery Hello1</h1>
+		<input type="text" id="fname" placeholder="Enter Your Name">
+		<button onclick="checkName()">Check Name</button>
+		<h2>Your Name is <span id="res"></span></h2>
+	</body>
+
+</html>

@@ -1,0 +1,12 @@
+Assignment 1:
+
+Datatypes, looping , conditional
+Try all string and Arrays methods,
+
+Create calculator application
+Call function calculate with three parameters
+1) number1
+2) number2 
+3) opr
+ex : calculate(2,3,"sub")
+

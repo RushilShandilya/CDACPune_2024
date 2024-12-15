@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+
+        function aaa() {
+            console.log("aaa  invoked");
+        }
+        //setTimeout(aaa,2000)
+
+        function stopClock() {
+            clearInterval(t)
+        }
+        function startClock() {
+            t = setInterval(showClock,1000);
+            console.log(t)
+        }
+        function showClock() {
+            x = new Date()
+            document.getElementById("dt").innerText = x.toLocaleDateString()
+            document.getElementById("tm").innerText = x.toLocaleTimeString()
+            //setTimeout(startClock,1000)
+        }
+
+    </script>
+
+</head>
+
+<body>
+    <h1>Date Time</h1>
+
+    <h1>
+        Date is : <span id="dt"></span>
+    </h1>
+
+    <h1>
+        Time is : <span id="tm"></span>
+    </h1>
+
+    <button onclick="startClock()">Start Clock</button>
+
+    <button onclick="stopClock()">Stop Clock</button>
+</body>
+
+</html>

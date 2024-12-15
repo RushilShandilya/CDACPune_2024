@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Document</title>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+		<script>
+			function getUser() {
+				uname = document.getElementById("uname").value;
+				lokesh = new XMLHttpRequest();
+				lokesh.open("GET", "users.jsp?username=" + uname);
+				lokesh.onreadystatechange = function () {
+					console.log(lokesh.readyState);
+					if (lokesh.readyState == 4 && lokesh.status == 200) {
+						data = lokesh.responseText;
+						console.log(typeof data);
+						document.getElementById("res").innerHTML = data;
+					}
+				};
+				lokesh.send();
+			}
+			function getUserJQuery() {
+				user = $("#uname").val();
+				// $("#res").load("users.jsp?username=" + $("#uname").val()); 
+				$.post("users.jsp", { "username": user }, function (data) {
+					$("#res").text(data);
+				});
+			}
+		</script>
+	</head>
+
+	<body>
+		<h1>User Test Page</h1>
+		<h1 id="res"></h1>
+		<button type="button" onclick="getUser()">Get Users </button>
+		<button type="button" onclick="getUserJQuery()">Get Users By JQuery </button>
+		<label>User NAme</label> <input type="text" title="A" id="uname" name="uname">
+		<span id="res"></span>
+	</body>
+
+</html>
