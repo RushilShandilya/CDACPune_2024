@@ -1,0 +1,48 @@
+16-Dec-2024 21:31:25.022 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/11.0.2
+16-Dec-2024 21:31:25.027 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Dec 5 2024 15:19:37 UTC
+16-Dec-2024 21:31:25.028 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 11.0.2.0
+16-Dec-2024 21:31:25.028 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+16-Dec-2024 21:31:25.029 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            6.1.0-25-amd64
+16-Dec-2024 21:31:25.029 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+16-Dec-2024 21:31:25.029 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /home/rushil/.jdks/openjdk-20.0.2
+16-Dec-2024 21:31:25.029 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           20.0.2+9-78
+16-Dec-2024 21:31:25.029 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+16-Dec-2024 21:31:25.029 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/rushil/CDACPune_2024/Java/AdvancedJava/apache-tomcat-11.0.2
+16-Dec-2024 21:31:25.029 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/rushil/CDACPune_2024/Java/AdvancedJava/apache-tomcat-11.0.2
+16-Dec-2024 21:31:25.042 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+16-Dec-2024 21:31:25.043 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+16-Dec-2024 21:31:25.043 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+16-Dec-2024 21:31:25.043 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+16-Dec-2024 21:31:25.043 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+16-Dec-2024 21:31:25.043 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/rushil/CDACPune_2024/Java/AdvancedJava/apache-tomcat-11.0.2
+16-Dec-2024 21:31:25.043 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/rushil/CDACPune_2024/Java/AdvancedJava/apache-tomcat-11.0.2
+16-Dec-2024 21:31:25.043 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/rushil/CDACPune_2024/Java/AdvancedJava/apache-tomcat-11.0.2/temp
+16-Dec-2024 21:31:25.044 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/rushil/CDACPune_2024/Java/AdvancedJava/apache-tomcat-11.0.2/conf/logging.properties
+16-Dec-2024 21:31:25.044 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+16-Dec-2024 21:31:25.044 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -javaagent:/opt/idea-IC-223.8617.56/lib/idea_rt.jar=37907:/opt/idea-IC-223.8617.56/bin
+16-Dec-2024 21:31:25.044 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dfile.encoding=UTF-8
+16-Dec-2024 21:31:25.044 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.stdout.encoding=UTF-8
+16-Dec-2024 21:31:25.044 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.stderr.encoding=UTF-8
+16-Dec-2024 21:31:25.046 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib]
+16-Dec-2024 21:31:25.533 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+16-Dec-2024 21:31:25.561 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [878] milliseconds
+16-Dec-2024 21:31:25.631 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+16-Dec-2024 21:31:25.631 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/11.0.2]
+16-Dec-2024 21:31:25.641 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [/home/rushil/CDACPune_2024/Java/AdvancedJava/apache-tomcat-11.0.2/conf/Catalina/localhost/q1.xml]
+16-Dec-2024 21:31:26.069 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [/home/rushil/CDACPune_2024/Java/AdvancedJava/apache-tomcat-11.0.2/conf/Catalina/localhost/q1.xml] has finished in [427] ms
+16-Dec-2024 21:31:26.070 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/rushil/CDACPune_2024/Java/AdvancedJava/apache-tomcat-11.0.2/webapps/manager]
+16-Dec-2024 21:31:26.112 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/rushil/CDACPune_2024/Java/AdvancedJava/apache-tomcat-11.0.2/webapps/manager] has finished in [42] ms
+16-Dec-2024 21:31:26.113 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/rushil/CDACPune_2024/Java/AdvancedJava/apache-tomcat-11.0.2/webapps/docs]
+16-Dec-2024 21:31:26.136 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/rushil/CDACPune_2024/Java/AdvancedJava/apache-tomcat-11.0.2/webapps/docs] has finished in [22] ms
+16-Dec-2024 21:31:26.136 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/rushil/CDACPune_2024/Java/AdvancedJava/apache-tomcat-11.0.2/webapps/ROOT]
+16-Dec-2024 21:31:26.156 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/rushil/CDACPune_2024/Java/AdvancedJava/apache-tomcat-11.0.2/webapps/ROOT] has finished in [20] ms
+16-Dec-2024 21:31:26.156 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/rushil/CDACPune_2024/Java/AdvancedJava/apache-tomcat-11.0.2/webapps/examples]
+16-Dec-2024 21:31:26.467 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/rushil/CDACPune_2024/Java/AdvancedJava/apache-tomcat-11.0.2/webapps/examples] has finished in [311] ms
+16-Dec-2024 21:31:26.468 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/rushil/CDACPune_2024/Java/AdvancedJava/apache-tomcat-11.0.2/webapps/host-manager]
+16-Dec-2024 21:31:26.495 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/rushil/CDACPune_2024/Java/AdvancedJava/apache-tomcat-11.0.2/webapps/host-manager] has finished in [27] ms
+16-Dec-2024 21:31:26.501 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+16-Dec-2024 21:31:26.518 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [955] milliseconds
+16-Dec-2024 21:41:37.267 INFO [Thread-1] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+16-Dec-2024 21:41:37.268 INFO [Thread-1] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+16-Dec-2024 21:41:37.306 INFO [Thread-1] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+16-Dec-2024 21:41:37.313 INFO [Thread-1] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
