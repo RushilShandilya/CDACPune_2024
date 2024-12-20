@@ -50,8 +50,8 @@ public class Authenticate extends HttpServlet {
                     out.println("<body>");
                     out.println("<h2>Admin Dashboard</h2>");
                     out.println("<a href='"+url+"addCategory.html'>Add Category</a>");
-                    out.println("<a href='addProduct.html'>Delete Category</a>");
-                    out.println("<a href=''>Add Product</a>");
+                    out.println("<a href='"+url+"deleteCategory.html'>Delete Category</a>");
+                    out.println("<a href='"+url+"addProduct.html'>Add Product</a>");
                     out.println("<a href=''>Add Card</a>");
                     out.println("</body>");
                     out.println("</html>");
