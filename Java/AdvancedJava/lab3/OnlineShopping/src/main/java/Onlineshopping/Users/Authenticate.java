@@ -7,6 +7,7 @@ import jakarta.servlet.annotation.WebServlet;
 import jakarta.servlet.http.HttpServlet;
 import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;
+import jakarta.servlet.http.HttpSession;
 
 import java.io.IOException;
 import java.io.PrintWriter;
@@ -45,6 +46,11 @@ public class Authenticate extends HttpServlet {
 
             try (ResultSet set = psAuthenticate.executeQuery()) {
                 if (set.next()) {
+                    HttpSession userSession = request.getSession();
+
+                    userSession.setAttribute("userUsername",username);
+                    userSession.setAttribute("userLoggedIn",true);
+
                     response.sendRedirect("Category");
                 } else {
                     out.println("User Authentication Failed");

@@ -1245,3 +1245,626 @@
 20-Dec-2024 16:20:57.844 WARNING [Thread-1] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [OnlineShopping] registered the JDBC driver [org.mariadb.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
 20-Dec-2024 16:20:57.859 INFO [Thread-1] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
 20-Dec-2024 16:20:57.873 INFO [Thread-1] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+20-Dec-2024 17:05:56.734 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/11.0.2
+20-Dec-2024 17:05:56.742 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Dec 5 2024 15:19:37 UTC
+20-Dec-2024 17:05:56.742 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 11.0.2.0
+20-Dec-2024 17:05:56.742 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+20-Dec-2024 17:05:56.743 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            6.1.0-25-amd64
+20-Dec-2024 17:05:56.743 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+20-Dec-2024 17:05:56.743 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /home/rushil/.jdks/openjdk-20.0.2
+20-Dec-2024 17:05:56.743 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           20.0.2+9-78
+20-Dec-2024 17:05:56.743 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+20-Dec-2024 17:05:56.744 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/rushil/CDACPune_2024/Java/AdvancedJava/apache-tomcat-11.0.2
+20-Dec-2024 17:05:56.744 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/rushil/CDACPune_2024/Java/AdvancedJava/apache-tomcat-11.0.2
+20-Dec-2024 17:05:56.757 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+20-Dec-2024 17:05:56.758 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+20-Dec-2024 17:05:56.758 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+20-Dec-2024 17:05:56.758 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+20-Dec-2024 17:05:56.758 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+20-Dec-2024 17:05:56.758 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/rushil/CDACPune_2024/Java/AdvancedJava/apache-tomcat-11.0.2
+20-Dec-2024 17:05:56.758 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/rushil/CDACPune_2024/Java/AdvancedJava/apache-tomcat-11.0.2
+20-Dec-2024 17:05:56.759 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/rushil/CDACPune_2024/Java/AdvancedJava/apache-tomcat-11.0.2/temp
+20-Dec-2024 17:05:56.759 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/rushil/CDACPune_2024/Java/AdvancedJava/apache-tomcat-11.0.2/conf/logging.properties
+20-Dec-2024 17:05:56.759 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+20-Dec-2024 17:05:56.759 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -javaagent:/opt/idea-IC-223.8617.56/lib/idea_rt.jar=41745:/opt/idea-IC-223.8617.56/bin
+20-Dec-2024 17:05:56.759 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dfile.encoding=UTF-8
+20-Dec-2024 17:05:56.759 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.stdout.encoding=UTF-8
+20-Dec-2024 17:05:56.759 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.stderr.encoding=UTF-8
+20-Dec-2024 17:05:56.763 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib]
+20-Dec-2024 17:05:57.233 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+20-Dec-2024 17:05:57.257 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [775] milliseconds
+20-Dec-2024 17:05:57.313 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+20-Dec-2024 17:05:57.313 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/11.0.2]
+20-Dec-2024 17:05:57.325 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [/home/rushil/CDACPune_2024/Java/AdvancedJava/apache-tomcat-11.0.2/conf/Catalina/localhost/OnlineShopping.xml]
+20-Dec-2024 17:05:58.027 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+20-Dec-2024 17:05:58.054 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [/home/rushil/CDACPune_2024/Java/AdvancedJava/apache-tomcat-11.0.2/conf/Catalina/localhost/OnlineShopping.xml] has finished in [728] ms
+20-Dec-2024 17:05:58.054 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [/home/rushil/CDACPune_2024/Java/AdvancedJava/apache-tomcat-11.0.2/conf/Catalina/localhost/q1.xml]
+20-Dec-2024 17:05:58.070 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [/home/rushil/CDACPune_2024/Java/AdvancedJava/apache-tomcat-11.0.2/conf/Catalina/localhost/q1.xml] has finished in [16] ms
+20-Dec-2024 17:05:58.070 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/rushil/CDACPune_2024/Java/AdvancedJava/apache-tomcat-11.0.2/webapps/manager]
+20-Dec-2024 17:05:58.100 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/rushil/CDACPune_2024/Java/AdvancedJava/apache-tomcat-11.0.2/webapps/manager] has finished in [30] ms
+20-Dec-2024 17:05:58.100 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/rushil/CDACPune_2024/Java/AdvancedJava/apache-tomcat-11.0.2/webapps/docs]
+20-Dec-2024 17:05:58.121 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/rushil/CDACPune_2024/Java/AdvancedJava/apache-tomcat-11.0.2/webapps/docs] has finished in [21] ms
+20-Dec-2024 17:05:58.121 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/rushil/CDACPune_2024/Java/AdvancedJava/apache-tomcat-11.0.2/webapps/ROOT]
+20-Dec-2024 17:05:58.138 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/rushil/CDACPune_2024/Java/AdvancedJava/apache-tomcat-11.0.2/webapps/ROOT] has finished in [17] ms
+20-Dec-2024 17:05:58.138 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/rushil/CDACPune_2024/Java/AdvancedJava/apache-tomcat-11.0.2/webapps/examples]
+20-Dec-2024 17:05:58.353 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/rushil/CDACPune_2024/Java/AdvancedJava/apache-tomcat-11.0.2/webapps/examples] has finished in [215] ms
+20-Dec-2024 17:05:58.353 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/rushil/CDACPune_2024/Java/AdvancedJava/apache-tomcat-11.0.2/webapps/host-manager]
+20-Dec-2024 17:05:58.372 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/rushil/CDACPune_2024/Java/AdvancedJava/apache-tomcat-11.0.2/webapps/host-manager] has finished in [19] ms
+20-Dec-2024 17:05:58.375 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+20-Dec-2024 17:05:58.385 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [1126] milliseconds
+20-Dec-2024 17:06:18.122 INFO [Thread-1] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+20-Dec-2024 17:06:18.124 INFO [Thread-1] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+20-Dec-2024 17:06:18.145 WARNING [Thread-1] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [OnlineShopping] registered the JDBC driver [org.mariadb.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+20-Dec-2024 17:06:18.156 INFO [Thread-1] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+20-Dec-2024 17:06:18.169 INFO [Thread-1] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+20-Dec-2024 17:07:15.011 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/11.0.2
+20-Dec-2024 17:07:15.016 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Dec 5 2024 15:19:37 UTC
+20-Dec-2024 17:07:15.016 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 11.0.2.0
+20-Dec-2024 17:07:15.016 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+20-Dec-2024 17:07:15.016 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            6.1.0-25-amd64
+20-Dec-2024 17:07:15.016 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+20-Dec-2024 17:07:15.017 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /home/rushil/.jdks/openjdk-20.0.2
+20-Dec-2024 17:07:15.017 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           20.0.2+9-78
+20-Dec-2024 17:07:15.017 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+20-Dec-2024 17:07:15.017 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/rushil/CDACPune_2024/Java/AdvancedJava/apache-tomcat-11.0.2
+20-Dec-2024 17:07:15.017 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/rushil/CDACPune_2024/Java/AdvancedJava/apache-tomcat-11.0.2
+20-Dec-2024 17:07:15.028 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+20-Dec-2024 17:07:15.028 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+20-Dec-2024 17:07:15.028 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+20-Dec-2024 17:07:15.029 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+20-Dec-2024 17:07:15.029 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+20-Dec-2024 17:07:15.029 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/rushil/CDACPune_2024/Java/AdvancedJava/apache-tomcat-11.0.2
+20-Dec-2024 17:07:15.029 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/rushil/CDACPune_2024/Java/AdvancedJava/apache-tomcat-11.0.2
+20-Dec-2024 17:07:15.029 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/rushil/CDACPune_2024/Java/AdvancedJava/apache-tomcat-11.0.2/temp
+20-Dec-2024 17:07:15.029 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/rushil/CDACPune_2024/Java/AdvancedJava/apache-tomcat-11.0.2/conf/logging.properties
+20-Dec-2024 17:07:15.029 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+20-Dec-2024 17:07:15.030 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -javaagent:/opt/idea-IC-223.8617.56/lib/idea_rt.jar=41395:/opt/idea-IC-223.8617.56/bin
+20-Dec-2024 17:07:15.030 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dfile.encoding=UTF-8
+20-Dec-2024 17:07:15.030 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.stdout.encoding=UTF-8
+20-Dec-2024 17:07:15.030 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.stderr.encoding=UTF-8
+20-Dec-2024 17:07:15.032 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib]
+20-Dec-2024 17:07:15.492 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+20-Dec-2024 17:07:15.514 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [720] milliseconds
+20-Dec-2024 17:07:15.565 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+20-Dec-2024 17:07:15.565 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/11.0.2]
+20-Dec-2024 17:07:15.578 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [/home/rushil/CDACPune_2024/Java/AdvancedJava/apache-tomcat-11.0.2/conf/Catalina/localhost/OnlineShopping.xml]
+20-Dec-2024 17:07:16.365 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+20-Dec-2024 17:07:16.394 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [/home/rushil/CDACPune_2024/Java/AdvancedJava/apache-tomcat-11.0.2/conf/Catalina/localhost/OnlineShopping.xml] has finished in [816] ms
+20-Dec-2024 17:07:16.394 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [/home/rushil/CDACPune_2024/Java/AdvancedJava/apache-tomcat-11.0.2/conf/Catalina/localhost/q1.xml]
+20-Dec-2024 17:07:16.413 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [/home/rushil/CDACPune_2024/Java/AdvancedJava/apache-tomcat-11.0.2/conf/Catalina/localhost/q1.xml] has finished in [19] ms
+20-Dec-2024 17:07:16.414 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/rushil/CDACPune_2024/Java/AdvancedJava/apache-tomcat-11.0.2/webapps/manager]
+20-Dec-2024 17:07:16.449 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/rushil/CDACPune_2024/Java/AdvancedJava/apache-tomcat-11.0.2/webapps/manager] has finished in [35] ms
+20-Dec-2024 17:07:16.450 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/rushil/CDACPune_2024/Java/AdvancedJava/apache-tomcat-11.0.2/webapps/docs]
+20-Dec-2024 17:07:16.471 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/rushil/CDACPune_2024/Java/AdvancedJava/apache-tomcat-11.0.2/webapps/docs] has finished in [20] ms
+20-Dec-2024 17:07:16.471 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/rushil/CDACPune_2024/Java/AdvancedJava/apache-tomcat-11.0.2/webapps/ROOT]
+20-Dec-2024 17:07:16.487 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/rushil/CDACPune_2024/Java/AdvancedJava/apache-tomcat-11.0.2/webapps/ROOT] has finished in [16] ms
+20-Dec-2024 17:07:16.488 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/rushil/CDACPune_2024/Java/AdvancedJava/apache-tomcat-11.0.2/webapps/examples]
+20-Dec-2024 17:07:16.712 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/rushil/CDACPune_2024/Java/AdvancedJava/apache-tomcat-11.0.2/webapps/examples] has finished in [223] ms
+20-Dec-2024 17:07:16.712 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/rushil/CDACPune_2024/Java/AdvancedJava/apache-tomcat-11.0.2/webapps/host-manager]
+20-Dec-2024 17:07:16.734 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/rushil/CDACPune_2024/Java/AdvancedJava/apache-tomcat-11.0.2/webapps/host-manager] has finished in [22] ms
+20-Dec-2024 17:07:16.738 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+20-Dec-2024 17:07:16.748 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [1232] milliseconds
+20-Dec-2024 17:07:19.163 INFO [Thread-1] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+20-Dec-2024 17:07:19.166 INFO [Thread-1] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+20-Dec-2024 17:07:19.196 INFO [Thread-1] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+20-Dec-2024 17:07:19.201 INFO [Thread-1] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+20-Dec-2024 18:21:24.886 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/11.0.2
+20-Dec-2024 18:21:24.890 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Dec 5 2024 15:19:37 UTC
+20-Dec-2024 18:21:24.891 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 11.0.2.0
+20-Dec-2024 18:21:24.891 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+20-Dec-2024 18:21:24.891 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            6.1.0-25-amd64
+20-Dec-2024 18:21:24.891 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+20-Dec-2024 18:21:24.891 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /home/rushil/.jdks/openjdk-20.0.2
+20-Dec-2024 18:21:24.891 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           20.0.2+9-78
+20-Dec-2024 18:21:24.891 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+20-Dec-2024 18:21:24.892 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/rushil/CDACPune_2024/Java/AdvancedJava/apache-tomcat-11.0.2
+20-Dec-2024 18:21:24.892 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/rushil/CDACPune_2024/Java/AdvancedJava/apache-tomcat-11.0.2
+20-Dec-2024 18:21:24.901 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+20-Dec-2024 18:21:24.901 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+20-Dec-2024 18:21:24.901 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+20-Dec-2024 18:21:24.901 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+20-Dec-2024 18:21:24.901 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+20-Dec-2024 18:21:24.901 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/rushil/CDACPune_2024/Java/AdvancedJava/apache-tomcat-11.0.2
+20-Dec-2024 18:21:24.901 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/rushil/CDACPune_2024/Java/AdvancedJava/apache-tomcat-11.0.2
+20-Dec-2024 18:21:24.901 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/rushil/CDACPune_2024/Java/AdvancedJava/apache-tomcat-11.0.2/temp
+20-Dec-2024 18:21:24.902 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/rushil/CDACPune_2024/Java/AdvancedJava/apache-tomcat-11.0.2/conf/logging.properties
+20-Dec-2024 18:21:24.902 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+20-Dec-2024 18:21:24.902 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -javaagent:/opt/idea-IC-223.8617.56/lib/idea_rt.jar=38443:/opt/idea-IC-223.8617.56/bin
+20-Dec-2024 18:21:24.902 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dfile.encoding=UTF-8
+20-Dec-2024 18:21:24.902 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.stdout.encoding=UTF-8
+20-Dec-2024 18:21:24.902 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.stderr.encoding=UTF-8
+20-Dec-2024 18:21:24.904 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib]
+20-Dec-2024 18:21:25.364 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+20-Dec-2024 18:21:25.387 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [711] milliseconds
+20-Dec-2024 18:21:25.437 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+20-Dec-2024 18:21:25.438 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/11.0.2]
+20-Dec-2024 18:21:25.448 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [/home/rushil/CDACPune_2024/Java/AdvancedJava/apache-tomcat-11.0.2/conf/Catalina/localhost/OnlineShopping.xml]
+20-Dec-2024 18:21:26.119 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+20-Dec-2024 18:21:26.145 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [/home/rushil/CDACPune_2024/Java/AdvancedJava/apache-tomcat-11.0.2/conf/Catalina/localhost/OnlineShopping.xml] has finished in [697] ms
+20-Dec-2024 18:21:26.146 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [/home/rushil/CDACPune_2024/Java/AdvancedJava/apache-tomcat-11.0.2/conf/Catalina/localhost/q1.xml]
+20-Dec-2024 18:21:26.163 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [/home/rushil/CDACPune_2024/Java/AdvancedJava/apache-tomcat-11.0.2/conf/Catalina/localhost/q1.xml] has finished in [17] ms
+20-Dec-2024 18:21:26.164 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/rushil/CDACPune_2024/Java/AdvancedJava/apache-tomcat-11.0.2/webapps/manager]
+20-Dec-2024 18:21:26.202 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/rushil/CDACPune_2024/Java/AdvancedJava/apache-tomcat-11.0.2/webapps/manager] has finished in [38] ms
+20-Dec-2024 18:21:26.202 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/rushil/CDACPune_2024/Java/AdvancedJava/apache-tomcat-11.0.2/webapps/docs]
+20-Dec-2024 18:21:26.222 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/rushil/CDACPune_2024/Java/AdvancedJava/apache-tomcat-11.0.2/webapps/docs] has finished in [19] ms
+20-Dec-2024 18:21:26.222 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/rushil/CDACPune_2024/Java/AdvancedJava/apache-tomcat-11.0.2/webapps/ROOT]
+20-Dec-2024 18:21:26.240 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/rushil/CDACPune_2024/Java/AdvancedJava/apache-tomcat-11.0.2/webapps/ROOT] has finished in [18] ms
+20-Dec-2024 18:21:26.240 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/rushil/CDACPune_2024/Java/AdvancedJava/apache-tomcat-11.0.2/webapps/examples]
+20-Dec-2024 18:21:26.471 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/rushil/CDACPune_2024/Java/AdvancedJava/apache-tomcat-11.0.2/webapps/examples] has finished in [231] ms
+20-Dec-2024 18:21:26.472 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/rushil/CDACPune_2024/Java/AdvancedJava/apache-tomcat-11.0.2/webapps/host-manager]
+20-Dec-2024 18:21:26.490 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/rushil/CDACPune_2024/Java/AdvancedJava/apache-tomcat-11.0.2/webapps/host-manager] has finished in [18] ms
+20-Dec-2024 18:21:26.495 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+20-Dec-2024 18:21:26.506 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [1117] milliseconds
+20-Dec-2024 18:21:43.403 INFO [Thread-1] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+20-Dec-2024 18:21:43.405 INFO [Thread-1] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+20-Dec-2024 18:21:43.426 WARNING [Thread-1] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [OnlineShopping] registered the JDBC driver [org.mariadb.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+20-Dec-2024 18:21:43.435 INFO [Thread-1] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+20-Dec-2024 18:21:43.439 INFO [Thread-1] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+20-Dec-2024 18:22:15.469 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/11.0.2
+20-Dec-2024 18:22:15.478 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Dec 5 2024 15:19:37 UTC
+20-Dec-2024 18:22:15.479 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 11.0.2.0
+20-Dec-2024 18:22:15.479 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+20-Dec-2024 18:22:15.480 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            6.1.0-25-amd64
+20-Dec-2024 18:22:15.480 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+20-Dec-2024 18:22:15.480 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /home/rushil/.jdks/openjdk-20.0.2
+20-Dec-2024 18:22:15.480 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           20.0.2+9-78
+20-Dec-2024 18:22:15.480 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+20-Dec-2024 18:22:15.480 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/rushil/CDACPune_2024/Java/AdvancedJava/apache-tomcat-11.0.2
+20-Dec-2024 18:22:15.481 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/rushil/CDACPune_2024/Java/AdvancedJava/apache-tomcat-11.0.2
+20-Dec-2024 18:22:15.502 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+20-Dec-2024 18:22:15.503 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+20-Dec-2024 18:22:15.503 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+20-Dec-2024 18:22:15.503 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+20-Dec-2024 18:22:15.503 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+20-Dec-2024 18:22:15.504 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/rushil/CDACPune_2024/Java/AdvancedJava/apache-tomcat-11.0.2
+20-Dec-2024 18:22:15.504 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/rushil/CDACPune_2024/Java/AdvancedJava/apache-tomcat-11.0.2
+20-Dec-2024 18:22:15.504 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/rushil/CDACPune_2024/Java/AdvancedJava/apache-tomcat-11.0.2/temp
+20-Dec-2024 18:22:15.504 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/rushil/CDACPune_2024/Java/AdvancedJava/apache-tomcat-11.0.2/conf/logging.properties
+20-Dec-2024 18:22:15.504 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+20-Dec-2024 18:22:15.505 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -javaagent:/opt/idea-IC-223.8617.56/lib/idea_rt.jar=39057:/opt/idea-IC-223.8617.56/bin
+20-Dec-2024 18:22:15.505 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dfile.encoding=UTF-8
+20-Dec-2024 18:22:15.505 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.stdout.encoding=UTF-8
+20-Dec-2024 18:22:15.505 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.stderr.encoding=UTF-8
+20-Dec-2024 18:22:15.509 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib]
+20-Dec-2024 18:22:16.059 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+20-Dec-2024 18:22:16.084 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [873] milliseconds
+20-Dec-2024 18:22:16.145 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+20-Dec-2024 18:22:16.146 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/11.0.2]
+20-Dec-2024 18:22:16.164 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [/home/rushil/CDACPune_2024/Java/AdvancedJava/apache-tomcat-11.0.2/conf/Catalina/localhost/OnlineShopping.xml]
+20-Dec-2024 18:22:16.960 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+20-Dec-2024 18:22:16.990 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [/home/rushil/CDACPune_2024/Java/AdvancedJava/apache-tomcat-11.0.2/conf/Catalina/localhost/OnlineShopping.xml] has finished in [825] ms
+20-Dec-2024 18:22:16.990 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [/home/rushil/CDACPune_2024/Java/AdvancedJava/apache-tomcat-11.0.2/conf/Catalina/localhost/q1.xml]
+20-Dec-2024 18:22:17.014 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [/home/rushil/CDACPune_2024/Java/AdvancedJava/apache-tomcat-11.0.2/conf/Catalina/localhost/q1.xml] has finished in [24] ms
+20-Dec-2024 18:22:17.015 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/rushil/CDACPune_2024/Java/AdvancedJava/apache-tomcat-11.0.2/webapps/manager]
+20-Dec-2024 18:22:17.049 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/rushil/CDACPune_2024/Java/AdvancedJava/apache-tomcat-11.0.2/webapps/manager] has finished in [34] ms
+20-Dec-2024 18:22:17.050 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/rushil/CDACPune_2024/Java/AdvancedJava/apache-tomcat-11.0.2/webapps/docs]
+20-Dec-2024 18:22:17.064 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/rushil/CDACPune_2024/Java/AdvancedJava/apache-tomcat-11.0.2/webapps/docs] has finished in [14] ms
+20-Dec-2024 18:22:17.064 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/rushil/CDACPune_2024/Java/AdvancedJava/apache-tomcat-11.0.2/webapps/ROOT]
+20-Dec-2024 18:22:17.077 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/rushil/CDACPune_2024/Java/AdvancedJava/apache-tomcat-11.0.2/webapps/ROOT] has finished in [13] ms
+20-Dec-2024 18:22:17.077 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/rushil/CDACPune_2024/Java/AdvancedJava/apache-tomcat-11.0.2/webapps/examples]
+20-Dec-2024 18:22:17.254 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/rushil/CDACPune_2024/Java/AdvancedJava/apache-tomcat-11.0.2/webapps/examples] has finished in [177] ms
+20-Dec-2024 18:22:17.254 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/rushil/CDACPune_2024/Java/AdvancedJava/apache-tomcat-11.0.2/webapps/host-manager]
+20-Dec-2024 18:22:17.278 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/rushil/CDACPune_2024/Java/AdvancedJava/apache-tomcat-11.0.2/webapps/host-manager] has finished in [24] ms
+20-Dec-2024 18:22:17.283 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+20-Dec-2024 18:22:17.295 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [1209] milliseconds
+20-Dec-2024 18:24:34.450 INFO [Thread-1] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+20-Dec-2024 18:24:34.452 INFO [Thread-1] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+20-Dec-2024 18:24:34.479 WARNING [Thread-1] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [OnlineShopping] registered the JDBC driver [org.mariadb.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+20-Dec-2024 18:24:34.492 INFO [Thread-1] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+20-Dec-2024 18:24:34.496 INFO [Thread-1] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+20-Dec-2024 18:24:35.806 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/11.0.2
+20-Dec-2024 18:24:35.811 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Dec 5 2024 15:19:37 UTC
+20-Dec-2024 18:24:35.811 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 11.0.2.0
+20-Dec-2024 18:24:35.812 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+20-Dec-2024 18:24:35.812 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            6.1.0-25-amd64
+20-Dec-2024 18:24:35.812 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+20-Dec-2024 18:24:35.812 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /home/rushil/.jdks/openjdk-20.0.2
+20-Dec-2024 18:24:35.812 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           20.0.2+9-78
+20-Dec-2024 18:24:35.812 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+20-Dec-2024 18:24:35.812 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/rushil/CDACPune_2024/Java/AdvancedJava/apache-tomcat-11.0.2
+20-Dec-2024 18:24:35.813 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/rushil/CDACPune_2024/Java/AdvancedJava/apache-tomcat-11.0.2
+20-Dec-2024 18:24:35.822 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+20-Dec-2024 18:24:35.822 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+20-Dec-2024 18:24:35.822 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+20-Dec-2024 18:24:35.823 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+20-Dec-2024 18:24:35.823 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+20-Dec-2024 18:24:35.823 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/rushil/CDACPune_2024/Java/AdvancedJava/apache-tomcat-11.0.2
+20-Dec-2024 18:24:35.823 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/rushil/CDACPune_2024/Java/AdvancedJava/apache-tomcat-11.0.2
+20-Dec-2024 18:24:35.823 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/rushil/CDACPune_2024/Java/AdvancedJava/apache-tomcat-11.0.2/temp
+20-Dec-2024 18:24:35.823 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/rushil/CDACPune_2024/Java/AdvancedJava/apache-tomcat-11.0.2/conf/logging.properties
+20-Dec-2024 18:24:35.823 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+20-Dec-2024 18:24:35.823 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -javaagent:/opt/idea-IC-223.8617.56/lib/idea_rt.jar=33973:/opt/idea-IC-223.8617.56/bin
+20-Dec-2024 18:24:35.824 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dfile.encoding=UTF-8
+20-Dec-2024 18:24:35.824 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.stdout.encoding=UTF-8
+20-Dec-2024 18:24:35.824 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.stderr.encoding=UTF-8
+20-Dec-2024 18:24:35.825 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib]
+20-Dec-2024 18:24:36.297 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+20-Dec-2024 18:24:36.322 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [734] milliseconds
+20-Dec-2024 18:24:36.387 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+20-Dec-2024 18:24:36.387 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/11.0.2]
+20-Dec-2024 18:24:36.403 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [/home/rushil/CDACPune_2024/Java/AdvancedJava/apache-tomcat-11.0.2/conf/Catalina/localhost/OnlineShopping.xml]
+20-Dec-2024 18:24:37.125 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+20-Dec-2024 18:24:37.153 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [/home/rushil/CDACPune_2024/Java/AdvancedJava/apache-tomcat-11.0.2/conf/Catalina/localhost/OnlineShopping.xml] has finished in [751] ms
+20-Dec-2024 18:24:37.154 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [/home/rushil/CDACPune_2024/Java/AdvancedJava/apache-tomcat-11.0.2/conf/Catalina/localhost/q1.xml]
+20-Dec-2024 18:24:37.177 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [/home/rushil/CDACPune_2024/Java/AdvancedJava/apache-tomcat-11.0.2/conf/Catalina/localhost/q1.xml] has finished in [23] ms
+20-Dec-2024 18:24:37.178 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/rushil/CDACPune_2024/Java/AdvancedJava/apache-tomcat-11.0.2/webapps/manager]
+20-Dec-2024 18:24:37.212 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/rushil/CDACPune_2024/Java/AdvancedJava/apache-tomcat-11.0.2/webapps/manager] has finished in [34] ms
+20-Dec-2024 18:24:37.213 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/rushil/CDACPune_2024/Java/AdvancedJava/apache-tomcat-11.0.2/webapps/docs]
+20-Dec-2024 18:24:37.228 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/rushil/CDACPune_2024/Java/AdvancedJava/apache-tomcat-11.0.2/webapps/docs] has finished in [15] ms
+20-Dec-2024 18:24:37.228 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/rushil/CDACPune_2024/Java/AdvancedJava/apache-tomcat-11.0.2/webapps/ROOT]
+20-Dec-2024 18:24:37.241 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/rushil/CDACPune_2024/Java/AdvancedJava/apache-tomcat-11.0.2/webapps/ROOT] has finished in [13] ms
+20-Dec-2024 18:24:37.242 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/rushil/CDACPune_2024/Java/AdvancedJava/apache-tomcat-11.0.2/webapps/examples]
+20-Dec-2024 18:24:37.420 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/rushil/CDACPune_2024/Java/AdvancedJava/apache-tomcat-11.0.2/webapps/examples] has finished in [178] ms
+20-Dec-2024 18:24:37.421 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/rushil/CDACPune_2024/Java/AdvancedJava/apache-tomcat-11.0.2/webapps/host-manager]
+20-Dec-2024 18:24:37.444 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/rushil/CDACPune_2024/Java/AdvancedJava/apache-tomcat-11.0.2/webapps/host-manager] has finished in [24] ms
+20-Dec-2024 18:24:37.448 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+20-Dec-2024 18:24:37.460 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [1136] milliseconds
+20-Dec-2024 18:26:22.417 INFO [Thread-1] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+20-Dec-2024 18:26:22.418 INFO [Thread-1] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+20-Dec-2024 18:26:22.440 WARNING [Thread-1] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [OnlineShopping] registered the JDBC driver [org.mariadb.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+20-Dec-2024 18:26:22.447 INFO [Thread-1] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+20-Dec-2024 18:26:22.453 INFO [Thread-1] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+20-Dec-2024 18:26:32.828 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/11.0.2
+20-Dec-2024 18:26:32.832 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Dec 5 2024 15:19:37 UTC
+20-Dec-2024 18:26:32.833 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 11.0.2.0
+20-Dec-2024 18:26:32.833 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+20-Dec-2024 18:26:32.833 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            6.1.0-25-amd64
+20-Dec-2024 18:26:32.833 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+20-Dec-2024 18:26:32.833 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /home/rushil/.jdks/openjdk-20.0.2
+20-Dec-2024 18:26:32.833 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           20.0.2+9-78
+20-Dec-2024 18:26:32.834 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+20-Dec-2024 18:26:32.834 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/rushil/CDACPune_2024/Java/AdvancedJava/apache-tomcat-11.0.2
+20-Dec-2024 18:26:32.834 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/rushil/CDACPune_2024/Java/AdvancedJava/apache-tomcat-11.0.2
+20-Dec-2024 18:26:32.844 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+20-Dec-2024 18:26:32.844 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+20-Dec-2024 18:26:32.845 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+20-Dec-2024 18:26:32.845 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+20-Dec-2024 18:26:32.845 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+20-Dec-2024 18:26:32.845 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/rushil/CDACPune_2024/Java/AdvancedJava/apache-tomcat-11.0.2
+20-Dec-2024 18:26:32.845 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/rushil/CDACPune_2024/Java/AdvancedJava/apache-tomcat-11.0.2
+20-Dec-2024 18:26:32.845 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/rushil/CDACPune_2024/Java/AdvancedJava/apache-tomcat-11.0.2/temp
+20-Dec-2024 18:26:32.845 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/rushil/CDACPune_2024/Java/AdvancedJava/apache-tomcat-11.0.2/conf/logging.properties
+20-Dec-2024 18:26:32.846 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+20-Dec-2024 18:26:32.846 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -javaagent:/opt/idea-IC-223.8617.56/lib/idea_rt.jar=42817:/opt/idea-IC-223.8617.56/bin
+20-Dec-2024 18:26:32.846 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dfile.encoding=UTF-8
+20-Dec-2024 18:26:32.846 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.stdout.encoding=UTF-8
+20-Dec-2024 18:26:32.846 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.stderr.encoding=UTF-8
+20-Dec-2024 18:26:32.848 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib]
+20-Dec-2024 18:26:33.341 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+20-Dec-2024 18:26:33.365 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [744] milliseconds
+20-Dec-2024 18:26:33.422 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+20-Dec-2024 18:26:33.422 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/11.0.2]
+20-Dec-2024 18:26:33.437 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [/home/rushil/CDACPune_2024/Java/AdvancedJava/apache-tomcat-11.0.2/conf/Catalina/localhost/OnlineShopping.xml]
+20-Dec-2024 18:26:34.190 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+20-Dec-2024 18:26:34.217 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [/home/rushil/CDACPune_2024/Java/AdvancedJava/apache-tomcat-11.0.2/conf/Catalina/localhost/OnlineShopping.xml] has finished in [779] ms
+20-Dec-2024 18:26:34.217 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [/home/rushil/CDACPune_2024/Java/AdvancedJava/apache-tomcat-11.0.2/conf/Catalina/localhost/q1.xml]
+20-Dec-2024 18:26:34.236 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [/home/rushil/CDACPune_2024/Java/AdvancedJava/apache-tomcat-11.0.2/conf/Catalina/localhost/q1.xml] has finished in [19] ms
+20-Dec-2024 18:26:34.236 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/rushil/CDACPune_2024/Java/AdvancedJava/apache-tomcat-11.0.2/webapps/manager]
+20-Dec-2024 18:26:34.267 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/rushil/CDACPune_2024/Java/AdvancedJava/apache-tomcat-11.0.2/webapps/manager] has finished in [31] ms
+20-Dec-2024 18:26:34.267 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/rushil/CDACPune_2024/Java/AdvancedJava/apache-tomcat-11.0.2/webapps/docs]
+20-Dec-2024 18:26:34.283 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/rushil/CDACPune_2024/Java/AdvancedJava/apache-tomcat-11.0.2/webapps/docs] has finished in [16] ms
+20-Dec-2024 18:26:34.283 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/rushil/CDACPune_2024/Java/AdvancedJava/apache-tomcat-11.0.2/webapps/ROOT]
+20-Dec-2024 18:26:34.297 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/rushil/CDACPune_2024/Java/AdvancedJava/apache-tomcat-11.0.2/webapps/ROOT] has finished in [14] ms
+20-Dec-2024 18:26:34.298 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/rushil/CDACPune_2024/Java/AdvancedJava/apache-tomcat-11.0.2/webapps/examples]
+20-Dec-2024 18:26:34.473 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/rushil/CDACPune_2024/Java/AdvancedJava/apache-tomcat-11.0.2/webapps/examples] has finished in [174] ms
+20-Dec-2024 18:26:34.473 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/rushil/CDACPune_2024/Java/AdvancedJava/apache-tomcat-11.0.2/webapps/host-manager]
+20-Dec-2024 18:26:34.493 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/rushil/CDACPune_2024/Java/AdvancedJava/apache-tomcat-11.0.2/webapps/host-manager] has finished in [19] ms
+20-Dec-2024 18:26:34.497 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+20-Dec-2024 18:26:34.508 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [1141] milliseconds
+20-Dec-2024 18:40:22.061 INFO [Thread-1] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+20-Dec-2024 18:40:22.062 INFO [Thread-1] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+20-Dec-2024 18:40:22.087 WARNING [Thread-1] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [OnlineShopping] registered the JDBC driver [org.mariadb.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+20-Dec-2024 18:40:22.097 INFO [Thread-1] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+20-Dec-2024 18:40:22.105 INFO [Thread-1] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+20-Dec-2024 18:40:23.352 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/11.0.2
+20-Dec-2024 18:40:23.358 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Dec 5 2024 15:19:37 UTC
+20-Dec-2024 18:40:23.358 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 11.0.2.0
+20-Dec-2024 18:40:23.358 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+20-Dec-2024 18:40:23.359 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            6.1.0-25-amd64
+20-Dec-2024 18:40:23.359 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+20-Dec-2024 18:40:23.359 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /home/rushil/.jdks/openjdk-20.0.2
+20-Dec-2024 18:40:23.359 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           20.0.2+9-78
+20-Dec-2024 18:40:23.359 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+20-Dec-2024 18:40:23.359 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/rushil/CDACPune_2024/Java/AdvancedJava/apache-tomcat-11.0.2
+20-Dec-2024 18:40:23.360 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/rushil/CDACPune_2024/Java/AdvancedJava/apache-tomcat-11.0.2
+20-Dec-2024 18:40:23.368 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+20-Dec-2024 18:40:23.368 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+20-Dec-2024 18:40:23.368 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+20-Dec-2024 18:40:23.369 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+20-Dec-2024 18:40:23.369 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+20-Dec-2024 18:40:23.369 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/rushil/CDACPune_2024/Java/AdvancedJava/apache-tomcat-11.0.2
+20-Dec-2024 18:40:23.369 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/rushil/CDACPune_2024/Java/AdvancedJava/apache-tomcat-11.0.2
+20-Dec-2024 18:40:23.369 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/rushil/CDACPune_2024/Java/AdvancedJava/apache-tomcat-11.0.2/temp
+20-Dec-2024 18:40:23.369 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/rushil/CDACPune_2024/Java/AdvancedJava/apache-tomcat-11.0.2/conf/logging.properties
+20-Dec-2024 18:40:23.369 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+20-Dec-2024 18:40:23.370 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -javaagent:/opt/idea-IC-223.8617.56/lib/idea_rt.jar=44583:/opt/idea-IC-223.8617.56/bin
+20-Dec-2024 18:40:23.370 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dfile.encoding=UTF-8
+20-Dec-2024 18:40:23.370 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.stdout.encoding=UTF-8
+20-Dec-2024 18:40:23.370 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.stderr.encoding=UTF-8
+20-Dec-2024 18:40:23.372 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib]
+20-Dec-2024 18:40:23.850 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+20-Dec-2024 18:40:23.875 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [719] milliseconds
+20-Dec-2024 18:40:23.929 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+20-Dec-2024 18:40:23.929 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/11.0.2]
+20-Dec-2024 18:40:23.941 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [/home/rushil/CDACPune_2024/Java/AdvancedJava/apache-tomcat-11.0.2/conf/Catalina/localhost/OnlineShopping.xml]
+20-Dec-2024 18:40:24.653 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+20-Dec-2024 18:40:24.679 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [/home/rushil/CDACPune_2024/Java/AdvancedJava/apache-tomcat-11.0.2/conf/Catalina/localhost/OnlineShopping.xml] has finished in [737] ms
+20-Dec-2024 18:40:24.679 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [/home/rushil/CDACPune_2024/Java/AdvancedJava/apache-tomcat-11.0.2/conf/Catalina/localhost/q1.xml]
+20-Dec-2024 18:40:24.695 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [/home/rushil/CDACPune_2024/Java/AdvancedJava/apache-tomcat-11.0.2/conf/Catalina/localhost/q1.xml] has finished in [16] ms
+20-Dec-2024 18:40:24.696 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/rushil/CDACPune_2024/Java/AdvancedJava/apache-tomcat-11.0.2/webapps/manager]
+20-Dec-2024 18:40:24.725 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/rushil/CDACPune_2024/Java/AdvancedJava/apache-tomcat-11.0.2/webapps/manager] has finished in [29] ms
+20-Dec-2024 18:40:24.725 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/rushil/CDACPune_2024/Java/AdvancedJava/apache-tomcat-11.0.2/webapps/docs]
+20-Dec-2024 18:40:24.739 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/rushil/CDACPune_2024/Java/AdvancedJava/apache-tomcat-11.0.2/webapps/docs] has finished in [14] ms
+20-Dec-2024 18:40:24.739 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/rushil/CDACPune_2024/Java/AdvancedJava/apache-tomcat-11.0.2/webapps/ROOT]
+20-Dec-2024 18:40:24.751 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/rushil/CDACPune_2024/Java/AdvancedJava/apache-tomcat-11.0.2/webapps/ROOT] has finished in [12] ms
+20-Dec-2024 18:40:24.752 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/rushil/CDACPune_2024/Java/AdvancedJava/apache-tomcat-11.0.2/webapps/examples]
+20-Dec-2024 18:40:24.903 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/rushil/CDACPune_2024/Java/AdvancedJava/apache-tomcat-11.0.2/webapps/examples] has finished in [151] ms
+20-Dec-2024 18:40:24.904 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/rushil/CDACPune_2024/Java/AdvancedJava/apache-tomcat-11.0.2/webapps/host-manager]
+20-Dec-2024 18:40:24.927 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/rushil/CDACPune_2024/Java/AdvancedJava/apache-tomcat-11.0.2/webapps/host-manager] has finished in [22] ms
+20-Dec-2024 18:40:24.931 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+20-Dec-2024 18:40:24.943 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [1066] milliseconds
+20-Dec-2024 18:41:22.608 INFO [Thread-1] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+20-Dec-2024 18:41:22.609 INFO [Thread-1] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+20-Dec-2024 18:41:22.634 WARNING [Thread-1] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [OnlineShopping] registered the JDBC driver [org.mariadb.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+20-Dec-2024 18:41:22.646 INFO [Thread-1] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+20-Dec-2024 18:41:22.654 INFO [Thread-1] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+20-Dec-2024 22:10:44.542 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/11.0.2
+20-Dec-2024 22:10:44.547 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Dec 5 2024 15:19:37 UTC
+20-Dec-2024 22:10:44.547 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 11.0.2.0
+20-Dec-2024 22:10:44.547 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+20-Dec-2024 22:10:44.548 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            6.1.0-25-amd64
+20-Dec-2024 22:10:44.548 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+20-Dec-2024 22:10:44.548 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /home/rushil/.jdks/openjdk-20.0.2
+20-Dec-2024 22:10:44.548 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           20.0.2+9-78
+20-Dec-2024 22:10:44.548 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+20-Dec-2024 22:10:44.548 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/rushil/CDACPune_2024/Java/AdvancedJava/apache-tomcat-11.0.2
+20-Dec-2024 22:10:44.548 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/rushil/CDACPune_2024/Java/AdvancedJava/apache-tomcat-11.0.2
+20-Dec-2024 22:10:44.558 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+20-Dec-2024 22:10:44.558 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+20-Dec-2024 22:10:44.558 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+20-Dec-2024 22:10:44.558 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+20-Dec-2024 22:10:44.558 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+20-Dec-2024 22:10:44.558 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/rushil/CDACPune_2024/Java/AdvancedJava/apache-tomcat-11.0.2
+20-Dec-2024 22:10:44.559 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/rushil/CDACPune_2024/Java/AdvancedJava/apache-tomcat-11.0.2
+20-Dec-2024 22:10:44.559 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/rushil/CDACPune_2024/Java/AdvancedJava/apache-tomcat-11.0.2/temp
+20-Dec-2024 22:10:44.559 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/rushil/CDACPune_2024/Java/AdvancedJava/apache-tomcat-11.0.2/conf/logging.properties
+20-Dec-2024 22:10:44.559 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+20-Dec-2024 22:10:44.559 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -javaagent:/opt/idea-IC-223.8617.56/lib/idea_rt.jar=44053:/opt/idea-IC-223.8617.56/bin
+20-Dec-2024 22:10:44.559 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dfile.encoding=UTF-8
+20-Dec-2024 22:10:44.559 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.stdout.encoding=UTF-8
+20-Dec-2024 22:10:44.559 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.stderr.encoding=UTF-8
+20-Dec-2024 22:10:44.561 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib]
+20-Dec-2024 22:10:45.001 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+20-Dec-2024 22:10:45.023 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [693] milliseconds
+20-Dec-2024 22:10:45.069 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+20-Dec-2024 22:10:45.069 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/11.0.2]
+20-Dec-2024 22:10:45.078 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [/home/rushil/CDACPune_2024/Java/AdvancedJava/apache-tomcat-11.0.2/conf/Catalina/localhost/OnlineShopping.xml]
+20-Dec-2024 22:10:45.757 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+20-Dec-2024 22:10:45.782 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [/home/rushil/CDACPune_2024/Java/AdvancedJava/apache-tomcat-11.0.2/conf/Catalina/localhost/OnlineShopping.xml] has finished in [703] ms
+20-Dec-2024 22:10:45.782 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [/home/rushil/CDACPune_2024/Java/AdvancedJava/apache-tomcat-11.0.2/conf/Catalina/localhost/q1.xml]
+20-Dec-2024 22:10:45.800 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [/home/rushil/CDACPune_2024/Java/AdvancedJava/apache-tomcat-11.0.2/conf/Catalina/localhost/q1.xml] has finished in [18] ms
+20-Dec-2024 22:10:45.800 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/rushil/CDACPune_2024/Java/AdvancedJava/apache-tomcat-11.0.2/webapps/manager]
+20-Dec-2024 22:10:45.833 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/rushil/CDACPune_2024/Java/AdvancedJava/apache-tomcat-11.0.2/webapps/manager] has finished in [33] ms
+20-Dec-2024 22:10:45.834 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/rushil/CDACPune_2024/Java/AdvancedJava/apache-tomcat-11.0.2/webapps/docs]
+20-Dec-2024 22:10:45.851 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/rushil/CDACPune_2024/Java/AdvancedJava/apache-tomcat-11.0.2/webapps/docs] has finished in [18] ms
+20-Dec-2024 22:10:45.851 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/rushil/CDACPune_2024/Java/AdvancedJava/apache-tomcat-11.0.2/webapps/ROOT]
+20-Dec-2024 22:10:45.868 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/rushil/CDACPune_2024/Java/AdvancedJava/apache-tomcat-11.0.2/webapps/ROOT] has finished in [17] ms
+20-Dec-2024 22:10:45.868 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/rushil/CDACPune_2024/Java/AdvancedJava/apache-tomcat-11.0.2/webapps/examples]
+20-Dec-2024 22:10:46.047 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/rushil/CDACPune_2024/Java/AdvancedJava/apache-tomcat-11.0.2/webapps/examples] has finished in [179] ms
+20-Dec-2024 22:10:46.048 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/rushil/CDACPune_2024/Java/AdvancedJava/apache-tomcat-11.0.2/webapps/host-manager]
+20-Dec-2024 22:10:46.069 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/rushil/CDACPune_2024/Java/AdvancedJava/apache-tomcat-11.0.2/webapps/host-manager] has finished in [21] ms
+20-Dec-2024 22:10:46.073 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+20-Dec-2024 22:10:46.084 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [1060] milliseconds
+20-Dec-2024 22:12:19.187 INFO [Thread-1] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+20-Dec-2024 22:12:19.189 INFO [Thread-1] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+20-Dec-2024 22:12:19.219 WARNING [Thread-1] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [OnlineShopping] registered the JDBC driver [org.mariadb.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+20-Dec-2024 22:12:19.229 INFO [Thread-1] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+20-Dec-2024 22:12:19.234 INFO [Thread-1] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+20-Dec-2024 22:17:05.700 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/11.0.2
+20-Dec-2024 22:17:05.705 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Dec 5 2024 15:19:37 UTC
+20-Dec-2024 22:17:05.705 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 11.0.2.0
+20-Dec-2024 22:17:05.705 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+20-Dec-2024 22:17:05.706 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            6.1.0-25-amd64
+20-Dec-2024 22:17:05.706 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+20-Dec-2024 22:17:05.706 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /home/rushil/.jdks/openjdk-20.0.2
+20-Dec-2024 22:17:05.706 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           20.0.2+9-78
+20-Dec-2024 22:17:05.706 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+20-Dec-2024 22:17:05.706 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/rushil/CDACPune_2024/Java/AdvancedJava/apache-tomcat-11.0.2
+20-Dec-2024 22:17:05.706 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/rushil/CDACPune_2024/Java/AdvancedJava/apache-tomcat-11.0.2
+20-Dec-2024 22:17:05.720 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+20-Dec-2024 22:17:05.720 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+20-Dec-2024 22:17:05.720 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+20-Dec-2024 22:17:05.720 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+20-Dec-2024 22:17:05.721 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+20-Dec-2024 22:17:05.721 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/rushil/CDACPune_2024/Java/AdvancedJava/apache-tomcat-11.0.2
+20-Dec-2024 22:17:05.721 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/rushil/CDACPune_2024/Java/AdvancedJava/apache-tomcat-11.0.2
+20-Dec-2024 22:17:05.721 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/rushil/CDACPune_2024/Java/AdvancedJava/apache-tomcat-11.0.2/temp
+20-Dec-2024 22:17:05.721 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/rushil/CDACPune_2024/Java/AdvancedJava/apache-tomcat-11.0.2/conf/logging.properties
+20-Dec-2024 22:17:05.721 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+20-Dec-2024 22:17:05.722 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -javaagent:/opt/idea-IC-223.8617.56/lib/idea_rt.jar=44035:/opt/idea-IC-223.8617.56/bin
+20-Dec-2024 22:17:05.722 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dfile.encoding=UTF-8
+20-Dec-2024 22:17:05.722 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.stdout.encoding=UTF-8
+20-Dec-2024 22:17:05.722 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.stderr.encoding=UTF-8
+20-Dec-2024 22:17:05.724 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib]
+20-Dec-2024 22:17:06.158 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+20-Dec-2024 22:17:06.183 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [690] milliseconds
+20-Dec-2024 22:17:06.245 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+20-Dec-2024 22:17:06.245 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/11.0.2]
+20-Dec-2024 22:17:06.255 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [/home/rushil/CDACPune_2024/Java/AdvancedJava/apache-tomcat-11.0.2/conf/Catalina/localhost/OnlineShopping.xml]
+20-Dec-2024 22:17:07.064 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+20-Dec-2024 22:17:07.097 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [/home/rushil/CDACPune_2024/Java/AdvancedJava/apache-tomcat-11.0.2/conf/Catalina/localhost/OnlineShopping.xml] has finished in [841] ms
+20-Dec-2024 22:17:07.097 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [/home/rushil/CDACPune_2024/Java/AdvancedJava/apache-tomcat-11.0.2/conf/Catalina/localhost/q1.xml]
+20-Dec-2024 22:17:07.122 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [/home/rushil/CDACPune_2024/Java/AdvancedJava/apache-tomcat-11.0.2/conf/Catalina/localhost/q1.xml] has finished in [24] ms
+20-Dec-2024 22:17:07.122 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/rushil/CDACPune_2024/Java/AdvancedJava/apache-tomcat-11.0.2/webapps/manager]
+20-Dec-2024 22:17:07.158 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/rushil/CDACPune_2024/Java/AdvancedJava/apache-tomcat-11.0.2/webapps/manager] has finished in [36] ms
+20-Dec-2024 22:17:07.158 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/rushil/CDACPune_2024/Java/AdvancedJava/apache-tomcat-11.0.2/webapps/docs]
+20-Dec-2024 22:17:07.173 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/rushil/CDACPune_2024/Java/AdvancedJava/apache-tomcat-11.0.2/webapps/docs] has finished in [15] ms
+20-Dec-2024 22:17:07.173 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/rushil/CDACPune_2024/Java/AdvancedJava/apache-tomcat-11.0.2/webapps/ROOT]
+20-Dec-2024 22:17:07.191 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/rushil/CDACPune_2024/Java/AdvancedJava/apache-tomcat-11.0.2/webapps/ROOT] has finished in [17] ms
+20-Dec-2024 22:17:07.191 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/rushil/CDACPune_2024/Java/AdvancedJava/apache-tomcat-11.0.2/webapps/examples]
+20-Dec-2024 22:17:07.388 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/rushil/CDACPune_2024/Java/AdvancedJava/apache-tomcat-11.0.2/webapps/examples] has finished in [197] ms
+20-Dec-2024 22:17:07.389 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/rushil/CDACPune_2024/Java/AdvancedJava/apache-tomcat-11.0.2/webapps/host-manager]
+20-Dec-2024 22:17:07.406 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/rushil/CDACPune_2024/Java/AdvancedJava/apache-tomcat-11.0.2/webapps/host-manager] has finished in [17] ms
+20-Dec-2024 22:17:07.410 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+20-Dec-2024 22:17:07.421 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [1235] milliseconds
+20-Dec-2024 22:18:32.282 INFO [Thread-1] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+20-Dec-2024 22:18:32.284 INFO [Thread-1] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+20-Dec-2024 22:18:32.311 WARNING [Thread-1] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [OnlineShopping] registered the JDBC driver [org.mariadb.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+20-Dec-2024 22:18:32.324 INFO [Thread-1] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+20-Dec-2024 22:18:32.330 INFO [Thread-1] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+20-Dec-2024 22:18:33.647 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/11.0.2
+20-Dec-2024 22:18:33.654 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Dec 5 2024 15:19:37 UTC
+20-Dec-2024 22:18:33.654 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 11.0.2.0
+20-Dec-2024 22:18:33.654 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+20-Dec-2024 22:18:33.655 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            6.1.0-25-amd64
+20-Dec-2024 22:18:33.655 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+20-Dec-2024 22:18:33.655 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /home/rushil/.jdks/openjdk-20.0.2
+20-Dec-2024 22:18:33.655 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           20.0.2+9-78
+20-Dec-2024 22:18:33.655 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+20-Dec-2024 22:18:33.655 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/rushil/CDACPune_2024/Java/AdvancedJava/apache-tomcat-11.0.2
+20-Dec-2024 22:18:33.655 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/rushil/CDACPune_2024/Java/AdvancedJava/apache-tomcat-11.0.2
+20-Dec-2024 22:18:33.666 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+20-Dec-2024 22:18:33.667 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+20-Dec-2024 22:18:33.667 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+20-Dec-2024 22:18:33.667 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+20-Dec-2024 22:18:33.667 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+20-Dec-2024 22:18:33.667 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/rushil/CDACPune_2024/Java/AdvancedJava/apache-tomcat-11.0.2
+20-Dec-2024 22:18:33.667 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/rushil/CDACPune_2024/Java/AdvancedJava/apache-tomcat-11.0.2
+20-Dec-2024 22:18:33.667 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/rushil/CDACPune_2024/Java/AdvancedJava/apache-tomcat-11.0.2/temp
+20-Dec-2024 22:18:33.668 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/rushil/CDACPune_2024/Java/AdvancedJava/apache-tomcat-11.0.2/conf/logging.properties
+20-Dec-2024 22:18:33.668 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+20-Dec-2024 22:18:33.668 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -javaagent:/opt/idea-IC-223.8617.56/lib/idea_rt.jar=35247:/opt/idea-IC-223.8617.56/bin
+20-Dec-2024 22:18:33.668 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dfile.encoding=UTF-8
+20-Dec-2024 22:18:33.668 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.stdout.encoding=UTF-8
+20-Dec-2024 22:18:33.668 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.stderr.encoding=UTF-8
+20-Dec-2024 22:18:33.670 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib]
+20-Dec-2024 22:18:34.139 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+20-Dec-2024 22:18:34.161 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [732] milliseconds
+20-Dec-2024 22:18:34.227 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+20-Dec-2024 22:18:34.228 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/11.0.2]
+20-Dec-2024 22:18:34.237 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [/home/rushil/CDACPune_2024/Java/AdvancedJava/apache-tomcat-11.0.2/conf/Catalina/localhost/OnlineShopping.xml]
+20-Dec-2024 22:18:35.031 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+20-Dec-2024 22:18:35.065 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [/home/rushil/CDACPune_2024/Java/AdvancedJava/apache-tomcat-11.0.2/conf/Catalina/localhost/OnlineShopping.xml] has finished in [828] ms
+20-Dec-2024 22:18:35.066 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [/home/rushil/CDACPune_2024/Java/AdvancedJava/apache-tomcat-11.0.2/conf/Catalina/localhost/q1.xml]
+20-Dec-2024 22:18:35.090 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [/home/rushil/CDACPune_2024/Java/AdvancedJava/apache-tomcat-11.0.2/conf/Catalina/localhost/q1.xml] has finished in [24] ms
+20-Dec-2024 22:18:35.091 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/rushil/CDACPune_2024/Java/AdvancedJava/apache-tomcat-11.0.2/webapps/manager]
+20-Dec-2024 22:18:35.131 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/rushil/CDACPune_2024/Java/AdvancedJava/apache-tomcat-11.0.2/webapps/manager] has finished in [39] ms
+20-Dec-2024 22:18:35.131 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/rushil/CDACPune_2024/Java/AdvancedJava/apache-tomcat-11.0.2/webapps/docs]
+20-Dec-2024 22:18:35.148 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/rushil/CDACPune_2024/Java/AdvancedJava/apache-tomcat-11.0.2/webapps/docs] has finished in [17] ms
+20-Dec-2024 22:18:35.149 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/rushil/CDACPune_2024/Java/AdvancedJava/apache-tomcat-11.0.2/webapps/ROOT]
+20-Dec-2024 22:18:35.165 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/rushil/CDACPune_2024/Java/AdvancedJava/apache-tomcat-11.0.2/webapps/ROOT] has finished in [16] ms
+20-Dec-2024 22:18:35.165 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/rushil/CDACPune_2024/Java/AdvancedJava/apache-tomcat-11.0.2/webapps/examples]
+20-Dec-2024 22:18:35.380 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/rushil/CDACPune_2024/Java/AdvancedJava/apache-tomcat-11.0.2/webapps/examples] has finished in [214] ms
+20-Dec-2024 22:18:35.380 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/rushil/CDACPune_2024/Java/AdvancedJava/apache-tomcat-11.0.2/webapps/host-manager]
+20-Dec-2024 22:18:35.399 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/rushil/CDACPune_2024/Java/AdvancedJava/apache-tomcat-11.0.2/webapps/host-manager] has finished in [19] ms
+20-Dec-2024 22:18:35.403 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+20-Dec-2024 22:18:35.414 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [1251] milliseconds
+20-Dec-2024 22:19:15.981 INFO [Thread-1] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+20-Dec-2024 22:19:15.982 INFO [Thread-1] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+20-Dec-2024 22:19:16.006 WARNING [Thread-1] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [OnlineShopping] registered the JDBC driver [org.mariadb.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+20-Dec-2024 22:19:16.016 INFO [Thread-1] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+20-Dec-2024 22:19:16.027 INFO [Thread-1] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+20-Dec-2024 22:19:19.923 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/11.0.2
+20-Dec-2024 22:19:19.928 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Dec 5 2024 15:19:37 UTC
+20-Dec-2024 22:19:19.929 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 11.0.2.0
+20-Dec-2024 22:19:19.929 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+20-Dec-2024 22:19:19.929 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            6.1.0-25-amd64
+20-Dec-2024 22:19:19.929 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+20-Dec-2024 22:19:19.929 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /home/rushil/.jdks/openjdk-20.0.2
+20-Dec-2024 22:19:19.929 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           20.0.2+9-78
+20-Dec-2024 22:19:19.929 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+20-Dec-2024 22:19:19.930 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/rushil/CDACPune_2024/Java/AdvancedJava/apache-tomcat-11.0.2
+20-Dec-2024 22:19:19.930 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/rushil/CDACPune_2024/Java/AdvancedJava/apache-tomcat-11.0.2
+20-Dec-2024 22:19:19.940 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+20-Dec-2024 22:19:19.940 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+20-Dec-2024 22:19:19.940 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+20-Dec-2024 22:19:19.940 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+20-Dec-2024 22:19:19.941 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+20-Dec-2024 22:19:19.941 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/rushil/CDACPune_2024/Java/AdvancedJava/apache-tomcat-11.0.2
+20-Dec-2024 22:19:19.941 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/rushil/CDACPune_2024/Java/AdvancedJava/apache-tomcat-11.0.2
+20-Dec-2024 22:19:19.941 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/rushil/CDACPune_2024/Java/AdvancedJava/apache-tomcat-11.0.2/temp
+20-Dec-2024 22:19:19.941 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/rushil/CDACPune_2024/Java/AdvancedJava/apache-tomcat-11.0.2/conf/logging.properties
+20-Dec-2024 22:19:19.941 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+20-Dec-2024 22:19:19.941 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -javaagent:/opt/idea-IC-223.8617.56/lib/idea_rt.jar=37779:/opt/idea-IC-223.8617.56/bin
+20-Dec-2024 22:19:19.941 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dfile.encoding=UTF-8
+20-Dec-2024 22:19:19.942 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.stdout.encoding=UTF-8
+20-Dec-2024 22:19:19.942 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.stderr.encoding=UTF-8
+20-Dec-2024 22:19:19.943 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib]
+20-Dec-2024 22:19:20.425 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+20-Dec-2024 22:19:20.445 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [746] milliseconds
+20-Dec-2024 22:19:20.504 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+20-Dec-2024 22:19:20.504 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/11.0.2]
+20-Dec-2024 22:19:20.517 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [/home/rushil/CDACPune_2024/Java/AdvancedJava/apache-tomcat-11.0.2/conf/Catalina/localhost/OnlineShopping.xml]
+20-Dec-2024 22:19:21.234 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+20-Dec-2024 22:19:21.257 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [/home/rushil/CDACPune_2024/Java/AdvancedJava/apache-tomcat-11.0.2/conf/Catalina/localhost/OnlineShopping.xml] has finished in [741] ms
+20-Dec-2024 22:19:21.257 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [/home/rushil/CDACPune_2024/Java/AdvancedJava/apache-tomcat-11.0.2/conf/Catalina/localhost/q1.xml]
+20-Dec-2024 22:19:21.274 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [/home/rushil/CDACPune_2024/Java/AdvancedJava/apache-tomcat-11.0.2/conf/Catalina/localhost/q1.xml] has finished in [17] ms
+20-Dec-2024 22:19:21.275 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/rushil/CDACPune_2024/Java/AdvancedJava/apache-tomcat-11.0.2/webapps/manager]
+20-Dec-2024 22:19:21.303 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/rushil/CDACPune_2024/Java/AdvancedJava/apache-tomcat-11.0.2/webapps/manager] has finished in [29] ms
+20-Dec-2024 22:19:21.303 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/rushil/CDACPune_2024/Java/AdvancedJava/apache-tomcat-11.0.2/webapps/docs]
+20-Dec-2024 22:19:21.317 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/rushil/CDACPune_2024/Java/AdvancedJava/apache-tomcat-11.0.2/webapps/docs] has finished in [14] ms
+20-Dec-2024 22:19:21.317 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/rushil/CDACPune_2024/Java/AdvancedJava/apache-tomcat-11.0.2/webapps/ROOT]
+20-Dec-2024 22:19:21.330 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/rushil/CDACPune_2024/Java/AdvancedJava/apache-tomcat-11.0.2/webapps/ROOT] has finished in [12] ms
+20-Dec-2024 22:19:21.330 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/rushil/CDACPune_2024/Java/AdvancedJava/apache-tomcat-11.0.2/webapps/examples]
+20-Dec-2024 22:19:21.565 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/rushil/CDACPune_2024/Java/AdvancedJava/apache-tomcat-11.0.2/webapps/examples] has finished in [235] ms
+20-Dec-2024 22:19:21.566 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/rushil/CDACPune_2024/Java/AdvancedJava/apache-tomcat-11.0.2/webapps/host-manager]
+20-Dec-2024 22:19:21.587 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/rushil/CDACPune_2024/Java/AdvancedJava/apache-tomcat-11.0.2/webapps/host-manager] has finished in [21] ms
+20-Dec-2024 22:19:21.591 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+20-Dec-2024 22:19:21.602 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [1154] milliseconds
+20-Dec-2024 22:26:27.385 INFO [Thread-1] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+20-Dec-2024 22:26:27.386 INFO [Thread-1] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+20-Dec-2024 22:26:27.408 WARNING [Thread-1] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [OnlineShopping] registered the JDBC driver [org.mariadb.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+20-Dec-2024 22:26:27.419 INFO [Thread-1] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+20-Dec-2024 22:26:27.431 INFO [Thread-1] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+20-Dec-2024 22:49:02.801 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/11.0.2
+20-Dec-2024 22:49:02.805 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Dec 5 2024 15:19:37 UTC
+20-Dec-2024 22:49:02.805 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 11.0.2.0
+20-Dec-2024 22:49:02.805 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+20-Dec-2024 22:49:02.805 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            6.1.0-25-amd64
+20-Dec-2024 22:49:02.806 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+20-Dec-2024 22:49:02.806 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /home/rushil/.jdks/openjdk-20.0.2
+20-Dec-2024 22:49:02.806 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           20.0.2+9-78
+20-Dec-2024 22:49:02.806 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+20-Dec-2024 22:49:02.806 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/rushil/CDACPune_2024/Java/AdvancedJava/apache-tomcat-11.0.2
+20-Dec-2024 22:49:02.806 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/rushil/CDACPune_2024/Java/AdvancedJava/apache-tomcat-11.0.2
+20-Dec-2024 22:49:02.815 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+20-Dec-2024 22:49:02.815 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+20-Dec-2024 22:49:02.815 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+20-Dec-2024 22:49:02.816 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+20-Dec-2024 22:49:02.816 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+20-Dec-2024 22:49:02.816 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/rushil/CDACPune_2024/Java/AdvancedJava/apache-tomcat-11.0.2
+20-Dec-2024 22:49:02.816 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/rushil/CDACPune_2024/Java/AdvancedJava/apache-tomcat-11.0.2
+20-Dec-2024 22:49:02.816 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/rushil/CDACPune_2024/Java/AdvancedJava/apache-tomcat-11.0.2/temp
+20-Dec-2024 22:49:02.816 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/rushil/CDACPune_2024/Java/AdvancedJava/apache-tomcat-11.0.2/conf/logging.properties
+20-Dec-2024 22:49:02.816 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+20-Dec-2024 22:49:02.816 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -javaagent:/opt/idea-IC-223.8617.56/lib/idea_rt.jar=39411:/opt/idea-IC-223.8617.56/bin
+20-Dec-2024 22:49:02.817 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dfile.encoding=UTF-8
+20-Dec-2024 22:49:02.817 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.stdout.encoding=UTF-8
+20-Dec-2024 22:49:02.817 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.stderr.encoding=UTF-8
+20-Dec-2024 22:49:02.818 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib]
+20-Dec-2024 22:49:03.238 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+20-Dec-2024 22:49:03.256 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [669] milliseconds
+20-Dec-2024 22:49:03.302 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+20-Dec-2024 22:49:03.302 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/11.0.2]
+20-Dec-2024 22:49:03.313 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [/home/rushil/CDACPune_2024/Java/AdvancedJava/apache-tomcat-11.0.2/conf/Catalina/localhost/OnlineShopping.xml]
+20-Dec-2024 22:49:04.027 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+20-Dec-2024 22:49:04.055 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [/home/rushil/CDACPune_2024/Java/AdvancedJava/apache-tomcat-11.0.2/conf/Catalina/localhost/OnlineShopping.xml] has finished in [743] ms
+20-Dec-2024 22:49:04.055 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [/home/rushil/CDACPune_2024/Java/AdvancedJava/apache-tomcat-11.0.2/conf/Catalina/localhost/q1.xml]
+20-Dec-2024 22:49:04.079 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [/home/rushil/CDACPune_2024/Java/AdvancedJava/apache-tomcat-11.0.2/conf/Catalina/localhost/q1.xml] has finished in [24] ms
+20-Dec-2024 22:49:04.080 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/rushil/CDACPune_2024/Java/AdvancedJava/apache-tomcat-11.0.2/webapps/manager]
+20-Dec-2024 22:49:04.117 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/rushil/CDACPune_2024/Java/AdvancedJava/apache-tomcat-11.0.2/webapps/manager] has finished in [37] ms
+20-Dec-2024 22:49:04.118 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/rushil/CDACPune_2024/Java/AdvancedJava/apache-tomcat-11.0.2/webapps/docs]
+20-Dec-2024 22:49:04.137 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/rushil/CDACPune_2024/Java/AdvancedJava/apache-tomcat-11.0.2/webapps/docs] has finished in [19] ms
+20-Dec-2024 22:49:04.137 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/rushil/CDACPune_2024/Java/AdvancedJava/apache-tomcat-11.0.2/webapps/ROOT]
+20-Dec-2024 22:49:04.152 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/rushil/CDACPune_2024/Java/AdvancedJava/apache-tomcat-11.0.2/webapps/ROOT] has finished in [15] ms
+20-Dec-2024 22:49:04.152 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/rushil/CDACPune_2024/Java/AdvancedJava/apache-tomcat-11.0.2/webapps/examples]
+20-Dec-2024 22:49:04.338 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/rushil/CDACPune_2024/Java/AdvancedJava/apache-tomcat-11.0.2/webapps/examples] has finished in [186] ms
+20-Dec-2024 22:49:04.338 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/rushil/CDACPune_2024/Java/AdvancedJava/apache-tomcat-11.0.2/webapps/host-manager]
+20-Dec-2024 22:49:04.360 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/rushil/CDACPune_2024/Java/AdvancedJava/apache-tomcat-11.0.2/webapps/host-manager] has finished in [22] ms
+20-Dec-2024 22:49:04.364 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+20-Dec-2024 22:49:04.375 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [1117] milliseconds
+20-Dec-2024 22:52:43.557 INFO [Thread-1] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+20-Dec-2024 22:52:43.558 INFO [Thread-1] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+20-Dec-2024 22:52:43.586 WARNING [Thread-1] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [OnlineShopping] registered the JDBC driver [org.mariadb.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+20-Dec-2024 22:52:43.597 INFO [Thread-1] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+20-Dec-2024 22:52:43.602 INFO [Thread-1] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]

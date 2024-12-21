@@ -7,6 +7,7 @@ import jakarta.servlet.annotation.WebServlet;
 import jakarta.servlet.http.HttpServlet;
 import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;
+import jakarta.servlet.http.HttpSession;
 
 import java.io.IOException;
 import java.io.PrintWriter;
@@ -42,21 +43,16 @@ public class Authenticate extends HttpServlet {
             psAuthenticateAdmin.setString(1,username);
             psAuthenticateAdmin.setString(2,password);
 
-            String url = "http://localhost:8080/OnlineShopping/Admin/";
-
             try(ResultSet set = psAuthenticateAdmin.executeQuery()){
                 if(set.next()){
-                    out.println("<html>");
-                    out.println("<body>");
-                    out.println("<h2>Admin Dashboard</h2>");
-                    out.println("<a href='"+url+"addCategory.html'>Add Category</a>");
-                    out.println("<a href='"+url+"deleteCategory.html'>Delete Category</a>");
-                    out.println("<a href='"+url+"addProduct.html'>Add Product</a>");
-                    out.println("<a href=''>Add Card</a>");
-                    out.println("</body>");
-                    out.println("</html>");
+                    HttpSession session = request.getSession();
+
+                    session.setAttribute("username",username);
+                    session.setAttribute("isLoggedIn",true);
+
+                    response.sendRedirect("adminDashboard");
                 }else{
-                    out.println("Can't Authenticate Admin");
+                    response.sendRedirect("/OnlineShopping/admin.html");
                 }
             }
         } catch (SQLException e) {
