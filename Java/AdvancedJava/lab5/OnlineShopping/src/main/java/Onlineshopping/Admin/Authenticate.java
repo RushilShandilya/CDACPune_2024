@@ -33,7 +33,7 @@ public class Authenticate extends HttpServlet {
     }
 
     @Override
-    protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+    protected void doPost(HttpServletRequest request, HttpServletResponse response) throws IOException {
         String username = request.getParameter("Username");
         String password = request.getParameter("Password");
 
@@ -50,7 +50,7 @@ public class Authenticate extends HttpServlet {
 
                     response.sendRedirect("adminDashboard");
                 }else{
-                    response.sendRedirect("/OnlineShopping/admin.html");
+                    response.sendRedirect("/OnlineShopping/admin.jsp");
                 }
             }
         } catch (SQLException e) {

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<Context docBase="/home/rushil/CDACPune_2024/Java/AdvancedJava/lab3/OnlineShopping/src/main/webapp">
+<Context docBase="/home/rushil/CDACPune_2024/Java/AdvancedJava/lab5/OnlineShopping/src/main/webapp">
   <Resources cacheMaxSize="10240">
-    <PreResources base="/home/rushil/CDACPune_2024/Java/AdvancedJava/lab3/OnlineShopping/target/classes" className="org.apache.catalina.webresources.DirResourceSet" webAppMount="/WEB-INF/classes"/>
+    <PreResources base="/home/rushil/CDACPune_2024/Java/AdvancedJava/lab5/OnlineShopping/target/classes" className="org.apache.catalina.webresources.DirResourceSet" webAppMount="/WEB-INF/classes"/>
     <PostResources base="/home/rushil/.m2/repository/org/mariadb/jdbc/mariadb-java-client/3.5.1/mariadb-java-client-3.5.1.jar" className="org.apache.catalina.webresources.FileResourceSet" webAppMount="/WEB-INF/lib/mariadb-java-client-3.5.1.jar"/>
     <PostResources base="/home/rushil/.m2/repository/com/github/waffle/waffle-jna/3.3.0/waffle-jna-3.3.0.jar" className="org.apache.catalina.webresources.FileResourceSet" webAppMount="/WEB-INF/lib/waffle-jna-3.3.0.jar"/>
     <PostResources base="/home/rushil/.m2/repository/net/java/dev/jna/jna/5.13.0/jna-5.13.0.jar" className="org.apache.catalina.webresources.FileResourceSet" webAppMount="/WEB-INF/lib/jna-5.13.0.jar"/>

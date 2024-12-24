@@ -25,21 +25,31 @@ public class ListCart extends HttpServlet {
             response.sendRedirect("index.html");
             return ;
         }
+        double totalPrice = 0;
+
+
         out.println("<html>");
         out.println("<head>");
         out.println("</head>");
         out.println("<body>");
+        out.println("<table>");
+        out.println("<tr><th>CategoryID</th><th>ProductID</th><th>Price<th></tr>");
 
         for(CartItem item : (List<CartItem>)userSession.getAttribute("cart")){
-            out.println("<table>");
-            out.println("<tr><th>CategoryID</th><th>ProductID</th><th>Price<th></tr>");
+
             out.println("<tr>");
             out.println("<td>"+item.getCategoryId()+"</td>");
             out.println("<td>"+item.getProductId()+"</td>");
             out.println("<td>"+item.getProductPrice()+"</td>");
             out.println("</tr>");
-            out.println("</table>");
+
+            totalPrice+=Double.parseDouble(item.getProductPrice());
         }
+        out.println("</table>");
+
+        out.println("Total Price : "+totalPrice);
+        out.println("<a href='Category'>Continue Shopping</a>");
+        out.println("<a href='Logout'>Logout</a>");
 
         out.println("</body>");
         out.println("</html>");

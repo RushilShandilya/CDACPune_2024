@@ -15,6 +15,10 @@ import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
 
 @WebServlet("/Category")
 public class Category extends HttpServlet {
@@ -23,7 +27,6 @@ public class Category extends HttpServlet {
 
     @Override
     public void init(ServletConfig config) throws ServletException {
-        super.init(config);
         try {
             String getCategorySQL = "SELECT * FROM Category";
 
@@ -37,39 +40,27 @@ public class Category extends HttpServlet {
 
     @Override
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-        PrintWriter out = response.getWriter();
-        String redirectUrl = "http://localhost:8080/OnlineShopping/Products";
+        HttpSession userSession = request.getSession(false);
+        if(userSession==null){
+            response.sendRedirect("index.html");
+            return ;
+        }
+        List<Map<String,String>> resultList = new ArrayList<>();
+
         try(ResultSet set = psCategory.executeQuery()){
+            while(set.next()){
+                Map<String,String> result = new HashMap<>();
 
-            HttpSession userSession = request.getSession(false);
+                result.put("ID",set.getString(1));
+                result.put("Name",set.getString(2));
+                result.put("Description",set.getString(3));
+                result.put("ImageURL",set.getString(4));
 
-            if(userSession==null){
-                response.sendRedirect("index.html");
-                return ;
+                resultList.add(result);
             }
-            response.setContentType("text/html");
-            out.println("<link rel='stylesheet' type='text/css' href='style.css'>");
-            out.println("</head>");
-            out.println("<body>");
-            out.println("<h2>Welcome, "+(String)userSession.getAttribute("userUsername")+"</h2>");
-            out.println("<table>");
-            out.println("<tr><th>ID</th><th>Name</th><th>Description</th><th>ImageUrl</th></tr>");
-
-            while (set.next()) {
-                String id = set.getString(1);
-                String name = set.getString(2);
-                String description = set.getString(3);
-                String imageURL = set.getString(4);
-
-                out.println("<tr>");
-                out.println("<td><a href='"+redirectUrl+"?categoryId="+id+"'>"+id +"</a></td>");
-                out.println("<td>" + name + "</td>");
-                out.println("<td>" + description + "</td>");
-                out.println("<td>" + imageURL + "</td>");
-                out.println("</tr>");
-            }
-            out.println("</table>");
-        } catch (SQLException e) {
+            request.setAttribute("Results",resultList);
+            request.getRequestDispatcher("/WEB-INF/jsp/users/category.jsp").forward(request,response);
+        }catch (SQLException e) {
             throw new RuntimeException(e);
         }
     }
