@@ -5,9 +5,9 @@
     <title>Admin Dashboard</title>
 </head>
 <body>
-        <a href="forwardCategory">Add Category</a> <br>
-        <a href="">Delete Category</a> <br>
-        <a href="">Add Product</a> <br>
-        <a href="">Add Card</a> <br>
+        <a href="AddCategory">Add Category</a> <br>
+        <a href="DeleteCategory">Delete Category</a> <br>
+        <a href="AddProduct">Add Product</a> <br>
+        <a href="AddCard">Add Card</a> <br>
 </body>
 </html>

@@ -5,7 +5,7 @@
     <title>Delete Category</title>
 </head>
 <body>
-    <form action="DeleteCategory" input="post">
+    <form action="deleteCategory" input="post">
         Enter Category ID to delete : <input type="text" name="categoryId">
         <input type="submit" value="Login">
     </form>

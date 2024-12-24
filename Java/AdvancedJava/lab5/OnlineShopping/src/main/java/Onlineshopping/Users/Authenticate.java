@@ -40,7 +40,6 @@ public class Authenticate extends HttpServlet {
                     HttpSession userSession = request.getSession();
                     userSession.setAttribute("Username",set.getString(1));
 
-                    request.setAttribute("Username",set.getString(1));
                     request.getRequestDispatcher("/WEB-INF/jsp/users/welcome.jsp").forward(request,response);
                 }else{
                     response.sendRedirect("index.html");

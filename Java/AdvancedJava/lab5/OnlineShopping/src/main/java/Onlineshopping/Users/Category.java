@@ -10,7 +10,6 @@ import jakarta.servlet.http.HttpServletResponse;
 import jakarta.servlet.http.HttpSession;
 
 import java.io.IOException;
-import java.io.PrintWriter;
 import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
@@ -41,9 +40,9 @@ public class Category extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         HttpSession userSession = request.getSession(false);
-        if(userSession==null){
-            response.sendRedirect("index.html");
-            return ;
+        if(userSession==null) {
+            request.getRequestDispatcher("index.jsp").forward(request, response);
+            return;
         }
         List<Map<String,String>> resultList = new ArrayList<>();
 

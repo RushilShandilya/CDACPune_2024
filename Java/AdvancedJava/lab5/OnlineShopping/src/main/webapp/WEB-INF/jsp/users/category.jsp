@@ -4,10 +4,12 @@
 <html>
 <head>
     <title>Categories</title>
-    <link rel="stylesheet" href="../../../style.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h2>Welcome , <%=request.getAttribute("username")%></h2>
+    <h2>Welcome ,
+        <%=session.getAttribute("Username")%>
+    </h2>
 <table>
     <tr>
         <th>ID</th>

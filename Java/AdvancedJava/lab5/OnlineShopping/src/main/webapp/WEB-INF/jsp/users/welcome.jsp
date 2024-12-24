@@ -4,7 +4,7 @@
     <title>CDAC Bazaar</title>
 </head>
 <body>
-    <h2>Welcome,<%=request.getAttribute("Username")%></h2>
+    <h2>Welcome ,<%=session.getAttribute("Username")%></h2>
     <p>Please choose your given option below: </p>
     <a href="Category">Category</a>
 </body>

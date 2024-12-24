@@ -12,13 +12,13 @@ import java.io.IOException;
 @WebServlet("/Logout")
 public class Logout extends HttpServlet {
     @Override
-    protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-        HttpSession session = request.getSession(false);
-        if(session==null){
-            response.sendRedirect("index.jsp");
+    protected void doGet(HttpServletRequest request, HttpServletResponse response) throws IOException, ServletException {
+        HttpSession userSession= request.getSession(false);
+        if(userSession==null){
+            request.getRequestDispatcher("index.jsp").forward(request,response);
             return ;
         }
-        session.invalidate();
+        userSession.invalidate();
         response.setContentType("text/html");
         response.getWriter().println("<h2>You have been logged out<h2>");
     }

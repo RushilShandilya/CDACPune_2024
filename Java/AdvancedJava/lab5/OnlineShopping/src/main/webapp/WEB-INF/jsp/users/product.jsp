@@ -5,9 +5,10 @@
 <html>
 <head>
     <title>Product</title>
-    <link rel="stylesheet" href="../../../style.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <h2>Welcome, <%=session.getAttribute("Username")%></h2>
 <table>
     <tr>
         <th>CategoryID</th>

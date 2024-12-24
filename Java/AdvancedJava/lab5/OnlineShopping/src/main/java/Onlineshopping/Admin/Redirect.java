@@ -8,7 +8,7 @@ import jakarta.servlet.http.HttpServletResponse;
 
 import java.io.IOException;
 
-@WebServlet({"/AdminAuthenticate","/Admin/addCategory","/Admin/addProduct","/AddCard"})
+@WebServlet({"/AdminAuthenticate","/Admin/AddCategory","/Admin/AddProduct","/Admin/AddCard","/Admin/DeleteCategory"})
 public class Redirect extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
@@ -18,16 +18,20 @@ public class Redirect extends HttpServlet {
                 request.getRequestDispatcher("/WEB-INF/jsp/admin/admin.jsp").forward(request,response);
                 break;
             }
-            case "/Admin/addCategory":{
+            case "/Admin/AddCategory":{
                 request.getRequestDispatcher("/WEB-INF/jsp/admin/addCategory.jsp").forward(request,response);
                 break;
             }
-            case "/Admin/addProduct":{
+            case "/Admin/AddProduct":{
                 request.getRequestDispatcher("/WEB-INF/jsp/admin/addProduct.jsp").forward(request,response);
                 break;
             }
-            case "/AddCard":{
+            case "/Admin/AddCard":{
                 request.getRequestDispatcher("/WEB-INF/jsp/admin/addCard.jsp").forward(request,response);
+                break;
+            }
+            case "/Admin/DeleteCategory":{
+                request.getRequestDispatcher("/WEB-INF/jsp/admin/deleteCategory.jsp").forward(request,response);
                 break;
             }
         }

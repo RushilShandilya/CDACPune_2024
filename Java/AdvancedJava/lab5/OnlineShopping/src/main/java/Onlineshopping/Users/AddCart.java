@@ -16,10 +16,11 @@ import java.util.List;
 public class AddCart extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+        
         HttpSession userSession = request.getSession(false);
-        if(userSession==null){
-            response.sendRedirect("index.html");
-            return ;
+        if(userSession==null) {
+            request.getRequestDispatcher("index.jsp").forward(request, response);
+            return;
         }
 
         String categoryId = request.getParameter("categoryId");

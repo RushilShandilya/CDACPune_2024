@@ -14,7 +14,7 @@ import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.SQLException;
 
-@WebServlet("/Admin/DeleteCategory")
+@WebServlet("/Admin/deleteCategory")
 public class DeleteCategory extends HttpServlet {
 
     Connection connection;
